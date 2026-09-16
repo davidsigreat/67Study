@@ -131,6 +131,22 @@ export const SUBJECTS: SubjectMeta[] = [
     ],
   },
   {
+    id: 'ap-physics-1',
+    name: 'AP Physics 1',
+    slug: 'ap-physics-1',
+    color: 'indigo',
+    units: [
+      { unit: 1, title: 'Kinematics' },
+      { unit: 2, title: 'Force and Translational Dynamics' },
+      { unit: 3, title: 'Work, Energy, and Power' },
+      { unit: 4, title: 'Linear Momentum' },
+      { unit: 5, title: 'Torque and Rotational Dynamics' },
+      { unit: 6, title: 'Energy and Momentum of Rotating Systems' },
+      { unit: 7, title: 'Oscillations' },
+      { unit: 8, title: 'Fluids' },
+    ],
+  },
+  {
     id: 'test-prep',
     name: 'SAT / ACT / SSAT Prep',
     slug: 'test-prep',

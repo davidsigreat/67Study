@@ -19,6 +19,7 @@
   --color-crimson: #e05252;
   --color-sky:     #5bc8f5;
   --color-gold:    #e0c15b;
+  --color-indigo:  #8b93ff;
 
   /* Active accent (overridden per-page via data-color) */
   --accent:       #5b8dee;
@@ -32,6 +33,7 @@
 [data-color="crimson"] { --accent: var(--color-crimson); }
 [data-color="sky"]     { --accent: var(--color-sky); }
 [data-color="gold"]    { --accent: var(--color-gold); }
+[data-color="indigo"]  { --accent: var(--color-indigo); }
 
 /* ── Reset ─────────────────────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }

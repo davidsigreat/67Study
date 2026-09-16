@@ -12,6 +12,7 @@ const SUBJECT_ICONS: Record<string, string> = {
   'jrotc': '🎖️',
   'ap-us-history': '🦅',
   'ap-physics-c':  '⚡',
+  'ap-physics-1':  '🎢',
   'test-prep': '📝',
 };
 
@@ -23,6 +24,7 @@ const SUBJECT_TAGLINES: Record<string, string> = {
   'jrotc': 'Leadership, drill, and service',
   'ap-us-history': 'From colonization to the modern era',
   'ap-physics-c':  'Mechanics, electricity & magnetism',
+  'ap-physics-1':  'Algebra-based mechanics & fluids',
   'test-prep': 'SAT, ACT, and SSAT prep',
 };
 

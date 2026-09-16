@@ -99,7 +99,7 @@ Never commit `.env.local`. See `.env.example` for the key names.
 | JROTC | `jrotc` | olive | 2 | Full content |
 | AP US History | `ap-us-history` | crimson | 9 | Full content |
 | AP Physics C | `ap-physics-c` | sky | 13 | Stubs only (units 1–7 Mechanics, 8–13 E&M) |
-| AP Physics (Algebra-Based) | `ap-physics` | indigo | 15 | Units 1–8 = Physics 1, 9–15 = Physics 2; Unit 1 full, rest stubs |
+| AP Physics (Algebra-Based) | `ap-physics` | indigo | 15 | Full content (1–8 = Physics 1, 9–15 = Physics 2) |
 
 ---
 

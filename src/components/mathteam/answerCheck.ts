@@ -16,6 +16,10 @@ export type Verdict = 'exact' | 'equivalent' | 'wrong';
 export function normalize(raw: string): string {
   let s = raw.trim();
   s = s.replace(/^\$+|\$+$/g, '');
+  // Matrices → bracketed entry lists so entries are compared one by one: [a,b,c,d] (row by row).
+  s = s.replace(/\\begin\{[bpBV]?matrix\}([\s\S]*?)\\end\{[bpBV]?matrix\}/g, (_m, body: string) =>
+    '[' + body.trim().replace(/\\\\/g, ',').replace(/&/g, ',') + ']');
+  s = s.replace(/\[\s*\[/g, '[').replace(/\]\s*,\s*\[/g, ',').replace(/\]\s*\]/g, ']');
   s = s.replace(/\\(left|right|big|Big|bigg|Bigg)(?![a-zA-Z])/g, '');
   s = s.replace(/\\[dt]frac/g, '\\frac');
   s = s.replace(/\\(,|;|:|!|quad|qquad)|\\ /g, ' ');

@@ -1,131 +1,175 @@
 ---
-title: "Unit 5: Algebra II Toolbox — Equations, Functions & Inequalities"
+title: "Unit 5: Geometry"
 unit: 5
 ---
 
-# Unit 5: Algebra II Toolbox — Equations, Functions & Inequalities
+# Unit 5: Geometry
 
-| Meet | Event | Topic |
+> [!tip] Draw it big
+> Most geometry problems get easy once the figure is drawn **to scale** with every length and angle marked. Then add helper lines: altitudes, radii to tangent points, diagonals.
+
+## Polygons ⭐
+
+For an $n$-gon:
+- Interior angles sum to $180(n-2)^\circ$. Each angle of a regular $n$-gon is $\frac{180(n-2)}n$ degrees.
+- Exterior angles always sum to $360^\circ$.
+- Number of diagonals: $\frac{n(n-3)}2$.
+- **Convex:** every interior angle is under $180^\circ$. **Concave:** at least one angle is over $180^\circ$.
+
+## Angles ⭐
+
+- **Complementary** angles add to $90^\circ$. **Supplementary** angles add to $180^\circ$. Vertical angles are equal.
+- **Parallel lines and a transversal:** corresponding and alternate interior angles are equal, and same-side interior angles are supplementary.
+- **Triangle:** the angles sum to $180^\circ$, and an exterior angle equals the sum of the two remote interior angles.
+
+## 2D Area & Perimeter Formulas ⭐
+
+| Shape | Area | Notes |
 |---|---|---|
-| 1 | 1 | Quadratic Equations & Functions |
-| 1 | 6 | Fractional Expressions & Equations |
-| 2 | 1 | Ratios, Proportions & Variations |
-| 2 | 6 | Absolute Values & Inequalities |
-| 3 | 6 | Relations & Functions |
-| 5 | 1 | Polynomial Equations |
-| 7 | 6 | Rational Functions |
+| Rectangle $b\times h$ | $bh$ | diagonal $\sqrt{b^2+h^2}$ |
+| Square, side $s$ | $s^2$ | diagonal $s\sqrt2$ |
+| Parallelogram | base × height | **not** side × side; diagonals bisect each other |
+| Trapezoid | $\frac{b_1+b_2}2h$ | median = average of the bases |
+| Rhombus / kite | $\frac{d_1d_2}2$ | diagonals perpendicular |
+| Triangle | $\frac12bh$ | see more formulas below |
+| Equilateral triangle | $\frac{\sqrt3}4s^2$ | height $\frac{\sqrt3}2s$ |
+| Regular hexagon | $\frac{3\sqrt3}2s^2$ | six equilateral triangles |
+| Regular octagon | $2(1+\sqrt2)s^2$ | a square with its corners cut off |
+| Any regular polygon | $\frac12\cdot\text{apothem}\cdot\text{perimeter}$ | |
+| Circle | $\pi r^2$ | circumference $2\pi r$ |
+| Sector, angle $\theta$ | $\frac\theta{360}\pi r^2=\frac12r^2\theta_{\text{rad}}$ | arc length $\frac\theta{360}2\pi r=r\theta_{\text{rad}}$ |
 
----
+## Types of Triangles
 
-## Quadratic Equations & Functions (Meet 1)
+Classified by sides as **equilateral**, **isosceles** (base angles equal), or **scalene**. Classified by angles as **acute**, **right**, or **obtuse**.
 
-### Solving
-$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+With $c$ the longest side: $c^2<a^2+b^2$ means acute, $c^2=a^2+b^2$ means right, and $c^2>a^2+b^2$ means obtuse.
 
-**Discriminant** $D=b^2-4ac$: two real roots if $D>0$, one (double) root if $D=0$, none (non-real) if $D<0$. "Zeros are real" means $D\ge 0$.
+## Special Right Triangles ⭐
 
-### Vieta's formulas
-For $ax^2+bx+c$ with roots $r$ and $s$:
-$$r+s=-\frac{b}{a},\qquad rs=\frac{c}{a}$$
-- $r^2+s^2=(r+s)^2-2rs$
-- $(r-s)^2=(r+s)^2-4rs$, so $|r-s|=\dfrac{\sqrt{D}}{|a|}$
-- $\dfrac1r+\dfrac1s=\dfrac{r+s}{rs}$
-- Build a quadratic from its roots: $x^2-(\text{sum})x+(\text{product})=0$
+- **45-45-90:** sides $1:1:\sqrt2$ (half a square).
+- **30-60-90:** sides $1:\sqrt3:2$ (half an equilateral triangle). The short leg is opposite $30^\circ$.
+- **Pythagorean triples:** 3-4-5, 5-12-13, 8-15-17, 7-24-25, 20-21-29, 9-40-41, and their multiples.
 
-> [!tip] Irrational roots come in pairs
-> If $-4+\sqrt7$ is a root of a quadratic with rational coefficients, so is $-4-\sqrt7$. Their product gives you $c/a$ immediately.
+## Parts of a Triangle
 
-### Vertex form
-$$f(x)=a(x-h)^2+k,\qquad h=-\frac{b}{2a},\quad k=f(h)$$
-- Max/min value is $k$ (a max if $a<0$, a min if $a>0$). Range: $y\le k$ or $y\ge k$.
-- Translations: $f(x-h)+k$ shifts **right** $h$ and **up** $k$.
-
-### Optimization ("maximize revenue")
-Write revenue as (price)(quantity), with both depending on the number of increments $n$. It's a downward parabola, so the max is at $n=-\frac{b}{2a}$.
-
-> [!example] Two numbers summing to 10
-> Minimize $x^2+(10-x)^2=2x^2-20x+100$. The vertex is at $x=5$, so the numbers are $5, 5$.
-
-### Substitution
-$(x-4)^2-5(x-4)+6=0$: let $u=x-4$, so $u=2$ or $3$, giving $x=6$ or $7$.
-
----
-
-## Fractional Expressions & Equations (Meet 1)
-
-- **Simplify:** factor everything, cancel common factors (never cancel terms).
-- **Equations:** multiply by the LCD, solve, then **reject values that make an original denominator zero**.
-- **Partial fractions:** $\dfrac{4x^2+15x-1}{(x+1)(x-2)(x+3)}=\dfrac{A}{x+1}+\dfrac{B}{x-2}+\dfrac{C}{x+3}$. Plug in $x=-1$, $2$, $-3$ (cover-up method) to read off $A$, $B$, $C$.
-- **Work problems:** rates add. If A takes $a$ hours and B takes $b$ hours, together $\frac1a+\frac1b=\frac1t$, so $t=\frac{ab}{a+b}$.
-
----
-
-## Ratios, Proportions & Variations (Meet 2)
-
-| Type | Equation | Constant |
+| Cevians | Meet at | Facts |
 |---|---|---|
-| Direct | $y=kx$ | $k=y/x$ |
-| Inverse | $y=\dfrac{k}{x}$ | $k=xy$ |
-| Joint | $z=kxy$ | |
-| Combined | $z=\dfrac{kx}{y^2}$ | |
+| **Medians** (vertex to the midpoint of the opposite side) | **Centroid** | splits each median $2:1$; the average of the vertex coordinates |
+| **Angle bisectors** | **Incenter** | center of the inscribed circle; inradius $r=\frac{A}{s}$ |
+| **Perpendicular bisectors** | **Circumcenter** | center of the circumscribed circle; $R=\frac{abc}{4A}$. Outside the triangle if obtuse, at the hypotenuse midpoint if right |
+| **Altitudes** | **Orthocenter** | |
 
-> [!tip] Scaling shortcut
-> If $z\propto\dfrac{x^2}{y}$ and $x$ doubles while $y$ triples, then $z$ is multiplied by $\dfrac{2^2}{3}=\dfrac43$. There's no need to find $k$.
+🚀 **Euler line:** the orthocenter, centroid, and circumcenter are collinear.
 
-- In $a:b=c:d$, the product of the means equals the product of the extremes: $ad=bc$.
-- Ratios $a:b:c = 2:3:4$ means $a=2k$, $b=3k$, $c=4k$.
-- **Componendo:** if $\frac ab=\frac cd$ then $\frac{a+b}{b}=\frac{c+d}{d}$.
+## Triangle Area Formulas ⭐
 
----
+- $\frac12bh$
+- $\frac12ab\sin C$
+- **Heron:** $\sqrt{s(s-a)(s-b)(s-c)}$, with $s=\frac{a+b+c}2$
+- $rs$ (inradius × semiperimeter)
+- $\frac{abc}{4R}$
+- Coordinates: the Shoelace formula (below)
 
-## Absolute Values & Inequalities (Meet 2)
+**Finding an altitude:** compute the area another way, then $h=\frac{2A}{b}$. In a right triangle, the altitude to the hypotenuse is $\frac{ab}c$.
 
-- $|x|=a$ means $x=\pm a$ (if $a\ge0$, otherwise there's no solution).
-- $|x|<a$ means $-a<x<a$. $|x|>a$ means $x<-a$ or $x>a$.
-- Several absolute values: split at the **critical points** where each inside is zero, then solve on each interval.
-- **Quadratic/rational inequalities:** find the zeros and undefined points, then test a sign chart.
-- $|a+b|\le|a|+|b|$ (triangle inequality).
-- **Distance interpretation:** $|x-3|+|x+1|$ is the total distance from $x$ to $3$ and to $-1$. Its minimum is $4$, reached anywhere between them.
+## Triangle Inequalities
 
----
+- **Triangle inequality:** each side is less than the sum of the other two. For two sides $a$ and $b$, the third side satisfies $|a-b|<c<a+b$.
+- **Angle–side:** the largest side is opposite the largest angle.
 
-## Relations & Functions (Meet 3)
+## Similar & Congruent Triangles ⭐
 
-- **Function:** each input has exactly one output (vertical line test).
-- **Domain** restrictions: denominators $\ne0$, even roots $\ge0$, log arguments $>0$.
-- **Composition:** $(f\circ g)(x)=f(g(x))$. Its domain is the $x$ in dom $g$ with $g(x)$ in dom $f$.
-- **Inverse:** swap $x$ and $y$, then solve for $y$. $f^{-1}$ exists iff $f$ is one-to-one (horizontal line test). The graphs reflect over $y=x$.
-- **Even** $f(-x)=f(x)$ (symmetric about the $y$-axis). **Odd** $f(-x)=-f(x)$ (symmetric about the origin).
-- **Transformations** of $y=af(b(x-h))+k$: vertical stretch $a$, horizontal stretch $\frac1b$, shift $(h,k)$.
-- **Functional equations:** plug in clever values ($x=0$, $x=1$, $x\to\frac1x$) and solve the resulting system.
+- **Similar:** by AA, SAS~, or SSS~. Usually found with parallel lines. With side ratio $k$, perimeters scale by $k$, areas by $k^2$, and volumes by $k^3$.
+- **Congruent:** by SSS, SAS, ASA, AAS, or HL (right triangles only). There is **no** SSA congruence.
+- **Altitude to the hypotenuse** creates three similar triangles: $h^2=pq$, $a^2=pc$, $b^2=qc$.
 
-> [!example] Functional equation
-> If $f(x)+2f\!\left(\tfrac1x\right)=3x$, replace $x$ with $\tfrac1x$ to get $f\!\left(\tfrac1x\right)+2f(x)=\tfrac3x$. Solving the two equations gives $f(x)=\dfrac{2}{x}-x$.
+## Pythagorean Theorem ⭐
 
----
+$a^2+b^2=c^2$. In 3D, the diagonal of a box is $\sqrt{l^2+w^2+h^2}$.
 
-## Polynomial Equations (Meet 5)
+## Angle Bisector Theorem ⭐
 
-- **Rational Root Theorem:** possible rational roots are $\pm\dfrac{\text{factors of the constant}}{\text{factors of the leading coefficient}}$.
-- **Factor Theorem:** $(x-c)$ is a factor iff $P(c)=0$. **Remainder Theorem:** $P(x)\div(x-c)$ leaves $P(c)$.
-- **Vieta for a cubic** $ax^3+bx^2+cx+d$ with roots $r$, $s$, $t$:
-$$r+s+t=-\frac ba,\quad rs+rt+st=\frac ca,\quad rst=-\frac da$$
-- Quartic: the signs alternate ($-\frac ba$, $+\frac ca$, $-\frac da$, $+\frac ea$).
-- Complex roots of real polynomials come in conjugate pairs. Irrational roots $a\pm\sqrt b$ come in pairs for rational coefficients.
-- **Descartes' rule of signs:** the number of positive roots is at most the number of sign changes in $P(x)$, and differs from it by an even number. Use $P(-x)$ for negative roots.
-- **Multiplicity:** an even multiplicity touches the axis, an odd one crosses it.
-- Sum of the squares of the roots: $(r+s+t)^2-2(rs+rt+st)$.
+The bisector from $A$ splits $BC$ so that $\frac{BD}{DC}=\frac{AB}{AC}$.
 
----
+🚀 The **exterior** angle bisector divides the opposite side **externally** in the same ratio.
 
-## Rational Functions (Meet 7)
+## Power of a Point ⭐
 
-For $f(x)=\dfrac{P(x)}{Q(x)}$ in lowest terms:
-- **Vertical asymptotes:** zeros of $Q$ (after canceling). Canceled factors give **holes**.
-- **Horizontal asymptote** (compare degrees $n=\deg P$, $m=\deg Q$):
-  - $n<m$: $y=0$
-  - $n=m$: $y=$ ratio of the leading coefficients
-  - $n=m+1$: a **slant** asymptote, the quotient from long division
-- **$x$-intercepts:** zeros of $P$ (not holes). **$y$-intercept:** $f(0)$.
-- A graph **can** cross a horizontal asymptote. Solve $f(x)=L$ to find where.
-- The coordinates of a **hole** at $x=c$: cancel the factor, then plug $c$ into what's left.
+For a point $P$ and a circle:
+- Two chords through $P$: $PA\cdot PB=PC\cdot PD$
+- Two secants from $P$: (outside part)(whole) is equal for both
+- Tangent and secant: $PT^2=PA\cdot PB$
+- Two tangents from one point are equal.
+
+## Circle Theorems ⭐
+
+| Angle with vertex… | equals |
+|---|---|
+| at the center | the arc |
+| on the circle (inscribed, or tangent-chord) | $\frac12$ the arc |
+| inside the circle | $\frac12$(sum of the two intercepted arcs) |
+| outside the circle | $\frac12$(far arc − near arc) |
+
+- An angle inscribed in a semicircle is $90^\circ$.
+- A radius is perpendicular to a tangent at the point of tangency.
+- A radius perpendicular to a chord bisects it.
+- Equal chords are equidistant from the center.
+
+## Arc Ratios & Measurements
+
+Arcs are proportional to their central angles. Arc length and sector area are the fraction $\frac\theta{360}$ of the circumference and area.
+
+**Segment** area = sector − triangle $=\frac12r^2(\theta-\sin\theta)$.
+
+## Cyclic Quadrilaterals
+
+Opposite angles are supplementary. 🚀 **Ptolemy:** $ac+bd=pq$ (sides times sides = product of the diagonals). 🚀 **Brahmagupta:** area $=\sqrt{(s-a)(s-b)(s-c)(s-d)}$.
+
+## Named Theorems 🚀
+
+- **Stewart's theorem:** for a cevian $d$ splitting side $a$ into $m$ and $n$, $b^2m+c^2n=a(d^2+mn)$ ("a man and his dad put a bomb in the sink"). The median length is $m_a=\frac12\sqrt{2b^2+2c^2-a^2}$.
+- **Shoelace formula:** for vertices listed in order, $A=\frac12\left|\sum(x_iy_{i+1}-x_{i+1}y_i)\right|$.
+- **British Flag theorem:** for any point $P$ and rectangle $ABCD$, $PA^2+PC^2=PB^2+PD^2$.
+- **Ceva:** cevians $AD$, $BE$, $CF$ are concurrent iff $\frac{AF}{FB}\cdot\frac{BD}{DC}\cdot\frac{CE}{EA}=1$.
+- **Menelaus:** a line crossing the sides (extended) gives the same product $=1$ (with signed lengths).
+- **Pick's theorem:** for a lattice polygon, $A=I+\frac B2-1$.
+- **Mass points:** assign weights to vertices to find segment ratios quickly.
+
+## Circles in the Coordinate Plane
+
+$(x-h)^2+(y-k)^2=r^2$. From $x^2+y^2+Dx+Ey+F=0$, complete the square: the center is $\left(-\frac D2,-\frac E2\right)$ and $r^2=\frac{D^2+E^2}4-F$.
+
+A line is tangent iff its distance from the center equals $r$. Subtracting two circle equations gives the line through their intersection points.
+
+## Transversals & Parallel Lines
+
+When parallel lines are cut by transversals, look for **Z-angles** (alternate interior) and **F-angles** (corresponding). Two transversals across parallel lines create similar triangles ("hourglass" or "nested").
+
+## 3D Geometric Formulas ⭐
+
+| Solid | Volume | Surface area |
+|---|---|---|
+| Prism | $Bh$ | $2B+Ph$ |
+| Cylinder | $\pi r^2h$ | $2\pi r^2+2\pi rh$ |
+| Pyramid | $\frac13Bh$ | $B+\frac12P\ell$ |
+| Cone | $\frac13\pi r^2h$ | $\pi r^2+\pi r\ell$, with slant $\ell=\sqrt{r^2+h^2}$ |
+| Sphere | $\frac43\pi r^3$ | $4\pi r^2$ |
+| Cube, edge $s$ | $s^3$ | $6s^2$; space diagonal $s\sqrt3$ |
+| 🚀 Regular tetrahedron | $\frac{s^3}{6\sqrt2}$ | $\sqrt3s^2$ |
+| 🚀 Frustum | $\frac13\pi h(R^2+Rr+r^2)$ | |
+
+An unrolled cone is a sector with radius $\ell$ and arc length $2\pi r$.
+
+## Euler's Polyhedral Formula
+
+$V-E+F=2$. Example: a cube has $8-12+6=2$.
+
+## Trigonometry (Right-Triangle Basics)
+
+SOH-CAH-TOA: $\sin=\frac{\text{opp}}{\text{hyp}}$, $\cos=\frac{\text{adj}}{\text{hyp}}$, $\tan=\frac{\text{opp}}{\text{adj}}$.
+
+- **Law of sines:** $\frac a{\sin A}=\frac b{\sin B}=\frac c{\sin C}=2R$
+- **Law of cosines:** $c^2=a^2+b^2-2ab\cos C$
+
+More trigonometry is in Unit 8.

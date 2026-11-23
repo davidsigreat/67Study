@@ -100,7 +100,7 @@ Never commit `.env.local`. See `.env.example` for the key names.
 | AP US History | `ap-us-history` | crimson | 9 | Full content |
 | AP Physics C | `ap-physics-c` | sky | 13 | Stubs only (units 1–7 Mechanics, 8–13 E&M) |
 | AP Physics (Algebra-Based) | `ap-physics` | indigo | 15 | Full content (1–8 = Physics 1, 9–15 = Physics 2) |
-| Saint Louis Math Team | `math-team` | coral | 11 | Toolbox units + OML practice bank (unit 3 links to `/math-team/practice`) |
+| Competition Math | `math-team` | coral | 9 | Toolbox (structured like the MATHCOUNTS Toolbox: Numbers & Algebra, Geometry, Combinatorics & Probability, Number Theory, + high-school topics & tips) + OML practice bank (unit 3 links to `/math-team/practice`) |
 
 ---
 
@@ -174,7 +174,7 @@ Rooms: `global` + one room per subject slug.
 - Admin toolbar in `ChatWindow` — select messages, bulk delete
 - Deletes log to `rooms/{room}/logs`
 
-### Math Team — OML question bank (`/math-team/practice`)
+### Competition Math — OML question bank (`/math-team/practice`)
 Practice mode for Oʻahu Mathematics League (OML) past meet problems.
 - **Catalog:** `src/data/mathteam/events.ts` — all 7 meets × 6 events (`m4e1`, alternating Event 4s use `…alt`), categories, A/B/C levels (2/3/5 pts), `loadBank()` lazy-globs `bank/*.json`.
 - **Source of truth for problems:** `content-src/oml/<eventId>.txt` (human-friendly format documented at the top of `scripts/build-oml-bank.mjs`). Run `npm run oml:build` to regenerate `src/data/mathteam/bank/<eventId>.json`. Never hand-edit the JSON.

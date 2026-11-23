@@ -1,14 +1,14 @@
 ---
-title: "Unit 2: LaTeX for Math Team Answers"
+title: "Unit 2: LaTeX for Competition Answers"
 unit: 2
 ---
 
-# Unit 2: LaTeX for Math Team Answers
+# Unit 2: LaTeX for Competition Answers
 
 The practice bank takes answers in **LaTeX**, the language mathematicians use to type math. You type plain text like `\frac{3}{2}` and it renders as $\frac{3}{2}$. As you type, a preview under the answer box shows exactly how your answer reads.
 
 > [!tip] You only need about 20 commands
-> You don't need to learn all of LaTeX. The tables below cover nearly every OML answer. The toolbar buttons above the answer box insert the common ones for you.
+> You don't need to learn all of LaTeX. The tables below cover nearly every competition answer. The toolbar buttons above the answer box insert the common ones for you.
 
 ## The Basics
 
@@ -28,7 +28,7 @@ The practice bank takes answers in **LaTeX**, the language mathematicians use to
 > [!warning] Braces matter
 > `x^10` renders as $x^10$ because only the first character goes up. Use braces for anything longer than one character: `x^{10}`, `\sqrt{12}`, `\frac{x+1}{2}`.
 
-## Answer Types You'll See at OML
+## Common Answer Types
 
 ### Numbers and expressions
 

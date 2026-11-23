@@ -1,0 +1,144 @@
+# Meet 5, Event 2: GEOMETRY — Circles with Arcs, Chords, Secants, & Tangents
+# (2013–2017 papers were Event 5 "Circles with Arcs, Chords, Secants, Tangents, and Angles".)
+
+@ Feb 2026
+A: Given: $\overline{AC}$ is tangent to circle $O$ at $A$, $\overline{OC}$ intersects circle $O$ at $B$, $AC=12$ and $BC=7$. Find the radius of circle $O$.
+= \frac{95}{14}
+& /oml/fig/m5e2-2026-02-A.png
+B: Given: $\overrightarrow{AC}$ is tangent to circles $M$ and $N$ at $C$ and $B$; $\overrightarrow{AG}$ intersects circle $N$ at $D$ and $E$, and circle $M$ at $F$ and $G$; $m\widehat{GCF}=m\widehat{EHD}$; $m\widehat{GC}=133^\circ$ and $m\widehat{FC}=103^\circ$. Find $m\widehat{EB}$.
+= 77
+& /oml/fig/m5e2-2026-02-B.png
+C: Given: $\overrightarrow{PQ}$ is tangent to circle $O$ at $Q$; $\overrightarrow{PV}$ intersects circle $O$ at $U$ and $V$; $U$ is the midpoint of $\overline{PV}$, chord $\overline{RS}$ intersects $\overrightarrow{PV}$ at $T$; $TR=21$, $TS=30$, and $TU=35$. Find $PQ$.
+= 53\sqrt{2}
+& /oml/fig/m5e2-2026-02-C.png
+
+@ Feb 2025
+A: In the figure, $BC=7$, $CF=8$, and $FE=6$. Find $FD$.
+= 20
+& /oml/fig/m5e2-2025-02-A.png
+B: Circles $A$ and $H$ are tangent at $E$. $\overline{FB}$ and $\overline{DB}$ are tangent to circle $H$ at $G$ and $C$, respectively. If $m\widehat{CEG}=230^\circ$, find the measure of $\widehat{DF}$.
+= 100
+& /oml/fig/m5e2-2025-02-B.png
+C: $M$, $T$, $A$, and $H$ are points on circle $O$. $\overline{MA}\perp\overline{TH}$ and $\overline{MA}$ and $\overline{TH}$ intersect at $S$ such that $MS=15$, $SA=3$, and $TS=5$. Find the radius of circle $O$.
+= \sqrt{85}
+
+@ Feb 2024
+A: Given: $\overline{AD}$ is tangent to circle $P$ at $D$ and $\overrightarrow{AB}$ intersects circle $P$ at $E$ and $F$, $AE=4$ and $EF=16$. Find $AD$.
+= 4\sqrt{5}
+& /oml/fig/m5e2-2024-02-A.png
+B: Given: Two concentric circles as shown. $\overline{MG}$ is tangent to the inner circle at $S$, $m\widehat{GH}=90^\circ$ and $m\widehat{ST}=124^\circ$. Find $m\widehat{AS}$.
+= 34
+& /oml/fig/m5e2-2024-02-B.png
+C: The three lines are tangent to circle $E$ as shown. If $\overleftrightarrow{BY}\perp\overleftrightarrow{DR}$, $RK=2$, and $DR=5$, find the perimeter of $\triangle RBD$.
+= 30
+& /oml/fig/m5e2-2024-02-C.png
+
+@ Feb 2023
+A: Given: Quadrilateral $EFGH$ is inscribed in a circle, $m\angle E=(26x-1)^\circ$, $m\angle F=(7y-1)^\circ$, $m\angle G=(7y+12)^\circ$, $m\angle H=(29x+3)^\circ$. Solve for $x$.
+= 3
+B: Given: Circle $O$ and circle $P$ are externally tangent. Circle $O$ has radius $3$ and circle $P$ has radius $5$. $\overline{QR}$ is tangent to circle $P$ at $Q$ and tangent to circle $O$ at $R$. Find $QR$.
+= 2\sqrt{15}
+& /oml/fig/m5e2-2023-02-B.png
+C: Given: Circle $O$, chords $\overline{AB}$ and $\overline{CD}$ intersect at $E$, $\overline{AB}\perp\overline{CD}$, $BE=4$, $CE=2$, $CD=18$. Find the radius of circle $O$.
+= \sqrt{85}
+
+@ Feb 2022
+A: $K$, $L$, and $J$ are points on a circle. The tangent at point $J$ meets $\overline{KL}$ extended at $M$. If $m\widehat{JLK}=200^\circ$ and $m\angle M=45^\circ$, find $m\widehat{KL}$.
+= 130
+& /oml/fig/m5e2-2022-02-A.png
+B: Given: $A$, $B$, $C$ and $D$ are points on a circle; $\overline{AC}$ and $\overline{BD}$ intersect at $E$; $m\widehat{AB}=(2x)^\circ$, $m\widehat{BC}=\left(x^2\right)^\circ$, $m\widehat{CD}=(6x)^\circ$, $m\widehat{AD}=120^\circ$. Find $m\angle DEC$.
+= 48
+C: $A$, $B$, $C$ and $D$ are points on circle $O$. $\overleftrightarrow{AF}$ is tangent to circle $O$ at $A$, $\overleftrightarrow{FB}$ intersects $\overline{AC}$ at $E$ such that $DE:EB=3:2$. If $AF=6$, $FD=3$ and $AE=9$, find $AC$.
+= \frac{279}{25}
+& /oml/fig/m5e2-2022-02-C.png
+
+@ Feb 2021
+A: Given: $T$, $U$, $V$, $W$, and $X$ are points on circle $Y$. $m\angle XYW=46^\circ$, $m\angle WYV=(1-21x)^\circ$, $m\angle VYU=70^\circ$, $m\widehat{UT}=(-16x-4)^\circ$ and $m\widehat{TX}=(103+x)^\circ$. Find the measure of $\angle TYX$.
+= 99
+& /oml/fig/m5e2-2021-02-A.png
+B: Given: $JKLM$ is inscribed in a circle. $m\angle MJK=(14x-2)^\circ$ and $m\angle KLM=(8x+6)^\circ$. Find the measure of $\widehat{KLM}$.
+= 220
+& /oml/fig/m5e2-2021-02-B.png
+C: Given: $A$, $B$, $C$, $D$, and $E$ are on circle $O$; $G$ is on $\overline{BH}$; $\overline{DG}$ is tangent to circle $O$ at $D$; $\overline{AH}$ intersects circle $O$ at $E$; $\overline{BH}$ intersects circle $O$ at $C$; $\overline{AB}\perp\overline{BH}$; $BC=10$, $DG=2\sqrt{6}$, $GH=20$, $OD=13$. Find $EH$.
+= \frac{88}{5}
+& /oml/fig/m5e2-2021-02-C.png
+
+@ Feb 2020
+A: $\overleftrightarrow{OL}$ is tangent to circle $H$ at $M$ and $M$ is between $O$ and $L$, as shown in the diagram. $\overline{MI}$ is a chord of circle $H$. $m\widehat{MI}=78^\circ$. Find the measure of $\angle IMO$.
+= 141
+& /oml/fig/m5e2-2020-02-A.png
+B: Given: $\overrightarrow{EF}$ and $\overrightarrow{EG}$ are tangent to circle $A$ at $C$ and $D$ respectively. $B$ is on circle $A$ so that $m\angle BCF=56^\circ$ and $m\angle BDG=52^\circ$. Find $m\angle GEF$.
+= 36
+& /oml/fig/m5e2-2020-02-B.png
+C: Points $K$, $C$ and $U$ are on circle $P$. Point $D$ is inside circle $P$ such that $P$ is on $\overline{DK}$, $\overline{DU}\perp\overline{DK}$ and $\overline{DU}\perp\overline{CU}$. If $DU=2$ and $DK=6$, find the perimeter of $DUCK$.
+= \frac{40+2\sqrt{10}}{3}
+& /oml/fig/m5e2-2020-02-C.png
+
+@ Feb 2019
+A: Given: $\overline{YX}$ and $\overline{YZ}$ are tangent to circle $O$ at $X$ and $Z$, respectively. $m\angle Y=70^\circ$. Find $m\angle YXZ$.
+= 55
+& /oml/fig/m5e2-2019-02-A.png
+B: $\overline{PC}$ is tangent to circle $O$ at $C$. $\overline{PD}$ intersects circle $O$ at $B$ and $D$. $PB=4$ and $BD=12$. Find $PC$.
+= 8
+C: $A$, $B$, $C$ and $D$ are points on a circle. $\overline{AC}$ and $\overline{BD}$ intersect at $R$. $\overrightarrow{BC}$ and $\overrightarrow{AD}$ intersect at $S$. $BC=AD$, $m\angle DSC=22^\circ$ and $m\angle CRD=k^\circ$. Find the degree measure of $\widehat{AD}$ in terms of $k$.
+= 180-k
+
+@ Feb 2018
+A: $\overline{AC}$ is the diameter of a circle. $\overline{BC}$ is a chord of the circle such that $BC=8$ and the measure of $\widehat{BC}$ is $120^\circ$. Find the length of $\overline{AB}$.
+= \frac{8}{3}\sqrt{3}
+B: $A$ is a point outside circle $O$. $D$ is on the circle and $\overline{AD}$ passes through $O$. $\overline{AB}$ is tangent to the circle at $B$. If $AB=8$ and $AD=15$, find the radius of the circle.
+= \frac{161}{30}
+& /oml/fig/m5e2-2018-02-B.png
+C: Circle $W$ and circle $P$ ($P$ is not shown) are internally tangent at $V$. $\overline{ZU}$ is tangent to circle $W$ at $T$, and intersects circle $P$ at $R$ and $U$. $\overline{ZV}$ intersects circle $P$ at $Y$ and circle $W$ at $X$. $m\widehat{TV}=100^\circ$ and $m\widehat{RY}=\dfrac{3}{5}m\widehat{UV}$. Find the degree measure of $\widehat{YRU}$.
+= 130
+& /oml/fig/m5e2-2018-02-C.png
+
+@ Feb 2017
+A: Circles $X$, $Y$, and $Z$ are congruent. Circle $X$ is tangent to circle $Y$, and circle $Y$ is tangent to circle $Z$. $A$ and $D$ are on circle $X$ and $B$ and $C$ are on circle $Z$. $\overline{AB}$ is tangent to all three circles and $\overline{DC}$ passes through all three centers. If the radius of circle $X$ is $3$ cm, find the perimeter (in cm) of trapezoid $ABCD$.
+= 30+6\sqrt{2}
+& /oml/fig/m5e2-2017-02-A.png
+B: Quadrilateral $ABCD$ is circumscribed about a circle. $AB=7$, $BC=9$, and $CD=17$. Find $AD$.
+= 15
+& /oml/fig/m5e2-2017-02-B.png
+C: In circle $O$, perpendicular chords $\overline{AB}$ and $\overline{CD}$ intersect at $E$ so that $AE=2$, $EB=12$, and $CE=4$. Find the radius of circle $O$.
+= 5\sqrt{2}
+
+@ Feb 2016
+A: Hexagon $PEANUT$ is inscribed in circle $C$ with $PE=EA=AN=NU=UT$, and $m\widehat{TP}=150^\circ$. Find $m\angle A$.
+= 138
+& /oml/fig/m5e2-2016-02-A.png
+B: Rectangle $ABCD$ is inscribed in the circle. $AD:AB=3:4$. Chord $\overline{AF}$ bisects $\overline{CD}$ at $E$. If $EC=10$, find $EF$.
+= \frac{20\sqrt{13}}{13}
+& /oml/fig/m5e2-2016-02-B.png
+C: $\overline{GE}$ is tangent to circle $P$ at $E$. If $m\angle BGE=45^\circ$, $m\widehat{CE}=85^\circ$, $m\angle AGE=20^\circ$, and $m\widehat{AE}=80^\circ$, find $m\angle BFA$.
+= 67\frac{1}{2}
+~ 67.5 ;; \frac{135}{2}
+& /oml/fig/m5e2-2016-02-C.png
+
+@ Feb 2015
+A: A circle with radius $4$ is externally tangent to a circle with radius $9$. Find the length of a common external tangent.
+= 12
+B: $\overline{EC}$ and $\overline{BC}$ are tangent to circle $D$ at $E$ and $B$ respectively. $\overline{EC}\perp\overline{BC}$. If $EC=6$, find $CG$.
+= \frac{6}{5}\sqrt{5}
+& /oml/fig/m5e2-2015-02-B.png
+C: Given a triangle with sides $9$, $40$, and $41$. If $R$ is the radius of the circumscribed circle, and $r$ is the radius of inscribed circle, compute $R-r$.
+= \frac{33}{2}
+
+@ Feb 2014
+A: $\angle E=20^\circ$, $\angle BDC=65^\circ$, and $\angle B=55^\circ$. $\overrightarrow{AE}$ is tangent to the circle at $A$. Find the degree measure of minor arc $AB$.
+= 80
+& /oml/fig/m5e2-2014-02-A.png
+B: The radius of circle $P$ is $6$ and the radius of circle $Q$ is $11$. $PQ=15$. $\overrightarrow{AB}$ is tangent to circle $P$ at $A$ and tangent to circle $Q$ at $B$. Find $AB$.
+= 10\sqrt{2}
+C: Circles $P$ and $Q$ are externally tangent. The radius of circle $P$ is half the radius of circle $Q$. $\overline{PR}$ is drawn tangent to circle $Q$ at $R$. The portion of $\overline{PR}$ outside of circle $P$ is $4$ units long. Find the radius of circle $P$.
+= 1+\sqrt{5}
+
+@ Feb 2013
+A: $\triangle ABC$ is inscribed in a circle. $AB=12$, $AC=6$, and $BC=\dfrac{18}{\sqrt{3}}$. Find the degree measure of minor arc $BC$.
+= 120
+B: $B$, $C$, and $E$ are points on circle $O$. $\overline{PA}$ and $\overline{PD}$ are tangent to circle $O$ at $A$ and $D$. $E$, $O$, $C$, and $Q$ are collinear. Find $m\angle OAQ+m\angle 5-m\angle 2$.
+= 95
+& /oml/fig/m5e2-2013-02-B.png
+C: Secant $\overline{BE}$ intersects chord $\overline{AD}$ at $C$ and intersects the circle at $F$. $\overline{AB}$ is tangent to the circle. Find the values of $x$ and $y$.
+= x=3, y=\frac{-3+\sqrt{133}}{2}
+& /oml/fig/m5e2-2013-02-C.png

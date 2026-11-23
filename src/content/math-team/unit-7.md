@@ -1,89 +1,109 @@
 ---
-title: "Unit 7: Algebra II Toolbox — Counting, Probability & Sequences"
+title: "Unit 7: Number Theory"
 unit: 7
 ---
 
-# Unit 7: Algebra II Toolbox — Counting, Probability & Sequences
+# Unit 7: Number Theory
 
-| Meet | Event | Topic |
-|---|---|---|
-| 6 | 1 | Permutations & Combinations |
-| 6 | 6 | Arithmetic & Geometric Sequences & Series |
-| 7 | 1 | Probability |
+## Prime Factorization ⭐
 
----
+Write every $n$ as $p_1^{a_1}p_2^{a_2}\cdots$. Almost every number-theory problem starts here. Useful ones to know: $2024=2^3\cdot11\cdot23$, $2025=3^4\cdot5^2$, $2026=2\cdot1013$.
 
-## Permutations & Combinations (Meet 6)
+## Number of Factors of a Number ⭐
 
-$$P(n,r)={}_nP_r=\frac{n!}{(n-r)!}\qquad C(n,r)=\binom nr=\frac{n!}{r!\,(n-r)!}$$
+$$d(n)=(a_1+1)(a_2+1)\cdots$$
 
-| Situation | Count |
+Example: $72=2^3\cdot3^2$ has $4\cdot3=12$ divisors. A number has an **odd** number of divisors iff it's a perfect square.
+
+## Sum of the Factors of a Number
+
+$$\sigma(n)=(1+p_1+\dots+p_1^{a_1})(1+p_2+\dots+p_2^{a_2})\cdots$$
+
+Example: $\sigma(72)=(1+2+4+8)(1+3+9)=15\cdot13=195$.
+
+## Product of the Factors of a Number 🚀
+
+$$\prod_{d\mid n}d=n^{d(n)/2}$$
+
+The divisors pair up as $d$ and $\frac nd$.
+
+## Legendre's Formula (Factorials) ⭐
+
+The power of the prime $p$ dividing $n!$ is
+$$\left\lfloor\frac np\right\rfloor+\left\lfloor\frac n{p^2}\right\rfloor+\left\lfloor\frac n{p^3}\right\rfloor+\cdots$$
+
+**Trailing zeros** of $n!$ use $p=5$. For example, $100!$ ends in $20+4=24$ zeros.
+
+## Different Bases ⭐
+
+$(d_k\dots d_1d_0)_b=d_kb^k+\dots+d_1b+d_0$. To convert to base $b$, divide by $b$ repeatedly and read the remainders from the bottom up.
+
+Base 2 ↔ base 8 ↔ base 16: group the binary digits in 3s (octal) or 4s (hex). Example: $725_8=111\,010\,101_2$.
+
+## Divisibility Rules ⭐
+
+| By | Test |
 |---|---|
-| Order matters, no repeats | $P(n,r)$ |
-| Order doesn't matter | $\binom nr$ |
-| Arrange letters with repeats (MISSISSIPPI) | $\dfrac{11!}{1!\,4!\,4!\,2!}$ |
-| $n$ people around a circle | $(n-1)!$ |
-| Circle where flips are the same (necklace) | $\dfrac{(n-1)!}{2}$ |
-| Choosing with repetition (stars & bars) | $\binom{n+k-1}{k-1}$ ways to put $n$ identical items in $k$ boxes |
-| Subsets of an $n$-set | $2^n$ |
+| 2, 5, 10 | last digit |
+| 4 | last two digits |
+| 8 | last three digits |
+| 3, 9 | sum of the digits |
+| 6 | by both 2 and 3 |
+| 11 | alternating sum of the digits |
+| 7, 11, 13 | 🚀 $1001=7\cdot11\cdot13$: alternating sum of 3-digit blocks |
 
-### Strategies
-- **Complementary counting:** "at least one" = total − none.
-- **Glue method:** if A and B must sit together, treat them as one block, then multiply by $2!$ for their internal order.
-- **Gap method:** if A and B must *not* be together, arrange the others first, then place A and B in the gaps.
-- **Casework:** split by the first digit, by how many of a type are chosen, and so on, then add.
-- **Lattice paths:** from $(0,0)$ to $(a,b)$ moving right or up, there are $\binom{a+b}{a}$ paths.
-- **Committees** with conditions: e.g. "at least 2 women": add the cases for 2, 3, …, or use the complement.
+## Greatest Common Factor (GCF) and Least Common Multiple (LCM) ⭐
 
-### Useful identities
-- $\binom nr=\binom n{n-r}$, $\binom nr=\binom{n-1}{r-1}+\binom{n-1}{r}$ (Pascal's rule)
-- $\sum_{r=0}^n\binom nr=2^n$
-- **Hockey stick:** $\binom rr+\binom{r+1}r+\dots+\binom nr=\binom{n+1}{r+1}$
-- **Binomial theorem:** $(a+b)^n=\sum\binom nk a^{n-k}b^k$. The $(k+1)$th term is $\binom nk a^{n-k}b^k$.
+From prime factorizations: the GCF takes the **minimum** exponent of each prime, and the LCM takes the **maximum**.
 
-> [!tip] "Number of diagonals of an $n$-gon"
-> $\binom n2-n=\dfrac{n(n-3)}{2}$. "Number of triangles from $n$ points, no three collinear": $\binom n3$.
+$$\gcd(a,b)\cdot\operatorname{lcm}(a,b)=ab$$
 
----
+## Euclidean Algorithm
 
-## Arithmetic & Geometric Sequences & Series (Meet 6)
+$\gcd(a,b)=\gcd(b,a\bmod b)$. Example: $\gcd(1071,462)=\gcd(462,147)=\gcd(147,21)=21$.
 
-| | Arithmetic | Geometric |
-|---|---|---|
-| $n$th term | $a_n=a_1+(n-1)d$ | $a_n=a_1r^{n-1}$ |
-| Sum of $n$ terms | $S_n=\dfrac n2(a_1+a_n)=\dfrac n2[2a_1+(n-1)d]$ | $S_n=a_1\dfrac{1-r^n}{1-r}$ |
-| Infinite sum | — | $S=\dfrac{a_1}{1-r}$ if $\lvert r\rvert<1$ |
-| Mean of neighbors | $a_n=\dfrac{a_{n-1}+a_{n+1}}2$ | $a_n^2=a_{n-1}a_{n+1}$ |
+Also useful: $\gcd(a,b)=\gcd(a-b,b)$, and consecutive integers are always coprime.
 
-- **Arithmetic means** between $a$ and $b$: insert $k$ terms, so $d=\dfrac{b-a}{k+1}$.
-- **Geometric means:** $r=\left(\dfrac ba\right)^{1/(k+1)}$.
-- Count terms: from $a$ to $b$ by step $d$ there are $\dfrac{b-a}{d}+1$ terms.
-- $1+2+\dots+n=\dfrac{n(n+1)}2$, $\ 1^2+\dots+n^2=\dfrac{n(n+1)(2n+1)}6$, $\ 1^3+\dots+n^3=\left(\dfrac{n(n+1)}2\right)^2$
-- **Repeating decimal** as a geometric series: $0.\overline{36}=\dfrac{36/100}{1-1/100}=\dfrac{36}{99}=\dfrac4{11}$.
-- **Bouncing ball** dropped from $h$ with ratio $r$: total distance $=h+\dfrac{2hr}{1-r}$.
-- **Telescoping:** $\dfrac1{k(k+1)}=\dfrac1k-\dfrac1{k+1}$.
+## Patterns in Digits When Raised to Powers ⭐
 
-> [!warning] Unknown three terms
-> For three terms in an AP, write them as $a-d,\ a,\ a+d$. For a GP, write $\frac ar,\ a,\ ar$. The algebra becomes much easier.
+Units digits cycle with period at most 4:
 
----
+| Base ends in | Cycle |
+|---|---|
+| 0, 1, 5, 6 | constant |
+| 2 | 2, 4, 8, 6 |
+| 3 | 3, 9, 7, 1 |
+| 4 | 4, 6 |
+| 7 | 7, 9, 3, 1 |
+| 8 | 8, 4, 2, 6 |
+| 9 | 9, 1 |
 
-## Probability (Meet 7)
+So the units digit of $3^{158}$ is found from $158\bmod4=2$: it's $9$.
 
-$$P(E)=\frac{\text{favorable outcomes}}{\text{total equally-likely outcomes}}$$
+## Modular Arithmetic ⭐
 
-- $P(\text{not }E)=1-P(E)$
-- $P(A\text{ or }B)=P(A)+P(B)-P(A\text{ and }B)$
-- **Independent:** $P(A\text{ and }B)=P(A)P(B)$
-- **Conditional:** $P(A\mid B)=\dfrac{P(A\cap B)}{P(B)}$
-- **Without replacement:** multiply the changing fractions: $P(\text{2 red})=\frac{5}{12}\cdot\frac4{11}$.
-- **Binomial:** exactly $k$ successes in $n$ trials is $\binom nk p^k(1-p)^{n-k}$.
-- **Odds** in favor $=P(E):P(\text{not }E)$. If the odds are $a:b$, then $P=\dfrac a{a+b}$.
-- **Expected value:** $E=\sum x_iP(x_i)$.
-- **Geometric probability:** (favorable length/area) ÷ (total length/area).
+$a\equiv b\pmod m$ means $m\mid(a-b)$. You can add, subtract, multiply, and raise to powers inside a congruence. You can **divide** only by numbers coprime to $m$.
 
-> [!tip] Two dice
-> Sums 2 to 12 occur $1,2,3,4,5,6,5,4,3,2,1$ ways out of 36. A sum of 7 is the most likely, at $\frac16$.
+- Squares mod 4 are 0 or 1. Squares mod 8 are 0, 1, or 4. Squares mod 3 are 0 or 1.
+- A number is congruent to its digit sum mod 9.
+- Use mod arithmetic to find remainders and last digits, and to prove that something can never happen.
 
-> [!example] At least one
-> The probability of at least one 6 in four rolls is $1-\left(\frac56\right)^4=\frac{671}{1296}$.
+## Chinese Remainder Theorem 🚀
+
+If $m$ and $n$ are coprime, the system $x\equiv a\pmod m$, $x\equiv b\pmod n$ has exactly one solution mod $mn$. To find it, list the candidates $a, a+m, a+2m,\dots$ and check them mod $n$.
+
+Example: $x\equiv2\pmod3$ and $x\equiv3\pmod5$ give $x\equiv8\pmod{15}$.
+
+## Fermat's Little Theorem 🚀
+
+For a prime $p$ and $p\nmid a$: $a^{p-1}\equiv1\pmod p$. 🚀 **Euler** generalizes this: $a^{\varphi(n)}\equiv1\pmod n$ when $\gcd(a,n)=1$, with $\varphi(n)=n\prod\left(1-\frac1p\right)$.
+
+Example: $2^{100}\bmod7$: since $2^6\equiv1$, $2^{100}=2^{96}\cdot2^4\equiv16\equiv2$.
+
+## Other Terms
+
+- **Perfect number:** equals the sum of its proper divisors (6, 28, 496).
+- **Relatively prime (coprime):** $\gcd=1$.
+- **Twin primes:** primes that differ by 2.
+- **Digit sum** and **digital root:** repeat the digit sum until one digit is left (≡ $n$ mod 9).
+- **Repunits:** 1, 11, 111, …

@@ -1,203 +1,217 @@
 ---
-title: "Unit 4: Algebra I Toolbox"
+title: "Unit 4: Numbers & Algebra"
 unit: 4
 ---
 
-# Unit 4: Algebra I Toolbox
+# Unit 4: Numbers & Algebra
 
-This unit covers every **Algebra I** event in the OML season, in meet order. Each section lists the formulas and tricks the A/B/C problems keep reusing.
+## Types of Numbers ⭐
 
-| Meet | Event | Topic |
+| Set | Members | Example |
 |---|---|---|
-| 1 | 3 | Numbers |
-| 1 | 5 | Sets |
-| 2 | 3 | Linear Equations in One Variable |
-| 3 | 3 | Age, Motion & Number Problems |
-| 3 | 5 | Operations with Polynomials |
-| 4 | 3 | Factoring Expressions & Equations |
-| 4 | 5 | Linear Inequalities |
-| 5 | 3 | Systems of Linear Equations |
-| 5 | 5 | Equations with Decimals & Percents |
-| 6 | 3 | Fractions & Mixed Expressions |
-| 7 | 3 | Radical Operations |
-| 7 | 5 | Statistics |
+| Natural (counting) | $1, 2, 3, \dots$ | $7$ |
+| Whole | $0, 1, 2, \dots$ | $0$ |
+| Integers | $\dots,-2,-1,0,1,2,\dots$ | $-5$ |
+| Rational | $\frac pq$ with integers $p$, $q\ne0$; every terminating or repeating decimal | $0.\overline{36}=\frac4{11}$ |
+| Irrational | real but not rational | $\sqrt2$, $\pi$, $e$ |
+| Imaginary / complex | involve $i=\sqrt{-1}$ | $3-2i$ |
 
----
+**Repeating decimal → fraction:** for $x=0.3\overline{18}$, compute $1000x-10x=318-3$, so $x=\frac{315}{990}=\frac7{22}$. As a shortcut, $0.\overline{ab}=\frac{ab}{99}$.
 
-## Numbers (Meet 1)
+## Special Numbers
 
-### Number sets
-- **Natural** $\{1,2,3,\dots\}$ ⊂ **Whole** $\{0,1,2,\dots\}$ ⊂ **Integers** ⊂ **Rationals** ⊂ **Reals**
-- **Rational:** any $\frac{p}{q}$ with integers $p$ and $q\ne 0$. Every terminating or repeating decimal is rational.
-- **Irrational:** examples are $\sqrt{2}$, $\pi$, $e$, and $0.101001000\dots$ (non-repeating).
+- **Primes:** the 25 primes under 100 are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97. ⭐ Memorize them.
+- **Composite:** has more than two divisors. $1$ is neither prime nor composite.
+- **Triangular numbers:** $T_n=\frac{n(n+1)}2$, giving 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, …
+- **Perfect squares to $30^2$** and **cubes to $10^3$** ⭐. Know them cold.
+- **Powers of 2 to $2^{12}=4096$** ⭐.
+- **Palindromes** read the same both ways (1441, 90909). There are 9 two-digit, 90 three-digit, and 90 four-digit palindromes.
 
-### Repeating decimals → fractions
-$$0.\overline{ab} = \frac{ab}{99}, \qquad 0.a\overline{b} = \frac{ab-a}{90}$$
+## Sequences and Series ⭐
 
-> [!example] $0.3\overline{18}$
-> Let $x=0.3181818\dots$. Then $1000x-10x = 318-3$, so $x=\dfrac{315}{990}=\dfrac{7}{22}$.
+| | Arithmetic | Geometric |
+|---|---|---|
+| Pattern | add $d$ each time | multiply by $r$ each time |
+| $n$th term | $a_n=a_1+(n-1)d$ | $a_n=a_1r^{n-1}$ |
+| Sum of $n$ terms | $\frac n2(a_1+a_n)$ | $a_1\frac{1-r^n}{1-r}$ |
+| Infinite sum | — | $\frac{a_1}{1-r}$ when $\lvert r\rvert<1$ |
 
-### Divisibility, primes, GCF/LCM
-- Divisible by **3/9**: the digit sum is divisible by 3/9. By **4**: the last two digits. By **8**: the last three. By **11**: the alternating digit sum.
-- $\gcd(a,b)\cdot\operatorname{lcm}(a,b)=ab$
-- Number of divisors of $p^a q^b r^c$: $(a+1)(b+1)(c+1)$
-- Sum of divisors: $(1+p+\dots+p^a)(1+q+\dots+q^b)\cdots$
+Common sums:
+- $1+2+\dots+n=\frac{n(n+1)}2$
+- $2+4+\dots+2n=n(n+1)$
+- $1+3+5+\dots+(2n-1)=n^2$
+- $1^2+2^2+\dots+n^2=\frac{n(n+1)(2n+1)}6$
+- $1^3+2^3+\dots+n^3=\left(\frac{n(n+1)}2\right)^2$
 
-### Properties and operations
-- Closure, commutative, associative, distributive, identity, inverse. Know which properties hold for which sets. For example, the integers are **not** closed under division.
-- Custom operations ("$a\star b = 2a-b$"): substitute carefully, and evaluate inner operations first.
+**Number of terms** from $a$ to $b$ with step $d$: $\frac{b-a}d+1$. Off-by-one errors here are extremely common.
 
----
+## Statistics
 
-## Sets (Meet 1)
+- **Mean** = sum ÷ count. **Median** = the middle value of the sorted list. **Mode** = the most frequent value. **Range** = max − min.
+- 🚀 **Geometric mean** of $n$ numbers: $\sqrt[n]{\text{product}}$. For positive numbers, AM ≥ GM ≥ HM.
+- Missing value: new total = new mean × new count.
+- Adding $c$ to every value shifts the mean and median by $c$ but leaves the range and standard deviation unchanged.
+- Standard deviation: $\sigma=\sqrt{\frac{\sum(x_i-\bar x)^2}{n}}$ (population).
 
-| Notation | Meaning |
+## Absolute Value
+
+$|x|$ is the distance from $x$ to $0$. $|a-b|$ is the distance between $a$ and $b$, a very useful way to read absolute-value equations.
+
+- $|x|<a \iff -a<x<a$
+- $|x|>a \iff x<-a$ or $x>a$
+- With several absolute values, split the number line at each zero and solve piece by piece.
+
+## Measurements & Conversions
+
+| Length | Volume | Weight |
+|---|---|---|
+| 12 in = 1 ft, 3 ft = 1 yd | 8 fl oz = 1 cup, 2 cups = 1 pt | 16 oz = 1 lb |
+| 5280 ft = 1760 yd = 1 mi | 2 pt = 1 qt, 4 qt = 1 gal | 2000 lb = 1 ton |
+| 1 km = 1000 m, 1 m = 100 cm | 1 L = 1000 mL = 1000 cm³ | 1 kg = 1000 g |
+
+Square and cubic units convert by the square and cube of the factor: $1\text{ yd}^2=9\text{ ft}^2$ and $1\text{ ft}^3=1728\text{ in}^3$.
+
+## Special Factorizations ⭐
+
+- $a^2-b^2=(a+b)(a-b)$
+- $a^2+b^2=(a+b)^2-2ab$
+- $a^3+b^3=(a+b)(a^2-ab+b^2)$
+- $a^3-b^3=(a-b)(a^2+ab+b^2)$
+- $x^n-1=(x-1)(x^{n-1}+x^{n-2}+\dots+x+1)$
+- $\frac1a+\frac1b=\frac{a+b}{ab}$
+- $(a+b)^3=a^3+3a^2b+3ab^2+b^3$
+- 🚀 $a^3+b^3+c^3-3abc=(a+b+c)(a^2+b^2+c^2-ab-bc-ca)$
+- 🚀 $x^4+4y^4=(x^2+2xy+2y^2)(x^2-2xy+2y^2)$ (Sophie Germain)
+
+**Factoring checklist:** GCF first → two terms (difference of squares or cubes) → three terms (ac-method) → four terms (grouping) → check whether each factor factors again.
+
+## Rates ⭐
+
+- **Distance:** $d=rt$.
+- **Work:** work = rate × time × (number of workers).
+- **Combined rates add:** if A takes $a$ hours and B takes $b$ hours, together they take $\frac{ab}{a+b}$ hours.
+- **Average speed** is total distance ÷ total time, **not** the average of the speeds. For a round trip at speeds $r_1$ and $r_2$, it's $\frac{2r_1r_2}{r_1+r_2}$.
+- **Moving the same direction:** subtract the rates (catching up). **Opposite directions:** add them.
+- **Current or wind:** downstream $r+c$, upstream $r-c$.
+
+> [!example] Workers and holes
+> 5 workers dig 10 holes in 8 days, so the rate is $\frac{10}{5\cdot8}=\frac14$ hole per worker-day. For 6 workers to dig 20 holes: $\frac14\cdot6\cdot t=20$, so $t=\frac{40}3$ days.
+
+## Proportions & Variation
+
+- **Direct:** $y=kx$ ($\frac yx$ constant). **Inverse:** $y=\frac kx$ ($xy$ constant). **Joint:** $z=kxy$.
+- **Scaling shortcut:** if $z\propto\frac{x^2}{\sqrt y}$, then doubling $x$ and quadrupling $y$ multiplies $z$ by $\frac{4}{2}=2$.
+
+## Percents ⭐
+
+- "$x\%$ off" means multiply by $\frac{100-x}{100}$. "$x\%$ more" means multiply by $\frac{100+x}{100}$.
+- Successive changes **multiply**: $+20\%$ then $-20\%$ gives $1.2\times0.8=0.96$, a net 4% decrease.
+- Percent change $=\frac{\text{new}-\text{old}}{\text{old}}\times100\%$.
+- **Mixtures:** (amount)(concentration) adds up.
+
+## Reflections and Rotations of Points
+
+| Transformation | $(x,y)\to$ |
 |---|---|
-| $A\cup B$ | union (in A **or** B) |
-| $A\cap B$ | intersection (in **both**) |
-| $A'$ or $A^c$ | complement |
-| $A - B$ | in A but not B |
-| $\varnothing$ | empty set |
-| $A\subseteq B$ | every element of A is in B |
+| Reflect over $y=x$ | $(y,x)$ |
+| Reflect over the $y$-axis | $(-x,y)$ |
+| Reflect over the $x$-axis | $(x,-y)$ |
+| Rotate $90^\circ$ clockwise | $(y,-x)$ |
+| Rotate $90^\circ$ counterclockwise | $(-y,x)$ |
+| Rotate $180^\circ$ | $(-x,-y)$ |
 
-- A set with $n$ elements has $2^n$ subsets and $2^n-1$ proper subsets.
-- **Inclusion–exclusion:** $|A\cup B| = |A|+|B|-|A\cap B|$
-- Three sets: $|A\cup B\cup C| = |A|+|B|+|C|-|A\cap B|-|A\cap C|-|B\cap C|+|A\cap B\cap C|$
-- **De Morgan:** $(A\cup B)' = A'\cap B'$ and $(A\cap B)' = A'\cup B'$
+## Linear Equations ⭐
 
-> [!tip] Venn diagrams
-> For survey problems, always fill a Venn diagram **from the center outward**: triple overlap first, then the pairs, then the singles.
+- Slope-intercept $y=mx+b$, point-slope $y-y_1=m(x-x_1)$, standard $Ax+By=C$ (slope $-\frac AB$).
+- Parallel lines have equal slopes. Perpendicular slopes multiply to $-1$.
+- Distance $\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}$, midpoint $\left(\frac{x_1+x_2}2,\frac{y_1+y_2}2\right)$.
+- Point $(x_0,y_0)$ to line $ax+by+c=0$: $\dfrac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$. Between parallel lines: $\dfrac{|c-d|}{\sqrt{a^2+b^2}}$.
+- **Systems:** use elimination, substitution, or Cramer's rule. One solution unless the slopes match (then there's none, or infinitely many if the lines coincide).
 
----
+## Polynomials and Functions
 
-## Linear Equations in One Variable (Meet 2)
+- A function gives each input exactly one output. **Domain** = allowed inputs, **range** = possible outputs.
+- **Fundamental Theorem of Algebra:** a degree-$n$ polynomial has exactly $n$ roots, counting complex roots and multiplicity.
+- **Remainder theorem:** $P(x)\div(x-c)$ leaves remainder $P(c)$. **Factor theorem:** $(x-c)$ is a factor iff $P(c)=0$.
+- The sum of the coefficients is $P(1)$. The constant term is $P(0)$.
+- **Rational root theorem:** possible rational roots are $\pm\frac{\text{factor of constant}}{\text{factor of leading coefficient}}$.
+- Complex and irrational roots of real/rational polynomials come in conjugate pairs.
 
-- Clear fractions by multiplying by the LCD, and clear decimals by multiplying by a power of 10.
-- **Literal equations:** collect the terms with the target variable on one side, factor it out, then divide.
-$$ax+b = cx+d \;\Rightarrow\; x(a-c) = d-b \;\Rightarrow\; x=\frac{d-b}{a-c}$$
-- **Identity** (true for all $x$) vs. **contradiction** (no solution): watch for $0=0$ or $0=5$.
+## Inverse Functions
 
----
+To find $f^{-1}$: swap $x$ and $y$, then solve for $y$. The graph of $f^{-1}$ is the reflection of $f$ over $y=x$. Only one-to-one functions have inverses.
 
-## Age, Motion & Number Problems (Meet 3)
+Example: $f(x)=5x+6$ gives $x=5y+6$, so $f^{-1}(x)=\frac{x-6}5$.
 
-- **Age:** the difference between two people's ages never changes. Make a table with columns *Now / Past / Future*.
-- **Motion:** $d=rt$. Opposite directions: rates **add**. Same direction (catching up): rates **subtract**. Round trip: total distance ÷ total time is **not** the average of the speeds.
-$$\text{average speed} = \frac{2d}{d/r_1+d/r_2} = \frac{2r_1r_2}{r_1+r_2}$$
-- **Current/wind:** downstream $r+c$, upstream $r-c$.
-- **Consecutive integers:** $n, n+1, n+2$. Consecutive even or odd: $n, n+2, n+4$.
-- **Digit problems:** a two-digit number with digits $t$ and $u$ is $10t+u$. Reversed, it's $10u+t$.
+## Floor, Ceiling, and Fractional Part 🚀
 
----
+$\lfloor x\rfloor$ rounds down, $\lceil x\rceil$ rounds up, and $\{x\}=x-\lfloor x\rfloor$. For equations, write $x=n+f$ with integer $n$ and $0\le f<1$.
 
-## Operations with Polynomials (Meet 3)
+## Quadratics ⭐
 
-- Special products:
-$$(a\pm b)^2=a^2\pm 2ab+b^2,\quad (a+b)(a-b)=a^2-b^2$$
-$$(a\pm b)^3 = a^3\pm 3a^2b+3ab^2\pm b^3$$
-- **Long and synthetic division:** remainder theorem, $P(x)\div(x-c)$ leaves remainder $P(c)$.
-- Degree of a product = sum of the degrees. Leading coefficient of a product = product of the leading coefficients.
-- The **sum of the coefficients** of $P(x)$ is $P(1)$. The constant term is $P(0)$.
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 
----
+- **Vertex** at $x=-\frac b{2a}$. The max/min value is $c-\frac{b^2}{4a}$.
+- **Discriminant** $b^2-4ac$: positive means 2 real roots, zero means 1, negative means 0 real roots (2 complex).
+- **Completing the square:** $ax^2+bx+c=a\left(x+\frac b{2a}\right)^2+c-\frac{b^2}{4a}$.
 
-## Factoring Expressions & Equations (Meet 4)
+## Vieta's Formulas ⭐
 
-### Factoring checklist (in order)
-1. **GCF** first, always.
-2. **Two terms:** difference of squares $a^2-b^2$, sum or difference of cubes:
-$$a^3\pm b^3=(a\pm b)(a^2\mp ab+b^2)$$
-3. **Three terms:** trinomial. Use the **ac-method** for $ax^2+bx+c$.
-4. **Four terms:** grouping (2+2 or 3+1, where the 3 is a perfect square trinomial).
-5. **Factor again:** check every factor for further factoring.
+For $ax^2+bx+c$: $\ r_1+r_2=-\frac ba$, $\ r_1r_2=\frac ca$.
 
-> [!example] 3+1 grouping (Jan 2018 C)
-> $a^2-x^2-4ab+4xy+4b^2-4y^2 = (a^2-4ab+4b^2)-(x^2-4xy+4y^2)$
-> $=(a-2b)^2-(x-2y)^2 = (a-2b+x-2y)(a-2b-x+2y)$
+For $ax^3+bx^2+cx+d$: $\ \sum r=-\frac ba$, $\ \sum r_ir_j=\frac ca$, $\ r_1r_2r_3=-\frac da$.
 
-### Substitution
-If the same chunk repeats, call it $u$: in $(x+k)^2-2(x+k)-8=0$, let $u=x+k$, so $(u-4)(u+2)=0$.
+In general, the signs alternate. Useful combinations:
+- $r_1^2+r_2^2=(r_1+r_2)^2-2r_1r_2$
+- $\frac1{r_1}+\frac1{r_2}=\frac{r_1+r_2}{r_1r_2}$
+- $|r_1-r_2|=\frac{\sqrt{b^2-4ac}}{|a|}$
 
-### Biquadratic
-$ax^4+bx^2+c$ is a quadratic in $x^2$. Also, $x^4+4y^4 = (x^2+2y^2)^2-(2xy)^2$ (Sophie Germain).
+## Exponent Rules ⭐
 
-> [!warning] Never divide by a variable
-> When solving $5x^4+7x^3-6x^2=0$, factor out $x^2$. Don't divide by it, or you lose the solution $x=0$.
+$x^ax^b=x^{a+b}$, $\ \frac{x^a}{x^b}=x^{a-b}$, $\ (x^a)^b=x^{ab}$, $\ x^ny^n=(xy)^n$, $\ x^0=1$, $\ x^{-n}=\frac1{x^n}$, $\ x^{m/n}=\sqrt[n]{x^m}$
 
----
+To solve exponential equations, rewrite both sides with the same base, or substitute $u=b^x$ to get a quadratic.
 
-## Linear Inequalities (Meet 4)
+## Logarithms
 
-- Multiplying or dividing by a **negative** flips the sign.
-- **Compound "and"** = intersection. **"or"** = union. Solve each piece, then combine on a number line.
-- **Three-part** $a<bx+c<d$: do the same operation to all three parts.
-- **No solution** when the left end is past the right end. For $\frac{m}{6}(x-4)<\frac{m}{6}x-3$, the $x$ terms cancel, leaving $-\frac{2m}{3}<-3$. "No solution" means this is false.
-- Integer word problems: solve, then pick the largest or smallest **integer** that satisfies the strict or non-strict inequality.
+$\log_ab=c\iff a^c=b$.
 
-> [!tip] OML format
-> Write answers with only "and"/"or" connectives: $-8\le x<7$, or $x\le -2$ or $x>2$.
-
----
-
-## Systems of Linear Equations (Meet 5)
-
-- Methods: **elimination**, substitution, Cramer's rule:
-$$x=\frac{\begin{vmatrix}e&b\\f&d\end{vmatrix}}{\begin{vmatrix}a&b\\c&d\end{vmatrix}},\quad y=\frac{\begin{vmatrix}a&e\\c&f\end{vmatrix}}{\begin{vmatrix}a&b\\c&d\end{vmatrix}}\quad\text{for}\quad\begin{cases}ax+by=e\\cx+dy=f\end{cases}$$
-- **Consistent/inconsistent/dependent:** for $a_1x+b_1y=c_1$ and $a_2x+b_2y=c_2$:
-  - one solution if $\frac{a_1}{a_2}\ne\frac{b_1}{b_2}$
-  - none if $\frac{a_1}{a_2}=\frac{b_1}{b_2}\ne\frac{c_1}{c_2}$
-  - infinitely many if all three ratios are equal
-- **Three variables:** eliminate the same variable twice to get a 2×2 system.
-- **Symmetric trick:** if the equations look alike, add them all or subtract them.
-
----
-
-## Equations with Decimals & Percents (Meet 5)
-
-- $p\%$ of $x$ = $\frac{p}{100}x$. "Increase by $p\%$" means ×$(1+\frac{p}{100})$.
-- Successive changes **multiply**: $+20\%$ then $-20\%$ is $1.2\times0.8=0.96$, a 4% decrease.
-- Percent change $= \dfrac{\text{new}-\text{old}}{\text{old}}\times100\%$
-- **Mixture:** (amount)(concentration) adds up: $a\cdot p_1+b\cdot p_2=(a+b)p$.
-- Simple interest $I=Prt$. Compound interest $A=P\left(1+\frac{r}{n}\right)^{nt}$.
-
----
-
-## Fractions & Mixed Expressions (Meet 6)
-
-- **Complex fractions:** multiply the top and bottom by the LCD of all the little fractions.
-- Add and subtract with an LCD. **Factor first** so the LCD is as small as possible.
-- Mixed numbers: $3\frac{2}{5} = \frac{17}{5}$.
-- **State the restrictions:** values that make any denominator zero, including those in the original expression.
-
-> [!example] Complex fraction
-> $\dfrac{\frac{1}{x}-\frac{1}{y}}{\frac{1}{x^2}-\frac{1}{y^2}}$. Multiply by $x^2y^2$: $\dfrac{xy^2-x^2y}{y^2-x^2}=\dfrac{xy(y-x)}{(y-x)(y+x)}=\dfrac{xy}{x+y}$.
-
----
-
-## Radical Operations (Meet 7)
-
-- $\sqrt{ab}=\sqrt a\sqrt b$ for $a,b\ge0$. $\sqrt{x^2}=|x|$.
-- **Rationalize:** multiply by the conjugate, e.g. $\dfrac{1}{\sqrt5-\sqrt3}\cdot\dfrac{\sqrt5+\sqrt3}{\sqrt5+\sqrt3}=\dfrac{\sqrt5+\sqrt3}{2}$.
-- **Denesting:** $\sqrt{a+2\sqrt b} = \sqrt m+\sqrt n$ where $m+n=a$ and $mn=b$.
-  For example, $\sqrt{7+4\sqrt3}=\sqrt{7+2\sqrt{12}}=2+\sqrt3$.
-- **Radical equations:** isolate, square, and **check for extraneous roots**.
-- Like radicals combine only when the index and radicand match.
-
----
-
-## Statistics (Meet 7)
-
-| Measure | Formula / note |
+| | |
 |---|---|
-| Mean | $\bar x = \frac{\sum x_i}{n}$ |
-| Median | middle value (average of the two middle values if $n$ is even) |
-| Mode | most frequent (can be several or none) |
-| Range | max − min |
-| Population variance | $\sigma^2 = \frac{\sum (x_i-\bar x)^2}{n}$ |
-| Sample variance | $s^2 = \frac{\sum (x_i-\bar x)^2}{n-1}$ |
-| Standard deviation | square root of the variance |
-| IQR | $Q_3 - Q_1$. Outliers lie beyond $1.5\cdot\text{IQR}$ of the quartiles |
+| $\log_a b+\log_a c=\log_a bc$ | $\log_a b-\log_a c=\log_a\frac bc$ |
+| $\log_a b^n=n\log_a b$ | $\log_{a^n}b=\frac1n\log_a b$ |
+| $\frac{\log_a b}{\log_a c}=\log_c b$ (change of base) | $\log_a b\cdot\log_b c=\log_a c$ (chains telescope) |
+| $a^{\log_a x}=x$ | $\log_a b=\frac1{\log_b a}$ |
 
-- Adding a constant $c$ to every value shifts the mean, median, and mode by $c$ but leaves the range and SD **unchanged**.
-- Multiplying every value by $k$ multiplies the mean, median, range, and SD by $|k|$, and the variance by $k^2$.
-- **Missing value:** new total = new mean × new count.
+> [!warning] Extraneous roots
+> After combining logs, check every solution in the **original** equation. Each argument must be positive.
+
+## Simon's Favorite Factoring Trick ⭐
+
+When you see $xy+ax+by$, add $ab$ to both sides: $(x+b)(y+a)=c+ab$. Then list the factor pairs.
+
+> [!example] $\frac1x+\frac1y=\frac2{15}$ in distinct positive integers
+> Clearing fractions gives $2xy-15x-15y=0$. Multiply by 2 and add 225: $(2x-15)(2y-15)=225$. The factor pair $9\times25$ gives $x=12$, $y=20$, so $x+y=32$.
+
+## Simplifying Radicals ⭐
+
+- Pull out square factors: $\sqrt{72}=6\sqrt2$.
+- **No radicals in a denominator.** Rationalize: $\frac1{\sqrt2}=\frac{\sqrt2}2$.
+- For a binomial denominator, multiply by the conjugate: $\frac{18}{4-\sqrt7}=\frac{18(4+\sqrt7)}{9}=8+2\sqrt7$.
+- With three terms in the denominator, group into two and conjugate twice.
+- Combine radicals of the same index: $\sqrt[3]{12x^2}\cdot\sqrt[3]{4x^4}=\sqrt[3]{48x^6}=2x^2\sqrt[3]6$.
+- 🚀 **Denesting:** $\sqrt{a\pm2\sqrt b}=\sqrt m\pm\sqrt n$ where $m+n=a$ and $mn=b$. For example, $\sqrt{7+4\sqrt3}=2+\sqrt3$.
+
+## Comparing Huge Numbers
+
+Take the same root of both numbers, or compare logs. For $5^{10}$ vs $3^{20}$, take tenth roots: $5$ vs $9$, so $3^{20}$ is larger.
+
+## Clock Arithmetic
+
+The minute hand moves $6^\circ$ per minute and the hour hand $0.5^\circ$ per minute. At $H{:}M$, the angle between them is $\left|\dfrac{60H-11M}2\right|$ (use $360^\circ$ minus that if it's over $180^\circ$).
+
+Example: at 3:30, $\left|\frac{180-330}2\right|=75^\circ$.
+
+## Complex Numbers
+
+$i=\sqrt{-1}$, $i^2=-1$, and the powers of $i$ cycle with period 4. A complex number $a+bi$ has conjugate $a-bi$ and modulus $\sqrt{a^2+b^2}$. Divide by multiplying the top and bottom by the conjugate. (More in Unit 8.)

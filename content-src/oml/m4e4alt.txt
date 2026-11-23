@@ -1,0 +1,52 @@
+# Meet 4, Event 4 (odd-even seasons): CALCULUS — Limits & Derivatives
+# (2018–2019 papers were labelled Event 6.)
+
+@ Jan 2026
+A: Use the graphs of $f$ and $g$ to find $\displaystyle\lim_{x\to 0} g[f(x)+1]$.
+= 2
+& /oml/fig/m4e4alt-2026-01-A.png
+B: Given the curve $2x^2+3y^2-4xy=36$, find the slope of the line tangent to the curve at the point $(6,2)$.
+= \frac{4}{3}
+C: Sand is being added to the top of a conical pile at the rate of $8\ \dfrac{\text{ft}^3}{\text{min}}$. If the diameter of the cone is always twice the height of the cone, how fast (in feet per minute) is the height increasing when the volume of the pile is $1125\pi$ cubic feet?
+= \frac{8}{225\pi}
+
+@ Jan 2024
+A: Given $f(x)=e^x+1$. Find the slope of the line tangent to the graph of $f$ at $x=1$.
+= e
+B: Evaluate: $$\lim_{h\to 0}\dfrac{\sec\left(\frac{\pi}{6}+h\right)-\sec\left(\frac{\pi}{6}\right)}{h}$$
+= \frac{2}{3}
+C: The OML Company is manufacturing a cylindrical container with closed top and bottom and volume $12.5\pi$ cubic meters. The material for the circular top and bottom costs \$13.50 per square meter, and the material for the curved wall costs \$10 per square meter. Find the radius (in meters) of the container that will minimize the cost of manufacturing this container.
+= \frac{5}{3}
+
+@ Jan 2022
+A: Compute: $$\lim_{x\to 4}\dfrac{x-\sqrt{3x+4}}{4-x}$$
+= -\frac{5}{8}
+B: The graph of $y=e^{2x}$ has a tangent line perpendicular to the graph of $y=-\dfrac{1}{8}x+7$. Find the equation of the tangent line. Write your answer in slope-intercept form.
+= y=8x+4-8\ln 2
+~ y=8x+4-\ln 256 ;; y=8x+4-4\ln 4
+C: Find the value(s) of $c$ that satisfy the conclusion of the Mean Value Theorem for $f(x)=4x^3-8x^2+7x-2$ on the interval $[2,5]$.
+= \frac{2}{3}+\frac{1}{3}\sqrt{79}
+
+@ Jan 2020
+A: Evaluate: $$\lim_{x\to 0}\dfrac{x}{x+\ln(x+1)}$$
+= \frac{1}{2}
+B: Let $f(x)=-x^2+8x-8+e^x$. Find all values of $x$ at which the graph of $f$ has a point of inflection.
+= \ln 2
+C: A trash compactor is in the shape of a rectangular solid with height $10$ meters. Its width is decreasing at the rate of $\dfrac{1}{3}$ meter per second, and its length is increasing at the rate of $\dfrac{1}{2}$ meter per second. When the volume is $30$ cubic meters and the width is $1$ meter, find the rate (cubic meters per second) at which the volume is decreasing.
+= 5
+
+@ Jan 2019
+A: Compute: $$\lim_{x\to 0}\dfrac{3\sin x+x\sin x}{4x^2-36x}$$
+= -\frac{1}{12}
+B: The curve $y=e^x$ has a tangent line that is parallel to the line $y=2x-3$. Find the equation of that tangent line. Write your answer in slope-intercept form.
+= y=2x-2\ln 2+2
+C: Find the slope of the line tangent to $y=\displaystyle\lim_{h\to 0}\dfrac{\sec^2(x+h)-\sec^2 x}{h}$ at $x=\dfrac{\pi}{6}$.
+= \frac{16}{3}
+
+@ Jan 2018
+A: Compute: $$\lim_{x\to 0}\dfrac{\sin x-5x}{x}$$
+= -4
+B: Given the curve $xy^2-x^3y=6$. Find the slope of the line tangent to the curve at $(-2,1)$.
+= \frac{11}{4}
+C: A spotlight on the ground must follow a New Year's Eve ball as it drops to the ground. The spotlight is $40$ feet from the landing site of the ball, and the ball is dropping at a rate of $2$ ft/sec. When the ball is $30$ feet in the air, find the rate at which the angle formed by the beam of light and the ground is decreasing. Give your answer in radians per second.
+= \frac{4}{125}

@@ -1,110 +1,65 @@
 ---
-title: "Unit 9: Trigonometry Toolbox"
+title: "Unit 9: Competition Tips & Speed Tricks"
 unit: 9
 ---
 
-# Unit 9: Trigonometry Toolbox
+# Unit 9: Competition Tips & Speed Tricks
 
-| Meet | Event | Topic |
-|---|---|---|
-| 1 | 4 | Identities |
-| 2 | 4 | Equations & Graphs |
-| 3 | 4 | Inverse Functions including Triangles |
-| 4 | 4 | Polar Coordinates & DeMoivre's Theorem *(even-odd seasons — this year!)* |
+The formulas live in Units 4–8. This unit is about **how** to use them under time pressure.
 
----
+## Personal Tips for Competition Day ⭐
 
-## Unit Circle Essentials
+1. **Read the whole question, then the answer blank.** The blank tells you the form: units, $x=$, an ordered pair, or set notation.
+2. **Do the easy problems first.** On a Sprint round or an OML event, bank the A-level points in under a minute each, and save the time for the hard ones.
+3. **Write neatly on scratch paper.** Most errors are copying errors, not math errors.
+4. **Check by plugging back in**, especially for radical, log, rational, and absolute-value equations (extraneous roots!).
+5. **Simplify completely**, in the exact form requested. An unsimplified correct answer is usually marked wrong.
+6. **Guess on multiple choice only when** there's no penalty (on the AMC, a blank is worth 1.5 points and a wrong answer 0).
+7. **Don't get stuck.** If you've spent two minutes with no progress, move on and come back.
 
-| $\theta$ | $0$ | $\frac\pi6$ | $\frac\pi4$ | $\frac\pi3$ | $\frac\pi2$ |
-|---|---|---|---|---|---|
-| $\sin$ | $0$ | $\frac12$ | $\frac{\sqrt2}2$ | $\frac{\sqrt3}2$ | $1$ |
-| $\cos$ | $1$ | $\frac{\sqrt3}2$ | $\frac{\sqrt2}2$ | $\frac12$ | $0$ |
-| $\tan$ | $0$ | $\frac{\sqrt3}3$ | $1$ | $\sqrt3$ | — |
+## Problem-Solving Strategies ⭐
 
-**ASTC** (All Students Take Calculus): the positive functions in quadrants I, II, III, IV are All, Sin, Tan, Cos.
+- **Draw a picture**, even for algebra and counting problems.
+- **Try small cases**, find the pattern, then prove or extend it.
+- **Work backwards** from the answer form: "write as $\frac{\log a}{\log b}$" tells you the path.
+- **Plug in numbers** to test identities, or to check an "in terms of $k$" answer.
+- **Look for symmetry and invariants.** If swapping $x$ and $y$ doesn't change the problem, the answer often has $x=y$.
+- **Complementary counting** whenever you see "at least one".
+- **Name things.** Assign variables to unknown lengths and write equations.
+- **Use extremes:** the smallest or largest case often reveals the structure.
 
-Also memorize $\sin 15^\circ=\dfrac{\sqrt6-\sqrt2}4$ and $\cos15^\circ=\dfrac{\sqrt6+\sqrt2}4$.
+## Speed and Accuracy Habits
 
----
+- Know the squares to $30^2$, cubes to $10^3$, powers of 2 to $2^{12}$, the primes under 100, and the factorials to $10!$.
+- Know the decimal equivalents of $\frac18$ through $\frac78$, the sixths, the ninths, and the elevenths.
+- Leave answers in radical/fraction form until the end. Never round in the middle of a problem.
+- Estimate first, so a wildly wrong answer jumps out.
 
-## Identities (Meet 1)
+## Countdown / Speed-Round Tricks
 
-- **Pythagorean:** $\sin^2\theta+\cos^2\theta=1$, $\ 1+\tan^2\theta=\sec^2\theta$, $\ 1+\cot^2\theta=\csc^2\theta$
-- **Sum/difference:**
-$$\sin(A\pm B)=\sin A\cos B\pm\cos A\sin B$$
-$$\cos(A\pm B)=\cos A\cos B\mp\sin A\sin B$$
-$$\tan(A\pm B)=\frac{\tan A\pm\tan B}{1\mp\tan A\tan B}$$
-- **Double angle:** $\sin2\theta=2\sin\theta\cos\theta$, $\ \cos2\theta=\cos^2\theta-\sin^2\theta=1-2\sin^2\theta=2\cos^2\theta-1$, $\ \tan2\theta=\dfrac{2\tan\theta}{1-\tan^2\theta}$
-- **Half angle:** $\sin\frac\theta2=\pm\sqrt{\frac{1-\cos\theta}2}$, $\ \cos\frac\theta2=\pm\sqrt{\frac{1+\cos\theta}2}$, $\ \tan\frac\theta2=\dfrac{1-\cos\theta}{\sin\theta}=\dfrac{\sin\theta}{1+\cos\theta}$
-- **Product-to-sum:** $\sin A\cos B=\frac12[\sin(A+B)+\sin(A-B)]$, and similarly for the others.
-- **Cofunctions:** $\sin(90^\circ-\theta)=\cos\theta$, etc.
-
-> [!tip] Given $\sin\theta=\frac35$ in Q2…
-> Draw the 3-4-5 reference triangle and attach the quadrant signs: $\cos\theta=-\frac45$, $\tan\theta=-\frac34$. Then plug into the double-angle formulas.
-
----
-
-## Equations & Graphs (Meet 2)
-
-- Solve for the **reference angle**, then list every quadrant where the sign matches, then add the period: $\sin$ and $\cos$ repeat every $2\pi$, $\tan$ every $\pi$.
-- With $\sin 2x$ and $x\in[0,2\pi)$, solve for $2x\in[0,4\pi)$, then divide by 2. This gives **twice** as many solutions.
-- Factor, don't divide: $2\sin x\cos x=\sin x$ becomes $\sin x(2\cos x-1)=0$.
-- **Graph of** $y=A\sin(B(x-C))+D$: amplitude $|A|$, period $\frac{2\pi}{|B|}$, phase shift $C$, midline $y=D$.
-- $a\sin x+b\cos x=\sqrt{a^2+b^2}\sin(x+\varphi)$. Its max is $\sqrt{a^2+b^2}$.
-- Period of $\tan(Bx)$ is $\frac\pi{|B|}$.
-
----
-
-## Inverse Functions including Triangles (Meet 3)
-
-| | Range |
+| Trick | Example |
 |---|---|
-| $\arcsin x$ | $\left[-\frac\pi2,\frac\pi2\right]$ |
-| $\arccos x$ | $[0,\pi]$ |
-| $\arctan x$ | $\left(-\frac\pi2,\frac\pi2\right)$ |
+| Squaring numbers ending in 5: $\overline{n5}^2 = n(n+1)$ followed by $25$ | $65^2=42\,25$ |
+| Difference of squares | $47\times53=50^2-3^2=2491$ |
+| Multiplying near 100 | $97\times96=(100-3)(100-4)=9312$ |
+| Multiplying by 11: add neighboring digits | $11\times 243=2673$ |
+| Multiplying by 25: ×100 ÷4 | $25\times 36=900$ |
+| Squares near 50: $(50+k)^2=2500+100k+k^2$ | $53^2=2809$ |
+| Sum of an arithmetic sequence = average × count | $3+7+\dots+43=23\times11=253$ |
+| $\frac17=0.\overline{142857}$, and $\frac k7$ is a rotation of those digits | $\frac37=0.\overline{428571}$ |
+| Percent swap: $a\%$ of $b$ = $b\%$ of $a$ | $8\%$ of $25$ = $25\%$ of $8$ = $2$ |
 
-- $\sin(\arccos x)=\sqrt{1-x^2}$. In general, draw the triangle: for $\theta=\arctan\frac34$, the opposite side is 3, the adjacent 4, and the hypotenuse 5.
-- $\arcsin x+\arccos x=\frac\pi2$.
-- $\arctan a+\arctan b=\arctan\dfrac{a+b}{1-ab}$ (adjust by $\pi$ if $ab>1$).
-- Watch the ranges: $\arcsin(\sin\frac{5\pi}6)=\frac\pi6$, **not** $\frac{5\pi}6$.
+## Before Each Contest
 
-### Solving triangles
-- **Law of Sines:** $\dfrac a{\sin A}=\dfrac b{\sin B}=\dfrac c{\sin C}=2R$
-- **Law of Cosines:** $c^2=a^2+b^2-2ab\cos C$
-- **Area:** $\frac12ab\sin C$. **Heron:** $\sqrt{s(s-a)(s-b)(s-c)}$. Also $rs$ and $\dfrac{abc}{4R}$.
-- **SSA ambiguous case:** given $a$, $b$, and $A$ with $h=b\sin A$: no triangle if $a<h$, one if $a=h$ or $a\ge b$, and **two** if $h<a<b$.
+- Reread the ⭐ items for the topics being tested.
+- Do one timed set from the practice bank under contest conditions.
+- Redo every problem in **"Ones I missed"**.
+- Sleep. A rested brain is worth more than an extra hour of cramming.
 
----
+## Resources
 
-## Polar Coordinates & DeMoivre's Theorem (Meet 4)
-
-### Converting
-$$x=r\cos\theta,\quad y=r\sin\theta,\quad r^2=x^2+y^2,\quad \tan\theta=\frac yx$$
-- **Check the quadrant** of $\theta$! For $(-2,-2)$, $\theta=\frac{5\pi}4$, not $\frac\pi4$.
-- A negative $r$ means going the opposite way: $(-2,\theta)=(2,\theta+\pi)$.
-- **Distance** between $(r_1,\theta_1)$ and $(r_2,\theta_2)$: $\sqrt{r_1^2+r_2^2-2r_1r_2\cos(\theta_1-\theta_2)}$ (law of cosines).
-- **Polar → Cartesian equations:** multiply through to create $r\cos\theta$, $r\sin\theta$, and $r^2$.
-  $r=\dfrac{4}{2-\sin\theta}$ becomes $2r-r\sin\theta=4$, so $2\sqrt{x^2+y^2}=4+y$. Square to get $4x^2+3y^2-8y-16=0$.
-- $\sin2\theta=\dfrac{2xy}{r^2}$, $\ \cos2\theta=\dfrac{x^2-y^2}{r^2}$.
-
-### Polar graphs
-- $r=a\pm b\sin\theta$ or $a\pm b\cos\theta$ is a **limaçon** (a cardioid if $|a|=|b|$, with an inner loop if $|a|<|b|$).
-- $r=a\cos n\theta$ is a **rose**: $n$ petals if $n$ is odd, $2n$ if $n$ is even.
-- $r=\dfrac{ep}{1\pm e\cos\theta}$ is a **conic** with eccentricity $e$.
-
-### Complex numbers in polar (cis) form
-$$z=a+bi=r(\cos\theta+i\sin\theta)=r\operatorname{cis}\theta$$
-- **Multiply:** multiply the moduli, **add** the angles. **Divide:** divide the moduli, subtract the angles.
-- **DeMoivre:** $(r\operatorname{cis}\theta)^n=r^n\operatorname{cis}(n\theta)$
-- **$n$th roots** of $r\operatorname{cis}\theta$:
-$$\sqrt[n]r\operatorname{cis}\left(\frac{\theta+2\pi k}{n}\right),\quad k=0,1,\dots,n-1$$
-  The roots are evenly spaced, $\frac{2\pi}n$ apart, on a circle of radius $\sqrt[n]r$.
-- Useful forms: $1+i=\sqrt2\operatorname{cis}\frac\pi4$, $\ \frac{\sqrt3}2+\frac12i=\operatorname{cis}\frac\pi6$, $\ \frac12+\frac{\sqrt3}2i=\operatorname{cis}\frac\pi3$.
-- **Roots of unity** sum to $0$. A geometric series of powers of $\operatorname{cis}\frac{2\pi}{n}$ collapses in blocks of $n$.
-
-> [!example] Jan 2021 A
-> $\left(\frac{\sqrt3}2+\frac12i\right)^{2021}=\operatorname{cis}(2021\cdot30^\circ)$. Since $60630^\circ \equiv 150^\circ \pmod{360^\circ}$, the answer is $-\frac{\sqrt3}2+\frac12i$.
-
-> [!tip] Answer form
-> Read whether the problem wants $a+bi$ or $r\operatorname{cis}\theta$, and the allowed range of $\theta$ ($0\le\theta<2\pi$ or $0\le\theta<\pi$).
+- **Practice:** **[OML Question Bank](/math-team/practice)**. Filter by meet, subject, event, or difficulty.
+- **OML** meet files and answer keys: [oahumath.org/meets](https://www.oahumath.org/meets)
+- **MATHCOUNTS** past competitions and the *MATHCOUNTS Toolbox* reference sheet
+- **AMC / AIME** past problems and solutions: the Art of Problem Solving wiki
+- **Books:** Art of Problem Solving *Introduction to Algebra*, *Counting & Probability*, *Number Theory*, *Geometry*; then *Intermediate* versions and *Precalculus*

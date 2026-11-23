@@ -1,88 +1,77 @@
 ---
-title: "Unit 1: How OML Meets Work"
+title: "Unit 1: How to Use This Toolbox"
 unit: 1
 ---
 
-# Unit 1: How OML Meets Work
+# Unit 1: How to Use This Toolbox
 
-The **Oʻahu Mathematics League (OML)** runs seven meets a season for high schools across the island. Saint Louis competes alongside ʻIolani, Punahou, Kalani, Moanalua, Mililani, and more. This unit covers how a meet runs, how scoring works, and how to use the rest of this section.
+This section is a **toolbox**, not a textbook. It's a checklist of the facts, formulas, and tricks that come up again and again in competition math. Use it to find gaps in what you know, then go practice.
 
-> [!tip] Where everything lives
-> - Official schedule, past tests, and answer keys: [oahumath.org/meets](https://www.oahumath.org/meets)
-> - Practice every past problem here: **[OML Practice — Question Bank](/math-team/practice)**
-> - Formulas and tricks by subject: Units 4–11 of this section
+The layout follows the classic *MATHCOUNTS Toolbox* reference sheet, rewritten and expanded for high school competitions.
 
-## The 2026–27 Season
+> [!tip] What the tags mean
+> - **⭐ Core**: shows up constantly. If you can use every ⭐ item without thinking, you're in good shape for any contest.
+> - **🚀 Advanced**: rarer, or only useful in specific situations. Skip these the first time through and come back later.
 
-| Meet | Date | Host |
-|---|---|---|
-| 1 | Sep 26, 2026 | ʻIolani |
-| 2 | Oct 24, 2026 | Hawaiʻi Baptist |
-| 3 | Nov 21, 2026 | Moanalua |
-| 4 | Jan 16, 2027 | Mid-Pacific |
-| 5 | Feb 13, 2027 | Roosevelt |
-| 6 | Mar 6, 2027 | HPU-Aloha Tower |
-| 7 | Apr 17, 2027 | Kalāheo |
+## What's in the Toolbox
 
-## Events at Every Meet
-
-Each meet has **six individual events plus a Team Event**. Every event covers one narrow topic.
-
-| Meet | Event 1 (Alg II) | Event 2 (Geometry) | Event 3 (Alg I) | Event 4 | Event 5 | Event 6 (Alg II) |
-|---|---|---|---|---|---|---|
-| 1 | Quadratic Equations & Functions | Angles in a Plane | Numbers | Trig: Identities | Alg I: Sets | Fractional Expressions & Equations |
-| 2 | Ratios, Proportions & Variations | Similar Triangles | Linear Equations in One Variable | Trig: Equations & Graphs | Geometry: Logic | Absolute Values & Inequalities |
-| 3 | Exponents & Radicals | Right Triangles | Age, Motion & Number Problems | Trig: Inverse Functions incl. Triangles | Alg I: Operations with Polynomials | Relations & Functions |
-| 4 | Exponents & Logarithms | Convex Polygons | Factoring Expressions & Equations | Trig: Polar & DeMoivre (even-odd yrs) / Calculus: Limits & Derivatives (odd-even yrs) | Alg I: Linear Inequalities | Complex Numbers |
-| 5 | Polynomial Equations | Circles: Arcs, Chords, Secants & Tangents | Systems of Linear Equations | Analytic Geometry: Lines & Circles | Alg I: Decimals & Percents | Matrices & Determinants |
-| 6 | Permutations & Combinations | Plane Coordinate Geometry | Fractions & Mixed Expressions | Analytic Geometry: Conics | Geometry: Arc Lengths & Circular Regions | Arithmetic & Geometric Sequences & Series |
-| 7 | Probability | Surface Areas & Volumes | Radical Operations | Calculus: Integrals (even-odd yrs) / Analytic Geometry: Vectors (odd-even yrs) | Alg I: Statistics | Rational Functions |
-
-> [!note] Even-odd vs. odd-even years
-> 2026–27 is an **even-odd** season, so Meet 4 Event 4 is *Polar Coordinates & DeMoivre's Theorem* and Meet 7 Event 4 is *Calculus: Integrals*. In 2027–28 they switch to *Limits & Derivatives* and *Vectors*.
-
-## Scoring: A, B, and C Problems
-
-Every individual event is a short test with exactly **three problems**:
-
-| Problem | Points | What it usually is |
-|---|---|---|
-| **A** | 2 | A direct application of one formula or definition. Should be automatic. |
-| **B** | 3 | Two steps, or one formula used in a less obvious way. |
-| **C** | 5 | Multi-step, often combining ideas, extraneous solutions, or a "find all" twist. |
-
-A perfect event is **10 points**. The practice bank uses the same labels, so you can drill a single level, for example only the C problems from Meet 4.
-
-> [!warning] Partial answers earn zero
-> OML grades only the final answer on the answer line. A correct method with a wrong or unsimplified final answer scores **nothing**. When a problem asks for "all solutions," missing one is wrong.
-
-## Forms of Answers
-
-OML publishes *Guidelines for Forms of Answers*. The main rules:
-
-- **Simplify completely:** reduce fractions, rationalize denominators, and simplify radicals ($\sqrt{12}\to 2\sqrt{3}$).
-- **Exact over decimal** unless the problem asks for a decimal or a rounding place.
-- **Use the requested form:** "$a+bi$ form", "$r\operatorname{cis}\theta$ with $0\le\theta<2\pi$", "set notation", "$Ax^2+Bxy+\dots=0$ with relatively prime integers".
-- **Inequalities:** many papers say *only the verbal connectives "and"/"or" may be used*. Write $x\le -2$ or $x>2$, not set-builder or interval notation, unless asked.
-- **Units:** if the answer blank already shows "cm" or "square feet", give only the number.
-
-> [!tip] How the practice checker handles form
-> The practice page compares your LaTeX answer with the official one. If your value is right but the form differs (say $\frac{6}{4}$ instead of $\frac{3}{2}$), it shows **"Correct value — check the form"**. Treat that as a lost point at a real meet.
-
-## Meet-Day Habits That Win Points
-
-1. **Read the answer blank first.** It tells you the form ($x=$, set braces, units, ordered pair).
-2. **Do A in under a minute** and bank the time for C.
-3. **Check every solution** in log, radical, and rational equations. Extraneous roots are OML's favorite trap.
-4. **Box the final form** on scratch paper before copying it. Copying errors are the most common way to lose a solved problem.
-5. **Write legibly.** Graders are students from other schools.
-
-## Using This Section
-
-| You want to… | Go to |
+| Unit | Covers |
 |---|---|
-| Learn the formulas for an event | The matching **Toolbox** unit (4–11) |
-| Drill a specific meet, event, or level | **OML Practice** with filters |
-| Mix everything | **OML Practice** with no filters selected |
-| Redo the ones you missed | OML Practice → *Show: Ones I missed* |
-| Type answers faster | **Unit 2: LaTeX for Math Team Answers** |
+| 4. Numbers & Algebra | number types, sequences, statistics, rates, percents, factoring, quadratics, Vieta, exponents, logs, radicals, functions |
+| 5. Geometry | angles, polygons, area formulas, triangles and their centers, similar and right triangles, circles, power of a point, 3D solids, coordinate tricks |
+| 6. Combinatorics & Probability | counting principles, permutations, combinations, casework, complementary counting, stars and bars, PIE, probability, expected value |
+| 7. Number Theory | primes, divisors, GCD/LCM, divisibility rules, bases, modular arithmetic, CRT, Fermat |
+| 8. Beyond the Basics | trig identities and equations, complex numbers and DeMoivre, matrices, conics, vectors, limits, derivatives, integrals |
+| 9. Tips & Speed Tricks | test-taking strategy, mental math, countdown-round tricks |
+
+## Common Competitions
+
+| Contest | Level | Format |
+|---|---|---|
+| **MATHCOUNTS** | grades 6–8 | Sprint (30 problems, no calculator), Target (pairs of problems), Team, Countdown |
+| **AMC 8 / 10 / 12** | middle / high school | 25 multiple choice in 40 min (75 min for AMC 10/12) |
+| **AIME** | qualifiers from AMC 10/12 | 15 problems, integer answers 000–999 |
+| **OML** (Oʻahu Mathematics League) | Hawaiʻi high schools | 7 meets a year; 6 topic events plus a Team event |
+| **ARML / HMMT / PUMaC** | high school teams | individual, team, and relay rounds |
+
+## OML Meets (Practice Bank)
+
+The practice bank in Unit 3 has every typed OML test since 2011. Each OML event is a short test with three problems:
+
+| Problem | Points | Typically |
+|---|---|---|
+| **A** | 2 | one formula or definition |
+| **B** | 3 | two steps, or a formula used in a less obvious way |
+| **C** | 5 | multi-step, extraneous roots, or "find all" |
+
+### OML events by meet
+
+| Meet | Events |
+|---|---|
+| 1 (Sep) | Quadratics · Angles · Numbers · Trig Identities · Sets · Fractional Equations |
+| 2 (Oct) | Ratios & Variation · Similar Triangles · Linear Equations · Trig Equations & Graphs · Logic · Absolute Value & Inequalities |
+| 3 (Nov) | Exponents & Radicals · Right Triangles · Age/Motion/Number · Inverse Trig · Polynomial Operations · Relations & Functions |
+| 4 (Jan) | Exponents & Logs · Convex Polygons · Factoring · Polar & DeMoivre *or* Limits & Derivatives · Linear Inequalities · Complex Numbers |
+| 5 (Feb) | Polynomial Equations · Circles · Systems of Equations · Lines & Circles · Decimals & Percents · Matrices & Determinants |
+| 6 (Mar) | Permutations & Combinations · Coordinate Geometry · Fractions · Conics · Arc Length & Circular Regions · Sequences & Series |
+| 7 (Apr) | Probability · Surface Area & Volume · Radicals · Integrals *or* Vectors · Statistics · Rational Functions |
+
+The 2026–27 meets are Sep 26, Oct 24, Nov 21, Jan 16, Feb 13, Mar 6, and Apr 17. See [oahumath.org/meets](https://www.oahumath.org/meets) for locations, past tests, and answer keys.
+
+## Answer-Form Rules (Every Contest)
+
+- **Simplify completely.** Reduce fractions, rationalize denominators, and simplify radicals ($\sqrt{12}\to2\sqrt3$).
+- **Exact values**, unless the problem asks for a decimal or a rounding place.
+- **Use the requested form**, such as "$a+bi$", "slope-intercept form", or "relatively prime integer coefficients".
+- **Only the final answer is graded.** A right method with a wrong or unsimplified answer earns nothing, and missing one solution in a "find all" problem is wrong.
+
+> [!note] How the practice checker handles form
+> In the practice bank, a right value in the wrong form shows **"Correct value — check the form."** At a real contest, that usually costs the point.
+
+## How to Study with This
+
+1. Read a toolbox unit once and mark anything you couldn't use right away.
+2. Drill that topic in the **practice bank**. Filter by subject or event, and start with A problems.
+3. Move to B and C problems once A's are automatic.
+4. Use **"Ones I missed"** every week until that list is empty.
+5. Before a contest, reread the ⭐ items for its topics.

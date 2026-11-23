@@ -1,0 +1,338 @@
+[
+ {
+  "id": "m6e2-2026-03-A",
+  "event": "m6e2",
+  "date": "Mar 2026",
+  "level": "A",
+  "q": "The point $P(2n-1,\\ n+3)$ is the midpoint of $\\overline{AB}$, where point $A$ has coordinates $(1,7)$. Find the coordinates of point $B$ in terms of $n$.",
+  "a": "(4n-3, 2n-1)"
+ },
+ {
+  "id": "m6e2-2026-03-B",
+  "event": "m6e2",
+  "date": "Mar 2026",
+  "level": "B",
+  "q": "Isosceles trapezoid $ABCD$ has vertices at $A(2,-3)$, $B(-10,2)$, $C(3,15)$, and $D(8,3)$. Find the sum of the lengths of the diagonals of $ABCD$.",
+  "a": "10\\sqrt{13}"
+ },
+ {
+  "id": "m6e2-2026-03-C",
+  "event": "m6e2",
+  "date": "Mar 2026",
+  "level": "C",
+  "q": "Point $Q$ lies on the $x$-axis. The segment joining $Q$ to the point $C(3,7)$ is perpendicular to the segment joining $Q$ to the point $D(-5,-1)$. Find all possible values of the $x$-coordinate of point $Q$.",
+  "a": "-1\\pm\\sqrt{23}"
+ },
+ {
+  "id": "m6e2-2025-03-A",
+  "event": "m6e2",
+  "date": "Mar 2025",
+  "level": "A",
+  "q": "The lines $Ax+5y-9=0$ and $2x+By+7=0$ are parallel. Find the value of the product $AB$.",
+  "a": "10"
+ },
+ {
+  "id": "m6e2-2025-03-B",
+  "event": "m6e2",
+  "date": "Mar 2025",
+  "level": "B",
+  "q": "Parallelogram $QUAD$ has vertices at $Q(-2,4)$, $U(6,4)$, $A(3,0)$, and $D(-5,0)$. The diagonals of $QUAD$ intersect at $S$. Find the coordinates of $S$.",
+  "a": "\\left(\\frac{1}{2}, 2\\right)"
+ },
+ {
+  "id": "m6e2-2025-03-C",
+  "event": "m6e2",
+  "date": "Mar 2025",
+  "level": "C",
+  "q": "The lines $4x-2y-8=0$ and $2x+3y-7=0$ intersect at point $P$. Find an equation of the line that has $y$-intercept $3$ and passes through $P$. Write your answer in the form $Ax+By+C=0$, where $A$, $B$, and $C$ are non-zero, relatively prime integers.",
+  "a": "18x+19y-57=0"
+ },
+ {
+  "id": "m6e2-2024-03-A",
+  "event": "m6e2",
+  "date": "Mar 2024",
+  "level": "A",
+  "q": "Find the perimeter of the triangle with vertices $(2,1)$, $(-1,-3)$, and $(11,-8)$.",
+  "a": "18+9\\sqrt{2}"
+ },
+ {
+  "id": "m6e2-2024-03-B",
+  "event": "m6e2",
+  "date": "Mar 2024",
+  "level": "B",
+  "q": "The coordinates of $A$, $B$, and $C$ are $(2p,7)$, $(14,p)$, and $(-5,1)$, respectively. Find the value of $p$ such that $\\triangle ABC$ is a right triangle with hypotenuse $\\overline{AC}$.",
+  "a": "39"
+ },
+ {
+  "id": "m6e2-2024-03-C",
+  "event": "m6e2",
+  "date": "Mar 2024",
+  "level": "C",
+  "q": "$\\triangle PQR$ has vertices $P(2,3)$, $Q(3,6)$, and $R(5,2)$. $S$ is on $\\overleftrightarrow{QR}$ and has coordinates $S\\left(\\frac{7}{2},y\\right)$. Write the equation of $\\overleftrightarrow{PS}$ in the form $Ax+By=C$, where $A$, $B$, and $C$ are relatively prime integers.",
+  "a": "4x-3y=-1"
+ },
+ {
+  "id": "m6e2-2023-03-A",
+  "event": "m6e2",
+  "date": "Mar 2023",
+  "level": "A",
+  "q": "$A(-1,1)$, $B(3,-5)$, and $C(-3,-7)$ are three vertices of parallelogram $ABCD$. $D$ is in the third quadrant. What are the coordinates of $D$?",
+  "a": "(-7, -1)"
+ },
+ {
+  "id": "m6e2-2023-03-B",
+  "event": "m6e2",
+  "date": "Mar 2023",
+  "level": "B",
+  "q": "Line $kx+(k+1)y=10$ is parallel to line $(k-1)x+(k+2)y=12$. Find $k$.",
+  "a": "-\\frac{1}{2}"
+ },
+ {
+  "id": "m6e2-2023-03-C",
+  "event": "m6e2",
+  "date": "Mar 2023",
+  "level": "C",
+  "q": "A line $\\ell$ with positive $x$-intercept and positive $y$-intercept passes through $(5,2)$ and forms a triangle with the coordinate axes. The triangle has area $36$. Find the equation of each possible line $\\ell$. Write your answer in the form $Ax+By=C$.",
+  "a": "2x+y=12, 2x+25y=60"
+ },
+ {
+  "id": "m6e2-2022-03-A",
+  "event": "m6e2",
+  "date": "Mar 2022",
+  "level": "A",
+  "q": "Line $p$ contains points $(-3,-6)$ and $(-1,2)$. Line $r$ is parallel to line $p$ and contains the points $(6,1)$ and $(2m+3,5)$. Find the value of $m$.",
+  "a": "2"
+ },
+ {
+  "id": "m6e2-2022-03-B",
+  "event": "m6e2",
+  "date": "Mar 2022",
+  "level": "B",
+  "q": "Find the point on the line $2y-3x=-2$ that is equidistant from $(0,0)$ and $(2,4)$.",
+  "a": "\\left(\\frac{7}{4}, \\frac{13}{8}\\right)"
+ },
+ {
+  "id": "m6e2-2022-03-C",
+  "event": "m6e2",
+  "date": "Mar 2022",
+  "level": "C",
+  "q": "When $P(2,4)$ is reflected over the line $2x-4y=-1$ its image is $P'$. Find the coordinates of $P'$.",
+  "a": "\\left(\\frac{21}{5}, -\\frac{2}{5}\\right)"
+ },
+ {
+  "id": "m6e2-2021-03-A",
+  "event": "m6e2",
+  "date": "Mar 2021",
+  "level": "A",
+  "q": "Lines with equations $-5x+ky=-7$ and $3x+12y=10$ are parallel. Find the value of $k$.",
+  "a": "-20"
+ },
+ {
+  "id": "m6e2-2021-03-B",
+  "event": "m6e2",
+  "date": "Mar 2021",
+  "level": "B",
+  "q": "If parallelogram $TUNA$ has vertices $T(-17,-23)$, $U(15,-9)$, and $N(-5,13)$ find the equation of $\\overleftrightarrow{UA}$. Express your answer in the form $Ax+By+C=0$ where $A$, $B$, and $C$ are non-zero relatively prime integers.",
+  "a": "2x+13y+87=0"
+ },
+ {
+  "id": "m6e2-2021-03-C",
+  "event": "m6e2",
+  "date": "Mar 2021",
+  "level": "C",
+  "q": "Find the point on the line $y=\\dfrac{1}{3}x-7$ that is equidistant from $(6,5)$ and $(-2,1)$.",
+  "a": "(6, -5)"
+ },
+ {
+  "id": "m6e2-2020-04-A",
+  "event": "m6e2",
+  "date": "Apr 2020",
+  "level": "A",
+  "q": "A parallelogram has vertices $(-4,3)$, $(-2,-3)$, $(0,3)$, and $(2,-3)$. Write the equation of the line that contains the longer diagonal of the parallelogram. Write your answer in slope-intercept form.",
+  "a": "y=-x-1"
+ },
+ {
+  "id": "m6e2-2020-04-B",
+  "event": "m6e2",
+  "date": "Apr 2020",
+  "level": "B",
+  "q": "A triangle has vertices $(-3,-1)$, $(6,-1)$ and $(3,5)$. Find the coordinates of the centroid, the point where the medians of the triangle intersect.",
+  "a": "(2, 1)"
+ },
+ {
+  "id": "m6e2-2020-04-C",
+  "event": "m6e2",
+  "date": "Apr 2020",
+  "level": "C",
+  "q": "Given: $A(-2,1)$ and $B(6,7)$. $\\overline{AB}$ and $\\overline{CD}$ bisect each other at $E$, $\\overline{AB}\\perp\\overline{CD}$, $AB=2CD$. Find the coordinates of $C$ and $D$.",
+  "a": "\\left(\\frac{1}{2}, 6\\right), \\left(\\frac{7}{2}, 2\\right)"
+ },
+ {
+  "id": "m6e2-2019-03-A",
+  "event": "m6e2",
+  "date": "Mar 2019",
+  "level": "A",
+  "q": "The lines $3x+4y=5$ and $8x+ky=10$ are perpendicular. Find the value of $k$.",
+  "a": "-6"
+ },
+ {
+  "id": "m6e2-2019-03-B",
+  "event": "m6e2",
+  "date": "Mar 2019",
+  "level": "B",
+  "q": "Find the coordinates of the centroid of the triangle with vertices at $A(-3,8)$, $B(7,2)$, and $C(-1,6)$.",
+  "a": "\\left(1, \\frac{16}{3}\\right)"
+ },
+ {
+  "id": "m6e2-2019-03-C",
+  "event": "m6e2",
+  "date": "Mar 2019",
+  "level": "C",
+  "q": "Find the coordinates of the point equidistant from $(2,-2)$, $(11,1)$, and $(4,2)$.",
+  "a": "(7, -2)"
+ },
+ {
+  "id": "m6e2-2018-03-A",
+  "event": "m6e2",
+  "date": "Mar 2018",
+  "level": "A",
+  "q": "The line joining $(-1,k)$ and $(5,-3)$ has slope $\\dfrac{4}{3}$. Find $k$.",
+  "a": "-11"
+ },
+ {
+  "id": "m6e2-2018-03-B",
+  "event": "m6e2",
+  "date": "Mar 2018",
+  "level": "B",
+  "q": "$(-2,1)$, $(0,7)$ and $(4,-1)$ are the vertices of $\\triangle ABC$. $D$, $E$ and $F$ are the midpoints of $\\overline{AB}$, $\\overline{BC}$ and $\\overline{AC}$, respectively. Find the perimeter of $\\triangle DEF$.",
+  "a": "2\\sqrt{10}+2\\sqrt{5}"
+ },
+ {
+  "id": "m6e2-2018-03-C",
+  "event": "m6e2",
+  "date": "Mar 2018",
+  "level": "C",
+  "q": "$(3,-2)$ and $(2,-1)$ are the endpoints of the base of an isosceles triangle. One leg of this triangle lies on the line $x-2y=4$. Find the coordinates of the third vertex of this triangle.",
+  "a": "(4, 0)"
+ },
+ {
+  "id": "m6e2-2017-03-A",
+  "event": "m6e2",
+  "date": "Mar 2017",
+  "level": "A",
+  "q": "A parallelogram has vertices at $(-1,3)$, $(-2,-3)$, $(-5,-6)$, and $(-4,0)$. What are the coordinates of the intersection of the diagonals of the parallelogram?",
+  "a": "\\left(-3, -\\frac{3}{2}\\right)"
+ },
+ {
+  "id": "m6e2-2017-03-B",
+  "event": "m6e2",
+  "date": "Mar 2017",
+  "level": "B",
+  "q": "Given: $A(1,-10)$, $B(-5,-2)$, $C$ is in Quadrant IV. $\\overleftrightarrow{CD}$ is the perpendicular bisector of $\\overline{AB}$, $D$ lies on $\\overline{AB}$, $CD=\\dfrac{1}{2}AB$. Find the coordinates of $C$.",
+  "a": "(2, -3)"
+ },
+ {
+  "id": "m6e2-2017-03-C",
+  "event": "m6e2",
+  "date": "Mar 2017",
+  "level": "C",
+  "q": "$Q$ is the image of $P(-4,5)$ when $P$ is reflected over the line $2x-y+6=0$. Find the coordinates of $Q$.",
+  "a": "\\left(\\frac{8}{5}, \\frac{11}{5}\\right)"
+ },
+ {
+  "id": "m6e2-2016-03-A",
+  "event": "m6e2",
+  "date": "Mar 2016",
+  "level": "A",
+  "q": "Triangle $ABC$ has vertices $A(-3,-11)$, $B(7,8)$, $C(1,18)$. Find the length of the median from $A$.",
+  "a": "25"
+ },
+ {
+  "id": "m6e2-2016-03-B",
+  "event": "m6e2",
+  "date": "Mar 2016",
+  "level": "B",
+  "q": "Given points $A(-2,-1)$ and $B(4,2)$. Find the coordinates of the point(s) on $\\overleftrightarrow{AB}$ that are twice as far from $A$ as from $B$.",
+  "a": "(2, 1), (10, 5)"
+ },
+ {
+  "id": "m6e2-2016-03-C",
+  "event": "m6e2",
+  "date": "Mar 2016",
+  "level": "C",
+  "q": "Given points $A(-3,-4)$, $B(5,-1)$, and $C(2,3)$. Find the coordinates of all possible points $P$ so that $A$, $B$, $C$, and $P$ are the vertices of a parallelogram.",
+  "a": "(-6, 0), (0, -8), (10, 6)"
+ },
+ {
+  "id": "m6e2-2015-03-A",
+  "event": "m6e2",
+  "date": "Mar 2015",
+  "level": "A",
+  "q": "Find the perimeter of the triangle with vertices $(2,2)$, $(6,-1)$ and $(2,-4)$.",
+  "a": "16"
+ },
+ {
+  "id": "m6e2-2015-03-B",
+  "event": "m6e2",
+  "date": "Mar 2015",
+  "level": "B",
+  "q": "Points $X(-1,-2)$, $Y(5,-2)$, and $Z(5,6)$ are the vertices of a triangle. Determine the equation of the line which contains the median from $Y$. Write your answer in the form $y=mx+b$.",
+  "a": "y=-\\frac{4}{3}x+\\frac{14}{3}"
+ },
+ {
+  "id": "m6e2-2015-03-C",
+  "event": "m6e2",
+  "date": "Mar 2015",
+  "level": "C",
+  "q": "$(3,4)$ is contained in the function $f(x)=ax$. $g(x)=-\\dfrac{1}{a}x+k$. Find the point of intersection of the graphs of $f$ and $g$ in terms of $k$.",
+  "a": "\\left(\\frac{12}{25}k, \\frac{16}{25}k\\right)"
+ },
+ {
+  "id": "m6e2-2014-03-A",
+  "event": "m6e2",
+  "date": "Mar 2014",
+  "level": "A",
+  "q": "$\\triangle ABC$ has vertices $A(-2,5)$, $B(-5,2)$, $C(9,-1)$. Find the slope of the median from $A$.",
+  "a": "-\\frac{9}{8}"
+ },
+ {
+  "id": "m6e2-2014-03-B",
+  "event": "m6e2",
+  "date": "Mar 2014",
+  "level": "B",
+  "q": "$A$ is the point of intersection of the diagonals of rhombus $WXYZ$, with $W(-3,-3)$, $X(-1,1)$, $Y(3,3)$ and $Z(1,-1)$, and $B$ is a vertex of square $BCDE$ with $C(9,9)$, $D(2,6)$ and $E(5,-1)$. Find the slope of the line perpendicular to $\\overline{AB}$.",
+  "a": "-6"
+ },
+ {
+  "id": "m6e2-2014-03-C",
+  "event": "m6e2",
+  "date": "Mar 2014",
+  "level": "C",
+  "q": "The point $(3,-1)$ is reflected over the line $2x-y+5=0$. Find the coordinates of the reflection image.",
+  "a": "\\left(-\\frac{33}{5}, \\frac{19}{5}\\right)"
+ },
+ {
+  "id": "m6e2-2013-03-A",
+  "event": "m6e2",
+  "date": "Mar 2013",
+  "level": "A",
+  "q": "The points $(3,-1)$, $(-2,4)$, and $(4,2k+1)$ are collinear. Find $k$.",
+  "a": "-\\frac{3}{2}"
+ },
+ {
+  "id": "m6e2-2013-03-B",
+  "event": "m6e2",
+  "date": "Mar 2013",
+  "level": "B",
+  "q": "Line $m$ contains the points $(2,-2)$ and $(-4,3)$. Line $p$ contains the point $(-4,-3)$ and is perpendicular to line $m$. Write the equation of line $p$ in the form $y=mx+b$.",
+  "a": "y=\\frac{6}{5}x+\\frac{9}{5}"
+ },
+ {
+  "id": "m6e2-2013-03-C",
+  "event": "m6e2",
+  "date": "Mar 2013",
+  "level": "C",
+  "q": "The coordinates of $J$, $K$, and $L$ are $(-n,5)$, $(-5,n)$, and $(-4,2)$ respectively. Find the value of $n$ such that $\\angle JKL$ is a right angle.",
+  "a": "3"
+ }
+]

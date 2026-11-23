@@ -1,0 +1,338 @@
+[
+ {
+  "id": "m6e4-2026-03-A",
+  "event": "m6e4",
+  "date": "Mar 2026",
+  "level": "A",
+  "q": "Find the distance between the foci of the conic section with equation $\\dfrac{x^2}{4}-\\dfrac{y^2}{81}=1$.",
+  "a": "2\\sqrt{85}"
+ },
+ {
+  "id": "m6e4-2026-03-B",
+  "event": "m6e4",
+  "date": "Mar 2026",
+  "level": "B",
+  "q": "The center of the hyperbola $\\dfrac{(y-4)^2}{36}-\\dfrac{(x+1)^2}{25}=1$ is also the focus of a parabola. The lower vertex of the hyperbola is also the vertex of the parabola. Write the equation of the parabola in OML General Form.",
+  "a": "x^2+2x-24y-47=0"
+ },
+ {
+  "id": "m6e4-2026-03-C",
+  "event": "m6e4",
+  "date": "Mar 2026",
+  "level": "C",
+  "q": "An ellipse has its center at the origin. The two foci of the ellipse and the endpoints of the minor axis of the ellipse are also the four vertices of a square with area $24$. Find the equation of each possible ellipse and write the equations in OML Standard Form.",
+  "a": "\\frac{x^2}{24}+\\frac{y^2}{12}=1, \\frac{x^2}{12}+\\frac{y^2}{24}=1"
+ },
+ {
+  "id": "m6e4-2025-03-A",
+  "event": "m6e4",
+  "date": "Mar 2025",
+  "level": "A",
+  "q": "Find the center of the conic section: $2x^2-3y^2+8x+30y-85=0$.",
+  "a": "(-2, 5)"
+ },
+ {
+  "id": "m6e4-2025-03-B",
+  "event": "m6e4",
+  "date": "Mar 2025",
+  "level": "B",
+  "q": "A circle has a diameter that coincides with the major axis of the conic with equation $4(x-1)^2+5(y+7)^2=20$. Find the equation of the circle and write your answer in OML General Form.",
+  "a": "x^2+y^2-2x+14y+45=0"
+ },
+ {
+  "id": "m6e4-2025-03-C",
+  "event": "m6e4",
+  "date": "Mar 2025",
+  "level": "C",
+  "q": "A hyperbola has foci $(0,5)$ and $(0,-5)$ and contains the point $\\left(\\dfrac94,5\\right)$. Find the equation of the hyperbola and write your answer in OML Standard Form.",
+  "a": "\\frac{y^2}{16}-\\frac{x^2}{9}=1"
+ },
+ {
+  "id": "m6e4-2024-03-A",
+  "event": "m6e4",
+  "date": "Mar 2024",
+  "level": "A",
+  "q": "Find the equation of the parabola with focus $(-1,1)$ and directrix $x=-7$. Write your answer in OML General Form.",
+  "a": "y^2-12x-2y-47=0"
+ },
+ {
+  "id": "m6e4-2024-03-B",
+  "event": "m6e4",
+  "date": "Mar 2024",
+  "level": "B",
+  "q": "Find the coordinates of the foci of the ellipse $7x^2+9y^2-18y-306=0$.",
+  "a": "(\\sqrt{10}, 1), (-\\sqrt{10}, 1)"
+ },
+ {
+  "id": "m6e4-2024-03-C",
+  "event": "m6e4",
+  "date": "Mar 2024",
+  "level": "C",
+  "q": "Find the equation of the hyperbola with vertices $(-3,4)$ and $(3,4)$, domain $(-\\infty,-3]\\cup[3,\\infty)$ and eccentricity $\\sqrt2$. Write your answer in OML Standard Form.",
+  "a": "\\frac{x^2}{9}-\\frac{(y-4)^2}{9}=1"
+ },
+ {
+  "id": "m6e4-2023-03-A",
+  "event": "m6e4",
+  "date": "Mar 2023",
+  "level": "A",
+  "q": "A parabola has equation $x^2-4x-5y+19=0$. Find the coordinates of its focus.",
+  "a": "\\left(2, \\frac{17}{4}\\right)"
+ },
+ {
+  "id": "m6e4-2023-03-B",
+  "event": "m6e4",
+  "date": "Mar 2023",
+  "level": "B",
+  "q": "An ellipse given by $\\dfrac{x^2}{36}+\\dfrac{y^2}{20}=1$ and a hyperbola share the same foci. If the eccentricity of the hyperbola is three times the eccentricity of the ellipse, write the equation of the hyperbola in OML Standard Form for Conics.",
+  "a": "\\frac{x^2}{4}-\\frac{y^2}{12}=1"
+ },
+ {
+  "id": "m6e4-2023-03-C",
+  "event": "m6e4",
+  "date": "Mar 2023",
+  "level": "C",
+  "q": "An ellipse intersects a parabola given by $y=\\dfrac{1}{12}x^2$ at the parabola's vertex and two other points. If the foci of the ellipse are the endpoints of the parabola's latus rectum, what is the equation of the ellipse? Write your answer in OML Standard Form for Conics.",
+  "a": "\\frac{x^2}{45}+\\frac{(y-3)^2}{9}=1"
+ },
+ {
+  "id": "m6e4-2022-03-A",
+  "event": "m6e4",
+  "date": "Mar 2022",
+  "level": "A",
+  "q": "Find the equation of a hyperbola with center at $(4,-2)$, a vertex at $(7,-2)$, and asymptotes $y+2=\\pm\\dfrac23(x-4)$. Write your answer in OML Standard Form for Conics.",
+  "a": "\\frac{(x-4)^2}{9}-\\frac{(y+2)^2}{4}=1"
+ },
+ {
+  "id": "m6e4-2022-03-B",
+  "event": "m6e4",
+  "date": "Mar 2022",
+  "level": "B",
+  "q": "Find the equation of a parabola with focus at $(1,-4)$ and directrix $x=-5$. Write your answer in OML General Form for Conics.",
+  "a": "y^2-12x+8y-8=0"
+ },
+ {
+  "id": "m6e4-2022-03-C",
+  "event": "m6e4",
+  "date": "Mar 2022",
+  "level": "C",
+  "q": "A rectangle is inscribed in an ellipse with equation $9x^2-36x+16y^2+96y+36=0$. If the length of the longer side of the rectangle is $6$, find the area of the rectangle.",
+  "a": "9\\sqrt{7}"
+ },
+ {
+  "id": "m6e4-2021-03-A",
+  "event": "m6e4",
+  "date": "Mar 2021",
+  "level": "A",
+  "q": "A parabola has its focus at $(-2,-3)$ and directrix $y=8$. Write the equation of this parabola in OML Standard Form.",
+  "a": "(x+2)^2=-22\\left(y-\\frac{5}{2}\\right)"
+ },
+ {
+  "id": "m6e4-2021-03-B",
+  "event": "m6e4",
+  "date": "Mar 2021",
+  "level": "B",
+  "q": "The ellipses with equations $4x^2+9y^2-144=0$ and $\\dfrac{x^2}{k}+\\dfrac{y^2}{64}=1$ have the same eccentricity. Find all possible values of $k$.",
+  "a": "144, \\frac{256}{9}"
+ },
+ {
+  "id": "m6e4-2021-03-C",
+  "event": "m6e4",
+  "date": "Mar 2021",
+  "level": "C",
+  "q": "The asymptotes of a hyperbola intersect at $(-6,4)$ and have angles of inclination $60^\\circ$ and $120^\\circ$. If this hyperbola has one focus at $(-6,-2)$, find its equation. Express your answer in OML Standard Form.",
+  "a": "\\frac{(y-4)^2}{27}-\\frac{(x+6)^2}{9}=1"
+ },
+ {
+  "id": "m6e4-2020-04-A",
+  "event": "m6e4",
+  "date": "Apr 2020",
+  "level": "A",
+  "q": "Find the center of the conic section given by $3x^2-2y^2+18x+20y-41=0$.",
+  "a": "(-3, 5)"
+ },
+ {
+  "id": "m6e4-2020-04-B",
+  "event": "m6e4",
+  "date": "Apr 2020",
+  "level": "B",
+  "q": "A parabola has equation $3x^2+12x-2y+22=0$. Find the coordinates of its focus.",
+  "a": "\\left(-2, \\frac{31}{6}\\right)"
+ },
+ {
+  "id": "m6e4-2020-04-C",
+  "event": "m6e4",
+  "date": "Apr 2020",
+  "level": "C",
+  "q": "The equation of a hyperbola is $\\dfrac{x^2}{7}-\\dfrac{y^2}{9}=1$. An ellipse with semi-major axis of length $5$ shares foci with the hyperbola. Find the equation of the ellipse. Write your answer in OML Standard Form.",
+  "a": "\\frac{x^2}{25}+\\frac{y^2}{9}=1"
+ },
+ {
+  "id": "m6e4-2019-03-A",
+  "event": "m6e4",
+  "date": "Mar 2019",
+  "level": "A",
+  "q": "Find the equation of the parabola whose vertex is $(8,9)$ and focus is $\\left(8,\\dfrac{33}{4}\\right)$. Write your answer in OML General Form for Conics.",
+  "a": "x^2-16x+3y+37=0"
+ },
+ {
+  "id": "m6e4-2019-03-B",
+  "event": "m6e4",
+  "date": "Mar 2019",
+  "level": "B",
+  "q": "An ellipse has equation $4x^2+y^2-16x-4y+4=0$. $Q$ and $C$ are the endpoints of the major axis. $T$ and $M$ are the endpoints of the minor axis. Find the perimeter of quadrilateral $QTCM$.",
+  "a": "8\\sqrt{5}"
+ },
+ {
+  "id": "m6e4-2019-03-C",
+  "event": "m6e4",
+  "date": "Mar 2019",
+  "level": "C",
+  "q": "The two asymptotes of $\\dfrac{(y-3)^2}{289}-\\dfrac{(x+1)^2}{64}=1$ and the directrix of $24(x-4)=(y+7)^2$ form a triangle. Find the area of the triangle.",
+  "a": "\\frac{17}{8}"
+ },
+ {
+  "id": "m6e4-2018-03-A",
+  "event": "m6e4",
+  "date": "Mar 2018",
+  "level": "A",
+  "q": "A parabola has focus located at $(3,2)$ and directrix $x=-1$. Find the equation of the parabola. Write your answer in OML General Form for Conics.",
+  "a": "y^2-8x-4y+12=0"
+ },
+ {
+  "id": "m6e4-2018-03-B",
+  "event": "m6e4",
+  "date": "Mar 2018",
+  "level": "B",
+  "q": "The vertices of a hyperbola are located at $(3,8)$ and $(3,0)$. The asymptotes are $y=\\dfrac43x$ and $y=-\\dfrac43x+8$. Write the equation of this hyperbola in OML Standard Form for Conics.",
+  "a": "\\frac{(y-4)^2}{16}-\\frac{(x-3)^2}{9}=1"
+ },
+ {
+  "id": "m6e4-2018-03-C",
+  "event": "m6e4",
+  "date": "Mar 2018",
+  "level": "C",
+  "q": "An ellipse centered at the origin has foci located at $(\\pm7,0)$ and passes through the point $(2,12)$. Find the equation of this ellipse. Write your answer in OML Standard Form for Conics.",
+  "a": "\\frac{x^2}{196}+\\frac{y^2}{147}=1"
+ },
+ {
+  "id": "m6e4-2017-03-A",
+  "event": "m6e4",
+  "date": "Mar 2017",
+  "level": "A",
+  "q": "Find the eccentricity of the conic $x^2-y^2-25=0$.",
+  "a": "\\sqrt{2}"
+ },
+ {
+  "id": "m6e4-2017-03-B",
+  "event": "m6e4",
+  "date": "Mar 2017",
+  "level": "B",
+  "q": "Find the equation of the parabola with focus at $(-2,5)$ and directrix $x=-8$. Express your answer in OML General Form for Conics.",
+  "a": "y^2-12x-10y-35=0"
+ },
+ {
+  "id": "m6e4-2017-03-C",
+  "event": "m6e4",
+  "date": "Mar 2017",
+  "level": "C",
+  "q": "The vertices of the ellipse $\\dfrac{(x-1)^2}{49}+\\dfrac{(y+2)^2}{64}=1$ are the foci of a hyperbola, and the foci of the ellipse are the vertices of the hyperbola. Find the equation of the hyperbola in OML Standard Form for Conics.",
+  "a": "\\frac{(y+2)^2}{15}-\\frac{(x-1)^2}{49}=1"
+ },
+ {
+  "id": "m6e4-2016-03-A",
+  "event": "m6e4",
+  "date": "Mar 2016",
+  "level": "A",
+  "q": "Find the equation of the parabola with focus $(2,5)$ and directrix $x=10$. Write your answer in OML General Form.",
+  "a": "y^2+16x-10y-71=0"
+ },
+ {
+  "id": "m6e4-2016-03-B",
+  "event": "m6e4",
+  "date": "Mar 2016",
+  "level": "B",
+  "q": "Find the equation of the hyperbola with asymptotes $y-1=\\pm\\dfrac34(x-3)$ and focus $(3,11)$. Write your answer in OML Standard Form.",
+  "a": "\\frac{(y-1)^2}{36}-\\frac{(x-3)^2}{64}=1"
+ },
+ {
+  "id": "m6e4-2016-03-C",
+  "event": "m6e4",
+  "date": "Mar 2016",
+  "level": "C",
+  "q": "Find the equation of the conic section with one focus at $(3,-2)$, corresponding directrix $y=8$, and eccentricity $\\dfrac23$. Write your answer in OML Standard Form.",
+  "a": "\\frac{(y+10)^2}{144}+\\frac{(x-3)^2}{80}=1"
+ },
+ {
+  "id": "m6e4-2015-03-A",
+  "event": "m6e4",
+  "date": "Mar 2015",
+  "level": "A",
+  "q": "A parabola has focus at $(3,2)$ and directrix $x=-1$. Write the equation of the parabola in the form $(y-k)^2=4c(x-h)$.",
+  "a": "(y-2)^2=8(x-1)"
+ },
+ {
+  "id": "m6e4-2015-03-B",
+  "event": "m6e4",
+  "date": "Mar 2015",
+  "level": "B",
+  "q": "Write the equation of the set of points for which the sum of the distances from $(-1,5)$ and $(7,5)$ is $12$. Write your answer in OML standard form.",
+  "a": "\\frac{(x-3)^2}{36}+\\frac{(y-5)^2}{20}=1"
+ },
+ {
+  "id": "m6e4-2015-03-C",
+  "event": "m6e4",
+  "date": "Mar 2015",
+  "level": "C",
+  "q": "A hyperbola has eccentricity $\\dfrac{\\sqrt{29}}{5}$, center at $(-3,-1)$ and one vertex at $(-3,4)$. Find the equations of the asymptotes and write your answer in the form $Ax+By+C=0$ where $A$, $B$, and $C$ are relatively prime integers.",
+  "a": "5x-2y+13=0, 5x+2y+17=0"
+ },
+ {
+  "id": "m6e4-2014-03-A",
+  "event": "m6e4",
+  "date": "Mar 2014",
+  "level": "A",
+  "q": "The coordinates of the endpoints of the major axis of an ellipse are $(2,7)$ and $(2,-1)$. The coordinates of the endpoints of the minor axis are $(0,3)$ and $(4,3)$. Write the equation of the ellipse in OML standard form.",
+  "a": "\\frac{(x-2)^2}{4}+\\frac{(y-3)^2}{16}=1"
+ },
+ {
+  "id": "m6e4-2014-03-B",
+  "event": "m6e4",
+  "date": "Mar 2014",
+  "level": "B",
+  "q": "The vertices of a hyperbola are at $(-4,-1)$ and $(-4,7)$ and the asymptotes are $y=-\\dfrac12x+1$ and $y=\\dfrac12x+5$. Write an equation of this hyperbola in OML standard form.",
+  "a": "\\frac{(y-3)^2}{16}-\\frac{(x+4)^2}{64}=1"
+ },
+ {
+  "id": "m6e4-2014-03-C",
+  "event": "m6e4",
+  "date": "Mar 2014",
+  "level": "C",
+  "q": "Find the eccentricity of the curve defined by the equation $3x^2-5y^2=2$.",
+  "a": "\\frac{2}{5}\\sqrt{10}"
+ },
+ {
+  "id": "m6e4-2013-03-A",
+  "event": "m6e4",
+  "date": "Mar 2013",
+  "level": "A",
+  "q": "Find the coordinates of the focus of the parabola whose equation is $6+2y=4x^2+8x$.",
+  "a": "\\left(-1, -\\frac{39}{8}\\right)"
+ },
+ {
+  "id": "m6e4-2013-03-B",
+  "event": "m6e4",
+  "date": "Mar 2013",
+  "level": "B",
+  "q": "Write the possible equations of parabolas with horizontal axes of symmetry that pass through $(1,1)$ and $(2,2)$ so that one of the points given is the vertex. Write the equations in standard form.",
+  "a": "(y-1)^2=x-1, (y-2)^2=-(x-2)"
+ },
+ {
+  "id": "m6e4-2013-03-C",
+  "event": "m6e4",
+  "date": "Mar 2013",
+  "level": "C",
+  "q": "An ellipse has equation $\\dfrac{(x+1)^2}{16}+\\dfrac{(y-2)^2}{12}=1$. If a hyperbola has vertices that are the foci of the ellipse and foci that are the vertices of the ellipse, write the equations of the asymptotes of the hyperbola in the form $y=mx+b$ where $m$ and $b$ are real numbers.",
+  "a": "y=\\sqrt{3}x+2+\\sqrt{3}, y=-\\sqrt{3}x+2-\\sqrt{3}"
+ }
+]

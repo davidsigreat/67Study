@@ -58,6 +58,7 @@ export function normalize(raw: string): string {
   s = s.replace(/\\sqrt(\w)/g, '\\sqrt{$1}');
   s = s.replace(/([\^_])(\w)/g, '$1{$2}');
   s = s.replace(/\.$/, '').replace(/\\degree$/, '\\degree');
+  s = canonicalVector(s);
   // A whole answer wrapped in set braces is compared as a list: \{1,2,3\} → 1,2,3 and \{x:x<3\} → x<3.
   const set = s.match(/^\\\{(.*)\\\}$/);
   if (set && !set[1].includes('\\{')) s = set[1].replace(/^[a-zA-Z](?::|\||\\mid)/, '');
@@ -65,6 +66,50 @@ export function normalize(raw: string): string {
   const label = s.match(/^([a-zA-Z](\([a-zA-Z]\))?|[a-zA-Z]_\w)=(.*)$/);
   if (label && !/[=<>]|\\[lg]eq|\\neq/.test(label[3])) s = label[3];
   return s;
+}
+
+/**
+ * Vectors → an ordered tuple "(a,b,c)", so ⟨3,4⟩, \langle 3,4\rangle, <3,4>, 3\vec{i}+4\vec{j},
+ * 3\hat{i}+4\hat{j} and 3i+4j all compare equal (component by component).
+ * Bare i/j/k are read as unit vectors only when j or k appears and no other letter does,
+ * so a complex number like 3+4i is left alone.
+ */
+function canonicalVector(s: string): string {
+  s = s.replace(/\\langle|⟨/g, '(').replace(/\\rangle|⟩/g, ')');
+  const angle = s.match(/^<([^<>]*,[^<>]*)>$/);
+  if (angle) s = `(${angle[1]})`;
+  if (/[=,<>]/.test(s)) return s;
+  const marked = s.replace(/\\(?:vec|hat|mathbf|boldsymbol|overrightarrow)\s*\{?\s*\\?([ijk])(?:math)?\s*\}?/g, '\u0002$1');
+  let src: string;
+  if (marked !== s) {
+    src = marked.replace(/\u0002/g, '');
+  } else {
+    const letters = s.replace(/\\[a-zA-Z]+/g, '').match(/[a-zA-Z]/g) ?? [];
+    if (!letters.some((l) => l === 'j' || l === 'k') || letters.some((l) => !'ijk'.includes(l))) return s;
+    src = s;
+  }
+  // Split into signed terms at top-level + / -.
+  const terms: string[] = [];
+  let depth = 0;
+  let cur = '';
+  for (const ch of src) {
+    if ('({['.includes(ch)) depth++;
+    else if (')}]'.includes(ch)) depth--;
+    if ((ch === '+' || ch === '-') && depth === 0 && cur.trim() !== '') {
+      terms.push(cur);
+      cur = ch === '-' ? '-' : '';
+    } else cur += ch;
+  }
+  terms.push(cur);
+  const comp: Record<string, string> = {};
+  for (const t of terms) {
+    const m = t.match(/^(.*?)\*?([ijk])$/);
+    if (!m || comp[m[2]] !== undefined) return s;
+    const coef = m[1].replace(/^\+/, '');
+    comp[m[2]] = coef === '' ? '1' : coef === '-' ? '-1' : coef;
+  }
+  const dims = comp.k !== undefined ? ['i', 'j', 'k'] : ['i', 'j'];
+  return `(${dims.map((d) => comp[d] ?? '0').join(',')})`;
 }
 
 /** Split at commas / semicolons that are not nested inside (), [], {}. */
@@ -91,7 +136,8 @@ function expandPm(s: string): string[] {
   const isMp = s.slice(i, i + 3) === '\\mp';
   const head = s.slice(0, i);
   const tail = s.slice(i + 3);
-  const clean = (x: string) => x.replace(/^\+/, '');
+  // Drop a "+" left at the start or right after a relation / opening bracket: x\ne+2 → x\ne2.
+  const clean = (x: string) => x.replace(/^\+/, '').replace(/(=|<|>|\\neq?|\\[lg]eq|\(|\[)\+/g, '$1');
   return [
     ...expandPm(clean(head + (isMp ? '-' : '+') + tail)),
     ...expandPm(clean(head + (isMp ? '+' : '-') + tail)),

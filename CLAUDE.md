@@ -181,7 +181,8 @@ Practice mode for Oʻahu Mathematics League (OML) past meet problems.
 - **Figures:** `public/oml/fig/<problemId>.png`, referenced by `& /oml/fig/...` lines.
 - **Answer checking:** `src/components/mathteam/answerCheck.ts` — LaTeX normalization, unordered lists, `\pm` expansion, relation chains (`-2\le x` ≡ `x\ge -2`), complex-number evaluator (`i`, `\operatorname{cis}`, degrees, logs, trig) with random-substitution equivalence. Verdicts: exact / equivalent (right value, check form) / wrong; users can override.
 - **UI:** `src/pages/MathTeamPracticePage.tsx` (multi-select filters: meet, subject, event, level, unsolved/missed; endless shuffled queue), `LatexInput.tsx` (toolbar + KaTeX preview), `MathText.tsx`. Attempt history in `localStorage` key `mathteam-history:{uid|guest}`.
-- **Coverage:** Meet 4 (Jan 2013 – Jan 2026 typed papers, 255 problems). Other meets show "coming soon" until their `content-src/oml/*.txt` files are added. Scanned pre-2013 papers not yet transcribed.
+- **Coverage:** all 7 meets, every event (incl. the alternating `m4e4alt` / `m7e4alt`), typed papers ~2012–2026: 1,782 individual problems. Scanned pre-2012 papers and Team events are not transcribed. Events with no source file show "coming soon".
+- **Answer formats the checker understands:** vectors (`\langle a,b\rangle`, `<a,b>`, `ai+bj`, `a\vec{i}+b\vec{j}` → ordered tuple), points/tuples, matrices, `\pm`, inequalities/relations, percent, degrees, `\text{none}`. Tables in problems are typeset as KaTeX `\begin{array}` blocks.
 
 ### Admin system
 Access controlled by Firestore `admins` collection (not by app code alone).

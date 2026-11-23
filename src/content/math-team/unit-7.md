@@ -6,28 +6,33 @@ unit: 7
 # Unit 7: Number Theory
 
 ## Prime Factorization ⭐
+<!-- contests: all -->
 
 Write every $n$ as $p_1^{a_1}p_2^{a_2}\cdots$. Almost every number-theory problem starts here. Useful ones to know: $2024=2^3\cdot11\cdot23$, $2025=3^4\cdot5^2$, $2026=2\cdot1013$.
 
 ## Number of Factors of a Number ⭐
+<!-- contests: all -->
 
 $$d(n)=(a_1+1)(a_2+1)\cdots$$
 
 Example: $72=2^3\cdot3^2$ has $4\cdot3=12$ divisors. A number has an **odd** number of divisors iff it's a perfect square.
 
 ## Sum of the Factors of a Number
+<!-- contests: mathcounts amc10 amc12 aime -->
 
 $$\sigma(n)=(1+p_1+\dots+p_1^{a_1})(1+p_2+\dots+p_2^{a_2})\cdots$$
 
 Example: $\sigma(72)=(1+2+4+8)(1+3+9)=15\cdot13=195$.
 
 ## Product of the Factors of a Number 🚀
+<!-- contests: mathcounts amc10 amc12 aime -->
 
 $$\prod_{d\mid n}d=n^{d(n)/2}$$
 
 The divisors pair up as $d$ and $\frac nd$.
 
 ## Legendre's Formula (Factorials) ⭐
+<!-- contests: mathcounts amc10 amc12 aime usajmo usamo -->
 
 The power of the prime $p$ dividing $n!$ is
 $$\left\lfloor\frac np\right\rfloor+\left\lfloor\frac n{p^2}\right\rfloor+\left\lfloor\frac n{p^3}\right\rfloor+\cdots$$
@@ -35,12 +40,14 @@ $$\left\lfloor\frac np\right\rfloor+\left\lfloor\frac n{p^2}\right\rfloor+\left\
 **Trailing zeros** of $n!$ use $p=5$. For example, $100!$ ends in $20+4=24$ zeros.
 
 ## Different Bases ⭐
+<!-- contests: mathcounts oml amc8 amc10 amc12 aime -->
 
 $(d_k\dots d_1d_0)_b=d_kb^k+\dots+d_1b+d_0$. To convert to base $b$, divide by $b$ repeatedly and read the remainders from the bottom up.
 
 Base 2 ↔ base 8 ↔ base 16: group the binary digits in 3s (octal) or 4s (hex). Example: $725_8=111\,010\,101_2$.
 
 ## Divisibility Rules ⭐
+<!-- contests: mathcounts oml amc8 amc10 amc12 -->
 
 | By | Test |
 |---|---|
@@ -53,18 +60,21 @@ Base 2 ↔ base 8 ↔ base 16: group the binary digits in 3s (octal) or 4s (hex)
 | 7, 11, 13 | 🚀 $1001=7\cdot11\cdot13$: alternating sum of 3-digit blocks |
 
 ## Greatest Common Factor (GCF) and Least Common Multiple (LCM) ⭐
+<!-- contests: mathcounts oml amc8 amc10 amc12 aime -->
 
 From prime factorizations: the GCF takes the **minimum** exponent of each prime, and the LCM takes the **maximum**.
 
 $$\gcd(a,b)\cdot\operatorname{lcm}(a,b)=ab$$
 
 ## Euclidean Algorithm
+<!-- contests: mathcounts amc10 amc12 aime usajmo -->
 
 $\gcd(a,b)=\gcd(b,a\bmod b)$. Example: $\gcd(1071,462)=\gcd(462,147)=\gcd(147,21)=21$.
 
 Also useful: $\gcd(a,b)=\gcd(a-b,b)$, and consecutive integers are always coprime.
 
 ## Patterns in Digits When Raised to Powers ⭐
+<!-- contests: mathcounts amc8 amc10 amc12 -->
 
 Units digits cycle with period at most 4:
 
@@ -81,6 +91,7 @@ Units digits cycle with period at most 4:
 So the units digit of $3^{158}$ is found from $158\bmod4=2$: it's $9$.
 
 ## Modular Arithmetic ⭐
+<!-- contests: all -->
 
 $a\equiv b\pmod m$ means $m\mid(a-b)$. You can add, subtract, multiply, and raise to powers inside a congruence. You can **divide** only by numbers coprime to $m$.
 
@@ -88,19 +99,46 @@ $a\equiv b\pmod m$ means $m\mid(a-b)$. You can add, subtract, multiply, and rais
 - A number is congruent to its digit sum mod 9.
 - Use mod arithmetic to find remainders and last digits, and to prove that something can never happen.
 
+## Diophantine Equations ⭐
+<!-- contests: amc10 amc12 aime usajmo usamo -->
+
+Equations that need **integer** solutions.
+
+- **Linear** $ax+by=c$: solvable iff $\gcd(a,b)\mid c$. From one solution $(x_0,y_0)$, all are $x=x_0+\frac{b}{g}t$, $y=y_0-\frac{a}{g}t$ (Bézout).
+- **Factor:** move everything to make a product equal a constant, then list factor pairs. (SFFT from Unit 4 is the main trick.)
+- **Bound:** show the variables can't be large, then check the few small cases. Example: in $\frac1a+\frac1b+\frac1c=1$ with $a\le b\le c$, we get $a\le3$.
+- **Mod out:** show no solutions by checking residues. $x^2+y^2=4k+3$ is impossible because squares are $0,1\pmod4$.
+- **Pythagorean triples:** all primitive ones are $(m^2-n^2,\,2mn,\,m^2+n^2)$ with $m>n$, coprime, opposite parity.
+- 🚀 **Pell's equation** $x^2-dy^2=1$: once you have the smallest solution $(x_1,y_1)$, the others come from $x+y\sqrt d=(x_1+y_1\sqrt d)^k$.
+
 ## Chinese Remainder Theorem 🚀
+<!-- contests: amc10 amc12 aime usajmo usamo -->
 
 If $m$ and $n$ are coprime, the system $x\equiv a\pmod m$, $x\equiv b\pmod n$ has exactly one solution mod $mn$. To find it, list the candidates $a, a+m, a+2m,\dots$ and check them mod $n$.
 
 Example: $x\equiv2\pmod3$ and $x\equiv3\pmod5$ give $x\equiv8\pmod{15}$.
 
 ## Fermat's Little Theorem 🚀
+<!-- contests: amc12 aime usajmo usamo -->
 
 For a prime $p$ and $p\nmid a$: $a^{p-1}\equiv1\pmod p$. 🚀 **Euler** generalizes this: $a^{\varphi(n)}\equiv1\pmod n$ when $\gcd(a,n)=1$, with $\varphi(n)=n\prod\left(1-\frac1p\right)$.
 
 Example: $2^{100}\bmod7$: since $2^6\equiv1$, $2^{100}=2^{96}\cdot2^4\equiv16\equiv2$.
 
+## Orders, Wilson & Lifting the Exponent 🚀
+<!-- contests: aime usajmo usamo -->
+
+- **Order:** the smallest $k>0$ with $a^k\equiv1\pmod n$. It always divides $\varphi(n)$, and $a^m\equiv1$ iff the order divides $m$.
+- **Wilson's theorem:** $(p-1)!\equiv-1\pmod p$ for a prime $p$.
+- **Lifting the exponent (LTE):** for an odd prime $p$ with $p\mid a-b$ and $p\nmid a,b$: $\ v_p(a^n-b^n)=v_p(a-b)+v_p(n)$. Here $v_p(x)$ is the exponent of $p$ in $x$.
+  - For $p=2$ and odd $a,b$ with $n$ even: $v_2(a^n-b^n)=v_2(a-b)+v_2(a+b)+v_2(n)-1$.
+- **Quadratic residues:** mod an odd prime $p$, exactly $\frac{p-1}2$ nonzero residues are squares. $-1$ is a square mod $p$ iff $p\equiv1\pmod4$.
+
+> [!example] LTE
+> $v_3(4^{27}-1)=v_3(4-1)+v_3(27)=1+3=4$, so $3^4$ is the largest power of 3 dividing $4^{27}-1$.
+
 ## Other Terms
+<!-- contests: mathcounts oml amc8 amc10 -->
 
 - **Perfect number:** equals the sum of its proper divisors (6, 28, 496).
 - **Relatively prime (coprime):** $\gcd=1$.

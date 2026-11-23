@@ -13,24 +13,29 @@ The layout follows the classic *MATHCOUNTS Toolbox* reference sheet, rewritten a
 > - **⭐ Core**: shows up constantly. If you can use every ⭐ item without thinking, you're in good shape for any contest.
 > - **🚀 Advanced**: rarer, or only useful in specific situations. Skip these the first time through and come back later.
 
+> [!note] Filter by contest
+> Every section in Units 4–10 is tagged with the contests it shows up on: **MATHCOUNTS, OML, AMC 8, AMC 10, AMC 12, AIME, USAJMO, USAMO**. Use the **Show topics for** bar at the top of those units to hide everything else. You can pick more than one contest, and your choice is remembered across units.
+
 ## What's in the Toolbox
 
 | Unit | Covers |
 |---|---|
-| 4. Numbers & Algebra | number types, sequences, statistics, rates, percents, factoring, quadratics, Vieta, exponents, logs, radicals, functions |
-| 5. Geometry | angles, polygons, area formulas, triangles and their centers, similar and right triangles, circles, power of a point, 3D solids, coordinate tricks |
-| 6. Combinatorics & Probability | counting principles, permutations, combinations, casework, complementary counting, stars and bars, PIE, probability, expected value |
-| 7. Number Theory | primes, divisors, GCD/LCM, divisibility rules, bases, modular arithmetic, CRT, Fermat |
-| 8. Beyond the Basics | trig identities and equations, complex numbers and DeMoivre, matrices, conics, vectors, limits, derivatives, integrals |
-| 9. Tips & Speed Tricks | test-taking strategy, mental math, countdown-round tricks |
+| 4. Numbers & Algebra | number types, sequences, telescoping, statistics, rates, percents, factoring, quadratics, Vieta, polynomials, inequalities (AM-GM, Cauchy), functional equations, exponents, logs, radicals |
+| 5. Geometry | angles, polygons, area formulas and area ratios, triangles and their centers, similar and right triangles, circles, power of a point, mass points, coordinate/complex bashing, 3D solids, olympiad tools |
+| 6. Combinatorics & Probability | counting principles, permutations, combinations, casework, complementary counting, stars and bars, bijections, PIE, conditional probability, expected value, generating functions, graph theory |
+| 7. Number Theory | primes, divisors, GCD/LCM, divisibility rules, bases, modular arithmetic, Diophantine equations, CRT, Fermat, orders, Wilson, LTE |
+| 8. Beyond the Basics | trig identities and equations, complex numbers, DeMoivre and roots of unity, matrices, conics, vectors, limits, derivatives, integrals |
+| 9. Tips & Speed Tricks | test-taking strategy, AMC/AIME/USAMO strategy, mental math, countdown-round tricks |
+| 10. Proofs & Olympiad Techniques | what a proof needs, contradiction, induction, extremal principle, pigeonhole, invariants, coloring, constructions, writing it up |
 
 ## Common Competitions
 
 | Contest | Level | Format |
 |---|---|---|
 | **MATHCOUNTS** | grades 6–8 | Sprint (30 problems, no calculator), Target (pairs of problems), Team, Countdown |
-| **AMC 8 / 10 / 12** | middle / high school | 25 multiple choice in 40 min (75 min for AMC 10/12) |
-| **AIME** | qualifiers from AMC 10/12 | 15 problems, integer answers 000–999 |
+| **AMC 8 / 10 / 12** | grade ≤ 8 / ≤ 10 / ≤ 12 | 25 multiple choice in 40 min (75 min for AMC 10/12) |
+| **AIME** | qualifiers from AMC 10/12 | 15 problems in 3 hours, integer answers 000–999 |
+| **USAJMO / USAMO** | top AMC 10 / AMC 12 + AIME scorers | 6 proof problems over two 4.5-hour days, 0–7 points each |
 | **OML** (Oʻahu Mathematics League) | Hawaiʻi high schools | 7 meets a year; 6 topic events plus a Team event |
 | **ARML / HMMT / PUMaC** | high school teams | individual, team, and relay rounds |
 

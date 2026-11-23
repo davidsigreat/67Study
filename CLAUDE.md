@@ -100,7 +100,7 @@ Never commit `.env.local`. See `.env.example` for the key names.
 | AP US History | `ap-us-history` | crimson | 9 | Full content |
 | AP Physics C | `ap-physics-c` | sky | 13 | Stubs only (units 1–7 Mechanics, 8–13 E&M) |
 | AP Physics (Algebra-Based) | `ap-physics` | indigo | 15 | Full content (1–8 = Physics 1, 9–15 = Physics 2) |
-| Competition Math | `math-team` | coral | 9 | Toolbox (structured like the MATHCOUNTS Toolbox: Numbers & Algebra, Geometry, Combinatorics & Probability, Number Theory, + high-school topics & tips) + OML practice bank (unit 3 links to `/math-team/practice`) |
+| Competition Math | `math-team` | coral | 10 | Toolbox (structured like the MATHCOUNTS Toolbox: Numbers & Algebra, Geometry, Combinatorics & Probability, Number Theory, + high-school topics, tips, and Unit 10 proofs/olympiad) + OML practice bank (unit 3 links to `/math-team/practice`). Toolbox sections carry contest tags (see below) |
 
 ---
 
@@ -183,6 +183,9 @@ Practice mode for Oʻahu Mathematics League (OML) past meet problems.
 - **UI:** `src/pages/MathTeamPracticePage.tsx` — "Question Bank" layout (`.qb-*` classes): sticky sidebar filters with live faceted counts (subject, meet, event — shown once a subject/meet is picked, difficulty A/B/C, year bands + exact years), per-category progress cards, status tabs (All / Unattempted / Attempted / Incorrect / Correct / Saved) + "N to retry" tag, header search (ID/year/text) and *Shuffle practice* button, 2-col card grid (preview, level badge, ID, status, Save bookmark, Practice/Retry → opens that problem with Prev/Next through the current view; deep link `?p=<problemId>`), paged 24 at a time. `LatexInput.tsx` (toolbar + KaTeX preview), `MathText.tsx`. Attempt history in `localStorage` key `mathteam-history:{uid|guest}`; saved problems in `mathteam-saved:{uid|guest}`.
 - **Coverage:** all 7 meets, every event (incl. the alternating `m4e4alt` / `m7e4alt`), typed papers ~2012–2026: 1,782 individual problems. Scanned pre-2012 papers and Team events are not transcribed. Events with no source file show "coming soon".
 - **Answer formats the checker understands:** vectors (`\langle a,b\rangle`, `<a,b>`, `ai+bj`, `a\vec{i}+b\vec{j}` → ordered tuple), points/tuples, matrices, `\pm`, inequalities/relations, percent, degrees, `\text{none}`. Tables in problems are typeset as KaTeX `\begin{array}` blocks.
+
+### Competition Math — contest filter (toolbox units 4–10)
+Each `##` section has a tag line right under the heading: `<!-- contests: oml amc10 amc12 aime -->` (ids: `mathcounts oml amc8 amc10 amc12 aime usajmo usamo`, or `all`). `src/lib/contestTags.ts` parses them; `UnitPage` shows a "Show topics for" chip bar on any unit that has tags, drops non-matching sections (TOC follows), and `MarkdownRenderer` renders contest badges under each tagged `h2`. Selection persists in `localStorage` key `toolbox-contests`. Untagged sections always show. Search indexing strips the tag lines. When adding a toolbox section, always add a tag line.
 
 ### Admin system
 Access controlled by Firestore `admins` collection (not by app code alone).

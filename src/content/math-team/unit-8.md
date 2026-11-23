@@ -8,6 +8,7 @@ unit: 8
 The MATHCOUNTS toolbox stops at middle-school topics. High school contests (OML, ARML, AMC 12, state leagues) also test the topics below. Everything here is 🚀 for middle school and ⭐ for high school.
 
 ## Unit Circle Essentials
+<!-- contests: oml amc12 aime -->
 
 | $\theta$ | $0$ | $\frac\pi6$ | $\frac\pi4$ | $\frac\pi3$ | $\frac\pi2$ |
 |---|---|---|---|---|---|
@@ -22,6 +23,7 @@ Also memorize $\sin 15^\circ=\dfrac{\sqrt6-\sqrt2}4$ and $\cos15^\circ=\dfrac{\s
 ---
 
 ## Identities
+<!-- contests: oml amc12 aime -->
 - **Pythagorean:** $\sin^2\theta+\cos^2\theta=1$, $\ 1+\tan^2\theta=\sec^2\theta$, $\ 1+\cot^2\theta=\csc^2\theta$
 - **Sum/difference:**
 $$\sin(A\pm B)=\sin A\cos B\pm\cos A\sin B$$
@@ -38,6 +40,7 @@ $$\tan(A\pm B)=\frac{\tan A\pm\tan B}{1\mp\tan A\tan B}$$
 ---
 
 ## Equations & Graphs
+<!-- contests: oml amc12 -->
 - Solve for the **reference angle**, then list every quadrant where the sign matches, then add the period: $\sin$ and $\cos$ repeat every $2\pi$, $\tan$ every $\pi$.
 - With $\sin 2x$ and $x\in[0,2\pi)$, solve for $2x\in[0,4\pi)$, then divide by 2. This gives **twice** as many solutions.
 - Factor, don't divide: $2\sin x\cos x=\sin x$ becomes $\sin x(2\cos x-1)=0$.
@@ -48,6 +51,7 @@ $$\tan(A\pm B)=\frac{\tan A\pm\tan B}{1\mp\tan A\tan B}$$
 ---
 
 ## Inverse Functions including Triangles
+<!-- contests: oml amc12 aime -->
 | | Range |
 |---|---|
 | $\arcsin x$ | $\left[-\frac\pi2,\frac\pi2\right]$ |
@@ -68,6 +72,7 @@ $$\tan(A\pm B)=\frac{\tan A\pm\tan B}{1\mp\tan A\tan B}$$
 ---
 
 ## Polar Coordinates & DeMoivre's Theorem
+<!-- contests: oml amc12 aime -->
 ### Converting
 $$x=r\cos\theta,\quad y=r\sin\theta,\quad r^2=x^2+y^2,\quad \tan\theta=\frac yx$$
 - **Check the quadrant** of $\theta$! For $(-2,-2)$, $\theta=\frac{5\pi}4$, not $\frac\pi4$.
@@ -100,7 +105,22 @@ $$\sqrt[n]r\operatorname{cis}\left(\frac{\theta+2\pi k}{n}\right),\quad k=0,1,\d
 
 ---
 
+## Roots of Unity 🚀
+<!-- contests: amc12 aime usajmo usamo -->
+
+The solutions of $z^n=1$ are $\omega^k=\operatorname{cis}\frac{360^\circ k}{n}$ for $k=0,1,\dots,n-1$: the vertices of a regular $n$-gon on the unit circle.
+
+- They add to $0$ (for $n\ge2$): $1+\omega+\dots+\omega^{n-1}=0$.
+- $z^n-1=(z-1)(z-\omega)\cdots(z-\omega^{n-1})$. Plugging in a value of $z$ turns products over roots into something easy.
+- For a primitive cube root $\omega$: $\omega^2+\omega+1=0$ and $\omega^3=1$.
+- $\prod_{k=1}^{n-1}(1-\omega^k)=n$ (from $\frac{z^n-1}{z-1}$ at $z=1$).
+- Powers of a root cycle with period $n$, so reduce exponents mod $n$.
+
+> [!example] $x^{2026}$ divided by $x^2+x+1$
+> The roots of $x^2+x+1$ are $\omega,\omega^2$ with $\omega^3=1$. Since $2026\equiv1\pmod 3$, $\omega^{2026}=\omega$, so the remainder is $x$.
+
 ## Complex Numbers
+<!-- contests: oml amc10 amc12 aime -->
 
 ### Powers of $i$
 $i^1=i$, $i^2=-1$, $i^3=-i$, $i^4=1$. Reduce the exponent **mod 4**: $i^{2025}=i^1=i$ and $i^{403}=i^3=-i$.
@@ -128,6 +148,7 @@ For example, $\sqrt{9-40i}$: $x^2+y^2=41$ and $x^2-y^2=9$, so $x^2=25$ and $y^2=
 ---
 
 ## Matrices & Determinants
+<!-- contests: oml -->
 
 - **Size** $m\times n$ (rows × columns). $AB$ exists iff the columns of $A$ = the rows of $B$. In general $AB\ne BA$.
 - $2\times2$ determinant: $\begin{vmatrix}a&b\\c&d\end{vmatrix}=ad-bc$
@@ -146,6 +167,7 @@ For example, $\sqrt{9-40i}$: $x^2+y^2=41$ and $x^2-y^2=9$, so $x^2=25$ and $y^2=
 
 
 ## Lines & Circles
+<!-- contests: oml amc10 amc12 aime -->
 ### Lines
 - Slope-intercept $y=mx+b$. Point-slope $y-y_1=m(x-x_1)$. Standard $Ax+By=C$ (slope $-\frac AB$).
 - Intercept form $\dfrac xa+\dfrac yb=1$. The triangle it cuts off the axes has area $\frac12|ab|$.
@@ -166,6 +188,7 @@ $$(x-h)^2+(y-k)^2=r^2$$
 ---
 
 ## Parabolas, Ellipses & Hyperbolas
+<!-- contests: oml amc12 -->
 | Conic | Standard form (center $(h,k)$) | Key facts |
 |---|---|---|
 | Parabola | $(x-h)^2=4p(y-k)$ | vertex $(h,k)$, focus $p$ from the vertex, directrix $p$ the other way, latus rectum $\lvert4p\rvert$ |
@@ -180,6 +203,7 @@ $$(x-h)^2+(y-k)^2=r^2$$
 ---
 
 ## Vectors
+<!-- contests: oml amc12 -->
 - $\vec v=\langle a,b\rangle$, magnitude $|\vec v|=\sqrt{a^2+b^2}$, unit vector $\dfrac{\vec v}{|\vec v|}$.
 - **Dot product:** $\vec u\cdot\vec v=u_1v_1+u_2v_2=|\vec u||\vec v|\cos\theta$. Perpendicular iff the dot product is $0$.
 - **Projection** of $\vec u$ onto $\vec v$: $\dfrac{\vec u\cdot\vec v}{|\vec v|^2}\vec v$. The scalar component is $\dfrac{\vec u\cdot\vec v}{|\vec v|}$.
@@ -190,6 +214,7 @@ $$(x-h)^2+(y-k)^2=r^2$$
 ---
 
 ## Calculus: Limits & Derivatives
+<!-- contests: oml -->
 ### Limits
 - Plug in first. For $\frac00$: factor and cancel, rationalize, or use L'Hôpital: $\lim\frac fg=\lim\frac{f'}{g'}$.
 - $\displaystyle\lim_{x\to0}\frac{\sin x}x=1$, $\displaystyle\lim_{x\to0}\frac{1-\cos x}x=0$, $\displaystyle\lim_{n\to\infty}\left(1+\frac1n\right)^n=e$.
@@ -211,6 +236,7 @@ $$(x-h)^2+(y-k)^2=r^2$$
 ---
 
 ## Calculus: Integrals
+<!-- contests: oml -->
 $$\int x^n\,dx=\frac{x^{n+1}}{n+1}+C\ (n\ne-1),\qquad \int\frac1x\,dx=\ln|x|+C$$
 $$\int e^x\,dx=e^x+C,\quad\int\sin x\,dx=-\cos x+C,\quad\int\cos x\,dx=\sin x+C,\quad\int\sec^2x\,dx=\tan x+C$$
 

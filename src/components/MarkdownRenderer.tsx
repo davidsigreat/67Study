@@ -9,6 +9,7 @@ import type { Components } from 'react-markdown';
 import type { ReactNode } from 'react';
 import MODULE_VIDEOS from '../data/moduleVideos';
 import type { ModuleVideo } from '../data/moduleVideos';
+import { CONTESTS, type ContestId } from '../lib/contestTags';
 
 // Obsidian callout types → CSS modifier
 const CALLOUT_TYPES: Record<string, string> = {
@@ -160,13 +161,42 @@ function buildComponents(videoMap: Record<string, ModuleVideo> | undefined): Com
   };
 }
 
+function headingText(children: ReactNode): string {
+  const arr = Array.isArray(children) ? children : [children];
+  return arr.map((c) => (typeof c === 'string' ? c : '')).join('').trim();
+}
+
+/** h2 with a row of contest badges underneath (Competition Math toolbox). */
+function withContestBadges(base: Components, tags: Record<string, ContestId[]>): Components {
+  return {
+    ...base,
+    h2({ id, children }) {
+      const t = tags[headingText(children)];
+      if (!t) return <h2 id={id}>{children}</h2>;
+      return (
+        <>
+          <h2 id={id}>{children}</h2>
+          <div className="contest-badges" aria-label="Relevant contests">
+            {CONTESTS.filter((c) => t.includes(c.id)).map((c) => (
+              <span key={c.id} className={`contest-badge contest-badge--${c.id}`} title={c.label}>{c.short}</span>
+            ))}
+          </div>
+        </>
+      );
+    },
+  };
+}
+
 interface MarkdownRendererProps {
   content: string;
   subjectSlug?: string;
+  /** `##` heading text → contests, rendered as badges under the heading. */
+  sectionTags?: Record<string, ContestId[]>;
 }
 
-export default function MarkdownRenderer({ content, subjectSlug }: MarkdownRendererProps) {
-  const components = buildComponents(subjectSlug ? MODULE_VIDEOS[subjectSlug] : undefined);
+export default function MarkdownRenderer({ content, subjectSlug, sectionTags }: MarkdownRendererProps) {
+  let components = buildComponents(subjectSlug ? MODULE_VIDEOS[subjectSlug] : undefined);
+  if (sectionTags && Object.keys(sectionTags).length) components = withContestBadges(components, sectionTags);
   return (
     <div className="markdown-body">
       <ReactMarkdown

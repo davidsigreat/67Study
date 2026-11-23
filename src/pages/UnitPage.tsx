@@ -4,6 +4,16 @@ import { getSubject, getUnit } from '../data/subjects';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import { useProgress } from '../context/ProgressContext';
 import { extractHeadings, stripFrontmatter } from '../lib/markdownUtils';
+import { CONTESTS, filterByContest, hasContestTags, type ContestId } from '../lib/contestTags';
+
+const CONTEST_KEY = 'toolbox-contests';
+function readContests(): Set<ContestId> {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(CONTEST_KEY) ?? '[]') as ContestId[]);
+  } catch {
+    return new Set();
+  }
+}
 
 // Vite glob import — all markdown files, loaded as raw strings on demand
 const markdownModules = import.meta.glob('../content/**/*.md', {
@@ -59,9 +69,28 @@ export default function UnitPage() {
     el?.scrollIntoView({ block: 'start' });
   }, [content, location.hash]);
 
+  // Competition Math toolbox: filter `##` sections by contest tags.
+  const [contests, setContests] = useState<Set<ContestId>>(readContests);
+  const toggleContest = (id: ContestId | null) => {
+    setContests((prev) => {
+      const next = new Set(prev);
+      if (id === null) next.clear();
+      else if (next.has(id)) next.delete(id);
+      else next.add(id);
+      localStorage.setItem(CONTEST_KEY, JSON.stringify([...next]));
+      return next;
+    });
+  };
+  const tagged = useMemo(() => !!content && hasContestTags(content), [content]);
+  const view = useMemo(() => {
+    if (!content) return null;
+    const body = stripFrontmatter(content);
+    return tagged ? filterByContest(body, contests) : { markdown: body, tags: undefined, total: 0, hidden: 0 };
+  }, [content, tagged, contests]);
+
   const headings = useMemo(
-    () => (content ? extractHeadings(stripFrontmatter(content)) : []),
-    [content],
+    () => (view ? extractHeadings(view.markdown) : []),
+    [view],
   );
 
   // Scrollspy: highlight whichever heading is currently at/above the top-of-viewport offset
@@ -262,8 +291,38 @@ export default function UnitPage() {
         <div className="unit-content">
           {error && <p className="unit-error">Could not load content for this unit.</p>}
           {!error && !content && <p className="unit-loading">Loading…</p>}
-          {content && (
-            <MarkdownRenderer content={stripFrontmatter(content)} subjectSlug={subjectMeta.slug} />
+          {view && tagged && (
+            <div className="contest-filter">
+              <span className="contest-filter-label">Show topics for</span>
+              <div className="contest-filter-chips">
+                <button
+                  type="button"
+                  className={`contest-chip${contests.size === 0 ? ' contest-chip--active' : ''}`}
+                  onClick={() => toggleContest(null)}
+                >
+                  All
+                </button>
+                {CONTESTS.map((c) => (
+                  <button
+                    key={c.id}
+                    type="button"
+                    className={`contest-chip contest-chip--${c.id}${contests.has(c.id) ? ' contest-chip--active' : ''}`}
+                    aria-pressed={contests.has(c.id)}
+                    onClick={() => toggleContest(c.id)}
+                  >
+                    {c.label}
+                  </button>
+                ))}
+              </div>
+              {view.hidden > 0 && (
+                <span className="contest-filter-note">
+                  Showing {view.total - view.hidden} of {view.total} sections · {view.hidden} hidden
+                </span>
+              )}
+            </div>
+          )}
+          {view && (
+            <MarkdownRenderer content={view.markdown} subjectSlug={subjectMeta.slug} sectionTags={view.tags} />
           )}
         </div>
 

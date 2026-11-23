@@ -3337,3 +3337,36 @@ a:hover { text-decoration: underline; }
   .qb-search { width: 100%; }
   .qb-title { font-size: 1.9rem; }
 }
+
+/* ── Competition Math toolbox: contest filter + section badges ─────────────── */
+.contest-filter {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.75rem;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 0.75rem 0.9rem; margin-bottom: 1.5rem; font-family: "Outfit", sans-serif;
+}
+.contest-filter-label {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim);
+}
+.contest-filter-chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.contest-chip {
+  background: var(--bg); color: var(--text); border: 1px solid var(--border); border-radius: 999px;
+  padding: 0.3rem 0.75rem; font-family: "Outfit", sans-serif; font-size: 0.82rem; font-weight: 600;
+  cursor: pointer; transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.contest-chip:hover { border-color: var(--accent); }
+.contest-chip--active {
+  border-color: var(--accent); color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, var(--bg));
+}
+.contest-filter-note { font-size: 0.8rem; color: var(--text-dim); margin-left: auto; }
+.markdown-body .contest-badges { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: -0.35rem 0 0.8rem; }
+.contest-badge {
+  font-family: "Outfit", sans-serif; font-size: 0.66rem; font-weight: 700; letter-spacing: 0.04em;
+  padding: 0.1rem 0.45rem; border-radius: 999px; border: 1px solid var(--border);
+  color: var(--text-dim); background: var(--surface2);
+}
+.contest-badge--mathcounts { color: #7dd3a8; border-color: rgba(125, 211, 168, 0.35); }
+.contest-badge--oml { color: #ff8a65; border-color: rgba(255, 138, 101, 0.35); }
+.contest-badge--amc8, .contest-badge--amc10, .contest-badge--amc12 { color: #8bb4ff; border-color: rgba(139, 180, 255, 0.35); }
+.contest-badge--aime { color: #e0c15b; border-color: rgba(224, 193, 91, 0.35); }
+.contest-badge--usajmo, .contest-badge--usamo { color: #e879a0; border-color: rgba(232, 121, 160, 0.35); }

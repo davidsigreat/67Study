@@ -189,6 +189,7 @@ export const SUBJECTS: SubjectMeta[] = [
       { unit: 7, title: 'Number Theory',                      section: 'Toolbox' },
       { unit: 8, title: 'Beyond the Basics: Trig, Complex Numbers, Conics & Calculus', section: 'Toolbox' },
       { unit: 9, title: 'Competition Tips & Speed Tricks',    section: 'Toolbox' },
+      { unit: 10, title: 'Proofs & Olympiad Techniques',      section: 'Toolbox' },
     ],
   },
 ];

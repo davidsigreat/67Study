@@ -1,5 +1,6 @@
 import { SUBJECTS, getUnit } from '../data/subjects';
 import { extractHeadings, stripFrontmatter, type Heading } from './markdownUtils';
+import { stripContestTags } from './contestTags';
 
 export interface SearchDoc {
   subjectSlug: string;
@@ -42,7 +43,7 @@ function buildIndex(): SearchDoc[] {
     const subjectMeta = SUBJECTS.find((s) => s.slug === slug);
     if (!unitMeta || !subjectMeta) continue;
 
-    const raw = stripFrontmatter(markdownModules[path]);
+    const raw = stripContestTags(stripFrontmatter(markdownModules[path]));
     docs.push({
       subjectSlug: slug,
       subjectName: subjectMeta.name,

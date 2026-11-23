@@ -1,0 +1,128 @@
+# Meet 3, Event 3: ALGEBRA I — Age, Motion, & Number Problems
+
+@ Nov 2025
+A: Twice Katie's age five years ago is equal to her age in seven years. How old is Katie now?
+= 17
+B: The speed of Zach's boat in still water is $15$ miles per hour. He is traveling upstream from Port Allen to Port Zante on a river with current $3$ miles per hour. The trip upstream takes $2$ hours longer than the trip downstream. What is the distance (in miles) between Port Allen and Port Zante?
+= 72
+C: Consider three consecutive integers between $0$ and $9$, inclusive. The largest two-digit number that can be formed by two of those integers is six more than the sum of the smallest two-digit number that can be formed by two of those integers and twice the average of the three integers. Find the sum of the three integers.
+= 21
+
+@ Nov 2024
+A: Ms. Matsubara is $4$ years younger than Ms. Dao, and $20$ years from today, their ages will total $100$ years. Ms. Matsubara is in constant denial of her true age, and she claims that she is only $21$ years old every year on and after her $21$st birthday. Assuming that she has already celebrated her birthday this year, on how many birthdays has Ms. Matsubara claimed to be $21$ years old?
+= 8
+B: Taylor wrote down three consecutive odd integers from least to greatest for her classmates to find. She gave one hint. She said the sum of the first and last is three greater than the product of the first and second. Michael asked her if the three numbers are $1$, $3$, and $5$, but Taylor said that while those numbers work, those are not what she wrote down. What three consecutive odd integers did Taylor write down?
+= -1, 1, 3
+C: Kainalu left Mr. Yadao's classroom at 3:50 p.m. to walk home, leaving behind his cell phone. Mr. Yadao notices the cell phone at 4:10 p.m. and runs outside with the phone to catch Kainalu. Kainalu walks at $2$ miles per hour and Mr. Yadao, who is in a hurry, walks at $4$ miles per hour. At what time (p.m.) will Mr. Yadao catch up to Kainalu?
+= 4:30
+~ 4:30\text{ p.m.} ;; 4:30pm
+
+@ Nov 2023
+A: Currently, Hannah's age is twice Maya's age. In three years, the sum of their ages will be $30$. How old is Maya now?
+= 8
+B: When a two-digit number has its digits reversed, the difference between the original number and the new number is $36$. The sum of twice the tens digit of the original number and three times its units digit is $18$. Find the original number.
+= 62
+C: At the 1920 Olympics, Duke Kahanamoku won the gold medal in the $100$-meter freestyle race with a time of $1$ minute. At the 2020 Olympics Caelab Dressel won the $100$-meter freestyle race with a time of $47$ seconds. If Duke and Caelab were to race in the $100$-meter freestyle event, by how many meters would Caelab beat Duke?
+= 21\frac{2}{3}
+~ \frac{65}{3}
+
+@ Nov 2022
+A: Maria and her sister Tracy were both born on July 5. Maria was $5$ years old when Tracy was born in 2022. On July 5 of what year will the sum of their ages become $99$?
+= 2069
+B: The sum of three integers is $456$. The second number is double the first number. The third number is three times the sum of the first two numbers. Find the third number.
+= 342
+C: Bree traveling in her motor boat at a constant speed with the current can cover the same distance in the same amount of time as Cody traveling in his motor boat at a constant speed against the current. If Bree and Cody switch directions and travel at the same constant speeds as before, Bree will take five times as long to cover the same distance as Cody. If the current flows at a constant speed of $5$ miles per hour and in the same direction during all scenarios, what are the speeds (mph) of Bree's and Cody's motor boats in still water? (Answer: Bree, Cody)
+= 10, 20
+! Official answer: Bree: 10 mph; Cody: 20 mph.
+
+@ Nov 2021
+A: Jon's age is four less than double Tom's age. Five years ago, Jon's age was five less than three times Tom's age. How old is Jon now?
+= 18
+B: At midnight, Dane, Shane, and Lorraine start traveling west along Main Way. Dane is $100$ miles from Shane, and Shane is $300$ miles from Lorraine. Each of them travels at a constant speed. In six hours, Dane overtakes Shane, and in another six hours, Dane overtakes Lorraine. At what time will Shane overtake Lorraine? Indicate A.M. or P.M.
+= 6:00\text{ P.M.}
+~ 6\text{ pm} ;; 6:00pm ;; 6pm
+C: Astronaut Carolyn lives at the base camp on Arrakis. She straps on her jetpack to travel the $7$ miles to the food resupply station. On this portion of her trip there is a tailwind of $8$ mph. On her return trip, there is no wind, but with the added weight of the supplies she finds her speed is decreased by $80\%$. If her total travel time is $2$ hours, what is Carolyn's speed (mph) with her jetpack when there is no wind and she is not carrying any supplies?
+= 20
+
+@ Nov 2020
+A: When Bill was $10$ years old, Bob was $35$. In three years Bill's age will be half of Bob's age. How old is Bob now?
+= 47
+B: The tens digit and the units digit of a two digit positive number are both prime. When the digits are reversed, the sum of the new number and the original number is nine less than twice the original number. What is the original number?
+= 32
+C: John ran from the bottom of a hill up a straight road for $20$ minutes. He then immediately turned around and ran back downhill along the same route, arriving at his starting point $12$ minutes later. His average speed for the entire run was $7.5$ miles per hour. If John's speed on level ground is the average of his uphill and downhill speeds, how many miles would John run on level ground in $45$ minutes?
+= 6
+
+@ Nov 2019
+A: Mason is $5$ years older than Isaiah. Two years ago the sum of their ages was $27$. How old is Mason now?
+= 18
+B: Find two consecutive positive odd numbers whose sum is $47$ less than their product.
+= 7, 9
+C: An airplane takes a total of $3\frac{1}{13}$ hours to fly from A to B and return. The distance between A and B is $480$ miles. A wind blows from A towards B at a constant speed. The speed of the airplane in still air is $320$ mph. Find the speed of the wind (mph).
+= 16\sqrt{10}
+
+@ Nov 2018
+A: Train A, traveling $30$ miles per hour (mph), leaves Westford heading toward Eastford, $333$ miles away. At the same time Train B, traveling $44$ mph, leaves Eastford heading toward Westford. They both leave at 12:00 noon. At what time do the two trains pass each other?
+= 4:30\text{ pm}
+~ 4:30\text{ p.m.} ;; 4:30pm
+B: In two years, Sam will be twice as old as Paul. Four years ago, Sam was three times as old as Paul. How old is Paul now?
+= 10
+C: The hundreds digit and the units digit of a 3-digit number are the same. The tens digit is twice the units digit. If the tens digit and the units digit are interchanged, the new number is $215$ more than one-third of the original number. What is the original number?
+= 363
+
+@ Nov 2017
+A: Dayna is looking at three consecutive positive odd integers. She notices that the product of the two larger integers is $255$. What are the three integers?
+= 13, 15, 17
+B: Kaipo is $4$ years older than his brother Alika. Ten years from now, the sum of their ages will be twice the sum of their current ages. How many years from now will the ratio of their ages be $\dfrac{4}{5}$?
+= 8
+C: In still water a boat can travel at either full-speed, $R$ miles per hour, or at half-speed, $\frac{1}{2}R$ miles per hour. The time the boat takes going the $19$ miles upstream from point A to point B at full-speed is $\dfrac{5}{7}$ the time going downstream from point B to point A at half-speed. Find the rate of the current in terms of $R$.
+= \frac{R}{8}
+
+@ Nov 2016
+A: When my father was $31$, I was $8$. Now he is twice as old as I am. How old am I now?
+= 23
+B: Justin is Collin's father. The product of their ages now is $340$. Two years from now the sum of their ages will be $48$. How old are Justin and Collin now? (Answer: Justin, Collin)
+= 34, 10
+! Official answer: Justin: 34, Collin: 10.
+C: Dock W and Dock E are across from each other on opposite shores of a lake. Canoe M leaves Dock W when Canoe N leaves Dock E. Each canoe is making a trip to the other dock and immediately back. The canoes travel at constant speeds, and there is no current. They pass each other the first time $500$ yards from Dock W. On their return trips they pass each other $300$ yards from Dock E. What is the distance between the docks (in yards)? (On the paper, also give the ratio of M's speed to N's speed: 5 to 7.)
+= 1200
+
+@ Nov 2015
+A: Annie and Lori are sisters. They share the same birthday, but were born in different years (Annie is older). Annie's current age is two less than seven times Lori's current age. Annie's age when Lori was born was eight more than Lori's current age. What is Annie's current age?
+= 12
+B: Mike's boat can travel $40$ kilometers at a constant speed in still water, in a particular number of hours. The same boat, traveling with a $5$ km/hr current for the same period of time, can travel $50\%$ farther than it could in still water. Find the speed of the boat in still water (km/hour).
+= 10
+C: A three-digit number is such that the tens digit is one more than the units digit, and the hundreds digit is the sum of the tens digit and the units digit. The value of the number is $62$ more than twice the value of the number with its digits reversed. Find the number.
+= 532
+
+@ Nov 2014
+A: The sum of the digits of a two-digit number is $7$. When the digits are reversed, the new number is $9$ less than the original number. What is the original number?
+= 43
+B: Mike and Billy meet at the McCully Street Bridge to jog along the Ala Wai Canal. Mike takes off at $120$ meters per minute. Five minutes later Billy, running at $160$ meters per minute, starts chasing after Mike. How many minutes will it take Billy to catch up to Mike?
+= 15
+C: Twelve years ago the ratio of Chloe's age to Matt's age was $3:5$. The difference of their ages is $12$ years. How old is Chloe now?
+= 30
+
+@ Nov 2013
+A: Minerva is $5$ years older than Nancy. In $3$ years, the sum of their ages will be $27$. How old is Nancy now?
+= 8
+B: Find two consecutive even numbers whose product is thirty more than fifteen times their sum. (Give all such pairs.)
+= -2, 0, 30, 32
+! Official answer: −2 and 0, 30 and 32.
+C: Braving blizzard conditions on the planet Hoth, Luke Skywalker travels at top speed in his snow speeder for a rebel base $4800$ miles away. He travels into a steady headwind and makes the round trip in $5$ hours. Find the top speed (miles per hour) of Luke's snow speeder if the wind's speed is always one-fifth the speed of the snow speeder.
+= 2000
+
+@ Nov 2012
+A: Jeri's age next year is twice Amber's age last year. If the sum of their present ages is $54$, how old is each woman now? (Answer: Jeri, Amber)
+= 35, 19
+B: The sum of a two-digit number and the number with its digits reversed is $88$. The sum of the original number and its unit's digit is $24$. Find the original number.
+= 17
+C: Gauss and Euler run a $12$-mile race. Euler starts $20$ minutes after Gauss and finishes $40$ minutes before Gauss. If Gauss' rate is $1$ mph more than $50\%$ of Euler's rate, how many hours does it take Euler to finish the race? List all possible answers.
+= 2, 3
+
+@ Nov 2011
+A: Kevin is $4$ years older than Bobby. Bobby's age in $3$ years will be half of what Kevin's age will be in $13$ years. How old is Kevin now?
+= 15
+B: The units digit of a two-digit number is four less than twice the tens digit. If the digits are reversed, the number obtained is equal to forty-seven less than two times the original number. Find the original number.
+= 56
+C: Mark and Dylan are $1.5$ miles apart. At 9:50 a.m. they start running in opposite directions with Mark running twice as fast as Dylan. At 10:20 a.m. they each turn around and run toward each other. At 10:55 a.m. they pass each other. How fast (miles per hour) is Mark running?
+= 12

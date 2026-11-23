@@ -116,6 +116,8 @@ All routes except `/login` are behind `AuthGuard` — redirects to `/login?next=
 /admin                  → AdminPage         (auth required; redirects if not admin)
 /:subject               → SubjectHubPage    (auth required)
 /:subject/units/:unitId → UnitPage          (auth required)
+/math-team/practice     → MathTeamPracticePage (OML bank, auth required)
+/math-team/amc          → AmcPracticePage   (AMC bank, auth required)
 *                       → Navigate to /
 ```
 
@@ -183,6 +185,13 @@ Practice mode for Oʻahu Mathematics League (OML) past meet problems.
 - **UI:** `src/pages/MathTeamPracticePage.tsx` — "Question Bank" layout (`.qb-*` classes): sticky sidebar filters with live faceted counts (subject, meet, event — shown once a subject/meet is picked, difficulty A/B/C, year bands + exact years), per-category progress cards, status tabs (All / Unattempted / Attempted / Incorrect / Correct / Saved) + "N to retry" tag, header search (ID/year/text) and *Shuffle practice* button, 2-col card grid (preview, level badge, ID, status, Save bookmark, Practice/Retry → opens that problem with Prev/Next through the current view; deep link `?p=<problemId>`), paged 24 at a time. `LatexInput.tsx` (toolbar + KaTeX preview), `MathText.tsx`. Attempt history in `localStorage` key `mathteam-history:{uid|guest}`; saved problems in `mathteam-saved:{uid|guest}`.
 - **Coverage:** all 7 meets, every event (incl. the alternating `m4e4alt` / `m7e4alt`), typed papers ~2012–2026: 1,782 individual problems. Scanned pre-2012 papers and Team events are not transcribed. Events with no source file show "coming soon".
 - **Answer formats the checker understands:** vectors (`\langle a,b\rangle`, `<a,b>`, `ai+bj`, `a\vec{i}+b\vec{j}` → ordered tuple), points/tuples, matrices, `\pm`, inequalities/relations, percent, degrees, `\text{none}`. Tables in problems are typeset as KaTeX `\begin{array}` blocks.
+
+### Competition Math — AMC question bank (`/math-team/amc`)
+AMC 8 / 10 / 12 past problems (from the AoPS wiki), same "Question Bank" UI as OML (`.qb-*`), linked from hub unit 11 and the OML ↔ AMC switch (`BankSwitch` in `src/components/mathteam/bankUi.tsx`, which also holds shared helpers).
+- **Download:** `npm run amc:fetch` (`scripts/fetch-amc.mjs`) — must run on a personal computer; AoPS (Cloudflare) blocks cloud IPs. Resumable; flags `--only amc10`, `--from 2015`, `--force`. Saves `content-src/amc/<testId>/{problems.wiki, problems.html, answers.wiki, img/NN.png, manifest.json}`. Test ids: `2023-amc10a`, `2021-amc12fb` (Fall B), `2001-amc10`, `2024-amc8`.
+- **Build:** `npm run amc:build` (`scripts/build-amc-bank.mjs`) → `src/data/amc/bank/<testId>.json` + `public/amc/fig/<testId>-NN.png`. Parses wikitext (`<math>`→`$`, `<asy>`/`[[Image:]]` → downloaded images in page order, (A)–(E) choice block, answer key). Prints problems it couldn't parse. Never hand-edit the JSON.
+- **Data/UI:** `src/data/amc/bank.ts` (types, `loadAmcBank()`, `solutionUrl()` → AoPS solution page), `src/pages/AmcPracticePage.tsx` (filters: contest, problem-number band = difficulty, year bands + exact year, sitting A/B/Fall/single, whole test; choice buttons, keys A–E/1–5, AMC scoring 6/1.5/0). History `amc-history:{uid|guest}`, saved `amc-saved:{uid|guest}`.
+- Problems are MAA-copyrighted: both question banks are behind `AuthGuard`.
 
 ### Competition Math — contest filter (toolbox units 4–10)
 Each `##` section has a tag line right under the heading: `<!-- contests: oml amc10 amc12 aime -->` (ids: `mathcounts oml amc8 amc10 amc12 aime usajmo usamo`, or `all`). `src/lib/contestTags.ts` parses them; `UnitPage` shows a "Show topics for" chip bar on any unit that has tags, drops non-matching sections (TOC follows), and `MarkdownRenderer` renders contest badges under each tagged `h2`. Selection persists in `localStorage` key `toolbox-contests`. Untagged sections always show. Search indexing strips the tag lines. When adding a toolbox section, always add a tag line.

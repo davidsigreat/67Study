@@ -18,6 +18,7 @@ import ProfileDropdown from './components/ProfileDropdown';
 // stay out of the main bundle and only load when the user actually opens /search.
 const SearchPage = lazy(() => import('./pages/SearchPage'));
 const MathTeamPracticePage = lazy(() => import('./pages/MathTeamPracticePage'));
+const AmcPracticePage = lazy(() => import('./pages/AmcPracticePage'));
 
 // Subjects that require an account even to view content (currently just test prep,
 // since its vocab/quiz progress is tied to a signed-in user).
@@ -28,7 +29,7 @@ function AuthGuard({ children }: { children: React.ReactNode }) {
   const location = useLocation();
 
   if (loading) return <div className="chat-loading">Loading…</div>;
-  if (!user) return <Navigate to={`/login?next=${encodeURIComponent(location.pathname)}`} replace />;
+  if (!user) return <Navigate to={`/login?next=${encodeURIComponent(location.pathname + location.search)}`} replace />;
   return <>{children}</>;
 }
 
@@ -48,7 +49,8 @@ function AppRoutes() {
         <Route path="/admin" element={<AuthGuard><AdminPage /></AuthGuard>} />
         <Route path="/:subject" element={<SubjectGuard><SubjectHubPage /></SubjectGuard>} />
         <Route path="/:subject/vocab" element={<AuthGuard><WordLabPage /></AuthGuard>} />
-        <Route path="/math-team/practice" element={<Suspense fallback={<div className="chat-loading">Loading…</div>}><MathTeamPracticePage /></Suspense>} />
+        <Route path="/math-team/practice" element={<AuthGuard><Suspense fallback={<div className="chat-loading">Loading…</div>}><MathTeamPracticePage /></Suspense></AuthGuard>} />
+        <Route path="/math-team/amc" element={<AuthGuard><Suspense fallback={<div className="chat-loading">Loading…</div>}><AmcPracticePage /></Suspense></AuthGuard>} />
         <Route path="/:subject/practice" element={<AuthGuard><PracticeQuestionsPage /></AuthGuard>} />
         <Route path="/:subject/units/:unitId" element={<SubjectGuard><UnitPage /></SubjectGuard>} />
         <Route

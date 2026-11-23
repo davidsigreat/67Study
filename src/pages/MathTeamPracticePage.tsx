@@ -16,6 +16,7 @@ import {
 import { checkAnswer, type Verdict } from '../components/mathteam/answerCheck';
 import { MathMarkdown, Tex } from '../components/mathteam/MathText';
 import LatexInput, { type LatexInputHandle } from '../components/mathteam/LatexInput';
+import { BankSwitch, BookmarkIcon, SearchIcon, shuffled, toggle } from '../components/mathteam/bankUi';
 
 const SLUG = 'math-team';
 const MEETS = [1, 2, 3, 4, 5, 6, 7];
@@ -34,22 +35,6 @@ function readHistory(uid: string | undefined): History {
   } catch {
     return {};
   }
-}
-
-function toggle<T>(set: Set<T>, v: T): Set<T> {
-  const next = new Set(set);
-  if (next.has(v)) next.delete(v);
-  else next.add(v);
-  return next;
-}
-
-function shuffled<T>(arr: T[]): T[] {
-  const a = arr.slice();
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
 }
 
 type Status = 'all' | 'new' | 'attempted' | 'incorrect' | 'correct' | 'saved';
@@ -103,14 +88,6 @@ function readSaved(uid: string | undefined): Set<string> {
   } catch {
     return new Set();
   }
-}
-
-function BookmarkIcon({ filled }: { filled: boolean }) {
-  return (
-    <svg viewBox="0 0 24 24" width="15" height="15" fill={filled ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
-    </svg>
-  );
 }
 
 interface Result { verdict: Verdict | 'revealed'; answer: string }
@@ -426,13 +403,12 @@ export default function MathTeamPracticePage() {
             <h1 className="qb-title">Question Bank</h1>
           </div>
           <div className="qb-header-right">
+            <BankSwitch current="oml" />
             <button className="qb-shuffle" disabled={filtered.length === 0} onClick={start}>
               🔀 Shuffle practice <span>{filtered.length}</span>
             </button>
             <label className="qb-search">
-              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
-                <circle cx="11" cy="11" r="7" /><path d="M21 21l-4.3-4.3" />
-              </svg>
+              <SearchIcon />
               <input
                 type="search"
                 placeholder="Question ID, year, or text…"

@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "oml:build": "node scripts/build-oml-bank.mjs"
+    "oml:build": "node scripts/build-oml-bank.mjs",
+    "amc:fetch": "node scripts/fetch-amc.mjs",
+    "amc:build": "node scripts/build-amc-bank.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

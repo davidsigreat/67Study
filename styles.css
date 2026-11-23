@@ -3370,3 +3370,41 @@ a:hover { text-decoration: underline; }
 .contest-badge--amc8, .contest-badge--amc10, .contest-badge--amc12 { color: #8bb4ff; border-color: rgba(139, 180, 255, 0.35); }
 .contest-badge--aime { color: #e0c15b; border-color: rgba(224, 193, 91, 0.35); }
 .contest-badge--usajmo, .contest-badge--usamo { color: #e879a0; border-color: rgba(232, 121, 160, 0.35); }
+
+/* ── Question bank switch (OML ↔ AMC) + AMC choices ─────────────────────────── */
+.qb-bank-switch {
+  display: inline-flex; gap: 0.25rem; padding: 0.3rem;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 999px;
+}
+.qb-bank-link {
+  font-family: "Outfit", sans-serif; font-weight: 600; font-size: 0.9rem;
+  color: var(--text); text-decoration: none; padding: 0.45rem 0.95rem; border-radius: 999px;
+  transition: color 0.15s, background 0.15s;
+}
+.qb-bank-link:hover { color: var(--accent); }
+.qb-bank-link--active { color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
+.qb-empty code { font-family: "Fira Code", "Cascadia Code", monospace; color: var(--text-bright); }
+.mt-problem-text img { display: block; max-width: min(100%, 520px); height: auto; margin: 0.75rem auto; background: #fff; border-radius: 6px; padding: 0.4rem; }
+.qb-card-body .mt-problem-text img { max-height: 5em; margin: 0.3rem 0; }
+
+.amc-choices { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.amc-choice {
+  display: flex; align-items: center; gap: 0.7rem; text-align: left;
+  background: var(--surface); color: var(--text-bright); border: 1px solid var(--border); border-radius: 12px;
+  flex: 1 1 150px; padding: 0.75rem 0.9rem; cursor: pointer; font-size: 1.02rem; min-height: 3.2rem;
+  transition: border-color 0.15s, background 0.15s, transform 0.15s;
+}
+.amc-choice:hover:not(:disabled) { border-color: var(--accent); transform: translateY(-2px); }
+.amc-choice:disabled { cursor: default; }
+.amc-choice-letter {
+  flex-shrink: 0; width: 1.8rem; height: 1.8rem; border-radius: 50%; display: grid; place-items: center;
+  font-family: "Outfit", sans-serif; font-weight: 700; font-size: 0.85rem;
+  background: var(--surface2); color: var(--text-dim); border: 1px solid var(--border);
+}
+.amc-choice-text { white-space: nowrap; }
+.amc-choice--right { border-color: #7dd3a8; background: rgba(125, 211, 168, 0.1); }
+.amc-choice--right .amc-choice-letter { background: #7dd3a8; color: #0f1117; border-color: #7dd3a8; }
+.amc-choice--wrong { border-color: #e05252; background: rgba(224, 82, 82, 0.1); }
+.amc-choice--wrong .amc-choice-letter { background: #e05252; color: #fff; border-color: #e05252; }
+.amc-choice--dim { opacity: 0.55; }
+.amc-keys { font-family: "Outfit", sans-serif; font-size: 0.8rem; color: var(--text-dim); margin-left: auto; align-self: center; }

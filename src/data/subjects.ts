@@ -183,6 +183,7 @@ export const SUBJECTS: SubjectMeta[] = [
       { unit: 1, title: 'How to Use This Toolbox',            section: 'Start Here' },
       { unit: 2, title: 'LaTeX for Competition Answers',      section: 'Start Here' },
       { unit: 3, title: 'OML Practice — Question Bank',       section: 'Practice', link: '/math-team/practice' },
+      { unit: 11, title: 'AMC 8/10/12 Practice — Question Bank', section: 'Practice', link: '/math-team/amc' },
       { unit: 4, title: 'Numbers & Algebra',                  section: 'Toolbox' },
       { unit: 5, title: 'Geometry',                           section: 'Toolbox' },
       { unit: 6, title: 'Combinatorics & Probability',        section: 'Toolbox' },

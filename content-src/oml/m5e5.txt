@@ -1,0 +1,130 @@
+# Meet 5, Event 5: ALGEBRA I — Equations with Decimals & Percents
+# (2012–2018 papers: "Mixture and Investment Problems", dated April.)
+
+@ Feb 2026
+A: Solve for $y$: $$0.\overline{01}(y+20)=3$$
+= 277
+B: The width of a rectangle is $36\%$ shorter than the length of the rectangle. When the width is decreased by $50\%$ and the length is increased by $25\%$, the perimeter decreases by $5.04$ inches. Find the length (in inches) of the original rectangle.
+= 36
+C: A scientist mixed together $5$ liters of a $12\%$ acid solution, $1$ liter of a $3\%$ acid solution, and an unknown amount of an $8\%$ acid solution. If the result is a $9.5\%$ acid solution, how many liters of the $8\%$ acid solution were mixed in?
+= 4
+
+@ Feb 2025
+A: Karl will stay in a hotel and pay a total of \$230. The \$230 covers the cost of the hotel room and tax. If the tax is $15\%$ of the room's cost, what is the cost (in dollars) of the room?
+= 200
+B: On January 1, 2024, Mele invested $N$ thousands of dollars at $(N-7.5)\%$ annual interest. At the end of the year she earned \$540 interest. How much (in dollars) did she initially invest?
+= 12000
+C: Ellie mixes a $20\%$ saline solution with a $5\%$ saline solution to create $0.2$ liters of an $11\%$ solution. Finding the resulting solution too weak, she reverses the amounts of the $20\%$ and the $5\%$ solutions and creates $0.2$ liters of a $14\%$ solution. How many liters of the $20\%$ solution does Ellie use for the $14\%$ solution?
+= 0.12
+
+@ Feb 2024
+A: Solve for $x$ and $y$: $$\begin{cases}0.3x-0.1y=0.2\\ 0.5x-0.25y=0.4\end{cases}$$
+= x=0.4, y=-0.8
+~ 0.4, -0.8
+B: Solve for $x$ and $y$: $$\begin{cases}0.5x+0.\overline{3}y=18\\ 0.75x-0.125y=12\end{cases}$$
+= x=20, y=24
+~ 20, 24
+C: Sophie mixes $20$ ml of a $5\%$ hydrochloric acid solution with $60$ ml of an $8\%$ hydrochloric acid solution in a flask. If she uses half of the new solution and refills the flask with $120$ ml of a $3\%$ hydrochloric acid solution, what is the percent concentration of hydrochloric acid in the resulting solution? Round your answer to the nearest hundredth.
+= 4.06
+
+@ Feb 2023
+A: Solve for $x$: $$0.1\overline{36}(11x-88)=3$$
+= 10
+B: How many ounces of a $7.5\%$ solution must be added to $20$ ounces of a $30\%$ solution to produce a $12\%$ solution?
+= 80
+C: Katie has three different investments. Investment A pays a return of $6\%$ per year. Investment B pays a return of $4\%$ per year. Investment C pays a return of $2.5\%$ per year. For Investment A, Katie invested \$1000 less than half of the amount for Investment C. For Investment C, Katie invested $50\%$ more than Investment B. If her yearly income from all three investments is \$920, how much money (in dollars) is in Investment A?
+= 5000
+
+@ Feb 2022
+A: If the length of a rectangle is increased by $30\%$ and its width is decreased by $40\%$, by what percent is its area decreased?
+= 22
+B: How many ounces of a $15\%$ saline solution must be added to $45$ ounces of a $6\%$ saline solution to produce a $10\%$ saline solution?
+= 36
+C: Solve for $x$ and $y$: $$\begin{cases}0.\overline{7}x+0.\overline{4}y=-1\\ 1.1\overline{6}x-0.375y=5\end{cases}$$
+= x=\frac{57}{25}, y=-\frac{156}{25}
+~ \frac{57}{25}, -\frac{156}{25}
+
+@ Feb 2021
+A: Pete has $15$ coins. Some are nickels and the rest are dimes. The total value of the coins is \$1.05. How many nickels does he have?
+= 9
+B: Solve for $x$: $$0.6\overline{4}(10x-90)=232$$
+= 45
+C: A chocolate fountain is using a chocolate mix recipe that calls for $24$ ounces of $66\frac{2}{3}\%$ dark chocolate plus $3$ ounces of $100\%$ dark chocolate. How many more ounces of $100\%$ dark chocolate must be added to obtain an $83\frac{1}{3}\%$ dark chocolate blend?
+= 21
+
+@ Feb 2020
+A: Solve for $x$: $$0.25(3x+1)-2.5=0.1(3x-1)+0.15(-1+3x)+0.3x$$
+= -\frac{20}{3}
+B: Solve for $x$: $$0.\overline{03}x^2-0.\overline{3}x+0.\overline{54}=0$$
+= 2, 9
+C: At KTA Super Stores a package of ground beef with a label of 72/28 means the ground beef contains $72\%$ lean beef and $28\%$ fat. Ian buys some 84/16 ground beef for \$4.20 per pound and some 75/25 ground beef for \$3.60 per pound. He spends a total of \$35.40. He mixes all the ground beef together resulting in a mixture that is 80/20. How many pounds of ground beef did Ian purchase?
+= 9
+
+@ Feb 2019
+A: A ramen shop mixes $50$ cups of a broth that is $30\%$ "secret sauce" with $30$ cups of water to produce their ramen broth. What percentage of the mixture is "secret sauce"?
+= 18.75
+B: Amy invested a total of \$20,000 in three mutual funds. Last year she received $3\%$ per year from Fund A, $6\%$ from Fund B, and $2\%$ from Fund C. She invested twice as much in Fund B as she did in Fund A, and last year the total income from these three investments was \$895. How much (in dollars) is invested in Fund C?
+= 3500
+C: Marcus invested \$4500 in two stocks in 2018 and ended up with a \$7.50 loss. He made a $4.5\%$ profit on Pineapple stock but lost $1.5\%$ on Blueberry stock. How much profit (in dollars) would he have made if he had switched the amounts he put in the two stocks in 2018?
+= 142.50
+
+@ Apr 2018
+A: Solve for $x$: $$0.75x+0.25(80-x)=24$$
+= 8
+B: Erica invested a total of \$7500 in two business enterprises. She made a $5\%$ profit in one enterprise and had a $2\%$ loss in the other. Her net profit for the year was \$130. Find the amount (in dollars) invested in the profitable enterprise.
+= 4000
+C: Makana spent \$23.00 to purchase $2.5$ pounds of nuts to add to her favorite trail mix. Macalinear nuts sold for \$9.80 per pound and Hearts of Pine sold for \$5.80 per pound. How many pounds of each did she purchase? (Answer: Macalinear, Hearts of Pine)
+= 2\frac{1}{8}, \frac{3}{8}
+
+@ Apr 2017
+A: Solve for $x$: $$(0.45)(120+x)=63+0.10x$$
+= \frac{180}{7}
+B: Solve for $x$ and $y$: $$\begin{cases}0.\overline{7}x+0.625y=4\\ 0.8\overline{3}x+0.375y=9\end{cases}$$
+= x=18, y=-16
+~ 18, -16
+C: A bird fancier has $5$ quarts of a $4\%$ nectar solution. He mixes this with a $10\%$ nectar solution to produce a $6\%$ nectar solution. If each bird will consume $0.2$ ounces of the $6\%$ solution, what is the greatest number of birds he can expect to feed? (Note: $32$ ounces $=1$ quart)
+= 1200
+
+@ Apr 2016
+A: Sasha has $20$ coins. Some are nickels and some are dimes. The total value of the coins is \$1.30. How many nickels does she have?
+= 14
+B: Find the ratio of $x$ to $y$ if $0.06x+0.025y=0.05(x+y)$.
+= 5:2
+~ \frac{5}{2}
+C: Tank X contains a solution of $24$ gallons of alcohol and $36$ gallons of water. Tank Y contains a solution of $18$ gallons of alcohol and $6$ gallons of water. How many gallons are drawn from each tank and mixed together so that tank Z contains a solution of $14$ gallons of alcohol and $7$ gallons of water? (Answer: from Tank X, from Tank Y)
+= 5, 16
+
+@ Apr 2015
+A: A grocer wants to sell a mixture of lychee and kumquats for \$4.75 per pound. If the lychee cost \$6.00 per pound and the kumquats cost \$4.00 a pound, how many pounds of lychee will be needed to make $100$ pounds of the mixture?
+= 37.5
+B: Solve for $x$ and $y$: $$\begin{cases}0.5x-0.2y=-1.9\\ 0.2x+0.3y=0\end{cases}$$
+= x=-3, y=2
+~ -3, 2
+C: A chemist mixed $40$ ml of $8\%$ hydrochloric acid solution with $60$ ml of $12\%$ hydrochloric acid solution. She used a portion of this new solution and replaced it with distilled water. If the new solution tested $5.2\%$ hydrochloric acid, how much (in ml) of the original mixture did she use?
+= 50
+
+@ Apr 2014
+A: A fashion designer makes and sells hats. The material for each hat costs \$5.50. The hats sell for \$12.50 each. The designer spends \$1400 on advertising. How many hats must the designer sell to break even?
+= 200
+B: Solve for $x$ and $y$: $$\begin{cases}0.4x+0.5y=0.3\\ 0.3x-0.2y=0.8\end{cases}$$
+= x=2, y=-1
+~ 2, -1
+C: Dana combines $8$ L of a $15\%$ acid solution, $12$ L of a $35\%$ acid solution, and $10$ L of a "mystery" acid solution. If the resulting solution is $25\%$ acid, what percent of the "mystery" solution is acid?
+= 21
+
+@ Apr 2013
+A: Solve for $x$ and $y$: $$\begin{cases}0.625x-0.25y=0.375\\ 0.5x+0.125y=0.75\end{cases}$$
+= x=\frac{15}{13}, y=\frac{18}{13}
+~ \frac{15}{13}, \frac{18}{13}
+B: Shelly sees an ad for a new computer being sold at a $20\%$ discount. Being the savvy shopper, Shelly knows the price will be going lower. The next month she is able to buy the computer for $10\%$ less than the previously discounted price. Being the savvy businesswoman, Shelly then sells the computer on Craigslist for \$1029.60, making a profit of $30\%$ over what she paid for it. What was the original pre-discounted selling price (in dollars) of the computer?
+= 1100
+C: Mark's retirement investments are distributed between $3$ different funds. Fund A pays a return of $5\%$ per year. Fund B pays a return of $4\%$ per year. Fund C pays a return of $3\%$ per year. Mark invested $75\%$ more in Fund A than in Fund B, and \$2500 less in Fund B than in Fund C. How much money (in dollars) is invested in Fund A if his yearly income from all $3$ investments is \$1965?
+= 21000
+
+@ Apr 2012
+A: How many ounces of a $5\%$ antiseptic solution must be added to $25$ ounces of a $20\%$ solution to produce a $10\%$ solution?
+= 50
+B: You buy $3$ times as many 20-cent stamps as 10-cent stamps and $6$ times as many 10-cent stamps as 5-cent stamps. If you spend \$63.75 on stamps, what is the total number of stamps you bought?
+= 375
+C: A class goes on a field trip to Wet N Wild. Student tickets which are normally \$15 are discounted by $13\frac{1}{3}\%$. Adult prices are normally \$40 but are now discounted by $22.5\%$. Before adding tax, the subtotal is \$444. If the number of students attending is nine times the number of chaperones attending, what is the combined discount (in dollars) on all tickets?
+= 81

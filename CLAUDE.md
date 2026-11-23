@@ -100,6 +100,7 @@ Never commit `.env.local`. See `.env.example` for the key names.
 | AP US History | `ap-us-history` | crimson | 9 | Full content |
 | AP Physics C | `ap-physics-c` | sky | 13 | Stubs only (units 1–7 Mechanics, 8–13 E&M) |
 | AP Physics (Algebra-Based) | `ap-physics` | indigo | 15 | Full content (1–8 = Physics 1, 9–15 = Physics 2) |
+| Competition Math | `math-team` | coral | 9 | Toolbox (structured like the MATHCOUNTS Toolbox: Numbers & Algebra, Geometry, Combinatorics & Probability, Number Theory, + high-school topics & tips) + OML practice bank (unit 3 links to `/math-team/practice`) |
 
 ---
 
@@ -172,6 +173,16 @@ Rooms: `global` + one room per subject slug.
 - `MessageInput` — adds doc to `rooms/{room}/messages`
 - Admin toolbar in `ChatWindow` — select messages, bulk delete
 - Deletes log to `rooms/{room}/logs`
+
+### Competition Math — OML question bank (`/math-team/practice`)
+Practice mode for Oʻahu Mathematics League (OML) past meet problems.
+- **Catalog:** `src/data/mathteam/events.ts` — all 7 meets × 6 events (`m4e1`, alternating Event 4s use `…alt`), categories, A/B/C levels (2/3/5 pts), `loadBank()` lazy-globs `bank/*.json`.
+- **Source of truth for problems:** `content-src/oml/<eventId>.txt` (human-friendly format documented at the top of `scripts/build-oml-bank.mjs`). Run `npm run oml:build` to regenerate `src/data/mathteam/bank/<eventId>.json`. Never hand-edit the JSON.
+- **Figures:** `public/oml/fig/<problemId>.png`, referenced by `& /oml/fig/...` lines.
+- **Answer checking:** `src/components/mathteam/answerCheck.ts` — LaTeX normalization, unordered lists, `\pm` expansion, relation chains (`-2\le x` ≡ `x\ge -2`), complex-number evaluator (`i`, `\operatorname{cis}`, degrees, logs, trig) with random-substitution equivalence. Verdicts: exact / equivalent (right value, check form) / wrong; users can override.
+- **UI:** `src/pages/MathTeamPracticePage.tsx` (multi-select filters: meet, subject, event, level, unsolved/missed; endless shuffled queue), `LatexInput.tsx` (toolbar + KaTeX preview), `MathText.tsx`. Attempt history in `localStorage` key `mathteam-history:{uid|guest}`.
+- **Coverage:** all 7 meets, every event (incl. the alternating `m4e4alt` / `m7e4alt`), typed papers ~2012–2026: 1,782 individual problems. Scanned pre-2012 papers and Team events are not transcribed. Events with no source file show "coming soon".
+- **Answer formats the checker understands:** vectors (`\langle a,b\rangle`, `<a,b>`, `ai+bj`, `a\vec{i}+b\vec{j}` → ordered tuple), points/tuples, matrices, `\pm`, inequalities/relations, percent, degrees, `\text{none}`. Tables in problems are typeset as KaTeX `\begin{array}` blocks.
 
 ### Admin system
 Access controlled by Firestore `admins` collection (not by app code alone).

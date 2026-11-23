@@ -1,0 +1,338 @@
+[
+ {
+  "id": "m6e3-2026-03-A",
+  "event": "m6e3",
+  "date": "Mar 2026",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{3x-2}{6-x}-\\dfrac{x-4}{x-6}+\\dfrac{3x}{2x-12}$$",
+  "a": "\\frac{-5x+12}{2x-12}"
+ },
+ {
+  "id": "m6e3-2026-03-B",
+  "event": "m6e3",
+  "date": "Mar 2026",
+  "level": "B",
+  "q": "Simplify: $$\\dfrac{x^2-4}{x^2+12x+35}\\div\\dfrac{x^2+7x+10}{x^2+11x+28}\\cdot\\dfrac{x^2+10x+25}{x^2-6x+8}$$",
+  "a": "\\frac{x+4}{x-4}"
+ },
+ {
+  "id": "m6e3-2026-03-C",
+  "event": "m6e3",
+  "date": "Mar 2026",
+  "level": "C",
+  "q": "Simplify: $$\\dfrac{1+\\dfrac{x^3}{8}}{1-\\dfrac{x}{2}+\\dfrac{x^2}{4}}-\\dfrac{x+3}{\\dfrac{1}{x-2}}\\div\\dfrac{x^2-4}{x}$$",
+  "a": "\\frac{-x^2-2x+4}{2x+4}"
+ },
+ {
+  "id": "m6e3-2025-03-A",
+  "event": "m6e3",
+  "date": "Mar 2025",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{x^2-9}{x^2+2x-15}\\cdot\\dfrac{x^2-2x-35}{7x+21}$$",
+  "a": "\\frac{x-7}{7}"
+ },
+ {
+  "id": "m6e3-2025-03-B",
+  "event": "m6e3",
+  "date": "Mar 2025",
+  "level": "B",
+  "q": "Simplify: $$\\dfrac{-3}{5-x}+\\dfrac{x-9}{x+2}-\\dfrac{5x+11}{x^2-3x-10}$$",
+  "a": "\\frac{x^2-16x+40}{x^2-3x-10}"
+ },
+ {
+  "id": "m6e3-2025-03-C",
+  "event": "m6e3",
+  "date": "Mar 2025",
+  "level": "C",
+  "q": "Simplify: $$\\left(\\dfrac{1}{3}+\\dfrac{2}{x+2}+\\dfrac{3}{x^2-4}\\right)\\div\\left(\\dfrac{2x^2+17x+21}{3x+6}\\right)$$",
+  "a": "\\frac{x-1}{2x^2-x-6}"
+ },
+ {
+  "id": "m6e3-2024-03-A",
+  "event": "m6e3",
+  "date": "Mar 2024",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{5x+10}{x^2-3x}\\div\\dfrac{x^3+5x^2+6x}{x^2-9}$$",
+  "a": "\\frac{5}{x^2}"
+ },
+ {
+  "id": "m6e3-2024-03-B",
+  "event": "m6e3",
+  "date": "Mar 2024",
+  "level": "B",
+  "q": "Simplify: $$\\dfrac{2}{x+7}-\\dfrac{21-x}{49-x^2}$$",
+  "a": "\\frac{1}{x-7}"
+ },
+ {
+  "id": "m6e3-2024-03-C",
+  "event": "m6e3",
+  "date": "Mar 2024",
+  "level": "C",
+  "q": "Simplify: $$1+\\dfrac{2}{\\dfrac{2}{3-\\frac1x}-\\dfrac{3}{2-\\frac1x}}$$",
+  "a": "\\frac{7x^2-9x+2}{-5x^2+x}"
+ },
+ {
+  "id": "m6e3-2023-03-A",
+  "event": "m6e3",
+  "date": "Mar 2023",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{2}{x+1}-\\dfrac{4}{x+3}$$",
+  "a": "\\frac{2-2x}{x^2+4x+3}"
+ },
+ {
+  "id": "m6e3-2023-03-B",
+  "event": "m6e3",
+  "date": "Mar 2023",
+  "level": "B",
+  "q": "Simplify: $$\\dfrac{2p+7}{2p^2}\\div\\dfrac{9p-12}{4p^3}\\cdot\\dfrac{15p^2-17p-4}{6p^2+13p-28}$$",
+  "a": "\\frac{10p^2+2p}{9p-12}"
+ },
+ {
+  "id": "m6e3-2023-03-C",
+  "event": "m6e3",
+  "date": "Mar 2023",
+  "level": "C",
+  "q": "Simplify: $$\\dfrac{1}{1+\\dfrac{1}{1+\\frac{x}{x+1}}}+\\dfrac{1}{1+\\dfrac{1}{1+\\frac{x}{x+2}}}$$",
+  "a": "\\frac{12x^2+21x+8}{9x^2+18x+8}"
+ },
+ {
+  "id": "m6e3-2022-03-A",
+  "event": "m6e3",
+  "date": "Mar 2022",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{\\frac12}{\\dfrac{x-3}{2}-\\dfrac{3}{x+3}}$$",
+  "a": "\\frac{x+3}{x^2-15}"
+ },
+ {
+  "id": "m6e3-2022-03-B",
+  "event": "m6e3",
+  "date": "Mar 2022",
+  "level": "B",
+  "q": "Simplify: $$\\dfrac{4x^2-9}{8x^3-27}\\div\\dfrac{2x^2+x-3}{4x^2+6x+9}\\cdot\\dfrac{x^2+2x-3}{2x^2+5x-3}$$",
+  "a": "\\frac{1}{2x-1}"
+ },
+ {
+  "id": "m6e3-2022-03-C",
+  "event": "m6e3",
+  "date": "Mar 2022",
+  "level": "C",
+  "q": "Simplify: $$\\dfrac{x^{p+2}-y^2x^{3+q}-yx^{q+2}+x^{p+3}y}{x^{p+2}-yx^{q+2}}\\cdot\\dfrac{1}{y+\\frac1x}$$",
+  "a": "x"
+ },
+ {
+  "id": "m6e3-2021-03-A",
+  "event": "m6e3",
+  "date": "Mar 2021",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{\\dfrac{x-3}{x^2-36}}{\\dfrac{x^2-9}{x^2+15x+54}}$$",
+  "a": "\\frac{x+9}{(x-6)(x+3)}"
+ },
+ {
+  "id": "m6e3-2021-03-B",
+  "event": "m6e3",
+  "date": "Mar 2021",
+  "level": "B",
+  "q": "Simplify: $$\\dfrac{2-\\dfrac{x^2-9x-36}{x^2+18x+45}}{2+\\dfrac{x^2-18x+72}{x^2+9x-90}}$$",
+  "a": "\\frac{x+42}{3x+18}"
+ },
+ {
+  "id": "m6e3-2021-03-C",
+  "event": "m6e3",
+  "date": "Mar 2021",
+  "level": "C",
+  "q": "Simplify: $$\\dfrac{x-7}{9x^2+6x+4}-\\dfrac{6x^2-4x+12}{27x^3-8}+\\dfrac{1}{3x-2}$$",
+  "a": "\\frac{2x-3}{9x^2+6x+4}"
+ },
+ {
+  "id": "m6e3-2020-04-A",
+  "event": "m6e3",
+  "date": "Apr 2020",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{3x+27}{6x-48}\\div\\dfrac{x^2+9x}{x^2-4x-32}$$",
+  "a": "\\frac{x+4}{2x}"
+ },
+ {
+  "id": "m6e3-2020-04-B",
+  "event": "m6e3",
+  "date": "Apr 2020",
+  "level": "B",
+  "q": "Simplify: $$\\dfrac{2x}{x-3}-\\dfrac{x-3}{x}-4$$",
+  "a": "\\frac{-3x^2+18x-9}{x^2-3x}"
+ },
+ {
+  "id": "m6e3-2020-04-C",
+  "event": "m6e3",
+  "date": "Apr 2020",
+  "level": "C",
+  "q": "Simplify: $$\\dfrac{\\dfrac{3-2x}{x^3}}{\\dfrac{2}{x^2}-\\dfrac{1}{x^3+x^2}}$$",
+  "a": "\\frac{(3-2x)(x+1)}{x(2x+1)}"
+ },
+ {
+  "id": "m6e3-2019-03-A",
+  "event": "m6e3",
+  "date": "Mar 2019",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{4}{5v^2+11v+2}\\cdot\\dfrac{50v^3+10v^2}{10v^3-20v^2}$$",
+  "a": "\\frac{4}{v^2-4}"
+ },
+ {
+  "id": "m6e3-2019-03-B",
+  "event": "m6e3",
+  "date": "Mar 2019",
+  "level": "B",
+  "q": "Simplify: $$1+\\dfrac{2}{2+\\dfrac{1}{1+\\frac{2}{x-1}}}$$",
+  "a": "\\frac{5x+3}{3x+1}"
+ },
+ {
+  "id": "m6e3-2019-03-C",
+  "event": "m6e3",
+  "date": "Mar 2019",
+  "level": "C",
+  "q": "The sum of $\\dfrac{2x+By}{x^2-2xy+4y^2}$ and $\\dfrac{C}{x-7y}$ is $\\dfrac{-2x^2-3xy-37y^2}{\\left(x^2-2xy+4y^2\\right)(x-7y)}$, where $B$ and $C$ are real numbers. Find the value of $B^2C$.",
+  "a": "-36"
+ },
+ {
+  "id": "m6e3-2018-03-A",
+  "event": "m6e3",
+  "date": "Mar 2018",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{6}{(x+2)(x+5)}+\\dfrac{x}{x+2}$$",
+  "a": "\\frac{x+3}{x+5}"
+ },
+ {
+  "id": "m6e3-2018-03-B",
+  "event": "m6e3",
+  "date": "Mar 2018",
+  "level": "B",
+  "q": "Simplify: $$\\dfrac{2a-1}{a^2-4}-\\dfrac{a-1}{2-a}+\\dfrac{5}{a+2}$$",
+  "a": "\\frac{a^2+8a-13}{a^2-4}"
+ },
+ {
+  "id": "m6e3-2018-03-C",
+  "event": "m6e3",
+  "date": "Mar 2018",
+  "level": "C",
+  "q": "Simplify: $$\\left[\\dfrac{6-2x}{x^2+3x-10}\\right]\\div\\left[\\dfrac{1-\\frac1x-\\frac6{x^2}}{\\frac4{x^2}-1}\\right]-2$$",
+  "a": "\\frac{-2x-8}{x+5}"
+ },
+ {
+  "id": "m6e3-2017-03-A",
+  "event": "m6e3",
+  "date": "Mar 2017",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{3}{x-3}-\\dfrac{x+3}{9-x^2}-\\dfrac{x}{x-3}$$",
+  "a": "\\frac{-x+4}{x-3}"
+ },
+ {
+  "id": "m6e3-2017-03-B",
+  "event": "m6e3",
+  "date": "Mar 2017",
+  "level": "B",
+  "q": "Simplify: $$\\dfrac{y}{4xy^2-x}\\left(3+2y-\\dfrac{2}{y}\\right)(2xy+x)$$",
+  "a": "y+2"
+ },
+ {
+  "id": "m6e3-2017-03-C",
+  "event": "m6e3",
+  "date": "Mar 2017",
+  "level": "C",
+  "q": "If $a$ and $b$ are integers so that $\\dfrac{x-2y}{3x+4y}$ is the simplest form of $$\\dfrac{ax^2y+bxy^2}{6x^2-xy-12y^2}\\div\\dfrac{x^3y+2x^2y^2+4xy^3}{x^3-8y^3}$$ find the value of $a+b$.",
+  "a": "-1"
+ },
+ {
+  "id": "m6e3-2016-03-A",
+  "event": "m6e3",
+  "date": "Mar 2016",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{x+3}{x+7}+\\dfrac{16x+56}{x^2-49}$$",
+  "a": "\\frac{x+5}{x-7}"
+ },
+ {
+  "id": "m6e3-2016-03-B",
+  "event": "m6e3",
+  "date": "Mar 2016",
+  "level": "B",
+  "q": "Simplify: $$\\left(\\dfrac{10}{x+4}-\\dfrac{9}{x+3}\\right)\\div\\left(\\dfrac{2}{x+4}-\\dfrac{1}{x-5}\\right)\\cdot\\left(\\dfrac{9}{x-6}-\\dfrac{8}{x-5}\\right)$$",
+  "a": "\\frac{1}{x-14}"
+ },
+ {
+  "id": "m6e3-2016-03-C",
+  "event": "m6e3",
+  "date": "Mar 2016",
+  "level": "C",
+  "q": "Simplify: $$\\dfrac{2}{2x-3}-\\dfrac{2x+3}{4x^2+6x+9}-\\dfrac{2x^2+5x+12}{8x^3-27}$$",
+  "a": "\\frac{2x^2+7x+15}{8x^3-27}"
+ },
+ {
+  "id": "m6e3-2015-03-A",
+  "event": "m6e3",
+  "date": "Mar 2015",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{5}{\\dfrac{x+4}{5}-\\dfrac{4}{x-4}}$$",
+  "a": "\\frac{25x-100}{x^2-36}"
+ },
+ {
+  "id": "m6e3-2015-03-B",
+  "event": "m6e3",
+  "date": "Mar 2015",
+  "level": "B",
+  "q": "Let $a=\\dfrac1x$ and $b=\\dfrac1y$. Simplify the following expression and write your answer as a single term in terms of $a$ and $b$: $$\\dfrac{x+y}{x-y}\\cdot\\dfrac{x^2-y^2}{x^2+y^2}$$",
+  "a": "\\frac{(a+b)^2}{a^2+b^2}"
+ },
+ {
+  "id": "m6e3-2015-03-C",
+  "event": "m6e3",
+  "date": "Mar 2015",
+  "level": "C",
+  "q": "Simplify: $$(x-1)^{2n}\\cdot\\dfrac{1}{(x-1)^{2n-1}}\\cdot(x-1)^{2n-2}\\cdot\\dfrac{1}{(x-1)^{2n-3}}\\cdots(x-1)^{2n-(2n-2)}\\cdot\\dfrac{1}{(x-1)^{2n-(2n-1)}}$$ Write your answer as a power of $(x-1)$.",
+  "a": "(x-1)^n"
+ },
+ {
+  "id": "m6e3-2014-03-A",
+  "event": "m6e3",
+  "date": "Mar 2014",
+  "level": "A",
+  "q": "A cyclist travels $12$ km on a level road at $x\\ \\frac{\\text{km}}{\\text{h}}$ and then goes $9$ km on a downhill road at $2x\\ \\frac{\\text{km}}{\\text{h}}$. Find her average speed in terms of $x$.",
+  "a": "\\frac{14x}{11}"
+ },
+ {
+  "id": "m6e3-2014-03-B",
+  "event": "m6e3",
+  "date": "Mar 2014",
+  "level": "B",
+  "q": "Simplify: $$\\dfrac{(x-2)x+1}{(x-1)x-2}\\cdot\\dfrac{(x-2)x+(x-2)}{x^2-1}\\div\\dfrac{x+6}{x+1}$$",
+  "a": "\\frac{x-1}{x+6}"
+ },
+ {
+  "id": "m6e3-2014-03-C",
+  "event": "m6e3",
+  "date": "Mar 2014",
+  "level": "C",
+  "q": "Simplify: $$\\left(\\dfrac{x-y}{y}+1\\right)\\left(\\dfrac{x}{x-y}-1\\right)\\left(\\dfrac{y}{x}+1\\right)\\div\\left(\\dfrac{x}{y}+1\\right)$$",
+  "a": "\\frac{y}{x-y}"
+ },
+ {
+  "id": "m6e3-2013-03-A",
+  "event": "m6e3",
+  "date": "Mar 2013",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{x^2+x-2}{4x^2-9}\\div\\dfrac{-x^2+x}{x^2-7x+12}\\cdot\\dfrac{2x^2-3x}{x^2-x-6}$$",
+  "a": "\\frac{4-x}{2x+3}"
+ },
+ {
+  "id": "m6e3-2013-03-B",
+  "event": "m6e3",
+  "date": "Mar 2013",
+  "level": "B",
+  "q": "Simplify: $$\\dfrac{1-\\dfrac{x-2}{x+1}}{\\dfrac{x-1}{x}}$$",
+  "a": "\\frac{3x}{x^2-1}"
+ },
+ {
+  "id": "m6e3-2013-03-C",
+  "event": "m6e3",
+  "date": "Mar 2013",
+  "level": "C",
+  "q": "Simplify: $$\\left(\\dfrac{x-2}{x-1}+\\dfrac{x-3}{x-2}\\right)\\div\\left(\\dfrac{3-x}{2-x}-\\dfrac{2-x}{1-x}\\right)$$",
+  "a": "-2x^2+8x-7"
+ }
+]

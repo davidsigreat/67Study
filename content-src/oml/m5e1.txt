@@ -1,0 +1,115 @@
+# Meet 5, Event 1: ALGEBRA II — Polynomial Equations
+# (2013–2019 papers are dated March.)
+
+@ Feb 2026
+A: Solve for $x$: $$3x^2+2x+12=0$$
+= -\frac{1}{3}\pm\frac{1}{3}\sqrt{35}i
+B: $-2$ is a double root of the equation $x^3+ax+b=0$ where $a$ and $b$ are integers. Find $a$.
+= -12
+C: $P(x)$ is a polynomial of lowest degree with zeros $1-\sqrt{3}\,i$ and $\sqrt{7}$. Find $P(x)$. Write your answer as a polynomial in descending order with relatively prime integral coefficients.
+= x^4-2x^3-3x^2+14x-28
+
+@ Feb 2025
+A: Solve for $x$: $$x^4=x^2+20$$
+= \pm\sqrt{5}, \pm 2i
+B: Find the lowest degree polynomial equation with integral coefficients that has roots $4+i$ and $2\sqrt{2}$. Write the equation so the polynomial is in descending order and the coefficients are relatively prime.
+= x^4-8x^3+9x^2+64x-136=0
+C: Find all real values of $k$ where $k$ is a root of $kx^2-2x+1=0$.
+= 1, -\frac{1}{2}\pm\frac{\sqrt{5}}{2}
+
+@ Feb 2024
+A: Solve for $x$: $$x^4-36=5x^2$$
+= \pm 3, \pm 2i
+B: Given: $2+i$ is a root of $x^4-4x^3-2x^2+28x-35=0$. Find the real roots of the equation.
+= \pm\sqrt{7}
+C: If $-2$ is a double root of $x^4+ax^3+7x^2+12x+b=0$, find $a+b$.
+= 16
+
+@ Feb 2023
+A: Find the roots of $x^4-3x^2=18$.
+= \pm\sqrt{6}, \pm\sqrt{3}i
+B: If $-2+2i$ is one root of $x^4-3x^3-10x^2-16x+80=0$, find the other roots.
+= -2-2i, 2, 5
+C: The equation $x^3+2x^2=5x+6$ has real roots $a$, $b$, and $c$ such that $a<b<c$. Find the equation whose roots are $a-2$, $b$, and $c+2$. Write your answer as a polynomial equation so that the polynomial is of lowest degree, is in descending order, and has relatively prime integral coefficients.
+= x^3+2x^2-19x-20=0
+
+@ Feb 2022
+A: Find the polynomial equation of lowest degree with relatively prime integral coefficients with roots $-2$ and $1+2i$.
+= x^3+x+10=0
+B: If the roots of $5x^3+4x^2+3x+2=0$ are $a$, $b$, and $c$, find the value of $\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}$.
+= -\frac{3}{2}
+C: Find the value of $k$ so that $27x^3+kx-16=0$ has a real double root.
+= -36
+
+@ Feb 2021
+A: Solve for $x$: $$2x^3-4=x^2-8x$$
+= \frac{1}{2}, \pm 2i
+B: Solve for $x$: $$x^3+11x^2+33x+15=0$$
+= -5, -3\pm\sqrt{6}
+C: Find the lowest degree equation with integral coefficients having $1+2i$ and $-2\sqrt{3}$ as two of its roots.
+= x^4-2x^3-7x^2+24x-60=0
+
+@ Feb 2020
+A: Find the lowest degree polynomial $p$ with leading coefficient one and zeros $-3i$ and $-7$.
+= x^3+7x^2+9x+63
+B: If $1-i$ is one root of $2x^4+3x^3-14x^2+22x-8=0$, find the other roots.
+= 1+i, \frac{1}{2}, -4
+C: Let $f(x)$ be a 4th degree polynomial function with $x$-intercepts $-4$, $-2$, $3$ and $5$, and $y$-intercept $20$. The graph of $g(x)$ is a vertical translation of the graph of $f(x)$. Dividing $g(x)$ by $(x-2)$ results in a remainder of $19$. Find the remainder that results from dividing $g(x)$ by $(x+3)$.
+= -1
+
+@ Mar 2019
+A: Solve for $x$: $$x^4+6x^2-40=0$$
+= \pm 2, \pm\sqrt{10}i
+B: $2+i$ is a root of the equation $3x^3+px^2+qx-5=0$, where $p$ and $q$ are real numbers. Find the remaining roots of this equation.
+= \frac{1}{3}, 2-i
+C: If $k$ is a real number, $27x^3+kx-128=0$ has a double root. What is the double root?
+= -\frac{4}{3}
+
+@ Mar 2018
+A: Find the polynomial equation of lowest degree with relatively prime integral coefficients that has roots $1+3i$ and $2$.
+= x^3-4x^2+14x-20=0
+B: $4$ and $-3$ are the only two roots of $x^3+ax^2+bx+c=0$. What are the possible values of $b$?
+= -15, -8
+C: $a$, $b$ and $c$ are the roots of the polynomial equation $4x^3-8x^2+kx-12=0$. If $\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}=2$ find $k$.
+= 24
+
+@ Mar 2017
+A: Form the lowest degree equation with relatively prime integral coefficients having $4$, $-3$, and $2i$ as three of its roots.
+= x^4-x^3-8x^2-4x-48=0
+B: Find the roots of $x^3-4x^2-17x+60=0$.
+= -4, 3, 5
+C: Find the sum of real numbers $p$ and $q$ such that $x^3+px^2+qx+25=0$ has $1-2i$ as one of its roots.
+= -2
+
+@ Mar 2016
+A: Find all the roots of $x^4-21x^2=100$.
+= \pm 5, \pm 2i
+B: $3$ is a double root of the equation $x^3+ax+b=0$ where $a$ and $b$ are integers. Find the values of $a$ and $b$.
+= a=-27, b=54
+~ -27, 54
+C: Let $f(x)$ be the even 4th degree polynomial function with zeros $2i$ and $-1$ and $y$-intercept $-4$. Let $g(x)$ be the odd cubic polynomial with zero $-1$ and $g(2)=6$. Find the roots of $(f+g)(x)=0$.
+= \pm 1, -\frac{1}{2}\pm\frac{\sqrt{15}}{2}i
+
+@ Mar 2015
+A: Form the lowest degree polynomial equation with relatively prime integral coefficients having $-9$ and $-5-i\sqrt{2}$ as two of its roots.
+= x^3+19x^2+117x+243=0
+B: The roots, from least to greatest of $x^3-4x^2=-x-6$ are $a$, $b$, and $c$. Determine the lowest degree equation with relatively prime integral coefficients whose roots are $a-1$, $b-1$, and $c-1$.
+= x^3-x^2-4x+4=0
+C: Find the value of $a+b$ for which the equation $x^4+ax^3+x^2+bx+4=0$ has a double root and $-1+i\sqrt{3}$ as one of its roots.
+= -6
+
+@ Mar 2014
+A: If $-3-2i$ is a root of the equation $2x^3+7x^2-4x-65=0$, find the remaining roots.
+= -3+2i, \frac{5}{2}
+B: If $i^2$ and $-3i$ are two roots of the polynomial equation $x^3+bx^2+cx+d=0$, find $b+c-d$.
+= 1
+C: If $r$, $s$, $t$, and $u$ are zeroes of $f(x)=3x^4-x^3+2x^2+7x+2$, find $(2-r)(2-s)(2-t)(2-u)$.
+= \frac{64}{3}
+
+@ Mar 2013
+A: Solve for $x$: $$x^3+5x^2-8x-12=0$$
+= -6, -1, 2
+B: If one root of $x^4+8x^3+22x^2+23x+6=0$ is $-3$, find the other roots.
+= -2, \frac{-3\pm\sqrt{5}}{2}
+C: Find the value of $k$ if the four distinct roots of the equation $x^4-5kx^2-16k=0$ satisfy the following conditions: (i) $k$ is a real number; (ii) the opposite of each root is also a root; (iii) one of the roots is twice another.
+= -4

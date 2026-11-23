@@ -1,0 +1,368 @@
+[
+ {
+  "id": "m6e5-2026-03-A",
+  "event": "m6e5",
+  "date": "Mar 2026",
+  "level": "A",
+  "q": "A sector of a circle bounded by an arc of measure $32^\\circ$ has an area of $20\\pi$. Find the radius of the circle.",
+  "a": "15"
+ },
+ {
+  "id": "m6e5-2026-03-B",
+  "event": "m6e5",
+  "date": "Mar 2026",
+  "level": "B",
+  "q": "Circles $O$ and $P$ have common chord $\\overline{AB}$. $m\\widehat{ADB}=90^\\circ$ and $m\\widehat{ACB}=60^\\circ$. Find the value of $\\dfrac{\\text{Area of circle } O}{\\text{Area of circle } P}$.",
+  "a": "\\frac{1}{2}",
+  "fig": "/oml/fig/m6e5-2026-03-B.png"
+ },
+ {
+  "id": "m6e5-2026-03-C",
+  "event": "m6e5",
+  "date": "Mar 2026",
+  "level": "C",
+  "q": "A sector of a circle has central angle $60^\\circ$. A circle of radius $3$ is inscribed in the sector. Find the area of the region inside the sector and outside the circle.",
+  "a": "\\frac{9\\pi}{2}"
+ },
+ {
+  "id": "m6e5-2025-03-A",
+  "event": "m6e5",
+  "date": "Mar 2025",
+  "level": "A",
+  "q": "In a circle of radius $6$, find the area of a sector whose arc has length $9\\pi$.",
+  "a": "27\\pi"
+ },
+ {
+  "id": "m6e5-2025-03-B",
+  "event": "m6e5",
+  "date": "Mar 2025",
+  "level": "B",
+  "q": "Circle $B$ has radius $8$. $AC=8\\sqrt{2}$. Find the area of the shaded region.",
+  "a": "32+48\\pi",
+  "fig": "/oml/fig/m6e5-2025-03-B.png"
+ },
+ {
+  "id": "m6e5-2025-03-C",
+  "event": "m6e5",
+  "date": "Mar 2025",
+  "level": "C",
+  "q": "Aaron's dog, Max, is outside a walled enclosure in the shape of a regular hexagon with side length $3$ meters. Max is on a leash of length $8$ meters and is tied to a post located at one vertex of the hexagonal enclosure. If there are no other obstructions what is the total area (in square meters) that Max can access?",
+  "a": "\\frac{157\\pi}{3}"
+ },
+ {
+  "id": "m6e5-2024-03-A",
+  "event": "m6e5",
+  "date": "Mar 2024",
+  "level": "A",
+  "q": "A sector of a circle has area $\\dfrac{20\\pi}{9}$ and arc length $\\dfrac{10\\pi}{9}$. Find the radius of the circle.",
+  "a": "4"
+ },
+ {
+  "id": "m6e5-2024-03-B",
+  "event": "m6e5",
+  "date": "Mar 2024",
+  "level": "B",
+  "q": "Four circles each with radius $2$ are externally tangent and are tangent to the square as shown. Find the area of the shaded region.",
+  "a": "48-12\\pi",
+  "fig": "/oml/fig/m6e5-2024-03-B.png"
+ },
+ {
+  "id": "m6e5-2024-03-C",
+  "event": "m6e5",
+  "date": "Mar 2024",
+  "level": "C",
+  "q": "Three circular wheels are placed so that their centers $O$, $P$, and $Q$ are collinear. The radius of circles $O$ and $Q$ is $3$ inches while the radius of circle $P$ is $6$ inches. A belt is looped around the wheels as shown with $\\angle MON=120^\\circ$. What is the total length (in inches) of the belt?",
+  "a": "12\\pi+36\\sqrt{3}",
+  "fig": "/oml/fig/m6e5-2024-03-C.png"
+ },
+ {
+  "id": "m6e5-2023-03-A",
+  "event": "m6e5",
+  "date": "Mar 2023",
+  "level": "A",
+  "q": "Given: Circle $O$ is inscribed in square $ABCD$. Square $RBSO$ has area $4\\pi^2$. Circle $O$ intersects $\\overline{OC}$ at $T$. Find the area of the sector bounded by $\\overline{OR}$, $\\overline{OT}$, and $\\widehat{RST}$.",
+  "a": "\\frac{3}{2}\\pi^3",
+  "fig": "/oml/fig/m6e5-2023-03-A.png"
+ },
+ {
+  "id": "m6e5-2023-03-B",
+  "event": "m6e5",
+  "date": "Mar 2023",
+  "level": "B",
+  "q": "Given: Two concentric circles with center $A$. Equilateral $\\triangle BCD$ is inscribed in one of the circles and circumscribed about the other. $\\overline{AC}$ and $\\overline{AB}$ intersect the smaller circle at $E$ and $F$, respectively. $AC=6$. Find the perimeter of the region bounded by $\\overline{CE}$, $\\widehat{EF}$, $\\overline{FB}$, and $\\widehat{BC}$.",
+  "a": "6\\pi+6",
+  "fig": "/oml/fig/m6e5-2023-03-B.png"
+ },
+ {
+  "id": "m6e5-2023-03-C",
+  "event": "m6e5",
+  "date": "Mar 2023",
+  "level": "C",
+  "q": "Given: $\\triangle ABC$ with right angle at $C$, $m\\angle A=30^\\circ$ and $AC=6$. $\\widehat{CD}$ is drawn with center $A$ and radius $\\overline{AC}$ and intersects $\\overline{AB}$ at $D$. $\\widehat{DE}$ is drawn with center $B$ and radius $\\overline{BD}$ and intersects $\\overline{BC}$ at $E$. Find the area of the region bounded by $\\overline{CE}$, $\\widehat{CD}$, and $\\widehat{DE}$.",
+  "a": "6\\sqrt{3}+8\\pi\\sqrt{3}-17\\pi"
+ },
+ {
+  "id": "m6e5-2022-03-A",
+  "event": "m6e5",
+  "date": "Mar 2022",
+  "level": "A",
+  "q": "An arc of a circle has measure $42^\\circ$ and length $4\\pi$. Find the radius of the circle.",
+  "a": "\\frac{120}{7}"
+ },
+ {
+  "id": "m6e5-2022-03-B",
+  "event": "m6e5",
+  "date": "Mar 2022",
+  "level": "B",
+  "q": "$\\overline{AB}$ and $\\overline{CD}$ are diameters of circle $P$ such that $\\overline{AB}\\perp\\overline{CD}$. $\\overline{AP}$ and $\\overline{BP}$ are diameters of two smaller circles. If $AP=22$, find the area of the shaded region.",
+  "a": "121\\pi",
+  "fig": "/oml/fig/m6e5-2022-03-B.png"
+ },
+ {
+  "id": "m6e5-2022-03-C",
+  "event": "m6e5",
+  "date": "Mar 2022",
+  "level": "C",
+  "q": "In the following figure, all the circles are congruent. Find the area of the shaded region.",
+  "a": "24-3\\pi",
+  "fig": "/oml/fig/m6e5-2022-03-C.png"
+ },
+ {
+  "id": "m6e5-2021-03-A",
+  "event": "m6e5",
+  "date": "Mar 2021",
+  "level": "A",
+  "q": "An arc of a circle has measure $80^\\circ$ and length $8\\pi$. Find the diameter of the circle.",
+  "a": "36"
+ },
+ {
+  "id": "m6e5-2021-03-B",
+  "event": "m6e5",
+  "date": "Mar 2021",
+  "level": "B",
+  "q": "Given: $ABCD$ is a square with sides of length $8$ cm. $E$, $F$, $G$, and $H$ are the midpoints of the sides of $ABCD$; four semicircles are centered at $E$, $F$, $G$, and $H$; four $270^\\circ$ arcs are centered at $A$, $B$, $C$, and $D$; the semicircles and the arcs all have the same radius. Find the area (in square cm) of the shaded region.",
+  "a": "64+4\\pi",
+  "fig": "/oml/fig/m6e5-2021-03-B.png"
+ },
+ {
+  "id": "m6e5-2021-03-C",
+  "event": "m6e5",
+  "date": "Mar 2021",
+  "level": "C",
+  "q": "$ABCD$ is a square-shaped park with side length $60\\sqrt3$ meters. A circular fountain with center at $H$ and radius $15\\sqrt6$ meters is at the center of the park. What is the length (in meters) of the shortest path from $A$ to $C$ that does not pass through the fountain?",
+  "a": "90\\sqrt{2}+5\\pi\\sqrt{6}",
+  "fig": "/oml/fig/m6e5-2021-03-C.png"
+ },
+ {
+  "id": "m6e5-2020-04-A",
+  "event": "m6e5",
+  "date": "Apr 2020",
+  "level": "A",
+  "q": "Regular hexagon $ABCDEF$ with side length $5$ is inscribed in a circle. Find the area of the shaded region as shown.",
+  "a": "\\frac{25\\pi}{2}-\\frac{75\\sqrt{3}}{4}",
+  "fig": "/oml/fig/m6e5-2020-04-A.png"
+ },
+ {
+  "id": "m6e5-2020-04-B",
+  "event": "m6e5",
+  "date": "Apr 2020",
+  "level": "B",
+  "q": "A circle is inscribed in a regular hexagon with side length $12$. A rectangle is inscribed in both the circle and the hexagon, as shown. Find the area inside the circle but outside the rectangle.",
+  "a": "108\\pi-108\\sqrt{3}",
+  "fig": "/oml/fig/m6e5-2020-04-B.png"
+ },
+ {
+  "id": "m6e5-2020-04-C",
+  "event": "m6e5",
+  "date": "Apr 2020",
+  "level": "C",
+  "q": "Equilateral triangles $ABC$ and $DEF$ have side length $8$. $E$ is the midpoint of $\\overline{AB}$ and $C$ is the midpoint of $\\overline{DF}$. $\\overline{AC}$ and $\\overline{DE}$ intersect at $G$, $\\overline{BC}$ and $\\overline{EF}$ intersect at $H$. Circle $O$ is inscribed in $EGCH$, as shown. Find the area of the shaded region.",
+  "a": "6\\sqrt{3}-2\\pi",
+  "fig": "/oml/fig/m6e5-2020-04-C.png"
+ },
+ {
+  "id": "m6e5-2019-03-A",
+  "event": "m6e5",
+  "date": "Mar 2019",
+  "level": "A",
+  "q": "An arc of circle $A$ has measure $84^\\circ$ and length $7\\pi$. Find the radius of circle $A$.",
+  "a": "15"
+ },
+ {
+  "id": "m6e5-2019-03-B",
+  "event": "m6e5",
+  "date": "Mar 2019",
+  "level": "B",
+  "q": "A hexagon whose apothem has length $27$ is inscribed in a circle. Find the area that is inside the circle but outside the hexagon.",
+  "a": "972\\pi-1458\\sqrt{3}"
+ },
+ {
+  "id": "m6e5-2019-03-C",
+  "event": "m6e5",
+  "date": "Mar 2019",
+  "level": "C",
+  "q": "Circle $G$ is inscribed in a semicircle with center $F$. $A$ is on circle $F$ such that $\\overline{AF}$ is a diameter of circle $G$. $\\overline{CD}$ is a diameter of circle $F$. $C$, $D$, $B$ and $E$ are on circle $A$. $\\overline{CD}$ and $\\overline{CE}$ are radii of circle $C$ such that $\\overline{CD}\\perp\\overline{CE}$. If $AB=10$, find the total area of the shaded regions.",
+  "a": "100+\\frac{25\\pi}{2}",
+  "fig": "/oml/fig/m6e5-2019-03-C.png"
+ },
+ {
+  "id": "m6e5-2018-03-A",
+  "event": "m6e5",
+  "date": "Mar 2018",
+  "level": "A",
+  "q": "The regular pentagon $LUCKY$ intersects circle $Y$ at $L$ and $K$. The region common to the circle and the pentagon is shaded as shown in the diagram. If the diameter of circle $Y$ is $6$ cm, find the area (in cm²) of the shaded region.",
+  "a": "\\frac{27\\pi}{10}",
+  "fig": "/oml/fig/m6e5-2018-03-A.png"
+ },
+ {
+  "id": "m6e5-2018-03-B",
+  "event": "m6e5",
+  "date": "Mar 2018",
+  "level": "B",
+  "q": "Circle $O$, with a diameter of $12$, is inscribed in square $ABCD$ and circumscribed about square $PQRS$. The dotted region is between square $ABCD$ and circle $O$ while the shaded region is between square $PQRS$ and circle $O$. What is the positive difference between the areas of the dotted and the shaded regions?",
+  "a": "72\\pi-216",
+  "fig": "/oml/fig/m6e5-2018-03-B.png"
+ },
+ {
+  "id": "m6e5-2018-03-C",
+  "event": "m6e5",
+  "date": "Mar 2018",
+  "level": "C",
+  "q": "Equilateral triangle $ABC$ has perimeter $12$ and is inscribed in a circle. $\\widehat{APB}$, $\\widehat{BQC}$ and $\\widehat{CRA}$ are semicircles. Find the area of the shaded region.",
+  "a": "\\frac{2\\pi}{3}+4\\sqrt{3}",
+  "fig": "/oml/fig/m6e5-2018-03-C.png"
+ },
+ {
+  "id": "m6e5-2017-03-A",
+  "event": "m6e5",
+  "date": "Mar 2017",
+  "level": "A",
+  "q": "Given: $\\odot A$ with $m\\widehat{BC}=150^\\circ$; the length of $\\widehat{BC}=10\\pi$. Find the radius of $\\odot A$.",
+  "a": "12",
+  "fig": "/oml/fig/m6e5-2017-03-A.png"
+ },
+ {
+  "id": "m6e5-2017-03-B",
+  "event": "m6e5",
+  "date": "Mar 2017",
+  "level": "B",
+  "q": "Chord $\\overline{AB}$ is tangent to the smaller of two concentric circles with center $O$. The radius of the smaller circle is $3$ and the radius of the larger circle is $6$. Find the area of the shaded region.",
+  "a": "15\\pi+9\\sqrt{3}",
+  "fig": "/oml/fig/m6e5-2017-03-B.png"
+ },
+ {
+  "id": "m6e5-2017-03-C",
+  "event": "m6e5",
+  "date": "Mar 2017",
+  "level": "C",
+  "q": "A square with side length $11$, along with its diagonal, a quarter circle, and a semicircle are shown. Find the total area of the shaded regions.",
+  "a": "\\frac{121\\pi-242}{8}",
+  "fig": "/oml/fig/m6e5-2017-03-C.png"
+ },
+ {
+  "id": "m6e5-2016-03-A",
+  "event": "m6e5",
+  "date": "Mar 2016",
+  "level": "A",
+  "q": "An arc of circle $C$ has measure of $72^\\circ$ and length $8\\pi$. Find the radius of circle $C$.",
+  "a": "20"
+ },
+ {
+  "id": "m6e5-2016-03-B",
+  "event": "m6e5",
+  "date": "Mar 2016",
+  "level": "B",
+  "q": "Given circle $O$ as shown with diameter $AB=12$ cm. The measure of inscribed $\\angle CAB$ is $30^\\circ$. Find the area (in cm²) of the shaded region.",
+  "a": "9\\sqrt{3}+6\\pi",
+  "fig": "/oml/fig/m6e5-2016-03-B.png"
+ },
+ {
+  "id": "m6e5-2016-03-C",
+  "event": "m6e5",
+  "date": "Mar 2016",
+  "level": "C",
+  "q": "Two congruent circular arcs share common endpoints $A$ and $B$, as shown. Each arc has measure $90^\\circ$ and length $25\\pi$. Circle $G$ is tangent to the arcs at their midpoints $E$ and $F$. Find the area of circle $G$.",
+  "a": "3750\\pi-2500\\pi\\sqrt{2}",
+  "fig": "/oml/fig/m6e5-2016-03-C.png"
+ },
+ {
+  "id": "m6e5-2015-03-A",
+  "event": "m6e5",
+  "date": "Mar 2015",
+  "level": "A",
+  "q": "Find the length (in cm) of minor arc $AB$ (radius $8$ cm, reflex angle $240^\\circ$ as shown).",
+  "a": "\\frac{16\\pi}{3}",
+  "fig": "/oml/fig/m6e5-2015-03-A.png"
+ },
+ {
+  "id": "m6e5-2015-03-B",
+  "event": "m6e5",
+  "date": "Mar 2015",
+  "level": "B",
+  "q": "An equilateral triangle with side length $6$ is inscribed in a circle. Find the area of the shaded region.",
+  "a": "12\\pi-9\\sqrt{3}",
+  "fig": "/oml/fig/m6e5-2015-03-B.png"
+ },
+ {
+  "id": "m6e5-2015-03-C",
+  "event": "m6e5",
+  "date": "Mar 2015",
+  "level": "C",
+  "q": "Two quarter circles are inscribed in a square with side length $10$. Determine the area of the shaded region.",
+  "a": "100-25\\sqrt{3}-\\frac{50\\pi}{3}",
+  "fig": "/oml/fig/m6e5-2015-03-C.png"
+ },
+ {
+  "id": "m6e5-2014-03-A",
+  "event": "m6e5",
+  "date": "Mar 2014",
+  "level": "A",
+  "q": "Given: $\\overline{AC}$ and $\\overline{AD}$ are tangent to circle $B$; the length of $\\widehat{CD}$ is $\\dfrac{2\\pi}{3}$ times the radius; and $AB=18$. Find the length of chord $\\overline{CD}$.",
+  "a": "9\\sqrt{3}",
+  "fig": "/oml/fig/m6e5-2014-03-A.png"
+ },
+ {
+  "id": "m6e5-2014-03-B",
+  "event": "m6e5",
+  "date": "Mar 2014",
+  "level": "B",
+  "q": "$\\overline{AL}$ is a diameter of circle $O$, and it intersects chord $\\overline{TY}$ at point $R$. If $m\\widehat{AY}=30^\\circ$, $m\\angle ARY=51^\\circ$, and $AL=16$ cm, find the length of the minor arc $\\widehat{TL}$.",
+  "a": "\\frac{16\\pi}{5}",
+  "fig": "/oml/fig/m6e5-2014-03-B.png"
+ },
+ {
+  "id": "m6e5-2014-03-C",
+  "event": "m6e5",
+  "date": "Mar 2014",
+  "level": "C",
+  "q": "In the diagram, equilateral triangle $ABC$ is inscribed in a circle, which is inscribed in a square, which is inscribed in a larger circle. If $BC=18$, find the area of the shaded region.",
+  "a": "324\\pi-81\\sqrt{3}-432",
+  "fig": "/oml/fig/m6e5-2014-03-C.png"
+ },
+ {
+  "id": "m6e5-2013-03-A",
+  "event": "m6e5",
+  "date": "Mar 2013",
+  "level": "A",
+  "q": "An arc of circle $C$ has a measure of $48^\\circ$ and length $6\\pi$ cm. Find the radius (in cm) of circle $C$.",
+  "a": "\\frac{45}{2}"
+ },
+ {
+  "id": "m6e5-2013-03-B",
+  "event": "m6e5",
+  "date": "Mar 2013",
+  "level": "B",
+  "q": "In the figure, the circle is inscribed in the square and the circle is circumscribed about the rectangle. Find the difference (in sq cm) between the area of the square and the area of the shaded region when the length of the inner rectangle is $8$ cm and the width is $6$ cm.",
+  "a": "148-25\\pi",
+  "note": "The official key prints 14 − 25π, a typo: the square has area 100, the shaded region 25π − 48, so the difference is 148 − 25π.",
+  "fig": "/oml/fig/m6e5-2013-03-B.png"
+ },
+ {
+  "id": "m6e5-2013-03-C",
+  "event": "m6e5",
+  "date": "Mar 2013",
+  "level": "C",
+  "q": "In $\\triangle ABC$, $AC=8$, $BC=6$, and $AB=10$. Circle $P$ is located exterior to the triangle, tangent to side $\\overline{BC}$ and the extensions of the other two sides. What is the area of circle $P$?",
+  "a": "16\\pi"
+ }
+]

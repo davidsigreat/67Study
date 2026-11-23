@@ -1,0 +1,113 @@
+# Meet 6, Event 2: GEOMETRY — Plane Coordinate Geometry
+
+@ Mar 2026
+A: The point $P(2n-1,\ n+3)$ is the midpoint of $\overline{AB}$, where point $A$ has coordinates $(1,7)$. Find the coordinates of point $B$ in terms of $n$.
+= (4n-3, 2n-1)
+B: Isosceles trapezoid $ABCD$ has vertices at $A(2,-3)$, $B(-10,2)$, $C(3,15)$, and $D(8,3)$. Find the sum of the lengths of the diagonals of $ABCD$.
+= 10\sqrt{13}
+C: Point $Q$ lies on the $x$-axis. The segment joining $Q$ to the point $C(3,7)$ is perpendicular to the segment joining $Q$ to the point $D(-5,-1)$. Find all possible values of the $x$-coordinate of point $Q$.
+= -1\pm\sqrt{23}
+
+@ Mar 2025
+A: The lines $Ax+5y-9=0$ and $2x+By+7=0$ are parallel. Find the value of the product $AB$.
+= 10
+B: Parallelogram $QUAD$ has vertices at $Q(-2,4)$, $U(6,4)$, $A(3,0)$, and $D(-5,0)$. The diagonals of $QUAD$ intersect at $S$. Find the coordinates of $S$.
+= \left(\frac{1}{2}, 2\right)
+C: The lines $4x-2y-8=0$ and $2x+3y-7=0$ intersect at point $P$. Find an equation of the line that has $y$-intercept $3$ and passes through $P$. Write your answer in the form $Ax+By+C=0$, where $A$, $B$, and $C$ are non-zero, relatively prime integers.
+= 18x+19y-57=0
+
+@ Mar 2024
+A: Find the perimeter of the triangle with vertices $(2,1)$, $(-1,-3)$, and $(11,-8)$.
+= 18+9\sqrt{2}
+B: The coordinates of $A$, $B$, and $C$ are $(2p,7)$, $(14,p)$, and $(-5,1)$, respectively. Find the value of $p$ such that $\triangle ABC$ is a right triangle with hypotenuse $\overline{AC}$.
+= 39
+C: $\triangle PQR$ has vertices $P(2,3)$, $Q(3,6)$, and $R(5,2)$. $S$ is on $\overleftrightarrow{QR}$ and has coordinates $S\left(\frac{7}{2},y\right)$. Write the equation of $\overleftrightarrow{PS}$ in the form $Ax+By=C$, where $A$, $B$, and $C$ are relatively prime integers.
+= 4x-3y=-1
+
+@ Mar 2023
+A: $A(-1,1)$, $B(3,-5)$, and $C(-3,-7)$ are three vertices of parallelogram $ABCD$. $D$ is in the third quadrant. What are the coordinates of $D$?
+= (-7, -1)
+B: Line $kx+(k+1)y=10$ is parallel to line $(k-1)x+(k+2)y=12$. Find $k$.
+= -\frac{1}{2}
+C: A line $\ell$ with positive $x$-intercept and positive $y$-intercept passes through $(5,2)$ and forms a triangle with the coordinate axes. The triangle has area $36$. Find the equation of each possible line $\ell$. Write your answer in the form $Ax+By=C$.
+= 2x+y=12, 2x+25y=60
+
+@ Mar 2022
+A: Line $p$ contains points $(-3,-6)$ and $(-1,2)$. Line $r$ is parallel to line $p$ and contains the points $(6,1)$ and $(2m+3,5)$. Find the value of $m$.
+= 2
+B: Find the point on the line $2y-3x=-2$ that is equidistant from $(0,0)$ and $(2,4)$.
+= \left(\frac{7}{4}, \frac{13}{8}\right)
+C: When $P(2,4)$ is reflected over the line $2x-4y=-1$ its image is $P'$. Find the coordinates of $P'$.
+= \left(\frac{21}{5}, -\frac{2}{5}\right)
+
+@ Mar 2021
+A: Lines with equations $-5x+ky=-7$ and $3x+12y=10$ are parallel. Find the value of $k$.
+= -20
+B: If parallelogram $TUNA$ has vertices $T(-17,-23)$, $U(15,-9)$, and $N(-5,13)$ find the equation of $\overleftrightarrow{UA}$. Express your answer in the form $Ax+By+C=0$ where $A$, $B$, and $C$ are non-zero relatively prime integers.
+= 2x+13y+87=0
+C: Find the point on the line $y=\dfrac{1}{3}x-7$ that is equidistant from $(6,5)$ and $(-2,1)$.
+= (6, -5)
+
+@ Apr 2020
+A: A parallelogram has vertices $(-4,3)$, $(-2,-3)$, $(0,3)$, and $(2,-3)$. Write the equation of the line that contains the longer diagonal of the parallelogram. Write your answer in slope-intercept form.
+= y=-x-1
+B: A triangle has vertices $(-3,-1)$, $(6,-1)$ and $(3,5)$. Find the coordinates of the centroid, the point where the medians of the triangle intersect.
+= (2, 1)
+C: Given: $A(-2,1)$ and $B(6,7)$. $\overline{AB}$ and $\overline{CD}$ bisect each other at $E$, $\overline{AB}\perp\overline{CD}$, $AB=2CD$. Find the coordinates of $C$ and $D$.
+= \left(\frac{1}{2}, 6\right), \left(\frac{7}{2}, 2\right)
+
+@ Mar 2019
+A: The lines $3x+4y=5$ and $8x+ky=10$ are perpendicular. Find the value of $k$.
+= -6
+B: Find the coordinates of the centroid of the triangle with vertices at $A(-3,8)$, $B(7,2)$, and $C(-1,6)$.
+= \left(1, \frac{16}{3}\right)
+C: Find the coordinates of the point equidistant from $(2,-2)$, $(11,1)$, and $(4,2)$.
+= (7, -2)
+
+@ Mar 2018
+A: The line joining $(-1,k)$ and $(5,-3)$ has slope $\dfrac{4}{3}$. Find $k$.
+= -11
+B: $(-2,1)$, $(0,7)$ and $(4,-1)$ are the vertices of $\triangle ABC$. $D$, $E$ and $F$ are the midpoints of $\overline{AB}$, $\overline{BC}$ and $\overline{AC}$, respectively. Find the perimeter of $\triangle DEF$.
+= 2\sqrt{10}+2\sqrt{5}
+C: $(3,-2)$ and $(2,-1)$ are the endpoints of the base of an isosceles triangle. One leg of this triangle lies on the line $x-2y=4$. Find the coordinates of the third vertex of this triangle.
+= (4, 0)
+
+@ Mar 2017
+A: A parallelogram has vertices at $(-1,3)$, $(-2,-3)$, $(-5,-6)$, and $(-4,0)$. What are the coordinates of the intersection of the diagonals of the parallelogram?
+= \left(-3, -\frac{3}{2}\right)
+B: Given: $A(1,-10)$, $B(-5,-2)$, $C$ is in Quadrant IV. $\overleftrightarrow{CD}$ is the perpendicular bisector of $\overline{AB}$, $D$ lies on $\overline{AB}$, $CD=\dfrac{1}{2}AB$. Find the coordinates of $C$.
+= (2, -3)
+C: $Q$ is the image of $P(-4,5)$ when $P$ is reflected over the line $2x-y+6=0$. Find the coordinates of $Q$.
+= \left(\frac{8}{5}, \frac{11}{5}\right)
+
+@ Mar 2016
+A: Triangle $ABC$ has vertices $A(-3,-11)$, $B(7,8)$, $C(1,18)$. Find the length of the median from $A$.
+= 25
+B: Given points $A(-2,-1)$ and $B(4,2)$. Find the coordinates of the point(s) on $\overleftrightarrow{AB}$ that are twice as far from $A$ as from $B$.
+= (2, 1), (10, 5)
+C: Given points $A(-3,-4)$, $B(5,-1)$, and $C(2,3)$. Find the coordinates of all possible points $P$ so that $A$, $B$, $C$, and $P$ are the vertices of a parallelogram.
+= (-6, 0), (0, -8), (10, 6)
+
+@ Mar 2015
+A: Find the perimeter of the triangle with vertices $(2,2)$, $(6,-1)$ and $(2,-4)$.
+= 16
+B: Points $X(-1,-2)$, $Y(5,-2)$, and $Z(5,6)$ are the vertices of a triangle. Determine the equation of the line which contains the median from $Y$. Write your answer in the form $y=mx+b$.
+= y=-\frac{4}{3}x+\frac{14}{3}
+C: $(3,4)$ is contained in the function $f(x)=ax$. $g(x)=-\dfrac{1}{a}x+k$. Find the point of intersection of the graphs of $f$ and $g$ in terms of $k$.
+= \left(\frac{12}{25}k, \frac{16}{25}k\right)
+
+@ Mar 2014
+A: $\triangle ABC$ has vertices $A(-2,5)$, $B(-5,2)$, $C(9,-1)$. Find the slope of the median from $A$.
+= -\frac{9}{8}
+B: $A$ is the point of intersection of the diagonals of rhombus $WXYZ$, with $W(-3,-3)$, $X(-1,1)$, $Y(3,3)$ and $Z(1,-1)$, and $B$ is a vertex of square $BCDE$ with $C(9,9)$, $D(2,6)$ and $E(5,-1)$. Find the slope of the line perpendicular to $\overline{AB}$.
+= -6
+C: The point $(3,-1)$ is reflected over the line $2x-y+5=0$. Find the coordinates of the reflection image.
+= \left(-\frac{33}{5}, \frac{19}{5}\right)
+
+@ Mar 2013
+A: The points $(3,-1)$, $(-2,4)$, and $(4,2k+1)$ are collinear. Find $k$.
+= -\frac{3}{2}
+B: Line $m$ contains the points $(2,-2)$ and $(-4,3)$. Line $p$ contains the point $(-4,-3)$ and is perpendicular to line $m$. Write the equation of line $p$ in the form $y=mx+b$.
+= y=\frac{6}{5}x+\frac{9}{5}
+C: The coordinates of $J$, $K$, and $L$ are $(-n,5)$, $(-5,n)$, and $(-4,2)$ respectively. Find the value of $n$ such that $\angle JKL$ is a right angle.
+= 3

@@ -174,6 +174,23 @@ export const SUBJECTS: SubjectMeta[] = [
       { unit: 10, title: 'Timing, Pacing & Test-Day Tactics', section: 'Overview' },
     ],
   },
+  {
+    id: 'math-team',
+    name: 'Competition Math',
+    slug: 'math-team',
+    color: 'coral',
+    units: [
+      { unit: 1, title: 'How to Use This Toolbox',            section: 'Start Here' },
+      { unit: 2, title: 'LaTeX for Competition Answers',      section: 'Start Here' },
+      { unit: 3, title: 'OML Practice — Question Bank',       section: 'Practice', link: '/math-team/practice' },
+      { unit: 4, title: 'Numbers & Algebra',                  section: 'Toolbox' },
+      { unit: 5, title: 'Geometry',                           section: 'Toolbox' },
+      { unit: 6, title: 'Combinatorics & Probability',        section: 'Toolbox' },
+      { unit: 7, title: 'Number Theory',                      section: 'Toolbox' },
+      { unit: 8, title: 'Beyond the Basics: Trig, Complex Numbers, Conics & Calculus', section: 'Toolbox' },
+      { unit: 9, title: 'Competition Tips & Speed Tricks',    section: 'Toolbox' },
+    ],
+  },
 ];
 
 export function getSubject(slug: string): SubjectMeta | undefined {

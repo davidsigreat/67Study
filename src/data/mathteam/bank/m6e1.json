@@ -1,0 +1,341 @@
+[
+ {
+  "id": "m6e1-2026-03-A",
+  "event": "m6e1",
+  "date": "Mar 2026",
+  "level": "A",
+  "q": "How many different 4-digit numbers can be formed using the digits $2$, $3$, $4$, and $5$ if no digit is repeated and the number must be even?",
+  "a": "12"
+ },
+ {
+  "id": "m6e1-2026-03-B",
+  "event": "m6e1",
+  "date": "Mar 2026",
+  "level": "B",
+  "q": "Given natural numbers $a$ and $b$, $a>b$, simplify $\\dfrac{{}_aP_b}{{}_aC_b}$.",
+  "a": "b!"
+ },
+ {
+  "id": "m6e1-2026-03-C",
+  "event": "m6e1",
+  "date": "Mar 2026",
+  "level": "C",
+  "q": "How many ways can $3$ pairs of twins be seated in a row so that only $1$ pair of any set of twins is sitting together?",
+  "a": "288"
+ },
+ {
+  "id": "m6e1-2025-03-A",
+  "event": "m6e1",
+  "date": "Mar 2025",
+  "level": "A",
+  "q": "Erin is at the ice cream shop which serves only sugar cones and $10$ flavors of ice cream. How many different 4-scoop ice cream cones can Erin choose from if each scoop is a different flavor and the order of the flavors does not matter?",
+  "a": "210"
+ },
+ {
+  "id": "m6e1-2025-03-B",
+  "event": "m6e1",
+  "date": "Mar 2025",
+  "level": "B",
+  "q": "The members of the math club will elect a president from $6$ candidates, a treasurer from $5$ candidates, and $2$ senators from $7$ candidates. A member can be a candidate for at most one position. In how many different ways can the four positions be filled?",
+  "a": "630"
+ },
+ {
+  "id": "m6e1-2025-03-C",
+  "event": "m6e1",
+  "date": "Mar 2025",
+  "level": "C",
+  "q": "A factory produces license plates that have three letters followed by three digits. The letters may only be selected from the letters used in OAHUMATHLEAGUE, the first letter must be a consonant, and the letters cannot be repeated. The digits must be selected from $0$ to $9$, the first digit must be odd, and the digits may be repeated. How many unique plates are possible?",
+  "a": "140000"
+ },
+ {
+  "id": "m6e1-2024-03-A",
+  "event": "m6e1",
+  "date": "Mar 2024",
+  "level": "A",
+  "q": "Kim has $7$ different math books. Only $2$ of them are about Euler. In how many ways can the books be arranged on a shelf so that the books about Euler are always together?",
+  "a": "1440"
+ },
+ {
+  "id": "m6e1-2024-03-B",
+  "event": "m6e1",
+  "date": "Mar 2024",
+  "level": "B",
+  "q": "There are $13$ people at a meeting. Each person is either a high school teacher or a college professor, but not both. There are $5$ college professors. How many 4-member committees can be formed if each committee must have at least one high school teacher and at least one college professor?",
+  "a": "640"
+ },
+ {
+  "id": "m6e1-2024-03-C",
+  "event": "m6e1",
+  "date": "Mar 2024",
+  "level": "C",
+  "q": "From the $15$ members on the city council a 5-person committee is formed. For this committee, one person serves as the chair and another person serves as the vice-chair. How many distinct 5-person committees can be formed?",
+  "a": "60060"
+ },
+ {
+  "id": "m6e1-2023-03-A",
+  "event": "m6e1",
+  "date": "Mar 2023",
+  "level": "A",
+  "q": "Hoku is having dinner at the Volcano View Lodge. The dinner buffet has four appetizers, two salads, three main dishes, and five desserts. How many different dinners can she have if she chooses two appetizers, one salad, two main dishes, and four desserts?",
+  "a": "180"
+ },
+ {
+  "id": "m6e1-2023-03-B",
+  "event": "m6e1",
+  "date": "Mar 2023",
+  "level": "B",
+  "q": "If Aleni, Bert, Candi, Dominic, Emi, Fred, George, and Hope sit around a circular table and Aleni must always sit next to Emi, how many different seating arrangements are possible?",
+  "a": "1440"
+ },
+ {
+  "id": "m6e1-2023-03-C",
+  "event": "m6e1",
+  "date": "Mar 2023",
+  "level": "C",
+  "q": "From a group of three English teachers, four history teachers, five science teachers, and six math teachers, a five-person committee will be formed. If the committee must include at least one teacher from each subject, how many different committees can be formed?",
+  "a": "2520"
+ },
+ {
+  "id": "m6e1-2022-03-A",
+  "event": "m6e1",
+  "date": "Mar 2022",
+  "level": "A",
+  "q": "How many four-digit numbers greater than $6000$ can be formed using the digits $1$–$9$ if no digits are repeated?",
+  "a": "1344"
+ },
+ {
+  "id": "m6e1-2022-03-B",
+  "event": "m6e1",
+  "date": "Mar 2022",
+  "level": "B",
+  "q": "In how many ways can $7$ people be seated in a row of $7$ chairs if $2$ of the $7$ people, Fred and Barney, cannot be seated next to each other?",
+  "a": "3600"
+ },
+ {
+  "id": "m6e1-2022-03-C",
+  "event": "m6e1",
+  "date": "Mar 2022",
+  "level": "C",
+  "q": "A 4-member quiz bowl team will be chosen from the $8$ girls and $5$ boys in the Honors Club. If the team must have at least one boy and one girl, how many different teams are possible?",
+  "a": "640"
+ },
+ {
+  "id": "m6e1-2021-03-A",
+  "event": "m6e1",
+  "date": "Mar 2021",
+  "level": "A",
+  "q": "In how many ways can a group of $5$ be chosen from $11$ people?",
+  "a": "462"
+ },
+ {
+  "id": "m6e1-2021-03-B",
+  "event": "m6e1",
+  "date": "Mar 2021",
+  "level": "B",
+  "q": "How many distinct arrangements can be created using all the letters in LOCOMOCO in which the O's are separated by exactly one other letter?",
+  "a": "24"
+ },
+ {
+  "id": "m6e1-2021-03-C",
+  "event": "m6e1",
+  "date": "Mar 2021",
+  "level": "C",
+  "q": "In a basketball game, if a player scores $18$ points, all by $2$ or $3$ point shots, how many different orders of $2$ or $3$ point shots are possible?",
+  "a": "65"
+ },
+ {
+  "id": "m6e1-2020-04-A",
+  "event": "m6e1",
+  "date": "Apr 2020",
+  "level": "A",
+  "q": "A lunch buffet features $3$ types of salads, $5$ types of entrees, $3$ types of sides, and $4$ types of desserts. In how many ways can Jovi choose $1$ salad, $2$ different entrees, $2$ different sides, and $1$ dessert?",
+  "a": "360"
+ },
+ {
+  "id": "m6e1-2020-04-B",
+  "event": "m6e1",
+  "date": "Apr 2020",
+  "level": "B",
+  "q": "Edmar is preparing an assortment of different desserts to take to the math meet. The number of ways of arranging his desserts in a row is $10$ times the number of ways he can arrange them in a circle. How many desserts does he prepare?",
+  "a": "10"
+ },
+ {
+  "id": "m6e1-2020-04-C",
+  "event": "m6e1",
+  "date": "Apr 2020",
+  "level": "C",
+  "q": "A 24-foot long bar of metal will be cut into three 1-foot long bars, four 2-foot long bars, one 5-foot long bar, and one 8-foot long bar. In how many ways can the 24-foot long bar be marked for cutting?",
+  "a": "2520"
+ },
+ {
+  "id": "m6e1-2019-04-A",
+  "event": "m6e1",
+  "date": "Apr 2019",
+  "level": "A",
+  "q": "If Aukai chooses one card from a standard 52-card deck, what is the probability it is a face card (King, Queen or Jack) or a diamond?",
+  "a": "\\frac{11}{26}"
+ },
+ {
+  "id": "m6e1-2019-04-B",
+  "event": "m6e1",
+  "date": "Apr 2019",
+  "level": "B",
+  "q": "In an experiment, two fair six-sided dice are rolled. If the product of the two numbers is odd, the outcome of the experiment is that product; otherwise the outcome is considered to be $0$. What is the expected value of this experiment?",
+  "a": "2\\frac{1}{4}",
+  "alt": [
+   "\\frac{9}{4}"
+  ]
+ },
+ {
+  "id": "m6e1-2019-04-C",
+  "event": "m6e1",
+  "date": "Apr 2019",
+  "level": "C",
+  "q": "Nine paintings are to be hung randomly in a row. Four are by Picasso, three are by Monet, and two are by Cezanne. What is the probability that the Picasso paintings are in chronological order and the Cezanne paintings are the first two paintings in the row?",
+  "a": "\\frac{1}{864}"
+ },
+ {
+  "id": "m6e1-2018-04-A",
+  "event": "m6e1",
+  "date": "Apr 2018",
+  "level": "A",
+  "q": "Cranky Sushi features $7$ different platters arranged on a circular conveyor belt. In how many ways can the platters be arranged?",
+  "a": "720"
+ },
+ {
+  "id": "m6e1-2018-04-B",
+  "event": "m6e1",
+  "date": "Apr 2018",
+  "level": "B",
+  "q": "A coin is tossed $5$ times. What is the probability of getting at least $4$ heads?",
+  "a": "\\frac{3}{16}"
+ },
+ {
+  "id": "m6e1-2018-04-C",
+  "event": "m6e1",
+  "date": "Apr 2018",
+  "level": "C",
+  "q": "A game is played by rolling a six-sided die and picking a ball from one of two boxes. Box A contains two pink balls and one yellow ball. Box B contains three yellow balls and one pink ball. Kellie rolls the die. If the number rolled is a $1$ or a $2$, she draws a ball from Box A. If any other number is rolled, she draws a ball from Box B. Kellie will win the game if she draws a pink ball. What is the probability that Kellie will win the game?",
+  "a": "\\frac{7}{18}"
+ },
+ {
+  "id": "m6e1-2017-03-A",
+  "event": "m6e1",
+  "date": "Mar 2017",
+  "level": "A",
+  "q": "Seven yachts enter a race. In how many different ways can first, second, and third place be awarded?",
+  "a": "210"
+ },
+ {
+  "id": "m6e1-2017-03-B",
+  "event": "m6e1",
+  "date": "Mar 2017",
+  "level": "B",
+  "q": "A test contains $10$ questions divided into two groups, each containing $5$ questions. A student is required to answer $7$ out of these $10$ questions, but she is not permitted to choose more than $4$ questions from each group. In how many ways can she choose her $7$ questions?",
+  "a": "100"
+ },
+ {
+  "id": "m6e1-2017-03-C",
+  "event": "m6e1",
+  "date": "Mar 2017",
+  "level": "C",
+  "q": "There are $25$ couples at a party. Each person greets each of the other people except his or her spouse. People of the same gender greet each other with high-fives and those of the opposite gender shake hands. What is the total number of high-fives and handshakes combined?",
+  "a": "1200"
+ },
+ {
+  "id": "m6e1-2016-03-A",
+  "event": "m6e1",
+  "date": "Mar 2016",
+  "level": "A",
+  "q": "In how many ways can $4$ people be sitting in a row of $7$ chairs?",
+  "a": "840"
+ },
+ {
+  "id": "m6e1-2016-03-B",
+  "event": "m6e1",
+  "date": "Mar 2016",
+  "level": "B",
+  "q": "A permutation is palindromic if it is the same forwards and backwards. For example, HANNAH is palindromic, while NAHNAH is not. How many distinct non-palindromic permutations are there using all the letters in TESTSET?",
+  "a": "204"
+ },
+ {
+  "id": "m6e1-2016-03-C",
+  "event": "m6e1",
+  "date": "Mar 2016",
+  "level": "C",
+  "q": "Bert and Ernie and $10$ of their friends go camping, and all $12$ campers will be staying in $3$ cabins. Cabin A holds $3$ people, cabin B holds $4$ people, and cabin C holds $5$ people. In how many ways can the $12$ campers be assigned to these $3$ cabins if Bert and Ernie must room together?",
+  "a": "7980"
+ },
+ {
+  "id": "m6e1-2015-03-A",
+  "event": "m6e1",
+  "date": "Mar 2015",
+  "level": "A",
+  "q": "How many distinct arrangements can be created using all the letters in HONOLULU?",
+  "a": "5040"
+ },
+ {
+  "id": "m6e1-2015-03-B",
+  "event": "m6e1",
+  "date": "Mar 2015",
+  "level": "B",
+  "q": "Angel, Bianca, Caron, Diana, Eleanor, Francesca, Gretchen, Helen, Vanessa, Veronica, and Victoria are members of the math club at Shohoku Academy. Three of the students will be chosen to compete in the annual Math Bowl. If Victoria must be one of the three competitors, in how many ways can the team be selected?",
+  "a": "45"
+ },
+ {
+  "id": "m6e1-2015-03-C",
+  "event": "m6e1",
+  "date": "Mar 2015",
+  "level": "C",
+  "q": "There are an equal number of boys and girls in a class and they are seated in a row so that no two boys sit next to each other and no two girls sit next to each other. If one more student is added to the class the number of seating arrangements with the original conditions is tripled. How many students were in the class originally?",
+  "a": "10"
+ },
+ {
+  "id": "m6e1-2014-03-A",
+  "event": "m6e1",
+  "date": "Mar 2014",
+  "level": "A",
+  "q": "A horse trainer returns $7$ horses to $7$ stalls each evening. Each evening he puts the horses in the stalls in an order he has never done before. How many days will pass until he is forced to repeat an order?",
+  "a": "5040"
+ },
+ {
+  "id": "m6e1-2014-03-B",
+  "event": "m6e1",
+  "date": "Mar 2014",
+  "level": "B",
+  "q": "Dustin and his sister Cindy, and three of their friends plan to watch a movie. Dustin and Cindy must sit next to each other. How many different seating arrangements in a row of five seats are possible?",
+  "a": "48"
+ },
+ {
+  "id": "m6e1-2014-03-C",
+  "event": "m6e1",
+  "date": "Mar 2014",
+  "level": "C",
+  "q": "There are fourteen people in a tour group, four of whom can drive. The tour group has rented a minivan that seats one driver and eight passengers, and a car that seats one driver and four passengers. How many different ways are there to split the people in the tour group between the two vehicles if the order that the passengers sit in each vehicle does not matter?",
+  "a": "5940"
+ },
+ {
+  "id": "m6e1-2013-03-A",
+  "event": "m6e1",
+  "date": "Mar 2013",
+  "level": "A",
+  "q": "Mrs. Aloha is making a multiple choice quiz. She wants to give each of her $30$ students in each of her $6$ classes the same questions, but in a different order. What is the least number of questions Mrs. Aloha's quiz must contain?",
+  "a": "6"
+ },
+ {
+  "id": "m6e1-2013-03-B",
+  "event": "m6e1",
+  "date": "Mar 2013",
+  "level": "B",
+  "q": "There are seven women and five men trying out for a volleyball team. Only six players will be selected, of which at least two must be women and at least two must be men. How many different teams can be selected?",
+  "a": "805"
+ },
+ {
+  "id": "m6e1-2013-03-C",
+  "event": "m6e1",
+  "date": "Mar 2013",
+  "level": "C",
+  "q": "Seven students are sitting around a round table. There are two female students and five male students. How many possible ways could they sit so that the two females are sitting next to the same male, or the two females are not sitting next to each other?",
+  "a": "480"
+ }
+]

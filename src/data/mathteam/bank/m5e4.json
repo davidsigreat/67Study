@@ -1,0 +1,338 @@
+[
+ {
+  "id": "m5e4-2026-02-A",
+  "event": "m5e4",
+  "date": "Feb 2026",
+  "level": "A",
+  "q": "A line is perpendicular to $3x-4y+24=0$ and passes through the center of the circle $\\left(x-\\dfrac{5}{3}\\right)^2+(y-3.5)^2=9$. Find the equation of the line and write your answer in slope-intercept form.",
+  "a": "y=-\\frac{4}{3}x+\\frac{103}{18}"
+ },
+ {
+  "id": "m5e4-2026-02-B",
+  "event": "m5e4",
+  "date": "Feb 2026",
+  "level": "B",
+  "q": "The line $y=\\dfrac{2}{3}x+4$ is tangent to a circle with center $\\left(4,\\dfrac{7}{3}\\right)$. Find the radius of the circle.",
+  "a": "\\sqrt{13}"
+ },
+ {
+  "id": "m5e4-2026-02-C",
+  "event": "m5e4",
+  "date": "Feb 2026",
+  "level": "C",
+  "q": "$A$ and $B$ are the $x$-intercept and $y$-intercept of the line $\\dfrac{x}{20}+\\dfrac{y}{26}=1$. $\\overline{AB}$ is trisected by two lines that pass through the origin. Find the equations of these two lines. Write your answers in slope-intercept form.",
+  "a": "y=\\frac{13}{5}x, y=\\frac{13}{20}x"
+ },
+ {
+  "id": "m5e4-2025-02-A",
+  "event": "m5e4",
+  "date": "Feb 2025",
+  "level": "A",
+  "q": "The line $y=x+1$ and the circle $x^2+y^2-2x+6y-27=0$ intersect in two points. Find the points of intersection.",
+  "a": "(2, 3), (-5, -4)"
+ },
+ {
+  "id": "m5e4-2025-02-B",
+  "event": "m5e4",
+  "date": "Feb 2025",
+  "level": "B",
+  "q": "A circle is tangent to both the $x$-axis and the $y$-axis, and its center is on the line $x+y=15$. Write the equation of the circle in OML Standard Form.",
+  "a": "\\left(x-\\frac{15}{2}\\right)^2+\\left(y-\\frac{15}{2}\\right)^2=\\frac{225}{4}"
+ },
+ {
+  "id": "m5e4-2025-02-C",
+  "event": "m5e4",
+  "date": "Feb 2025",
+  "level": "C",
+  "q": "Find the equation of the circle which passes through the points $A(-6,3)$, $B(-3,2)$, and $C(0,3)$. Write your answer in OML Standard Form.",
+  "a": "(x+3)^2+(y-7)^2=25"
+ },
+ {
+  "id": "m5e4-2024-02-A",
+  "event": "m5e4",
+  "date": "Feb 2024",
+  "level": "A",
+  "q": "The line $2x-3y=6$ intersects the $x$-axis at $A$ and the $y$-axis at $B$. Find the midpoint of $\\overline{AB}$.",
+  "a": "\\left(\\frac{3}{2}, -1\\right)"
+ },
+ {
+  "id": "m5e4-2024-02-B",
+  "event": "m5e4",
+  "date": "Feb 2024",
+  "level": "B",
+  "q": "A line passing through the point $P(2,0)$ has angle of inclination $30^\\circ$. Find the equation of the line and write your answer in slope-intercept form.",
+  "a": "y=\\frac{\\sqrt{3}}{3}x-\\frac{2\\sqrt{3}}{3}"
+ },
+ {
+  "id": "m5e4-2024-02-C",
+  "event": "m5e4",
+  "date": "Feb 2024",
+  "level": "C",
+  "q": "Circle $C$ has its center in quadrant 2 and a radius of $3\\sqrt{2}$, while circle $A$ has its center at the origin. Circle $A$ and circle $C$ are externally tangent at $(-1,1)$. Find the equation of circle $C$ and express your answer in OML Standard Form.",
+  "a": "(x+4)^2+(y-4)^2=18"
+ },
+ {
+  "id": "m5e4-2023-02-A",
+  "event": "m5e4",
+  "date": "Feb 2023",
+  "level": "A",
+  "q": "Find the equation of the line that is tangent to the circle $x^2+(y-7)^2=20$ at the point $(4,9)$. Write your answer in slope-intercept form.",
+  "a": "y=-2x+17"
+ },
+ {
+  "id": "m5e4-2023-02-B",
+  "event": "m5e4",
+  "date": "Feb 2023",
+  "level": "B",
+  "q": "The circles $(x-1)^2+(y-5)^2=10$ and $(x-3)^2+(y-9)^2=10$ intersect in two points. What is the $x$-intercept of the line that passes through the points of intersection?",
+  "a": "16"
+ },
+ {
+  "id": "m5e4-2023-02-C",
+  "event": "m5e4",
+  "date": "Feb 2023",
+  "level": "C",
+  "q": "The center of a circle is in the third quadrant and is on the line $x-y=-1$. The circle has radius $4\\sqrt{2}$ and contains the point $(2,3)$. Write the equation of the circle in the form $(x-h)^2+(y-k)^2=r^2$.",
+  "a": "(x+2)^2+(y+1)^2=32"
+ },
+ {
+  "id": "m5e4-2022-02-A",
+  "event": "m5e4",
+  "date": "Feb 2022",
+  "level": "A",
+  "q": "Find the distance between the point $(5,8)$ and the circle $x^2+y^2+6x-4y-3=0$.",
+  "a": "6"
+ },
+ {
+  "id": "m5e4-2022-02-B",
+  "event": "m5e4",
+  "date": "Feb 2022",
+  "level": "B",
+  "q": "Write the equation of the line with slope $-\\dfrac{8}{15}$ that is tangent to the lower half of the circle $(x-2)^2+(y-1)^2=9$. Express your answer in the form $Ax+By+C=0$, where $A>0$ and $A$, $B$, and $C$ are non-zero, relatively prime integers.",
+  "a": "8x+15y+20=0"
+ },
+ {
+  "id": "m5e4-2022-02-C",
+  "event": "m5e4",
+  "date": "Feb 2022",
+  "level": "C",
+  "q": "Find the slope of the line that bisects the acute angle formed by $12x-5y+17=0$ and $3x-4y+7=0$.",
+  "a": "\\frac{9}{7}"
+ },
+ {
+  "id": "m5e4-2021-02-A",
+  "event": "m5e4",
+  "date": "Feb 2021",
+  "level": "A",
+  "q": "Write the equation of the line containing the centers of the circles $(x+4)^2+(y-1)^2=24$ and $(x-5)^2+(y-8)^2=42$. Express your answer in the form $Ax+By+C=0$, where $A$, $B$, and $C$ are non-zero, relatively prime integers.",
+  "a": "7x-9y+37=0"
+ },
+ {
+  "id": "m5e4-2021-02-B",
+  "event": "m5e4",
+  "date": "Feb 2021",
+  "level": "B",
+  "q": "A circle has its center on the line $y=-13$, and is tangent to the lines $y=\\dfrac{4}{3}x+12$ and $y=-\\dfrac{4}{3}x+12$. Write the equation of the circle in the form $(x-h)^2+(y-k)^2=r^2$.",
+  "a": "x^2+(y+13)^2=225"
+ },
+ {
+  "id": "m5e4-2021-02-C",
+  "event": "m5e4",
+  "date": "Feb 2021",
+  "level": "C",
+  "q": "A circle has its center on the line $3x+4y-29=0$ and passes through the points $(1,-6)$ and $(-7,0)$. Find the radius of the circle.",
+  "a": "5\\sqrt{5}"
+ },
+ {
+  "id": "m5e4-2020-02-A",
+  "event": "m5e4",
+  "date": "Feb 2020",
+  "level": "A",
+  "q": "Find the distance between the lines $5x+4y+8=0$ and $5x+4y-32=0$.",
+  "a": "\\frac{40\\sqrt{41}}{41}"
+ },
+ {
+  "id": "m5e4-2020-02-B",
+  "event": "m5e4",
+  "date": "Feb 2020",
+  "level": "B",
+  "q": "Find the distance between the circles $x^2+y^2+4x-10y+20=0$ and $x^2+y^2-8x+2y+1=0$.",
+  "a": "6\\sqrt{2}-7"
+ },
+ {
+  "id": "m5e4-2020-02-C",
+  "event": "m5e4",
+  "date": "Feb 2020",
+  "level": "C",
+  "q": "Find the equation of each line tangent to the circle $x^2-4x+y^2-2y-108=0$ at the points with $x$-coordinate $-5$. Write your answers in slope-intercept form.",
+  "a": "y=-\\frac{7}{8}x-\\frac{91}{8}, y=\\frac{7}{8}x+\\frac{107}{8}"
+ },
+ {
+  "id": "m5e4-2019-02-A",
+  "event": "m5e4",
+  "date": "Feb 2019",
+  "level": "A",
+  "q": "Lines $y=-\\dfrac{1}{2}x+3$ and $y=-\\dfrac{1}{2}x-3$ are both tangent to the same circle. Find the radius of the circle.",
+  "a": "\\frac{6}{5}\\sqrt{5}"
+ },
+ {
+  "id": "m5e4-2019-02-B",
+  "event": "m5e4",
+  "date": "Feb 2019",
+  "level": "B",
+  "q": "Find all points on the line $x+y+3=0$ whose distance from $(-3,2)$ is $10$.",
+  "a": "(3, -6), (-11, 8)"
+ },
+ {
+  "id": "m5e4-2019-02-C",
+  "event": "m5e4",
+  "date": "Feb 2019",
+  "level": "C",
+  "q": "The equation of circle $O$ is $x^2+y^2+6x-6y=0$. Find the equation of the circle that both contains point $O$ and is tangent to circle $O$ at the origin. Express your answer in the form $(x-h)^2+(y-k)^2=r^2$.",
+  "a": "\\left(x+\\frac{3}{2}\\right)^2+\\left(y-\\frac{3}{2}\\right)^2=\\frac{9}{2}"
+ },
+ {
+  "id": "m5e4-2018-02-A",
+  "event": "m5e4",
+  "date": "Feb 2018",
+  "level": "A",
+  "q": "Given: $A(-1,5)$, $B(3,6)$ and $C(7,10)$, and $\\overline{AM}$ is a median of $\\triangle ABC$. Find the equation of the line containing $\\overline{AM}$. Write your answer in the form $y=mx+b$.",
+  "a": "y=\\frac{1}{2}x+\\frac{11}{2}"
+ },
+ {
+  "id": "m5e4-2018-02-B",
+  "event": "m5e4",
+  "date": "Feb 2018",
+  "level": "B",
+  "q": "Find the radius of a circle that is tangent to both $y=-\\dfrac{2}{3}x+4$ and $y=-\\dfrac{2}{3}x-2$.",
+  "a": "\\frac{9}{13}\\sqrt{13}"
+ },
+ {
+  "id": "m5e4-2018-02-C",
+  "event": "m5e4",
+  "date": "Feb 2018",
+  "level": "C",
+  "q": "Find the equations of the lines passing through the $y$-intercepts and the center of the circle $x^2+y^2-4x-2y-4=0$. Write the equations in the form $y=mx+b$.",
+  "a": "y=-\\frac{1}{2}\\sqrt{5}x+1+\\sqrt{5}, y=\\frac{1}{2}\\sqrt{5}x+1-\\sqrt{5}"
+ },
+ {
+  "id": "m5e4-2017-02-A",
+  "event": "m5e4",
+  "date": "Feb 2017",
+  "level": "A",
+  "q": "A circle is tangent to lines $y=7$ and $y=-9$ and has its center on the line $y=3x+4$. Find the equation of the circle. Give your answer in OML Standard Form.",
+  "a": "\\left(x+\\frac{5}{3}\\right)^2+(y+1)^2=64"
+ },
+ {
+  "id": "m5e4-2017-02-B",
+  "event": "m5e4",
+  "date": "Feb 2017",
+  "level": "B",
+  "q": "Circles $x^2+y^2=4$ and $(x+2)^2+(y-2)^2=4$ intersect at points $P$ and $Q$. Write the equation of $\\overleftrightarrow{PQ}$ in the form $Ax+By+C=0$ where $A$, $B$, and $C$ are relatively prime integers.",
+  "a": "x-y+2=0"
+ },
+ {
+  "id": "m5e4-2017-02-C",
+  "event": "m5e4",
+  "date": "Feb 2017",
+  "level": "C",
+  "q": "A circle is tangent to the lines $y=2x+2$ and $y=2x-4$. Line $y=-\\dfrac{1}{2}x+5$ passes through the center of the circle. Find the equation of the circle. Express your answer in OML Standard Form.",
+  "a": "\\left(x-\\frac{12}{5}\\right)^2+\\left(y-\\frac{19}{5}\\right)^2=\\frac{9}{5}"
+ },
+ {
+  "id": "m5e4-2016-02-A",
+  "event": "m5e4",
+  "date": "Feb 2016",
+  "level": "A",
+  "q": "Two circles $(x+4)^2+(y+3)^2=16$ and $x^2+16x+y^2-2y+49=0$ intersect at points $A$ and $B$. Find the equation of the line that contains points $A$ and $B$. Express your answer in slope-intercept form.",
+  "a": "y=x+5"
+ },
+ {
+  "id": "m5e4-2016-02-B",
+  "event": "m5e4",
+  "date": "Feb 2016",
+  "level": "B",
+  "q": "The line $8x+2y=45$ is the perpendicular bisector of $\\overline{AB}$. If point $A$ is on the $x$-axis and point $B$ is on the $y$-axis, find the midpoint of $\\overline{AB}$.",
+  "a": "\\left(6, -\\frac{3}{2}\\right)"
+ },
+ {
+  "id": "m5e4-2016-02-C",
+  "event": "m5e4",
+  "date": "Feb 2016",
+  "level": "C",
+  "q": "A circle has its center on the line $x+y=5$ and is tangent to the line $8x-5y=38$ at $(6,2)$. Write the equation of this circle in OML standard form.",
+  "a": "(x+2)^2+(y-7)^2=89"
+ },
+ {
+  "id": "m5e4-2015-02-A",
+  "event": "m5e4",
+  "date": "Feb 2015",
+  "level": "A",
+  "q": "The $x$- and $y$-intercepts of the line $\\dfrac{x}{16}-\\dfrac{y}{12}=1$ are the endpoints of a diameter of a circle. Find the radius of the circle.",
+  "a": "10"
+ },
+ {
+  "id": "m5e4-2015-02-B",
+  "event": "m5e4",
+  "date": "Feb 2015",
+  "level": "B",
+  "q": "The center of a circle is in the second quadrant and is on the line $x+y=-1$. The circle contains the origin and the length of the radius is $5$ units. Determine the equation of the circle. Express your answer in standard form, $(x-h)^2+(y-k)^2=r^2$.",
+  "a": "(x+4)^2+(y-3)^2=25"
+ },
+ {
+  "id": "m5e4-2015-02-C",
+  "event": "m5e4",
+  "date": "Feb 2015",
+  "level": "C",
+  "q": "Find the equation of the line tangent to $x^2+y^2+6x-8y-75=0$ at the point $(-11,-2)$. Write your answer in the form $Ax+By+C=0$.",
+  "a": "4x+3y+50=0"
+ },
+ {
+  "id": "m5e4-2014-02-A",
+  "event": "m5e4",
+  "date": "Feb 2014",
+  "level": "A",
+  "q": "Find the distance between the lines $3x+2y+4=0$ and $3x+2y+9=0$.",
+  "a": "\\frac{5\\sqrt{13}}{13}"
+ },
+ {
+  "id": "m5e4-2014-02-B",
+  "event": "m5e4",
+  "date": "Feb 2014",
+  "level": "B",
+  "q": "The circles $(x-3)^2+(y-2)^2=25$ and $(x-4)^2+(y+1)^2=9$ intersect at points $P$ and $Q$. Write the equation of the line (in the form $Ax+By+C=0$) that contains $P$ and $Q$.",
+  "a": "x-3y-10=0"
+ },
+ {
+  "id": "m5e4-2014-02-C",
+  "event": "m5e4",
+  "date": "Feb 2014",
+  "level": "C",
+  "q": "Find the center and the radius of the circle that passes through the points $(-1,7)$, $(-11,7)$ and $(4,-8)$. (Answer: center, radius)",
+  "a": "(-6, -3), 5\\sqrt{5}"
+ },
+ {
+  "id": "m5e4-2013-02-A",
+  "event": "m5e4",
+  "date": "Feb 2013",
+  "level": "A",
+  "q": "Find an equation of the line tangent to the circle $x^2+y^2-8x-6y+20=0$ at $(3,5)$. Write your answer in the form $y=mx+b$.",
+  "a": "y=\\frac{1}{2}x+\\frac{7}{2}"
+ },
+ {
+  "id": "m5e4-2013-02-B",
+  "event": "m5e4",
+  "date": "Feb 2013",
+  "level": "B",
+  "q": "Find an equation, in general form, of the locus of all points in the Cartesian plane that are equidistant from $3x+2y=7$ and $3x+2y=-10$.",
+  "a": "6x+4y+3=0"
+ },
+ {
+  "id": "m5e4-2013-02-C",
+  "event": "m5e4",
+  "date": "Feb 2013",
+  "level": "C",
+  "q": "Find the center of the circle that contains $(6,4)$ and is tangent to the line $5x-4y+27=0$ at $(-3,3)$.",
+  "a": "(2, -1)"
+ }
+]

@@ -1,0 +1,138 @@
+# Meet 3, Event 2: GEOMETRY — Right Triangles
+
+@ Nov 2025
+A: A ladder is leaning against a vertical wall of a tall building, forming a $60^\circ$ angle with the level ground. The base of the ladder is $6$ feet away from the wall. There is a spot of paint halfway up on the ladder. How high above the ground (in feet) is the spot of paint?
+= 3\sqrt{3}
+B: A right triangle has legs of length $x$ and $2.4x$. If the length of each side of the triangle is an integer, find the smallest possible length of the hypotenuse of this triangle.
+= 13
+C: In quadrilateral $MATH$, $\overline{MA}\perp\overline{MH}$ and $\overline{AH}\perp\overline{HT}$. If $MA=2$, $m\angle MAH=30^\circ$, and $m\angle HTA=45^\circ$, find $AT$.
+= \frac{4\sqrt{6}}{3}
+
+@ Nov 2024
+A: The hypotenuse of a right triangle has length $3\sqrt{2}$. One leg is twice as long as the other. How long is the shorter leg?
+= \frac{3\sqrt{10}}{5}
+B: In $\triangle MTH$, $MA=7$, $\angle T$ is a right angle and $m\angle M=30^\circ$. $\overline{HA}$ bisects $\angle MHT$. Find the perimeter of $\triangle MTH$.
+= \frac{21}{2}+\frac{21}{2}\sqrt{3}
+& /oml/fig/m3e2-2024-11-B.png
+C: $\triangle OML$ is a right triangle with right angle at $L$. The medians of $\triangle OML$ that are drawn from the vertices of the acute angles have lengths $5$ and $2\sqrt{10}$. Find the length of the hypotenuse of $\triangle OML$.
+= 2\sqrt{13}
+
+@ Nov 2023
+A: Given $\triangle ABC$ with sides of length $5$, $12$, and $13$. Find the length of the altitude to the longest side of $\triangle ABC$.
+= \frac{60}{13}
+B: A sequence of right triangles is drawn starting with isosceles $\triangle ACB_1$ shown in the diagram. For $n>1$, the $n$th right triangle is formed by copying the length of $\overline{CB_1}$ so that $CB_1=B_1B_2=B_2B_3=\cdots=B_{n-1}B_n$. For what value of $n$ will $AB_n=2\cdot AB_1$?
+= 7
+& /oml/fig/m3e2-2023-11-B.png
+C: Given: Obtuse $\triangle ABC$, $D$ is on $\overline{AC}$ so that $\overline{BD}\perp\overline{AC}$ and $E$ is on $\overline{BC}$ so that $\overline{BC}\perp\overline{DE}$, $AD:DC=3:2$, $AB=14$, $m\angle C=30^\circ$. Find $BE$.
+= \frac{14\sqrt{31}}{31}
+& /oml/fig/m3e2-2023-11-C.png
+
+@ Nov 2022
+A: Given: Quadrilateral $NOVB$, $m\angle OVN=45^\circ$, $m\angle B=60^\circ$, $\angle O$ and $\angle NVB$ are right angles, $NB=10\sqrt{6}$. Find $ON$.
+= 15
+& /oml/fig/m3e2-2022-11-A.png
+B: Given: Quadrilateral $ABCD$ with $\overline{AB}\parallel\overline{DC}$, $\overline{AC}\perp\overline{BC}$ and $\overline{CD}\perp\overline{AD}$, $m\angle ACD=30^\circ$ and $AB=12$. Find the length of $\overline{CD}$.
+= 9
+C: The legs of a right triangle have lengths $3$ meters and $4$ meters. Point $P$ on the hypotenuse of this right triangle is $3$ meters from the vertex of the smallest angle. How far (in meters) is $P$ from the vertex of the right angle?
+= \frac{\sqrt{145}}{5}
+
+@ Nov 2021
+A: In a right triangle, the ratio of the lengths of its legs is $1:2$ and the hypotenuse has length $5\sqrt{5}$. Find the perimeter of the triangle.
+= 15+5\sqrt{5}
+B: Given: $\overline{AF}\perp\overline{AB}$, $\overline{CF}\perp\overline{CB}$, $\overline{DF}\perp\overline{DC}$, $\overline{ED}\perp\overline{EF}$, $AB=8$, $m\angle BFA=45^\circ$, $m\angle FBC=60^\circ$, $m\angle FCD=45^\circ$, $m\angle DFE=30^\circ$. Find $EF$.
+= 6
+& /oml/fig/m3e2-2021-11-B.png
+C: Given: In $\triangle ABC$, $\overline{AB}\perp\overline{BC}$, $D$ is on $\overline{BC}$ and $E$ is on $\overline{AC}$ such that $\overline{AD}$ bisects $\angle BAE$ and $\overline{DE}$ bisects $\angle ADC$, $AB=4$ and $AD=5$. Find $AE$.
+= \frac{50}{11}
+& /oml/fig/m3e2-2021-11-C.png
+
+@ Nov 2020
+A: Given: $\overline{AD}\perp\overline{BE}$, $\overline{BD}\perp\overline{DC}$, $AE=5$, $AB=13$, $\overline{EB}\cong\overline{ED}$, $m\angle DBC=30^\circ$. Find $BC$.
+= 8\sqrt{6}
+& /oml/fig/m3e2-2020-11-A.png
+B: Given: $\triangle OML$ with $m\angle O=90^\circ$ and $OM=\sqrt{3}$, $H$ is on $\overline{ML}$ so that $\overline{OH}\perp\overline{ML}$ and $OH=1$. The perimeter of $\triangle OML$ can be written in the form $a\sqrt{2}+b\sqrt{3}+c\sqrt{6}$, where $a$, $b$, and $c$ are real numbers. Find $a+b+c$.
+= 3
+C: Given: $\triangle XYZ$ with $m\angle Y=105^\circ$, $W$ is on $\overline{XZ}$ so that $\overline{WY}\perp\overline{XZ}$ and $2\cdot WY=XY$. The perimeter of $\triangle XYZ$ is $3\sqrt{5}+\sqrt{10}+\sqrt{15}$. Find $YZ$.
+= \sqrt{10}
+
+@ Nov 2019
+A: Two angles of a triangle are $105^\circ$ and $30^\circ$. In this triangle, the altitude to the longest side is $6$. Find the perimeter of the triangle.
+= 18+6\sqrt{2}+6\sqrt{3}
+B: In quadrilateral $ABCD$, $\overline{AB}\parallel\overline{CD}$. $E$ is on $\overline{CD}$ so that $\overline{AE}\perp\overline{CD}$. $AB=8$, $AD=15$, $AE=12$, $m\angle C=60^\circ$. Find the perimeter of quadrilateral $ABCD$.
+= 40+12\sqrt{3}
+& /oml/fig/m3e2-2019-11-B.png
+C: In $\triangle ABC$, $\overline{AB}\perp\overline{BC}$ and $AB=BC=4$. $D$ is on $\overline{AC}$ such that $\overline{BD}$ is an altitude of $\triangle ABC$. $E$ and $F$ are on $\overline{BD}$ such that $\overline{AE}$ is a median of $\triangle ABD$ and $\overline{CF}$ bisects $\angle BCA$. Find $EF$.
+= 3\sqrt{2}-4
+& /oml/fig/m3e2-2019-11-C.png
+
+@ Nov 2018
+A: In quadrilateral $PIES$, $\angle I$ and $\angle S$ are right angles. $m\angle IEP=60^\circ$, $m\angle SPE=45^\circ$, and $PE=2\sqrt{3}$. Find the perimeter of quadrilateral $PIES$.
+= 3+\sqrt{3}+2\sqrt{6}
+& /oml/fig/m3e2-2018-11-A.png
+B: $\overline{AE}$ and $\overline{PC}$ intersect at $N$. $\triangle APN\sim\triangle ECN$. $AN=CN$, $EN=AN+4$, $PN=9$, and $AP=15$. Find $PE$.
+= \sqrt{337}
+& /oml/fig/m3e2-2018-11-B.png
+C: In $\triangle ABC$, $AB=15$, $BC=14$, and $AC=13$. $D$ is on $\overline{BC}$ so that $\overline{AD}$ is an altitude of $\triangle ABC$. $E$ is on $\overline{AC}$ such that $\overline{DE}\perp\overline{AC}$. Find $DE$.
+= \frac{60}{13}
+
+@ Nov 2017
+A: A right triangle has legs with lengths $4+\sqrt{2}$ and $4-\sqrt{2}$. What is the length of the hypotenuse?
+= 6
+B: In $\triangle ABC$, $m\angle A=45^\circ$, $m\angle C=30^\circ$, and $BC=8$. Find the perimeter of $\triangle ABC$.
+= 12+4\sqrt{2}+4\sqrt{3}
+C: The perimeter of a right triangle is $90$. The ratio of the length of one leg to the perimeter is $1:6$. What is the length of the hypotenuse?
+= 39
+
+@ Nov 2016
+A: Given: $\overline{RE}\parallel\overline{TC}$, $\overline{YC}\parallel\overline{RA}$, $E$ is on $\overline{YC}$ and $T$ is on $\overline{RA}$, $\overline{RE}\perp\overline{YC}$, $TC=RE=EY$, $AC=13$, $AT=5$. Find $RY$.
+= 12\sqrt{2}
+& /oml/fig/m3e2-2016-11-A.png
+B: Given $\triangle ABC$ with $m\angle A=30^\circ$, $m\angle C=105^\circ$, and $AC=5$, find $AB$.
+= \frac{5}{2}+\frac{5}{2}\sqrt{3}
+C: Right triangle $JKL$ has legs $\overline{JK}$ and $\overline{LK}$ with lengths $16$ and $12$, respectively. $\overline{XY}$ is the perpendicular bisector of $\overline{JL}$, intersecting $\overline{JL}$ at $X$ and $\overline{JK}$ at $Y$. Find $LY$.
+= \frac{25}{2}
+
+@ Nov 2015
+A: The longer leg of a right triangle has length $\sqrt{21}$. If the length of the hypotenuse is one more than twice the length of the shorter leg, find the perimeter of the triangle.
+= 7+\sqrt{21}
+B: In $\triangle ABC$, $m\angle B=105^\circ$, $m\angle C=30^\circ$, and $BC=12$. $\overline{BD}$ is the altitude from $B$ to $\overline{AC}$, $\overline{DE}$ is the altitude from $D$ to $\overline{AB}$, and $\overline{DF}$ is the altitude from $D$ to $\overline{BC}$. Find the sum of $DE$ and $DF$.
+= 3\sqrt{2}+3\sqrt{3}
+C: In $\triangle XYZ$, $XY=20$ and $YZ=5$. $\overline{WY}$ is the altitude from $Y$ to $\overline{XZ}$ and $\dfrac{XW}{WZ}=9$. Find $WY$.
+= \frac{5}{4}\sqrt{13}
+
+@ Nov 2014
+A: $m\angle C=90^\circ$, $\overline{AD}\parallel\overline{BC}$, $AD=21$, $BC=6$, and $CD=8$. Find the perimeter of $\triangle ABD$.
+= 48
+& /oml/fig/m3e2-2014-11-A.png
+B: The length of the shorter leg of a right triangle is $17$. The altitude to the hypotenuse has length $15$. Find the length of the longer leg of the triangle.
+= \frac{255}{8}
+C: The legs of a right triangle have lengths $3$ meters and $4$ meters. A point $P$ on the hypotenuse is $2$ meters from the vertex of the smallest angle. How far (in meters) is $P$ from the vertex of the right angle?
+= \frac{6\sqrt{5}}{5}
+
+@ Nov 2013
+A: Equilateral triangle $ABX$ is drawn inside square $ABCD$. How far (in inches) is $X$ from $\overline{DC}$ if $BC=10$ inches?
+= 10-5\sqrt{3}
+B: Find $CF$.
+= 8\sqrt{3}
+& /oml/fig/m3e2-2013-11-B.png
+C: In $\triangle XYZ$, $XY=6$ and $YZ=5\sqrt{2}$. The altitude to $\overline{XZ}$ has length $4\sqrt{2}$. Find the perimeter of $\triangle XYZ$.
+= 8+8\sqrt{2}
+
+@ Nov 2012
+A: Find the perimeter (in dm) of an isosceles triangle whose base is $16$ dm and whose height is $15$ dm.
+= 50
+B: Find the value of $x$.
+= 7
+& /oml/fig/m3e2-2012-11-B.png
+C: The sides of a triangle are $10$, $17$, and $21$. Find the length of the altitude to the longest side.
+= 8
+
+@ Nov 2011
+A: Find the perimeter (in inches) of an equilateral triangle that has a height of $6$ inches.
+= 12\sqrt{3}
+B: In the figure, the value of $x$ can be expressed in the form $\sqrt{a+b\sqrt{c}}$, where $a$, $b$, and $c$ are integers. Find the value of $a+b+c$.
+= 32
+& /oml/fig/m3e2-2011-11-B.png
+C: In the figure, $DH=\sqrt{6}$, $DB=x$, $GC=y$, $CK=z$, $m\angle BAC=60^\circ$, and $m\angle ACK=45^\circ$. Find $xyz$.
+= 1536\sqrt{3}
+& /oml/fig/m3e2-2011-11-C.png

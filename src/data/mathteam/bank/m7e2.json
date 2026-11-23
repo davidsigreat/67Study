@@ -1,0 +1,345 @@
+[
+ {
+  "id": "m7e2-2026-04-A",
+  "event": "m7e2",
+  "date": "Apr 2026",
+  "level": "A",
+  "q": "The base of a pyramid is an isosceles right triangle with hypotenuse measuring $20$ inches. The height of the pyramid is $36$ inches. Find the volume (in cubic inches) of the pyramid.",
+  "a": "1200"
+ },
+ {
+  "id": "m7e2-2026-04-B",
+  "event": "m7e2",
+  "date": "Apr 2026",
+  "level": "B",
+  "q": "A right circular cone has a radius of $2\\sqrt3$ and a height of $6$. Find the lateral surface area of the cone.",
+  "a": "24\\pi"
+ },
+ {
+  "id": "m7e2-2026-04-C",
+  "event": "m7e2",
+  "date": "Apr 2026",
+  "level": "C",
+  "q": "A cube is inscribed in a sphere. A smaller sphere is then inscribed in the cube. The volume of the smaller sphere is $36\\pi$. Find the surface area of the larger sphere.",
+  "a": "108\\pi"
+ },
+ {
+  "id": "m7e2-2025-04-A",
+  "event": "m7e2",
+  "date": "Apr 2025",
+  "level": "A",
+  "q": "A rectangular prism has height $4$ centimeters, length twice its height, and volume $160$ cubic centimeters. Find the length (in cm) of the diagonal of the prism.",
+  "a": "\\sqrt{105}"
+ },
+ {
+  "id": "m7e2-2025-04-B",
+  "event": "m7e2",
+  "date": "Apr 2025",
+  "level": "B",
+  "q": "A solid wood ornament is hanging by wires and a hook. It was created by carving out a hemisphere from one end of the cylinder. The height of the cylinder is $6$ centimeters, and the cylinder and the hemisphere both have radius $3$ centimeters. Find the total surface area (in square cm) of the ornament.",
+  "a": "63\\pi",
+  "fig": "/oml/fig/m7e2-2025-04-B.png"
+ },
+ {
+  "id": "m7e2-2025-04-C",
+  "event": "m7e2",
+  "date": "Apr 2025",
+  "level": "C",
+  "q": "The base of a right pyramid is an equilateral triangle of side $4$ cm. Each lateral edge is $5$ cm long. Find the volume (in cubic cm) of the pyramid.",
+  "a": "\\frac{4\\sqrt{59}}{3}"
+ },
+ {
+  "id": "m7e2-2024-04-A",
+  "event": "m7e2",
+  "date": "Apr 2024",
+  "level": "A",
+  "q": "A silo is in the shape of a hemisphere on top of a cylinder. If the radius of the cylinder's base is $1.5$ meters and the height of the silo is $6$ meters, what is the volume (in m³) of the silo?",
+  "a": "\\frac{99\\pi}{8}",
+  "fig": "/oml/fig/m7e2-2024-04-A.png"
+ },
+ {
+  "id": "m7e2-2024-04-B",
+  "event": "m7e2",
+  "date": "Apr 2024",
+  "level": "B",
+  "q": "A plane intersects a cone parallel to its base creating a frustum and a smaller cone. The slant height of the smaller cone is $6$ cm, the slant height of the larger cone is $8$ cm, and the radius of the larger cone's base is $4$ cm. What is the volume (in cm³) of the frustum?",
+  "a": "\\frac{37\\pi\\sqrt{3}}{3}"
+ },
+ {
+  "id": "m7e2-2024-04-C",
+  "event": "m7e2",
+  "date": "Apr 2024",
+  "level": "C",
+  "q": "A hemisphere is surmounted by a right circular cone whose height is equal to its diameter. Find the ratio of the surface area of the cone to the surface area of the hemisphere.",
+  "a": "\\frac{\\sqrt{5}}{2}",
+  "fig": "/oml/fig/m7e2-2024-04-C.png"
+ },
+ {
+  "id": "m7e2-2023-04-A",
+  "event": "m7e2",
+  "date": "Apr 2023",
+  "level": "A",
+  "q": "A right circular cylinder has height $8$ inches and volume $72\\pi$ cubic inches. What is the diameter (in inches) of the cylinder?",
+  "a": "6"
+ },
+ {
+  "id": "m7e2-2023-04-B",
+  "event": "m7e2",
+  "date": "Apr 2023",
+  "level": "B",
+  "q": "The diagonal of a cube has length $15\\sqrt2$ cm. What is the volume (in cm³) of the cube?",
+  "a": "750\\sqrt{6}"
+ },
+ {
+  "id": "m7e2-2023-04-C",
+  "event": "m7e2",
+  "date": "Apr 2023",
+  "level": "C",
+  "q": "Lucy is designing a lampshade starting with a right circular cone with radius $10$ inches. A segment connecting the vertex of the cone with a point $P$ on the perimeter of the base makes a $45^\\circ$ angle with the radius at $P$. Lucy then cuts off the tip of the cone with a plane parallel to and $8$ inches from the base of the cone. What is the lateral surface area (in square inches) of the resulting frustum that will be Lucy's lampshade?",
+  "a": "96\\pi\\sqrt{2}"
+ },
+ {
+  "id": "m7e2-2022-04-A",
+  "event": "m7e2",
+  "date": "Apr 2022",
+  "level": "A",
+  "q": "Find the lateral surface area (in cm²) of a cone with base area $25\\pi$ cm² and volume $100\\pi$ cm³.",
+  "a": "65\\pi"
+ },
+ {
+  "id": "m7e2-2022-04-B",
+  "event": "m7e2",
+  "date": "Apr 2022",
+  "level": "B",
+  "q": "A cylindrical can has diameter $8$ cm and height $5$ cm. A paper label is wrapped completely around the can without any overlapping area and is placed $5$ mm from the top edge and $5$ mm from the bottom edge of the can. Find the area of the paper label in cm².",
+  "a": "32\\pi"
+ },
+ {
+  "id": "m7e2-2022-04-C",
+  "event": "m7e2",
+  "date": "Apr 2022",
+  "level": "C",
+  "q": "Find the height of a regular triangular pyramid with edge length $4$.",
+  "a": "\\frac{4}{3}\\sqrt{6}"
+ },
+ {
+  "id": "m7e2-2021-04-A",
+  "event": "m7e2",
+  "date": "Apr 2021",
+  "level": "A",
+  "q": "A prism has $24$ edges. How many faces does it have?",
+  "a": "10"
+ },
+ {
+  "id": "m7e2-2021-04-B",
+  "event": "m7e2",
+  "date": "Apr 2021",
+  "level": "B",
+  "q": "An equilateral triangle of side length $12$ inches is folded along its three midsegments to form a regular tetrahedron. What is the volume (in cubic inches) of this tetrahedron?",
+  "a": "18\\sqrt{2}"
+ },
+ {
+  "id": "m7e2-2021-04-C",
+  "event": "m7e2",
+  "date": "Apr 2021",
+  "level": "C",
+  "q": "The volume and total surface area of a hemisphere are numerically equivalent. What is the volume of the largest cube that can be inscribed in this hemisphere?",
+  "a": "\\frac{81\\sqrt{6}}{4}"
+ },
+ {
+  "id": "m7e2-2019-04-A",
+  "event": "m7e2",
+  "date": "Apr 2019",
+  "level": "A",
+  "q": "A sphere is inscribed in a cylinder. If the circumference of the sphere is $6\\pi$, what is the volume of the space between the sphere and the cylinder?",
+  "a": "18\\pi"
+ },
+ {
+  "id": "m7e2-2019-04-B",
+  "event": "m7e2",
+  "date": "Apr 2019",
+  "level": "B",
+  "q": "In rectangle $ABCD$, $AB=6$, $AD=3$. $\\overline{BC}$ is a radius of a quarter circle with center at $C$. $\\overline{DA}$ is a radius of a quarter circle with center at $A$. $AX=5$. If $\\overline{AX}$ is the height of this right prism, find the surface area of this prism.",
+  "a": "126+24\\pi",
+  "fig": "/oml/fig/m7e2-2019-04-B.png"
+ },
+ {
+  "id": "m7e2-2019-04-C",
+  "event": "m7e2",
+  "date": "Apr 2019",
+  "level": "C",
+  "q": "A right prism has a regular octagonal base. The side lengths of the base are $6$ and the height of the prism is $10$. A right circular cylinder of diameter $3$ is drilled through the prism from base to base. Find the total surface area of the resulting solid.",
+  "a": "144\\sqrt{2}+\\frac{51}{2}\\pi+624"
+ },
+ {
+  "id": "m7e2-2018-04-A",
+  "event": "m7e2",
+  "date": "Apr 2018",
+  "level": "A",
+  "q": "A right pyramid has height $3$ and a square base of side $8$. Find the total surface area of the pyramid.",
+  "a": "144"
+ },
+ {
+  "id": "m7e2-2018-04-B",
+  "event": "m7e2",
+  "date": "Apr 2018",
+  "level": "B",
+  "q": "A sphere measures $4$ inches around at its widest point. Four cuts are made that divide the sphere into $8$ equal wedges. Find the volume (in cubic inches) of one wedge.",
+  "a": "\\frac{4}{3\\pi^2}"
+ },
+ {
+  "id": "m7e2-2018-04-C",
+  "event": "m7e2",
+  "date": "Apr 2018",
+  "level": "C",
+  "q": "Buddy bakes a cake in the shape of a right circular cone with a diameter of $16$ inches and a height of $15$ inches. He makes a cut parallel to the base of the cone where the diameter is $4$ inches. He eats the top of the cone and scoops out a cylindrical hole of diameter $4$ inches all the way through the cake as shown. What is the volume (in cubic inches) of the remaining cake?",
+  "a": "270\\pi",
+  "fig": "/oml/fig/m7e2-2018-04-C.png"
+ },
+ {
+  "id": "m7e2-2017-04-A",
+  "event": "m7e2",
+  "date": "Apr 2017",
+  "level": "A",
+  "q": "Region $R$ is bounded by the positive $x$-axis, the positive $y$-axis, and the line $2x+3y=6$. When $R$ is revolved about the $x$-axis, a right circular cone is formed. What is the volume of this cone?",
+  "a": "4\\pi"
+ },
+ {
+  "id": "m7e2-2017-04-B",
+  "event": "m7e2",
+  "date": "Apr 2017",
+  "level": "B",
+  "q": "A cylindrical container with a radius of $1.5$ inches and a height of $10$ inches contains $3$ spherical balls each with a circumference of $8$ inches. What is the volume (in inches³) of the space inside the container that is not taken up by the $3$ balls?",
+  "a": "\\frac{45\\pi}{2}-\\frac{256}{\\pi^2}"
+ },
+ {
+  "id": "m7e2-2017-04-C",
+  "event": "m7e2",
+  "date": "Apr 2017",
+  "level": "C",
+  "q": "A barrel in the shape of a right circular cylinder with radius $6$ feet and height $8$ feet contains water. When the barrel is lying so that its height is horizontal the depth of the water is $3$ feet. What is the depth (in feet) of the water when the barrel is turned upright so that its height is vertical?",
+  "a": "\\frac{8}{3}-\\frac{2\\sqrt{3}}{\\pi}"
+ },
+ {
+  "id": "m7e2-2016-04-A",
+  "event": "m7e2",
+  "date": "Apr 2016",
+  "level": "A",
+  "q": "Joe just purchased his new cylindrical hydro flask. It is $16$ inches tall and has a circumference of $5\\pi$ inches. What is the volume (in cubic inches) of his flask?",
+  "a": "100\\pi"
+ },
+ {
+  "id": "m7e2-2016-04-B",
+  "event": "m7e2",
+  "date": "Apr 2016",
+  "level": "B",
+  "q": "A silo consists of a cylinder capped by a hemisphere as shown. The height of the cylinder is $20$ meters and the diameter of the cylinder is $9$ meters. Mr. Bailey wants to paint the exterior of the silo. What is the area (in square meters) of the surface that needs to be painted?",
+  "a": "\\frac{441\\pi}{2}",
+  "fig": "/oml/fig/m7e2-2016-04-B.png"
+ },
+ {
+  "id": "m7e2-2016-04-C",
+  "event": "m7e2",
+  "date": "Apr 2016",
+  "level": "C",
+  "q": "A cube is inscribed in a square pyramid as shown in the figure. The pyramid has slant height $10$ feet and base length $10$ feet. Find the surface area (in square feet) of the cube.",
+  "a": "12600-7200\\sqrt{3}",
+  "fig": "/oml/fig/m7e2-2016-04-C.png"
+ },
+ {
+  "id": "m7e2-2015-04-A",
+  "event": "m7e2",
+  "date": "Apr 2015",
+  "level": "A",
+  "q": "A sphere with radius $\\dfrac32$ units has the same volume as a cylinder whose height is $1$ unit. What is the radius of the cylinder?",
+  "a": "\\frac{3\\sqrt{2}}{2}"
+ },
+ {
+  "id": "m7e2-2015-04-B",
+  "event": "m7e2",
+  "date": "Apr 2015",
+  "level": "B",
+  "q": "A sphere is inscribed in a right circular cone whose slant height and diameter are both $20$ inches. Find the surface area (in square inches) of the inscribed sphere.",
+  "a": "\\frac{400\\pi}{3}"
+ },
+ {
+  "id": "m7e2-2015-04-C",
+  "event": "m7e2",
+  "date": "Apr 2015",
+  "level": "C",
+  "q": "A regular triangular pyramid has volume $2\\sqrt3$ cubic inches. Each side of the base is $2$ inches long. Find the length (in inches) of the slant height.",
+  "a": "\\frac{\\sqrt{327}}{3}"
+ },
+ {
+  "id": "m7e2-2014-04-A",
+  "event": "m7e2",
+  "date": "Apr 2014",
+  "level": "A",
+  "q": "A cylindrical cup is $5$ inches tall and has a volume of $60\\pi$ cubic inches. What is its radius (in inches)?",
+  "a": "2\\sqrt{3}"
+ },
+ {
+  "id": "m7e2-2014-04-B",
+  "event": "m7e2",
+  "date": "Apr 2014",
+  "level": "B",
+  "q": "The diagonal of a cube is $15$ cm long. What is the total surface area (in sq cm) of the cube?",
+  "a": "450"
+ },
+ {
+  "id": "m7e2-2014-04-C",
+  "event": "m7e2",
+  "date": "Apr 2014",
+  "level": "C",
+  "q": "A $150^\\circ$ sector of a circle with radius $12$ cm is cut out of a piece of paper and then made into a conical party hat by taping together the radii of the sector. Find the volume (in cu cm) of the hat.",
+  "a": "\\frac{25}{3}\\pi\\sqrt{119}"
+ },
+ {
+  "id": "m7e2-2013-04-A",
+  "event": "m7e2",
+  "date": "Apr 2013",
+  "level": "A",
+  "q": "Find the total surface area (in inches²) of a square pyramid whose lateral faces are equilateral triangles. The side of each triangle is $12$ inches.",
+  "a": "144+144\\sqrt{3}"
+ },
+ {
+  "id": "m7e2-2013-04-B",
+  "event": "m7e2",
+  "date": "Apr 2013",
+  "level": "B",
+  "q": "A right circular cylinder has radius $6$ inches and height $10$ inches. A hole in the shape of a right circular cylinder with a $2$ inch diameter is drilled from base to base. Find the total surface area (in in²) of the cylinder with the hole.",
+  "a": "210\\pi"
+ },
+ {
+  "id": "m7e2-2013-04-C",
+  "event": "m7e2",
+  "date": "Apr 2013",
+  "level": "C",
+  "q": "Given a sphere, a right circular cylinder, and a right circular cone. The sphere has the same radius as the cylinder. The cylinder has the same height as the cone, and the cone has the same volume as the sphere. If the surface area of the sphere is $144\\pi$, and the total surface area of the cylinder is $168\\pi$, find the total surface area of the cone.",
+  "a": "108\\pi+12\\pi\\sqrt{129}"
+ },
+ {
+  "id": "m7e2-2012-04-A",
+  "event": "m7e2",
+  "date": "Apr 2012",
+  "level": "A",
+  "q": "Find the surface area of a sphere if its volume is $\\dfrac{9\\pi}{2}$.",
+  "a": "9\\pi"
+ },
+ {
+  "id": "m7e2-2012-04-B",
+  "event": "m7e2",
+  "date": "Apr 2012",
+  "level": "B",
+  "q": "A right circular cone with radius $8\\sqrt3$ feet has the top cut off, forming a frustum. The smaller right circular cone that was sliced off has a height of $9$ feet and a radius of $3\\sqrt3$ feet. Find the lateral area (in sq ft) of the frustum.",
+  "a": "330\\pi"
+ },
+ {
+  "id": "m7e2-2012-04-C",
+  "event": "m7e2",
+  "date": "Apr 2012",
+  "level": "C",
+  "q": "A right prism has a regular octagonal base. All edges of the prism are $6$ cm. A right circular cylinder of diameter $4$ cm is drilled through the prism from base to base. Find the volume (in cm³) of the resulting solid.",
+  "a": "432+432\\sqrt{2}-24\\pi"
+ }
+]

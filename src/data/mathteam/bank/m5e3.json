@@ -1,0 +1,375 @@
+[
+ {
+  "id": "m5e3-2026-02-A",
+  "event": "m5e3",
+  "date": "Feb 2026",
+  "level": "A",
+  "q": "Solve for $x$ and $y$: $$\\begin{cases}3x+2y=21\\\\ 9x-3y=36\\end{cases}$$",
+  "a": "x=5, y=3",
+  "alt": [
+   "5, 3"
+  ]
+ },
+ {
+  "id": "m5e3-2026-02-B",
+  "event": "m5e3",
+  "date": "Feb 2026",
+  "level": "B",
+  "q": "The sum of two numbers is $43$. When two times the larger number is subtracted from three times the smaller number, the difference is $4$. What is the larger number?",
+  "a": "25"
+ },
+ {
+  "id": "m5e3-2026-02-C",
+  "event": "m5e3",
+  "date": "Feb 2026",
+  "level": "C",
+  "q": "Chris paid \\$72 for $6$ pens and $10$ sketchbooks. Justin buys $3$ fewer than twice the number of pens and half the number of sketchbooks that Chris bought. Justin pays $\\dfrac{3}{4}$ as much as Chris. How much (in dollars) does a pen cost?",
+  "a": "3"
+ },
+ {
+  "id": "m5e3-2025-02-A",
+  "event": "m5e3",
+  "date": "Feb 2025",
+  "level": "A",
+  "q": "Solve for $x$ and $y$: $$\\begin{cases}\\dfrac{1}{9}x+\\dfrac{2}{9}y=1\\\\[4pt] \\dfrac{7}{18}x+\\dfrac{1}{2}y=1\\end{cases}$$",
+  "a": "x=-9, y=9",
+  "alt": [
+   "-9, 9"
+  ]
+ },
+ {
+  "id": "m5e3-2025-02-B",
+  "event": "m5e3",
+  "date": "Feb 2025",
+  "level": "B",
+  "q": "Find the value of $C$ so that the given system has an infinite number of solutions: $$\\begin{cases}3x+21y=-5\\\\ 7x+49y=C\\end{cases}$$",
+  "a": "-\\frac{35}{3}"
+ },
+ {
+  "id": "m5e3-2025-02-C",
+  "event": "m5e3",
+  "date": "Feb 2025",
+  "level": "C",
+  "q": "At Homer's Donut Shop the cost of $12$ donuts and $7$ coffees is \\$81, while the cost of $9$ donuts and $4$ coffees is \\$54. How much (in dollars) will $2$ donuts and $1$ coffee cost?",
+  "a": "12.60"
+ },
+ {
+  "id": "m5e3-2024-02-A",
+  "event": "m5e3",
+  "date": "Feb 2024",
+  "level": "A",
+  "q": "Find the point at which the graphs of $y=4x+9$ and $2y-3=x$ intersect.",
+  "a": "\\left(-\\frac{15}{7}, \\frac{3}{7}\\right)"
+ },
+ {
+  "id": "m5e3-2024-02-B",
+  "event": "m5e3",
+  "date": "Feb 2024",
+  "level": "B",
+  "q": "Jayden goes to pick up an order of pies for Pi Day. He ordered $10$ chocolate cream pies and $5$ apple pies totaling \\$245. The clerk made an error on the bill by switching the number of chocolate cream pies and apple pies and charged Jayden \\$220. What is the price (in dollars) for each type of pie? (Answer: chocolate cream, apple)",
+  "a": "18, 13",
+  "note": "Official answer: chocolate cream pie $18; apple pie $13."
+ },
+ {
+  "id": "m5e3-2024-02-C",
+  "event": "m5e3",
+  "date": "Feb 2024",
+  "level": "C",
+  "q": "The perimeter of a rectangle is $58$ inches. When the short side of the rectangle is tripled and the long side is increased by $\\dfrac{1}{7}$th of its length, a square is created. Find the area (in square inches) of the original rectangle.",
+  "a": "168"
+ },
+ {
+  "id": "m5e3-2023-02-A",
+  "event": "m5e3",
+  "date": "Feb 2023",
+  "level": "A",
+  "q": "Solve for $x$ and $y$: $$\\begin{cases}4x-y=23\\\\ 6x+5y=15\\end{cases}$$",
+  "a": "x=5, y=-3",
+  "alt": [
+   "5, -3"
+  ]
+ },
+ {
+  "id": "m5e3-2023-02-B",
+  "event": "m5e3",
+  "date": "Feb 2023",
+  "level": "B",
+  "q": "The difference between twice the tens digit and half the units digit of a certain two-digit number is $12$. If the digits are reversed, the number is decreased by $27$. Find the number.",
+  "a": "74"
+ },
+ {
+  "id": "m5e3-2023-02-C",
+  "event": "m5e3",
+  "date": "Feb 2023",
+  "level": "C",
+  "q": "A pet shop sells parakeets for \\$26 each and guinea pigs for \\$18 each. At the beginning of January, the total value of the shop's parakeets and guinea pigs was \\$834. By the end of January, a third of the parakeets and half of the guinea pigs had been sold and the total value of the remaining parakeets and guinea pigs was \\$508. How many parakeets did the shop sell during the month of January?",
+  "a": "7"
+ },
+ {
+  "id": "m5e3-2022-02-A",
+  "event": "m5e3",
+  "date": "Feb 2022",
+  "level": "A",
+  "q": "Given the system $4x+5y=6$, $6x+ky=7$, find $k$ so that the system is inconsistent.",
+  "a": "\\frac{15}{2}"
+ },
+ {
+  "id": "m5e3-2022-02-B",
+  "event": "m5e3",
+  "date": "Feb 2022",
+  "level": "B",
+  "q": "There are two numbers $x$ and $y$. Let $x$ be the first number and $y$ the second number. Twice the first number increased by three times the second number is the same as three times the first number increased by twice the sum of $1$ and the second number. Find six times the first number decreased by twice the second number. Write your answer in terms of $y$.",
+  "a": "4y-12"
+ },
+ {
+  "id": "m5e3-2022-02-C",
+  "event": "m5e3",
+  "date": "Feb 2022",
+  "level": "C",
+  "q": "If $m\\ne 2$, solve for $x$ and $y$: $$\\begin{cases}(7m+6)x+5m^2y=4\\\\ 5x+5y=1\\end{cases}$$",
+  "a": "x=\\frac{m+2}{5m+3}, y=-\\frac{7}{25m+15}"
+ },
+ {
+  "id": "m5e3-2021-02-A",
+  "event": "m5e3",
+  "date": "Feb 2021",
+  "level": "A",
+  "q": "Solve for $x$ and $y$: $$\\begin{cases}2y-4x=6\\\\ 8x-3y=-10\\end{cases}$$",
+  "a": "x=-\\frac{1}{2}, y=2",
+  "alt": [
+   "-\\frac{1}{2}, 2"
+  ]
+ },
+ {
+  "id": "m5e3-2021-02-B",
+  "event": "m5e3",
+  "date": "Feb 2021",
+  "level": "B",
+  "q": "Solve for $x$ and $y$: $$\\begin{cases}\\dfrac{1}{2}x+\\dfrac{2}{5}y=7\\\\[4pt] \\dfrac{1}{3}x-\\dfrac{3}{5}y=-3\\end{cases}$$",
+  "a": "x=\\frac{90}{13}, y=\\frac{115}{13}",
+  "alt": [
+   "\\frac{90}{13}, \\frac{115}{13}"
+  ]
+ },
+ {
+  "id": "m5e3-2021-02-C",
+  "event": "m5e3",
+  "date": "Feb 2021",
+  "level": "C",
+  "q": "Eugene and Adam each improved their yards by planting rose bushes and geranium plants. They bought their supplies from the same store. Eugene spent \\$148 on $11$ rose bushes and $14$ geranium plants. Adam spent \\$59 on $16$ rose bushes and $3$ geranium plants. Find the total cost (in dollars) of $3$ rose bushes and $2$ geranium plants.",
+  "a": "24"
+ },
+ {
+  "id": "m5e3-2020-02-A",
+  "event": "m5e3",
+  "date": "Feb 2020",
+  "level": "A",
+  "q": "Solve for $x$ and $y$: $$\\begin{cases}-3x-4y=-5\\\\ -4x-6y=-4\\end{cases}$$",
+  "a": "x=7, y=-4",
+  "alt": [
+   "7, -4"
+  ]
+ },
+ {
+  "id": "m5e3-2020-02-B",
+  "event": "m5e3",
+  "date": "Feb 2020",
+  "level": "B",
+  "q": "Twice $x$ is $7$ less than $y$. Three times $y$ is $5$ less than $x$. Solve for $x$ and $y$.",
+  "a": "x=-\\frac{26}{5}, y=-\\frac{17}{5}",
+  "alt": [
+   "-\\frac{26}{5}, -\\frac{17}{5}"
+  ]
+ },
+ {
+  "id": "m5e3-2020-02-C",
+  "event": "m5e3",
+  "date": "Feb 2020",
+  "level": "C",
+  "q": "Pua had $16$ more guppies than Alika. Then Pua gave a fourth of her guppies to Alika, and so now Alika has $2$ more guppies than Pua. How many guppies does Pua have now?",
+  "a": "27"
+ },
+ {
+  "id": "m5e3-2019-02-A",
+  "event": "m5e3",
+  "date": "Feb 2019",
+  "level": "A",
+  "q": "Find the point of intersection of the lines $y=\\dfrac{\\sqrt{3}}{3}x+5$ and $\\sqrt{3}x+y=5$.",
+  "a": "(0, 5)"
+ },
+ {
+  "id": "m5e3-2019-02-B",
+  "event": "m5e3",
+  "date": "Feb 2019",
+  "level": "B",
+  "q": "Peter and Paul have a total of \\$1.40 in pennies. They would like to purchase a toy which costs \\$3.00. After a week of saving Peter has doubled his original number of pennies while Paul has gained $10$ pennies. However, they still need \\$0.45 to buy the toy. How many pennies did each of them have originally? (Answer: Peter, Paul)",
+  "a": "105, 35"
+ },
+ {
+  "id": "m5e3-2019-02-C",
+  "event": "m5e3",
+  "date": "Feb 2019",
+  "level": "C",
+  "q": "Frank is having a party and pays \\$62.20 for ten quarts of orange juice and $8$ quarts of apple juice. If he reduces the amount of orange juice he buys by $20\\%$, and increases the amount of apple juice he buys by $25\\%$, his cost will increase by \\$1.60. What is the cost (in dollars) of one quart of each type of juice? (Answer: orange, apple)",
+  "a": "3.10, 3.90"
+ },
+ {
+  "id": "m5e3-2018-02-A",
+  "event": "m5e3",
+  "date": "Feb 2018",
+  "level": "A",
+  "q": "Find the point at which the graphs of $\\dfrac{5}{18}x+\\dfrac{1}{4}y=1$ and $0=36-x+\\dfrac{9}{2}y$ intersect.",
+  "a": "(9, -6)"
+ },
+ {
+  "id": "m5e3-2018-02-B",
+  "event": "m5e3",
+  "date": "Feb 2018",
+  "level": "B",
+  "q": "If $x+2y=3k$ and $4x+5y=6k$, find the value of $4x+3y$ in terms of $k$.",
+  "a": "2k"
+ },
+ {
+  "id": "m5e3-2018-02-C",
+  "event": "m5e3",
+  "date": "Feb 2018",
+  "level": "C",
+  "q": "Casey has a collection of coins, and Rina also has a collection of coins. Casey tells Rina, \"If you give me $9$ of your coins, you will have $2$ fewer than half the number of coins that I will have.\" Rina replies, \"If you give me $13$ of your coins, you will have $1$ more than half the number that I will have.\" How many coins does each have? (Answer: Casey, Rina)",
+  "a": "35, 29"
+ },
+ {
+  "id": "m5e3-2017-02-A",
+  "event": "m5e3",
+  "date": "Feb 2017",
+  "level": "A",
+  "q": "Solve for $x$ and $y$: $$\\begin{cases}3(x-5)=y+6\\\\ 2(y-3)=x+7\\end{cases}$$",
+  "a": "x=11, y=12",
+  "alt": [
+   "11, 12"
+  ]
+ },
+ {
+  "id": "m5e3-2017-02-B",
+  "event": "m5e3",
+  "date": "Feb 2017",
+  "level": "B",
+  "q": "The three sides of a triangle are contained in the lines with these equations: $-2x+8y=22$, $-6x+5y=28$, $4x+3y=32$. Find the coordinates of the vertices of the triangle.",
+  "a": "(-3, 2), (2, 8), (5, 4)"
+ },
+ {
+  "id": "m5e3-2017-02-C",
+  "event": "m5e3",
+  "date": "Feb 2017",
+  "level": "C",
+  "q": "The Akamai Bus Company has a fleet of identical buses and identical vans. The senior classes of Aloha High School and Mahalo High School rented the buses and vans from Akamai to go to the water park. Aloha's $281$ passengers traveled in $4$ buses and $6$ vans, with $7$ empty seats. Mahalo's $329$ passengers traveled in $5$ buses and $4$ vans, with $3$ empty seats. What is the maximum number of passengers for a bus and for a van? (Answer: bus, van)",
+  "a": "60, 8"
+ },
+ {
+  "id": "m5e3-2016-02-A",
+  "event": "m5e3",
+  "date": "Feb 2016",
+  "level": "A",
+  "q": "The lines $y=3x-5$ and $5x+y=11$ intersect at $(a,b)$. Find $a$ and $b$.",
+  "a": "a=2, b=1",
+  "alt": [
+   "2, 1"
+  ]
+ },
+ {
+  "id": "m5e3-2016-02-B",
+  "event": "m5e3",
+  "date": "Feb 2016",
+  "level": "B",
+  "q": "The Smith family purchased $3$ burgers and $2$ large fries for \\$23.85. The next family in line, the Pitts, purchased $6$ burgers and $7$ large fries for \\$58.95. How much (in dollars) would $2$ burgers and $3$ large fries cost?",
+  "a": "22.15"
+ },
+ {
+  "id": "m5e3-2016-02-C",
+  "event": "m5e3",
+  "date": "Feb 2016",
+  "level": "C",
+  "q": "Find the sum of $x$ and $y$: $$\\begin{cases}3y+0.3x=2.1(x+y)+3.6\\\\ 3.5x-1.4(y-x)=-1.4\\end{cases}$$",
+  "a": "10"
+ },
+ {
+  "id": "m5e3-2015-02-A",
+  "event": "m5e3",
+  "date": "Feb 2015",
+  "level": "A",
+  "q": "Find the value of $k$ so that the following system is dependent: $4x+6y=5$, $y=-\\dfrac{2}{3}x+k$.",
+  "a": "\\frac{5}{6}"
+ },
+ {
+  "id": "m5e3-2015-02-B",
+  "event": "m5e3",
+  "date": "Feb 2015",
+  "level": "B",
+  "q": "A coin collection consists of $37$ coins (nickels, dimes and quarters). If the collection has a value of \\$3.25 and there are $5$ more dimes than there are nickels, how many quarters are in the collection?",
+  "a": "2"
+ },
+ {
+  "id": "m5e3-2015-02-C",
+  "event": "m5e3",
+  "date": "Feb 2015",
+  "level": "C",
+  "q": "Solve for $x$ and $y$: $$\\begin{cases}0.\\overline{7}x+0.375y=5\\\\ 0.8\\overline{3}x-0.25y=21\\end{cases}$$",
+  "a": "x=18, y=-24",
+  "alt": [
+   "18, -24"
+  ]
+ },
+ {
+  "id": "m5e3-2014-02-A",
+  "event": "m5e3",
+  "date": "Feb 2014",
+  "level": "A",
+  "q": "Solve for $x$ and $y$: $$\\begin{cases}0.5x+0.\\overline{3}y=2\\\\ 0.75x+1.5y=-3\\end{cases}$$",
+  "a": "x=8, y=-6",
+  "alt": [
+   "8, -6"
+  ]
+ },
+ {
+  "id": "m5e3-2014-02-B",
+  "event": "m5e3",
+  "date": "Feb 2014",
+  "level": "B",
+  "q": "Solve the following system and state your answer as an ordered pair: $$\\begin{cases}\\dfrac{x+y}{5}-\\dfrac{x-y}{2}=1\\\\[4pt] \\dfrac{x-y}{4}-\\dfrac{x+y}{8}=1\\end{cases}$$",
+  "a": "(-43, -17)"
+ },
+ {
+  "id": "m5e3-2014-02-C",
+  "event": "m5e3",
+  "date": "Feb 2014",
+  "level": "C",
+  "q": "Solve for $x$ and $y$ ($a$, $b$, and $c$ are nonzero constants and $a\\ne b$): $$\\begin{cases}ax+by=c\\\\ bx+ay=-c\\end{cases}$$",
+  "a": "x=\\frac{c}{a-b}, y=\\frac{c}{b-a}"
+ },
+ {
+  "id": "m5e3-2013-02-A",
+  "event": "m5e3",
+  "date": "Feb 2013",
+  "level": "A",
+  "q": "Solve the system: $$\\begin{cases}\\dfrac{1}{2}x+\\dfrac{1}{4}y=5\\\\[4pt] \\dfrac{1}{2}x-\\dfrac{3}{4}y=-3\\end{cases}$$",
+  "a": "x=6, y=8",
+  "alt": [
+   "6, 8"
+  ]
+ },
+ {
+  "id": "m5e3-2013-02-B",
+  "event": "m5e3",
+  "date": "Feb 2013",
+  "level": "B",
+  "q": "Find the point of intersection of the graphs of $y-3=\\dfrac{1}{2}(x-1)$ and $y+1=-\\dfrac{3}{2}(x-1)$.",
+  "a": "(-1, 2)"
+ },
+ {
+  "id": "m5e3-2013-02-C",
+  "event": "m5e3",
+  "date": "Feb 2013",
+  "level": "C",
+  "q": "A son's age is one-third of his father's age. In $14$ years, the father will be $4$ years older than twice the son's age then. How old are they now? (Answer: son, father)",
+  "a": "18, 54"
+ }
+]

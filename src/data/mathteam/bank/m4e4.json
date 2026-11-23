@@ -1,0 +1,250 @@
+[
+ {
+  "id": "m4e4-2025-01-A",
+  "event": "m4e4",
+  "date": "Jan 2025",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{[5\\operatorname{cis}(65^\\circ)][6\\operatorname{cis}(15^\\circ)]}{2\\operatorname{cis}(20^\\circ)}.$$ Express your answer in the form $a+bi$.",
+  "a": "\\frac{15}{2}+\\frac{15}{2}\\sqrt{3}i"
+ },
+ {
+  "id": "m4e4-2025-01-B",
+  "event": "m4e4",
+  "date": "Jan 2025",
+  "level": "B",
+  "q": "The points $P$ and $Q$ have polar coordinates $\\left(2,\\dfrac{\\pi}{3}\\right)$ and $\\left(4,\\dfrac{2\\pi}{3}\\right)$. Find the distance between $P$ and $Q$.",
+  "a": "2\\sqrt{3}"
+ },
+ {
+  "id": "m4e4-2025-01-C",
+  "event": "m4e4",
+  "date": "Jan 2025",
+  "level": "C",
+  "q": "Solve for $z$: $$(z-1)^2=8-8\\sqrt{3}i.$$ Express your answer in the form $a+bi$.",
+  "a": "1-2\\sqrt{3}+2i, 1+2\\sqrt{3}-2i"
+ },
+ {
+  "id": "m4e4-2023-01-A",
+  "event": "m4e4",
+  "date": "Jan 2023",
+  "level": "A",
+  "q": "Change from polar coordinates to Cartesian coordinates: $\\left(4,\\dfrac{\\pi}{6}\\right)$",
+  "a": "(2\\sqrt{3}, 2)"
+ },
+ {
+  "id": "m4e4-2023-01-B",
+  "event": "m4e4",
+  "date": "Jan 2023",
+  "level": "B",
+  "q": "Express $$\\dfrac{\\left(\\sqrt{2}-\\sqrt{2}i\\right)^5}{\\left(-\\dfrac{\\sqrt{3}}{2}+\\dfrac{1}{2}i\\right)^8}$$ in $r\\operatorname{cis}\\theta$ form where $r>0$ and $0\\le\\theta<\\pi$.",
+  "a": "32\\operatorname{cis}\\frac{\\pi}{12}"
+ },
+ {
+  "id": "m4e4-2023-01-C",
+  "event": "m4e4",
+  "date": "Jan 2023",
+  "level": "C",
+  "q": "If $20\\operatorname{cis}\\left(\\dfrac{5\\pi}{3}\\right)$ is a fourth root of $5z$, find $z$. Express your answer in the form $a+bi$.",
+  "a": "-16000+16000\\sqrt{3}i",
+  "note": "Official answer: −16,000 + 16,000√3 i"
+ },
+ {
+  "id": "m4e4-2021-01-A",
+  "event": "m4e4",
+  "date": "Jan 2021",
+  "level": "A",
+  "q": "Simplify: $$\\left(\\dfrac{\\sqrt{3}}{2}+\\dfrac{1}{2}i\\right)^{2021}.$$ Express your answer in the form $a+bi$.",
+  "a": "-\\frac{\\sqrt{3}}{2}+\\frac{1}{2}i"
+ },
+ {
+  "id": "m4e4-2021-01-B",
+  "event": "m4e4",
+  "date": "Jan 2021",
+  "level": "B",
+  "q": "The polar equation $$r=\\dfrac{3\\sqrt{2}}{2\\sin\\left(\\theta-\\dfrac{\\pi}{4}\\right)}$$ can be written as a rectangular equation of the form $y=ax+b$. Find $a+b$.",
+  "a": "4"
+ },
+ {
+  "id": "m4e4-2021-01-C",
+  "event": "m4e4",
+  "date": "Jan 2021",
+  "level": "C",
+  "q": "Solve for $z$: $$z^3=\\dfrac{\\left(2\\operatorname{cis}\\dfrac{5\\pi}{12}\\right)^4}{-\\sqrt{3}-i}.$$ Express your answer in the form $a+bi$.",
+  "a": "\\sqrt{3}+i, -\\sqrt{3}+i, -2i"
+ },
+ {
+  "id": "m4e4-2019-01-A",
+  "event": "m4e4",
+  "date": "Jan 2019",
+  "level": "A",
+  "q": "The curve whose graph is shown has a polar equation of the form $r=a+b\\sin\\theta$ such that $a$ and $b$ are real numbers and $0\\le\\theta<2\\pi$. The curve passes through the points $C(-3,0)$, $D\\left(-9,\\dfrac{\\pi}{2}\\right)$, and $E\\left(3,\\dfrac{3\\pi}{2}\\right)$. Find the values of $a$ and $b$.",
+  "a": "a=-3, b=-6",
+  "alt": [
+   "-3, -6"
+  ],
+  "fig": "/oml/fig/m4e4-2019-01-A.png"
+ },
+ {
+  "id": "m4e4-2019-01-B",
+  "event": "m4e4",
+  "date": "Jan 2019",
+  "level": "B",
+  "q": "The vertices of $\\triangle BVF$ have polar coordinates $B(6,-15^\\circ)$, $V(0,90^\\circ)$, and $F(-8,45^\\circ)$. Find the perimeter of $\\triangle BVF$.",
+  "a": "14+2\\sqrt{37}"
+ },
+ {
+  "id": "m4e4-2019-01-C",
+  "event": "m4e4",
+  "date": "Jan 2019",
+  "level": "C",
+  "q": "If $z_1=2\\operatorname{cis}\\dfrac{7\\pi}{10}$ is a 6th root of $z_2$, find the cube roots of $z_2$. Write your answer in the form $r\\operatorname{cis}\\theta$, where $0\\le\\theta<2\\pi$.",
+  "a": "4\\operatorname{cis}\\frac{\\pi}{15}, 4\\operatorname{cis}\\frac{11\\pi}{15}, 4\\operatorname{cis}\\frac{7\\pi}{5}"
+ },
+ {
+  "id": "m4e4-2018-01-A",
+  "event": "m4e4",
+  "date": "Jan 2018",
+  "level": "A",
+  "q": "A point has Cartesian coordinates $\\left(-\\sqrt{2},\\sqrt{6}\\right)$. Find the polar coordinates $(r,\\theta)$ of this point if $r>0$ and $0\\le\\theta<2\\pi$.",
+  "a": "(2\\sqrt{2}, \\frac{2\\pi}{3})"
+ },
+ {
+  "id": "m4e4-2018-01-B",
+  "event": "m4e4",
+  "date": "Jan 2018",
+  "level": "B",
+  "q": "Transform the polar equation $$r=\\dfrac{3}{6+5\\cos\\theta}$$ into an algebraic equation of the form $Ax^2+Bxy+Cy^2+Dx+Ey+F=0$.",
+  "a": "11x^2+36y^2+30x-9=0"
+ },
+ {
+  "id": "m4e4-2018-01-C",
+  "event": "m4e4",
+  "date": "Jan 2018",
+  "level": "C",
+  "q": "Given $z=\\dfrac{\\sqrt{3}}{2}+\\dfrac{1}{2}i$, find $z^0+z^3+z^6+z^9+z^{12}+\\dots+z^{99}$. Express your answer in the form $a+bi$.",
+  "a": "1+i"
+ },
+ {
+  "id": "m4e4-2017-01-A",
+  "event": "m4e4",
+  "date": "Jan 2017",
+  "level": "A",
+  "q": "The point $P$ has Cartesian coordinates $(-2,-2)$. Find the polar coordinates of $P$ with $r>0$ and $0<\\theta<2\\pi$.",
+  "a": "(2\\sqrt{2}, \\frac{5\\pi}{4})"
+ },
+ {
+  "id": "m4e4-2017-01-B",
+  "event": "m4e4",
+  "date": "Jan 2017",
+  "level": "B",
+  "q": "Find all of the fourth roots of $4-4i\\sqrt{3}$. Express your answer in $r\\operatorname{cis}\\theta$ form, where $r>0$ and $0\\le\\theta<2\\pi$.",
+  "a": "8^{\\frac{1}{4}}\\operatorname{cis}\\frac{5\\pi}{12}, 8^{\\frac{1}{4}}\\operatorname{cis}\\frac{11\\pi}{12}, 8^{\\frac{1}{4}}\\operatorname{cis}\\frac{17\\pi}{12}, 8^{\\frac{1}{4}}\\operatorname{cis}\\frac{23\\pi}{12}"
+ },
+ {
+  "id": "m4e4-2017-01-C",
+  "event": "m4e4",
+  "date": "Jan 2017",
+  "level": "C",
+  "q": "Rewrite the polar equation $$\\dfrac{r}{\\sin\\theta}=\\dfrac{5}{1-3\\sin 2\\theta}$$ as an algebraic equation in the form $Ax^2+Bxy+Cy^2+Dx+Ey+F=0$, where the non-zero values of $A$, $B$, $C$, $D$, $E$, and $F$ are relatively prime integers.",
+  "a": "x^2-6xy+y^2-5y=0"
+ },
+ {
+  "id": "m4e4-2016-01-A",
+  "event": "m4e4",
+  "date": "Jan 2016",
+  "level": "A",
+  "q": "Change from rectangular coordinates to polar coordinates: $\\left(-6,6\\sqrt{3}\\right)$ if $0<\\theta<2\\pi$ and $r>0$.",
+  "a": "(12, \\frac{2\\pi}{3})"
+ },
+ {
+  "id": "m4e4-2016-01-B",
+  "event": "m4e4",
+  "date": "Jan 2016",
+  "level": "B",
+  "q": "Transform the Cartesian equation $4x^2-y^2=4$ to a polar equation. Express $r^2$ in terms of $\\cos\\theta$.",
+  "a": "\\frac{4}{5\\cos^2\\theta-1}",
+  "alt": [
+   "r^2=\\frac{4}{5\\cos^2\\theta-1}"
+  ]
+ },
+ {
+  "id": "m4e4-2016-01-C",
+  "event": "m4e4",
+  "date": "Jan 2016",
+  "level": "C",
+  "q": "Evaluate $$\\left(4\\operatorname{cis}(15^\\circ)\\right)^3\\left(2\\operatorname{cis}(30^\\circ)\\right)^2.$$ Write your answer in the form $a+bi$.",
+  "a": "64(\\sqrt{2}-\\sqrt{6})+64(\\sqrt{2}+\\sqrt{6})i"
+ },
+ {
+  "id": "m4e4-2015-01-A",
+  "event": "m4e4",
+  "date": "Jan 2015",
+  "level": "A",
+  "q": "$z=\\sqrt{6}\\left(\\operatorname{cis}\\dfrac{5\\pi}{3}\\right)$. Write $z$ in $a+bi$ form.",
+  "a": "\\frac{\\sqrt{6}}{2}-\\frac{3\\sqrt{2}}{2}i"
+ },
+ {
+  "id": "m4e4-2015-01-B",
+  "event": "m4e4",
+  "date": "Jan 2015",
+  "level": "B",
+  "q": "Transform the polar equation $$r=\\dfrac{4}{2-\\sin\\theta}$$ into an algebraic equation of the form $Ax^2+Bxy+Cy^2+Dx+Ey+F=0$.",
+  "a": "4x^2+3y^2-8y-16=0"
+ },
+ {
+  "id": "m4e4-2015-01-C",
+  "event": "m4e4",
+  "date": "Jan 2015",
+  "level": "C",
+  "q": "Given points $A$ and $B$ with polar coordinates $\\left(-2,-\\dfrac{\\pi}{3}\\right)$ and $\\left(6,\\dfrac{7\\pi}{6}\\right)$. Find the distance between points $A$ and $B$.",
+  "a": "2\\sqrt{10}"
+ },
+ {
+  "id": "m4e4-2014-01-A",
+  "event": "m4e4",
+  "date": "Jan 2014",
+  "level": "A",
+  "q": "Evaluate: $$\\left[3\\operatorname{cis}\\dfrac{\\pi}{6}\\right]^3\\left[2\\operatorname{cis}\\dfrac{\\pi}{8}\\right]^2.$$ Write your answer in the form $a+bi$.",
+  "a": "-54\\sqrt{2}+54\\sqrt{2}i"
+ },
+ {
+  "id": "m4e4-2014-01-B",
+  "event": "m4e4",
+  "date": "Jan 2014",
+  "level": "B",
+  "q": "The graph of the polar equation $\\cot\\theta-2\\tan\\theta=1$ consists of two lines. Find the algebraic equations of the two lines in the form $y=mx+b$ where $m$ and $b$ are real numbers.",
+  "a": "y=-x, y=\\frac{1}{2}x"
+ },
+ {
+  "id": "m4e4-2014-01-C",
+  "event": "m4e4",
+  "date": "Jan 2014",
+  "level": "C",
+  "q": "Compute $$\\left(\\dfrac{1}{2}+\\dfrac{\\sqrt{3}}{2}i\\right)^1+\\left(\\dfrac{1}{2}+\\dfrac{\\sqrt{3}}{2}i\\right)^2+\\left(\\dfrac{1}{2}+\\dfrac{\\sqrt{3}}{2}i\\right)^3+\\dots+\\left(\\dfrac{1}{2}+\\dfrac{\\sqrt{3}}{2}i\\right)^{2013}.$$ Write your answer in the form $a+bi$.",
+  "a": "-1+\\sqrt{3}i"
+ },
+ {
+  "id": "m4e4-2013-01-A",
+  "event": "m4e4",
+  "date": "Jan 2013",
+  "level": "A",
+  "q": "If $w=(2\\operatorname{cis}105^\\circ)\\cdot(3\\operatorname{cis}108^\\circ)\\cdot(1\\operatorname{cis}27^\\circ)$, rewrite $w$ in $a+bi$ form.",
+  "a": "-3-3\\sqrt{3}i"
+ },
+ {
+  "id": "m4e4-2013-01-B",
+  "event": "m4e4",
+  "date": "Jan 2013",
+  "level": "B",
+  "q": "If $$z=\\dfrac{(4i)^{5/2}}{\\left(1-i\\sqrt{3}\\right)^3},$$ rewrite $z$ in $r\\operatorname{cis}\\theta$ form, where $r>0$ and $0\\le\\theta<2\\pi$.",
+  "a": "4\\operatorname{cis}\\frac{\\pi}{4}"
+ },
+ {
+  "id": "m4e4-2013-01-C",
+  "event": "m4e4",
+  "date": "Jan 2013",
+  "level": "C",
+  "q": "Find all complex number solutions of $x^4-8-8i\\sqrt{3}=0$. Leave answers in polar form where $r>0$ and $0\\le\\theta<2\\pi$.",
+  "a": "2\\operatorname{cis}\\frac{\\pi}{12}, 2\\operatorname{cis}\\frac{7\\pi}{12}, 2\\operatorname{cis}\\frac{13\\pi}{12}, 2\\operatorname{cis}\\frac{19\\pi}{12}"
+ }
+]

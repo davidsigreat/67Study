@@ -1,0 +1,123 @@
+# Meet 3, Event 5: ALGEBRA I — Operations with Polynomials
+
+@ Nov 2025
+A: Express as a polynomial in descending order: $$(2x+1)(4x-3)-(3x-8)^2$$
+= -x^2+46x-67
+B: Divide $2x^4+3x^3-x^2+5x+6$ by $2x+1$. Express your answer in the form: quotient $+\dfrac{\text{remainder}}{\text{divisor}}$.
+= x^3+x^2-x+3+\frac{3}{2x+1}
+C: If $\left(2x^2+3x+4\right)\left(ax^2+bx+c\right)=4x^4-9x^2-24x-16$, find the value of $b$.
+= -3
+
+@ Nov 2024
+A: Express as a polynomial in descending order: $$(x+6)(x-4)^2$$
+= x^3-2x^2-32x+96
+B: Simplify: $$\dfrac{(9x-3)(3x+1)^3}{1-9x^2}.$$ Express your answer as a polynomial in descending order.
+= -27x^2-18x-3
+C: The polynomials $4x^2-7x-15$ and $5x^2+13x+k$ have a common factor $x+p$, where $p$ is an integer. Find $k$.
+= -84
+
+@ Nov 2023
+A: Simplify: $$(x+y)^2-(x-2y)(x+2y)$$
+= 2xy+5y^2
+B: Express as a polynomial in simplest form: $$(3x-1)(2x+5)(3x+1)(2x-5)$$
+= 36x^4-229x^2+25
+C: Find the sum of the quotient of $6x^5-9x^4+2x^3-11x^2+30x-27$ and $2x-3$ and the quotient of $4x^5-6x^4+2x^3-11x^2+28x-24$ and $3-2x$.
+= x^4+1
+
+@ Nov 2022
+A: Express as a polynomial in descending order: $$(x+4)(x-5)(x+6)$$
+= x^3+5x^2-26x-120
+B: Express as a polynomial in simplest form: $$12-3(2m)^2+5-[m-7(m+2)]-4m$$
+= -12m^2+2m+31
+C: When polynomial $P(x)$ is divided by $3x-2$, the quotient is $8x^2-2x-5$ and the remainder is $7$. Find $P(x)$.
+= 24x^3-22x^2-11x+17
+
+@ Nov 2021
+A: Simplify: $$\dfrac{(6x+2)(1-3x)^2}{9x^2-1}$$
+= 6x-2
+B: Find $k$ such that $x^3+kx^2-5x+6$ has a remainder of $-4$ when divided by $x-2$.
+= -2
+C: Express as a polynomial in simplest form: $$\left(a^x+y\right)\left(a^x-y\right)\left(a^{2x}-a^xy+y^2\right)\left(a^{2x}+a^xy+y^2\right)$$
+= a^{6x}-y^6
+
+@ Nov 2020
+A: Simplify: $$(x+6)(4x+3)-(x-3)^2$$
+= 3x^2+33x+9
+B: The polynomial $6x^3+37x^2+47x-20$ has three binomial factors. If $x+4$ is one of the factors, find the sum of all three factors.
+= 6x+8
+C: When $3x^3+kx^2+37x-43$ is divided by $3x-4$, the remainder is $-15$. Find $k$.
+= -16
+
+@ Nov 2019
+A: Simplify: $$x^2+y^2-(x+y)^2$$
+= -2xy
+B: When polynomial $P(x)$ is divided by $2x+1$, the quotient is $3x^2+4x+5$ and the remainder is $6$. Find $P(x)$.
+= 6x^3+11x^2+14x+11
+C: Find the remainder when the cube of $(4x-1)$ is divided by the square of $(4x-3)$.
+= 48x-28
+
+@ Nov 2018
+A: Given $P(x)=2x^2-4x-7x^3$ and $Q(x)=-\dfrac{1}{2}x+3x^3-4x^2$. Find the polynomial $3[P(x)-2Q(x)]$.
+= -39x^3+30x^2-9x
+B: If a polynomial is divided by $3x-8$, the quotient is $x^2+2x+7$ and the remainder is $63$. Determine the polynomial.
+= 3x^3-2x^2+5x+7
+C: Find $c$ so that $x+3$ is a factor of $cx^3+(16+c)x^2+(3c+2)x-3$.
+= 5
+
+@ Nov 2017
+A: Simplify: $$(x+2)(x+3)(x-4)+(x+3)(x+2)$$
+= x^3+2x^2-9x-18
+B: Divide $x^6+x^3+x+2$ by $x^2+x$ and express the answer in the form quotient $+\dfrac{\text{remainder}}{\text{divisor}}$.
+= x^4-x^3+x^2+\frac{x+2}{x^2+x}
+C: Simplify: $$\dfrac{x^{3n+3}-3x^{3n+2}-x^{3n+1}+3x^{3n}}{x^{n+2}-2x^{n+1}-3x^n}\div\dfrac{x^{3n+2}-2x^{3n+1}+x^{3n}}{2x^{n+1}+3x^n}$$
+= \frac{2x+3}{x-1}
+
+@ Nov 2016
+A: Express as a polynomial in simplest form: $(m-n)^2+(m+n)^2$.
+= 2m^2+2n^2
+B: Simplify: $\dfrac{4x^3+16x^2-9x-36}{x+4}-(x-5)(2x+3)$. Express your answer as a polynomial in simplest form.
+= 2x^2+7x+6
+C: Find the value of $k$ that makes $(x-3)$ a factor of $x^4-12x^3+kx^2-108x+81$.
+= 54
+
+@ Nov 2015
+A: Simplify: $$(x+2)(x+3)(x+4)-(x+4)(x-3)(x-2)$$
+= 10x^2+40x
+B: Find the quotient and the remainder when $6x^3-2x^2-24x+14$ is divided by $3x-1$. (Answer: quotient, remainder)
+= 2x^2-8, 6
+! Official answer: quotient 2x² − 8; remainder 6.
+C: The polynomial $x^4+2x^2+9$ is the product of the two polynomials $ax^2+bx+c$ and $x^2+2x+3$. Find the sum of $a$, $b$, and $c$.
+= 2
+
+@ Nov 2014
+A: Express as a polynomial in simplest form: $$(2x+y)^2(2x-y)^2$$
+= 16x^4-8x^2y^2+y^4
+B: If $x^6+kx^5+2kx^4+8x^3+16x^2+32x+64$ is divisible by $x-2$, find $k$.
+= -5
+C: If $a$ and $b$ are real numbers, $x=a^2-b^2$, $y=2ab$, and $z=a^2+b^2$, find $x^2+y^2$ in terms of $z$.
+= z^2
+
+@ Nov 2013
+A: Simplify: $$(x+1)(x-1)(2x+3)(2x-3)-(x+1)^2(2x-3)^2$$
+= 4x^3-2x^2-6x
+B: Simplify: $$\dfrac{p^k\left(q^j+p^k\right)-q^j\left(p^k+q^j\right)}{p^k-q^j}$$
+= p^k+q^j
+C: Find the value of $k$ such that $(3x-2)$ is a factor of $6x^3-10x^2-kx+24$.
+= 32
+
+@ Nov 2012
+A: Simplify: $$(x+y)^3-(x-y)^3$$
+= 6x^2y+2y^3
+B: Simplify: $$3\left[2p^2-q(3p+4q)\right]-2\left[4q^2-3p(p-2q)\right]$$
+= 12p^2-21pq-20q^2
+C: Find the values of $A$ and $B$ so that $x^2+2x+3$ is a factor of $Ax^3+Bx^2+2x-15$.
+= A=4, B=3
+~ 4, 3
+
+@ Nov 2011
+A: Simplify: $$-3x^2\left(-4x^2+5x-1\right)+2x\left(x^3+x-6\right)-5\left(x^2+3\right)$$
+= 14x^4-15x^3-12x-15
+B: The polynomial $x^3-2x^2+kx+12$ has $3$ binomial factors. If one of these factors is $x-1$, find the value of $k$.
+= -11
+C: Find the value of $k$ that will make $5x-3$ a factor of $15x^3-34x^2+kx+\dfrac{1-k}{4}$.
+= 25

@@ -1,0 +1,341 @@
+[
+ {
+  "id": "m7e3-2026-04-A",
+  "event": "m7e3",
+  "date": "Apr 2026",
+  "level": "A",
+  "q": "Simplify: $$\\sqrt{\\frac{15}{24}}+\\frac{2}{\\sqrt{40}}-\\sqrt{10}$$",
+  "a": "-\\frac{13\\sqrt{10}}{20}"
+ },
+ {
+  "id": "m7e3-2026-04-B",
+  "event": "m7e3",
+  "date": "Apr 2026",
+  "level": "B",
+  "q": "Solve for $x$: $\\sqrt{x+\\sqrt{x+11}}=3$",
+  "a": "5"
+ },
+ {
+  "id": "m7e3-2026-04-C",
+  "event": "m7e3",
+  "date": "Apr 2026",
+  "level": "C",
+  "q": "Solve for $x$: $x\\sqrt{x}+2x=10x^2$",
+  "a": "0, \\frac{1}{4}"
+ },
+ {
+  "id": "m7e3-2025-04-A",
+  "event": "m7e3",
+  "date": "Apr 2025",
+  "level": "A",
+  "q": "Simplify: $$5\\sqrt{108}+8\\sqrt{75}-10\\sqrt{\\frac13}$$",
+  "a": "\\frac{200\\sqrt{3}}{3}"
+ },
+ {
+  "id": "m7e3-2025-04-B",
+  "event": "m7e3",
+  "date": "Apr 2025",
+  "level": "B",
+  "q": "Solve for $x$: $\\sqrt{11x^2-7x-15}-3x=0$",
+  "a": "5"
+ },
+ {
+  "id": "m7e3-2025-04-C",
+  "event": "m7e3",
+  "date": "Apr 2025",
+  "level": "C",
+  "q": "Solve for $x$: $x\\sqrt6+3x-2\\sqrt3+3\\sqrt2=0$",
+  "a": "4\\sqrt{3}-5\\sqrt{2}"
+ },
+ {
+  "id": "m7e3-2024-04-A",
+  "event": "m7e3",
+  "date": "Apr 2024",
+  "level": "A",
+  "q": "Simplify: $$\\frac{\\sqrt6}{\\sqrt3+\\sqrt2}$$",
+  "a": "3\\sqrt{2}-2\\sqrt{3}"
+ },
+ {
+  "id": "m7e3-2024-04-B",
+  "event": "m7e3",
+  "date": "Apr 2024",
+  "level": "B",
+  "q": "Simplify: $\\sqrt{54}-\\sqrt{2.\\overline{6}}-\\sqrt{3.375}$",
+  "a": "\\frac{19\\sqrt{6}}{12}"
+ },
+ {
+  "id": "m7e3-2024-04-C",
+  "event": "m7e3",
+  "date": "Apr 2024",
+  "level": "C",
+  "q": "Solve for $x$: $\\sqrt{13x-x^2+9}=x+2$",
+  "a": "-\\frac{1}{2}, 5"
+ },
+ {
+  "id": "m7e3-2023-04-A",
+  "event": "m7e3",
+  "date": "Apr 2023",
+  "level": "A",
+  "q": "Simplify: $$\\sqrt{128}+\\sqrt{\\frac{80}{3}}$$",
+  "a": "8\\sqrt{2}+\\frac{4}{3}\\sqrt{15}",
+  "alt": [
+   "\\frac{24\\sqrt{2}+4\\sqrt{15}}{3}"
+  ]
+ },
+ {
+  "id": "m7e3-2023-04-B",
+  "event": "m7e3",
+  "date": "Apr 2023",
+  "level": "B",
+  "q": "Solve for $x$: $-5=\\sqrt{2x-10}-x$",
+  "a": "5, 7"
+ },
+ {
+  "id": "m7e3-2023-04-C",
+  "event": "m7e3",
+  "date": "Apr 2023",
+  "level": "C",
+  "q": "Solve for $x$: $2\\sqrt2(x-1)=\\sqrt6(1+x)$",
+  "a": "7+4\\sqrt{3}"
+ },
+ {
+  "id": "m7e3-2022-04-A",
+  "event": "m7e3",
+  "date": "Apr 2022",
+  "level": "A",
+  "q": "Simplify: $$\\sqrt{\\frac35}-\\sqrt{\\frac{4}{15}}$$",
+  "a": "\\frac{\\sqrt{15}}{15}"
+ },
+ {
+  "id": "m7e3-2022-04-B",
+  "event": "m7e3",
+  "date": "Apr 2022",
+  "level": "B",
+  "q": "Solve for $x$: $\\sqrt{12x+141}=2x+1$",
+  "a": "7"
+ },
+ {
+  "id": "m7e3-2022-04-C",
+  "event": "m7e3",
+  "date": "Apr 2022",
+  "level": "C",
+  "q": "Simplify: $$\\frac{\\sqrt{12x}-4}{\\sqrt{3x}+2}-\\frac{\\sqrt{3x}+2}{\\sqrt{12x}-4}$$",
+  "a": "\\frac{9x-20\\sqrt{3x}+12}{6x-8}"
+ },
+ {
+  "id": "m7e3-2021-04-A",
+  "event": "m7e3",
+  "date": "Apr 2021",
+  "level": "A",
+  "q": "Simplify: $$\\frac{\\sqrt{5-\\sqrt5}\\cdot\\sqrt{5+\\sqrt5}}{2}$$",
+  "a": "\\sqrt{5}"
+ },
+ {
+  "id": "m7e3-2021-04-B",
+  "event": "m7e3",
+  "date": "Apr 2021",
+  "level": "B",
+  "q": "Solve for $x$: $\\sqrt{3x+1}-x+3=0$",
+  "a": "8"
+ },
+ {
+  "id": "m7e3-2021-04-C",
+  "event": "m7e3",
+  "date": "Apr 2021",
+  "level": "C",
+  "q": "Solve for $x$: $2x-\\sqrt{3x^2-5x+7}=1$",
+  "a": "2"
+ },
+ {
+  "id": "m7e3-2019-04-A",
+  "event": "m7e3",
+  "date": "Apr 2019",
+  "level": "A",
+  "q": "Simplify: $$\\frac{1}{11-3\\sqrt5}-\\frac{1}{11+3\\sqrt5}$$",
+  "a": "\\frac{3\\sqrt{5}}{38}"
+ },
+ {
+  "id": "m7e3-2019-04-B",
+  "event": "m7e3",
+  "date": "Apr 2019",
+  "level": "B",
+  "q": "Solve for $z$: $\\sqrt{5z+29}-z-1=0$",
+  "a": "7"
+ },
+ {
+  "id": "m7e3-2019-04-C",
+  "event": "m7e3",
+  "date": "Apr 2019",
+  "level": "C",
+  "q": "Evaluate: $$1+\\sqrt{2-\\cfrac{2}{1+\\sqrt{2-\\cfrac{2}{1+\\sqrt{2-\\cfrac{2}{1+\\cdots}}}}}}$$",
+  "a": "2"
+ },
+ {
+  "id": "m7e3-2018-04-A",
+  "event": "m7e3",
+  "date": "Apr 2018",
+  "level": "A",
+  "q": "Simplify: $$\\sqrt{\\frac34}+\\sqrt{\\frac13}-\\sqrt{\\frac15}$$",
+  "a": "\\frac{25\\sqrt{3}-6\\sqrt{5}}{30}"
+ },
+ {
+  "id": "m7e3-2018-04-B",
+  "event": "m7e3",
+  "date": "Apr 2018",
+  "level": "B",
+  "q": "Solve for $x$: $x+3\\sqrt{x}-4=0$",
+  "a": "1"
+ },
+ {
+  "id": "m7e3-2018-04-C",
+  "event": "m7e3",
+  "date": "Apr 2018",
+  "level": "C",
+  "q": "Simplify: $$\\left(\\frac{1+\\frac{1}{\\sqrt3}}{1-\\frac{1}{\\sqrt3}}\\right)^2$$",
+  "a": "7+4\\sqrt{3}"
+ },
+ {
+  "id": "m7e3-2017-04-A",
+  "event": "m7e3",
+  "date": "Apr 2017",
+  "level": "A",
+  "q": "Simplify: $\\left(\\sqrt{20}+\\sqrt{12}\\right)\\left(\\sqrt{20}-\\sqrt{12}\\right)^2$",
+  "a": "16\\sqrt{5}-16\\sqrt{3}"
+ },
+ {
+  "id": "m7e3-2017-04-B",
+  "event": "m7e3",
+  "date": "Apr 2017",
+  "level": "B",
+  "q": "Solve for $x$: $\\sqrt{4x-7}=x-3$",
+  "a": "8"
+ },
+ {
+  "id": "m7e3-2017-04-C",
+  "event": "m7e3",
+  "date": "Apr 2017",
+  "level": "C",
+  "q": "Simplify: $$\\frac{1}{\\sqrt5}\\left(\\frac{1+\\sqrt5}{2}\\right)^4-\\frac{1}{\\sqrt5}\\left(\\frac{1-\\sqrt5}{2}\\right)^4$$",
+  "a": "3"
+ },
+ {
+  "id": "m7e3-2016-04-A",
+  "event": "m7e3",
+  "date": "Apr 2016",
+  "level": "A",
+  "q": "Solve for $x$: $\\sqrt{x^2+2x+1}=4$",
+  "a": "-5, 3"
+ },
+ {
+  "id": "m7e3-2016-04-B",
+  "event": "m7e3",
+  "date": "Apr 2016",
+  "level": "B",
+  "q": "Simplify: $\\left(\\sqrt3+\\sqrt5\\right)\\left(8\\sqrt3-\\sqrt6-\\dfrac32\\sqrt{24}\\right)\\left(\\sqrt5-\\sqrt3\\right)$",
+  "a": "16\\sqrt{3}-8\\sqrt{6}"
+ },
+ {
+  "id": "m7e3-2016-04-C",
+  "event": "m7e3",
+  "date": "Apr 2016",
+  "level": "C",
+  "q": "Solve for $x$: $-4=\\sqrt{5-x}-\\sqrt{2x+6}$",
+  "a": "5"
+ },
+ {
+  "id": "m7e3-2015-04-A",
+  "event": "m7e3",
+  "date": "Apr 2015",
+  "level": "A",
+  "q": "Simplify: $$\\sqrt{3\\tfrac47}+9\\sqrt{28}+6\\sqrt{112}$$",
+  "a": "\\frac{299\\sqrt{7}}{7}"
+ },
+ {
+  "id": "m7e3-2015-04-B",
+  "event": "m7e3",
+  "date": "Apr 2015",
+  "level": "B",
+  "q": "Simplify: $$\\frac{2\\sqrt3+3\\sqrt2}{\\sqrt6}-\\frac{5\\sqrt2+2\\sqrt5}{\\sqrt{10}}$$",
+  "a": "\\sqrt{3}-\\sqrt{5}"
+ },
+ {
+  "id": "m7e3-2015-04-C",
+  "event": "m7e3",
+  "date": "Apr 2015",
+  "level": "C",
+  "q": "Solve: $\\sqrt{x+3}-x+4=1$",
+  "a": "6"
+ },
+ {
+  "id": "m7e3-2014-04-A",
+  "event": "m7e3",
+  "date": "Apr 2014",
+  "level": "A",
+  "q": "Simplify: $$\\sqrt{\\frac{64}{3}}+5\\sqrt{147}-5\\sqrt{75}$$",
+  "a": "\\frac{38\\sqrt{3}}{3}"
+ },
+ {
+  "id": "m7e3-2014-04-B",
+  "event": "m7e3",
+  "date": "Apr 2014",
+  "level": "B",
+  "q": "Simplify: $$\\frac{3+\\sqrt6+\\sqrt7}{\\sqrt6+\\sqrt7}$$",
+  "a": "-3\\sqrt{6}+3\\sqrt{7}+1"
+ },
+ {
+  "id": "m7e3-2014-04-C",
+  "event": "m7e3",
+  "date": "Apr 2014",
+  "level": "C",
+  "q": "Evaluate: $$\\frac{1}{\\sqrt2+\\sqrt4}+\\frac{1}{\\sqrt4+\\sqrt6}+\\frac{1}{\\sqrt6+\\sqrt8}+\\cdots+\\frac{1}{\\sqrt{24}+\\sqrt{26}}$$",
+  "a": "\\frac{\\sqrt{26}-\\sqrt{2}}{2}"
+ },
+ {
+  "id": "m7e3-2013-04-A",
+  "event": "m7e3",
+  "date": "Apr 2013",
+  "level": "A",
+  "q": "Simplify: $\\left(3\\sqrt2-5\\sqrt5\\right)^2-\\left(2\\sqrt3-5\\sqrt5\\right)^2$",
+  "a": "6-30\\sqrt{10}+20\\sqrt{15}"
+ },
+ {
+  "id": "m7e3-2013-04-B",
+  "event": "m7e3",
+  "date": "Apr 2013",
+  "level": "B",
+  "q": "Solve for $x$: $\\left(\\sqrt{x}+2\\right)^2=9\\sqrt{x}+4$",
+  "a": "0, 25"
+ },
+ {
+  "id": "m7e3-2013-04-C",
+  "event": "m7e3",
+  "date": "Apr 2013",
+  "level": "C",
+  "q": "Simplify: $$\\sqrt3+\\cfrac{1}{\\sqrt3+\\cfrac{1}{\\sqrt3+\\cfrac{1}{\\sqrt3+1}}}$$",
+  "a": "\\frac{75\\sqrt{3}-1}{59}"
+ },
+ {
+  "id": "m7e3-2012-04-A",
+  "event": "m7e3",
+  "date": "Apr 2012",
+  "level": "A",
+  "q": "Simplify: $\\sqrt{4a^2b}-\\sqrt{25ab^2}+\\sqrt{a^2b}+\\sqrt{16ab^2c^0}$; $a>0$, $b>0$, $c>0$",
+  "a": "3a\\sqrt{b}-b\\sqrt{a}"
+ },
+ {
+  "id": "m7e3-2012-04-B",
+  "event": "m7e3",
+  "date": "Apr 2012",
+  "level": "B",
+  "q": "Simplify: $$\\frac{\\sqrt6+\\sqrt8}{\\sqrt6-\\sqrt8}-\\frac{\\sqrt8-\\sqrt6}{\\sqrt8+\\sqrt6}$$",
+  "a": "-14"
+ },
+ {
+  "id": "m7e3-2012-04-C",
+  "event": "m7e3",
+  "date": "Apr 2012",
+  "level": "C",
+  "q": "Evaluate: $$\\sqrt{8+2\\sqrt{8+2\\sqrt{8+2\\sqrt{8+\\cdots}}}}$$",
+  "a": "4"
+ }
+]

@@ -1,0 +1,119 @@
+# Meet 2, Event 1: ALGEBRA II — Ratios, Proportions, & Variations
+# Percent-change answers: type e.g. 25\% decrease (or -25); 40\% increase (or 40).
+
+@ Oct 2025
+A: For a particular proportion $\dfrac{a}{b}=\dfrac{c}{d}$, it is also true that the product of the means is equal to the sum of the extremes. If $d=3$, find $a$.
+= \frac{3}{2}
+B: The braking distance is defined as the distance a vehicle travels from the time the brakes are applied until the vehicle comes to a complete stop. The braking distance of a motorcycle is directly proportional to the square of its speed. A motorcycle traveling at $40$ kilometers per hour has a braking distance of $8$ meters. If the motorcycle is traveling at $50$ kilometers per hour, what is its braking distance (in meters)?
+= 12.5
+C: $P$ varies directly as $R$ and the square root of $Q$ and inversely as the square of $S$. If $Q$ is decreased by $75\%$, $R$ is increased by $33\frac{1}{3}\%$, and $S$ is doubled, by what percent does $P$ change? Indicate whether the change is an increase or a decrease.
+= 83\frac{1}{3}\%\text{ decrease}
+
+@ Oct 2024
+A: If Connor takes $28$ minutes to vacuum a rectangular room that is $10$ feet by $12$ feet, then how long (in minutes) would it take him to vacuum a rectangular room that is $14$ feet by $15$ feet?
+= 49
+B: In a bag of beads, the ratio of blue beads to green beads is $5:2$. The ratio of green beads to yellow beads is $4:3$. If there are at least $11$ yellow beads in the bag, what is the smallest number of beads in the bag?
+= 68
+C: Given $R$ varies directly as the cube of $S$ and inversely as the square of $T$. If $S$ is quadrupled and $R$ remains constant, by what percent will $T$ be increased?
+= 700
+
+@ Oct 2023
+A: The ratio of students to teachers attending a meeting is $11$ to $2$. If the total number of students and teachers at the meeting is $156$, how many students attended the meeting?
+= 132
+B: Yu Ying has a plushie collection of $254$ animals. There are only ducks, cows, and horses in the collection. The ratio of ducks to cows is $13:3$, and the ratio of cows to horses is $7:5$. Find the number of cows in the plushie collection.
+= 42
+C: $X$ varies inversely as the square of $Y$ and directly as the cube of $Z$. If $X=3$ when $Y=4$ and $Z=2$, find $X$ when $Y=5$ and $Z=3$.
+= \frac{162}{25}
+
+@ Oct 2022
+A: In a garden, the ratio of flowers to bees is $7$ to $2$ while the ratio of bees to beetles is $3$ to $4$. What is the ratio of beetles to flowers?
+= 8:21
+~ \frac{8}{21}
+B: $A$ varies jointly with $D$ and the reciprocal of $B$ and inversely with the square of $C$. If $B=4$, $C=3$, and $D=12$, then $A=\dfrac{1}{2}$. Find $D$ if $A=7$, $B=\dfrac{1}{4}$, and $C=6$.
+= 42
+C: $A$ varies jointly as $B$ and the square root of $D$ and inversely as the cube of $E$. If $D$ is decreased by $64\%$, $E$ is increased by $20\%$ and $B$ is increased by $116\%$, by what percent has $A$ changed? Indicate whether the change is an increase or a decrease.
+= 25\%\text{ decrease}
+
+@ Oct 2021
+A: Seven milliliters of vanilla extract are needed to make $24$ cupcakes. If $1$ box can hold $30$ cupcakes, how many milliliters of vanilla extract are required to make enough cupcakes to completely fill $6$ boxes?
+= 52\frac{1}{2}
+~ 52.5 ;; \frac{105}{2}
+B: Let $R=\dfrac{k}{k+3}$ where $k$ is a positive integer. Increasing the numerator of $R$ by $1$ and increasing the denominator of $R$ by $2$ create a new ratio which is directly proportional to $R$ with constant of proportionality $\dfrac{20}{21}$. Find all values of $k$.
+= 7, 9
+C: $J$ varies jointly as $K$ and the cube root of $L$, and inversely as the square of $M$. If $K$ is decreased by $20\%$, $L$ is decreased by $27.1\%$, and $M$ is decreased by $40\%$, by what percent does $J$ change? Indicate whether the change is an increase or a decrease.
+= 100\%\text{ increase}
+
+@ Oct 2020
+A: Assume $1$ liter $=34$ fluid ounces. If $17$ fluid ounces of green tea costs \$1.72, how much (in dollars) will $2$ liters cost?
+= 6.88
+B: At the animal shelter, the ratio of dogs to cats is $5:7$ and the ratio of rabbits to dogs is $2:9$. The total number of dogs, cats, and rabbits is $354$ animals. What is the total number of dogs and cats at the shelter?
+= 324
+C: $A$ varies jointly as the square of $B$ and the cube of $C$, and inversely as the cube root of $D$. If $B$ is increased by $20\%$, $C$ is halved, and $D$ is reduced by $27.1\%$, by what percent does $A$ change? Indicate whether the change is an increase or a decrease.
+= 80\%\text{ decrease}
+
+@ Oct 2019
+A: The ratio of cats to dogs is $3$ to $4$. The ratio of dogs to horses is $5$ to $7$. What is the ratio of cats to horses?
+= \frac{15}{28}
+~ 15:28
+B: If the ratio of $x:y:z$ is $\dfrac{1}{18}:\dfrac{1}{12}:\dfrac{1}{7}$ and $x+y+1=z$, find $x+y+z$.
+= 71
+C: $A$ varies jointly as the square of $B$ and the square root of $C$, and inversely as the cube root of $D$. If $B$ is tripled, $C$ is reduced by $36\%$, and $D$ is increased by $72.8\%$, by what percentage does $A$ change? Indicate whether the change is an increase or a decrease.
+= 500\%\text{ increase}
+
+@ Oct 2018
+A: In Ryan's stamp collection, there are $5$ foreign stamps for every $9$ American stamps. If he has a total of $224$ stamps, how many of them are foreign?
+= 80
+B: Given: $A:B=2:3$, $B:C=5:4$, and $C:D=3:7$. Find $A:B:C:D$, where $A$, $B$, $C$, and $D$ are relatively prime integers.
+= 10:15:12:28
+C: $M$ varies jointly as the cube of $A$ and the square root of $T$, and inversely as the square of $H$. If $A$ is increased by $20\%$, $T$ is increased by $96\%$, and $H$ is increased by $80\%$, by what percent is $M$ changed? Indicate whether the change is an increase or a decrease, and round your answer to the nearest tenth of a percent.
+= 25.3\%\text{ decrease}
+
+@ Oct 2017
+A: Adam stands $5$ feet $6$ inches tall. One afternoon his shadow measures $9$ feet $2$ inches while a vertical pole next to him has a shadow that measures $33$ feet $4$ inches. How tall is the pole in feet?
+= 20
+B: The sum of two distinct, positive numbers is directly proportional to their positive difference. What is the ratio of the larger number to the smaller number? Express your answer as a fraction in terms of the constant of proportionality $k$.
+= \frac{k+1}{k-1}
+C: $A$ varies directly as the square of $B$ and inversely as the square root of $C$ and the cube of $D$. If $B$ is reduced by $25\%$, $C$ is quadrupled, and $D$ is halved, by what percent does $A$ change? Indicate whether the change is an increase or a decrease.
+= 125\%\text{ increase}
+
+@ Oct 2016
+A: There are $600$ students at OML High School, where the ratio of boys to girls is $3$ to $5$. How many boys attend OML High School?
+= 225
+B: A bag of M&M's contains only red, blue and green candies in the ratio of $\dfrac{1}{2}:\dfrac{1}{3}:\dfrac{1}{4}$, respectively. If the total number of M&M's is $156$, what is the sum of the red and green M&M's?
+= 108
+C: $m$ varies jointly as $H$ and the square root of $p$, and inversely as $R^3$. If $m$ is decreased by $25\%$, $R$ is doubled, and $p$ is increased by $125\%$, by what percent must $H$ be increased to maintain the same constant of proportionality?
+= 300
+
+@ Oct 2015
+A: Fred earned \$27.30 for working $6.5$ hours. How much (in dollars) would he earn working $20$ hours?
+= 84
+B: A collection of recycled glass bottles consists of clear, brown, and green glass bottles. The ratio of clear to brown to green is given by $\dfrac{1}{2}:\dfrac{2}{5}:\dfrac{8}{9}$. There are $483$ bottles in total. What is the sum of the clear and green glass bottles?
+= 375
+C: The maximum safe load for a horizontal rectangular beam varies jointly as the width of the beam and the square of the thickness of the beam and inversely as its length. If an $8$-foot beam will support up to $750$ pounds when the beam is $4$ inches wide and $2$ inches thick, what is the maximum safe load (in pounds) on a similar beam $110$ feet long, half a foot wide, and a third of a foot thick?
+= \frac{3600}{11}
+~ 327\frac{3}{11}
+
+@ Oct 2014
+A: At Melia's fruit stand, the ratio of apples to bananas is $2$ to $3$, the ratio of bananas to cantaloupes is $4$ to $5$, and the ratio of dingleberries to cantaloupes is $5$ to $6$. Find the ratio of apples to dingleberries.
+= 16:25
+~ \frac{16}{25}
+B: At any given time of day, the ratio of the height of any object to the length of its shadow is a constant. Maddy's brother, who is $5$ feet, $8$ inches tall, says to her, "At 2:00 today, my shadow will be the same length as your height!" If Maddy's shadow at 2:00 is $4$ feet, $3$ inches long, find Maddy's height in inches.
+= 34\sqrt{3}
+C: $A$ varies jointly as the product of $B$ and the cube root of $C$, and inversely as $2D$. If $A$ is decreased by $40\%$, $C$ is increased by $700\%$, and $D$ is decreased by $33.\overline{3}\%$, by what percent is $B$ changed? Indicate whether the change is an increase or a decrease.
+= 80\%\text{ decrease}
+
+@ Oct 2013
+A: If four six-packs of soda cost \$8.20, how much (in dollars) will ten six-packs cost?
+= 20.50
+B: A $20$-pound bag of rice is divided into $4$ smaller bags whose weights are in the ratio $1:\dfrac{1}{3}:\dfrac{1}{2}:\dfrac{1}{4}$. Find the weight (in pounds) of the second heaviest bag.
+= \frac{24}{5}
+C: $A$ varies jointly as $B$ and the square root of $C$, and inversely as the square of $D$. If $B$ is increased by $12\%$, $C$ is decreased by $36\%$, and $D$ is decreased by $20\%$, by what percent is $A$ increased or decreased?
+= 40\%\text{ increase}
+
+@ Oct 2012
+A: A bag of marbles contains red, blue, and green marbles. The ratio of red to blue is $5:9$ while the ratio of blue to green is $3:4$. The bag contains $234$ marbles. How many green marbles are in the bag?
+= 108
+B: If $\dfrac{a}{b}=\dfrac{c}{d}$, $d=5b-10$, $c=-2a+40$, and $a-b=3$, find $c$.
+= 24, \frac{250}{7}
+C: The cube of a planet's mean distance from a star varies directly as the square of its orbital period. Orbital period is the reciprocal of orbital frequency. What is the orbital frequency (revolutions per second) of a planet orbiting around a star if its mean distance is four times the mean distance of another planet orbiting the same star with an orbital frequency of $2.7\times 10^{-7}$ revolutions per second? Express your answer in the form $a\times 10^n$ where $a$ is a real number, $n$ is an integer, and $1\le a<10$.
+= 3.375\times 10^{-8}

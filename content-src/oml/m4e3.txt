@@ -1,0 +1,113 @@
+# Meet 4, Event 3: ALGEBRA I — Factoring Expressions & Equations
+
+@ Jan 2026
+A: Factor completely: $$9x^3+90x^2+81x$$
+= 9x(x+1)(x+9)
+B: Factor completely: $$35xy-5x-56y+8$$
+= (5x-8)(7y-1)
+C: Solve for $x$ in terms of $y$: $$32x^4+16x^3y-200x^2y^2-100xy^3=0$$
+= 0, -\frac{y}{2}, \frac{5y}{2}, -\frac{5y}{2}
+
+@ Jan 2025
+A: Given $a$ and $b$ are non-zero constants. Solve for $x$ in terms of $a$ and $b$: $$2ax(3x-4b)=5(4b-3x)$$
+= -\frac{5}{2a}, \frac{4b}{3}
+B: Factor completely: $$x^3y^4z-2y^2x^2z^4-15z^7x$$
+= xz(xy^2-5z^3)(xy^2+3z^3)
+C: Solve for $x$: $$3\left(x^2-1\right)^2+25x^2=75$$
+= \pm\frac{2\sqrt{6}}{3}
+
+@ Jan 2024
+A: Factor completely: $$8ac-12bc+10ad-15bd$$
+= (2a-3b)(4c+5d)
+B: Solve for $x$ in terms of $k$: $$(x+k)^2-2(x+k)-8=0$$
+= 4-k, -2-k
+C: Factor completely: $$40n^4-228n^3-72n^2$$
+= 4n^2(n-6)(10n+3)
+
+@ Jan 2023
+A: Solve for $x$: $$15(x-2)^2=2-7(x-2)$$
+= \frac{11}{5}, \frac{4}{3}
+B: Solve for $x$: $$3=0.16x^2-0.8x+1.5-6.5$$
+= 10, -5
+C: Factor completely: $$x^3-4x^2+3bx^2-12bx+2b^2x-8b^2$$
+= (x-4)(x+b)(x+2b)
+
+@ Jan 2022
+A: Factor completely: $$45x^3y^2+120x^2y^3+80xy^4$$
+= 5xy^2(3x+4y)^2
+B: Factor completely: $$x^4-10x^3+25x^2-4y^2$$
+= (x^2-5x-2y)(x^2-5x+2y)
+C: Solve for $x$ in terms of $t$: $$x^3+(5t-1)x^2-\left(14t^2+5t\right)x+14t^2=0$$
+= 1, -7t, 2t
+
+@ Jan 2021
+A: Solve for $x$: $$4(3x-10)^2-4(3x-10)=-1$$
+= \frac{7}{2}
+B: Factor completely: $$9a^3bc-4ab^3c+20ab^2c^2-25abc^3$$
+= abc(3a+2b-5c)(3a-2b+5c)
+C: Solve for $x$ in terms of $y$: $$x^3-2x^2-2xy+x^2y-6xy^2+12y^2=0$$
+= 2, -3y, 2y
+
+@ Jan 2020
+A: Factor completely: $$2xy+3y-8x-12$$
+= (2x+3)(y-4)
+B: Solve for $x$: $$5=0.25x^2-0.5x-2.25+5.25$$
+= -2, 4
+C: Solve for $x$: $$5x^4+7x^3-6x^2=0$$
+= -2, 0, \frac{3}{5}
+
+@ Jan 2019
+A: Solve for $x$: $$(x+2)(x+3)=2x^2+x-6$$
+= -2, 6
+B: Factor completely: $$(13c+5d)(13c-5d)-(5c-4d)(5c+4d)$$
+= 9(4c+d)(4c-d)
+C: Solve for $p$: $$9p\left(2up-5uy+p^2\right)=3p^2(5y+p)$$
+= 0, -3u, \frac{5y}{2}
+
+@ Jan 2018
+A: Factor completely: $$4x^4-37x^2+9$$
+= (2x+1)(2x-1)(x+3)(x-3)
+B: Solve for $x$: $$16=x^2+2xy+y^2$$
+= -y-4, -y+4
+C: Factor completely: $$a^2-x^2-4ab+4xy+4b^2-4y^2$$
+= (a-2b+x-2y)(a-2b-x+2y)
+
+@ Jan 2017
+A: Factor completely: $$48x^2y^4z^2-27x^2y^2z^4$$
+= 3x^2y^2z^2(4y-3z)(4y+3z)
+B: Factor completely: $$12x^2+y^3-3y^2-4x^2y$$
+= (y-3)(y+2x)(y-2x)
+C: Solve for $x$ in terms of $y$: $$x^2-4xy+4y^2+5x-10y-6=0$$
+= 2y-6, 2y+1
+
+@ Jan 2016
+A: Solve for $x$: $$x^4+56x^2=15x^3$$
+= 0, 7, 8
+B: Solve for $x$: $$x^3-3x^2-9x+27=0$$
+= \pm 3
+C: Factor completely: $$150m^2nz+20mn^2c-120m^2nc-25mn^2z$$
+= 5mn(5z-4c)(6m-n)
+
+@ Jan 2015
+A: Factor completely: $$abc-3ad+3ac-abd$$
+= a(b+3)(c-d)
+B: Solve for $x$: $$30x^4+9x^3=12x^2$$
+= 0, \frac{1}{2}, -\frac{4}{5}
+C: Solve for $x$: $$6\left(x-\dfrac{5}{4}\right)^2+19\left(x-\dfrac{5}{4}\right)+8=0$$
+= \frac{3}{4}, -\frac{17}{12}
+
+@ Jan 2014
+A: Factor completely: $$36a^3-15a^2+84a-35$$
+= (12a-5)(3a^2+7)
+B: Factor completely: $$4-9x^2+24xy-16y^2$$
+= (2-3x+4y)(2+3x-4y)
+C: Solve for $x$: $$3bx^2+3cx=bcx^2+b^2x+c^2x+bc$$
+= -\frac{c}{b}, \frac{b}{3-c}
+
+@ Jan 2013
+A: Factor completely: $$8(x-1)^2-2$$
+= 2(2x-1)(2x-3)
+B: Factor completely: $$x^4+2cx^3+c^2x^2-b^2x^2-2b^2cx-b^2c^2$$
+= (x-b)(x+b)(x+c)^2
+C: Solve for $x$: $$x^2+x^2y^2-9y^2-2x^2y-54y+19=100$$
+= \pm\frac{3(y+3)}{y-1}

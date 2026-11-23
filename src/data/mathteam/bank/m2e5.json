@@ -1,0 +1,348 @@
+[
+ {
+  "id": "m2e5-2025-10-A",
+  "event": "m2e5",
+  "date": "Oct 2025",
+  "level": "A",
+  "q": "Write the contrapositive of the converse of $\\sim p\\to q$.",
+  "a": "p\\to\\sim q"
+ },
+ {
+  "id": "m2e5-2025-10-B",
+  "event": "m2e5",
+  "date": "Oct 2025",
+  "level": "B",
+  "q": "What conclusion can be drawn using all of the following statements?\n- Abby loves spicy food or James loves salami.\n- If Bev loves running then James does not love salami.\n- Abby loves spicy food only if Carol loves doing homework.\n- Carol does not love doing homework.",
+  "a": "\\text{Bev does not love running.}"
+ },
+ {
+  "id": "m2e5-2025-10-C",
+  "event": "m2e5",
+  "date": "Oct 2025",
+  "level": "C",
+  "q": "Which of the following arguments is/are valid? (List the letters.)\na. $q\\to p$; $p$; $\\therefore q$\nb. $r\\to s$; $r$; $\\therefore s$\nc. $b\\leftrightarrow a$; $a$; $\\therefore b$\nd. $c\\vee d$; $c$; $\\therefore d$\ne. $\\sim(m\\wedge\\sim n)$; $\\sim n$; $\\therefore\\sim m$\nf. $p\\wedge q$; $p\\vee q$; $\\therefore q\\to p$",
+  "a": "b, c, e, f"
+ },
+ {
+  "id": "m2e5-2024-10-A",
+  "event": "m2e5",
+  "date": "Oct 2024",
+  "level": "A",
+  "q": "Let $p$ represent the statement \"It is raining\" and $q$ represent the statement \"I will take my umbrella.\" Using $p$ and $q$, translate the statement \"If it is not raining, then I will not take my umbrella\" into symbolic form.",
+  "a": "\\sim p\\to\\sim q"
+ },
+ {
+  "id": "m2e5-2024-10-B",
+  "event": "m2e5",
+  "date": "Oct 2024",
+  "level": "B",
+  "q": "Which of the following statement(s) is (are) a tautology? List every letter.\na. $(\\sim q\\wedge p)\\wedge p$\nb. $(\\sim q\\wedge p)\\wedge(p\\wedge\\sim p)$\nc. $(\\sim q\\wedge p)\\vee(p\\vee\\sim p)$\nd. $(p\\wedge q)\\wedge(\\sim(p\\vee q))$",
+  "a": "c"
+ },
+ {
+  "id": "m2e5-2024-10-C",
+  "event": "m2e5",
+  "date": "Oct 2024",
+  "level": "C",
+  "q": "For each row of the truth table $(p,q)=(T,T),(T,F),(F,T),(F,F)$, decide whether the implication $(p\\vee q)\\to(\\sim q\\to p)$ is true or false. (Answer in row order.)",
+  "a": "\\text{true, true, true, true}",
+  "alt": [
+   "T, T, T, T"
+  ]
+ },
+ {
+  "id": "m2e5-2023-10-A",
+  "event": "m2e5",
+  "date": "Oct 2023",
+  "level": "A",
+  "q": "What is the contrapositive of the inverse of $q\\to\\sim p$?",
+  "a": "\\sim p\\to q"
+ },
+ {
+  "id": "m2e5-2023-10-B",
+  "event": "m2e5",
+  "date": "Oct 2023",
+  "level": "B",
+  "q": "What conclusion can be drawn using all of the following statements?\n- If Reece does not laugh with Alan, then Alan does not love Reece.\n- Alan lives or Alan does not live.\n- Alan loves Reece if and only if Alan lives.\n- Alan lives.",
+  "a": "\\text{Reece laughs with Alan.}"
+ },
+ {
+  "id": "m2e5-2023-10-C",
+  "event": "m2e5",
+  "date": "Oct 2023",
+  "level": "C",
+  "q": "What conclusion can be drawn using all of the following statements?\n- It is raining or Lily is not outside.\n- If Steven likes taking selfies, then it is not raining.\n- Lily is outside.\n- If Lily's camera works, then Steven likes taking selfies.",
+  "a": "\\text{Lily's camera does not work.}"
+ },
+ {
+  "id": "m2e5-2022-10-A",
+  "event": "m2e5",
+  "date": "Oct 2022",
+  "level": "A",
+  "q": "What conclusion can be drawn using all of the following statements? $$\\sim s\\to\\sim r,\\quad q\\to\\sim p,\\quad \\sim q\\to r,\\quad s\\to\\sim t$$",
+  "a": "p\\to\\sim t"
+ },
+ {
+  "id": "m2e5-2022-10-B",
+  "event": "m2e5",
+  "date": "Oct 2022",
+  "level": "B",
+  "q": "What conclusion can be drawn using all of the following statements?\n- Emitt plays guitar only if he sings.\n- Emitt comes home late.\n- If Emitt sings, then he will win first place at the talent show.\n- Emitt will play the guitar or he will play the piano.\n- If Emitt plays the piano, then he came home on time.",
+  "a": "\\text{Emitt wins first place at the talent show.}"
+ },
+ {
+  "id": "m2e5-2022-10-C",
+  "event": "m2e5",
+  "date": "Oct 2022",
+  "level": "C",
+  "q": "Given the following statements are true: $(\\sim p\\to q)\\vee(r\\to\\sim s)$ and $r\\wedge\\sim(\\sim s\\vee q)$. Which of the following statements is(are) also true? (List the letters.)\na. $p\\to\\sim(q\\wedge r\\wedge s)$\nb. $(\\sim r\\vee s)\\to\\sim(p\\vee\\sim q)$\nc. $(s\\to\\sim p)\\wedge(\\sim q\\to r)$\nd. $(p\\to\\sim r)\\vee(\\sim s\\to q)$",
+  "a": "a, d"
+ },
+ {
+  "id": "m2e5-2021-10-A",
+  "event": "m2e5",
+  "date": "Oct 2021",
+  "level": "A",
+  "q": "Write the inverse of the contrapositive of the statement $\\sim p\\to q$.",
+  "a": "q\\to\\sim p"
+ },
+ {
+  "id": "m2e5-2021-10-B",
+  "event": "m2e5",
+  "date": "Oct 2021",
+  "level": "B",
+  "q": "Assume that all cats like sandwiches. Which of the following must be true? (List the letters.)\n(a) If Kenneth is a cat, then Kenneth likes sandwiches.\n(b) If Kenneth likes sandwiches, then Kenneth is a cat.\n(c) If Kenneth does not like sandwiches, then Kenneth is not a cat.\n(d) If Kenneth likes sandwiches and Leilani does not, then only Kenneth might be a cat.\n(e) If Kenneth is not a cat, then Kenneth does not like sandwiches.\n(f) If Kenneth isn't not a cat, then Kenneth doesn't like sandwiches.",
+  "a": "a, c, d"
+ },
+ {
+  "id": "m2e5-2021-10-C",
+  "event": "m2e5",
+  "date": "Oct 2021",
+  "level": "C",
+  "q": "If $q\\to r$ is true but $r\\to q$ is false, which of the following must be true? (List the letters.)\n(a) $\\sim q\\to\\sim r$\n(b) $\\sim r\\to\\sim q$\n(c) If $q\\to j$, then $r\\to\\sim j$\n(d) If $k\\to q$, then $k\\to r$\n(e) If $j\\to q$, then $r\\to\\sim j$",
+  "a": "b, d, e"
+ },
+ {
+  "id": "m2e5-2020-10-A",
+  "event": "m2e5",
+  "date": "Oct 2020",
+  "level": "A",
+  "q": "Which of the following is(are) true? (List the letters.)\na. $q\\to\\sim p$ is the converse of the inverse of $p\\to\\sim q$\nb. $\\sim p\\to\\sim q$ is the inverse of the contrapositive of $q\\to p$\nc. $\\sim q\\to\\sim p$ is the contrapositive of the inverse of $p\\to q$\nd. $p\\to\\sim q$ is the inverse of the converse of $q\\to\\sim p$\ne. $q\\to\\sim p$ is the contrapositive of the inverse of $\\sim p\\to q$",
+  "a": "a, d, e"
+ },
+ {
+  "id": "m2e5-2020-10-B",
+  "event": "m2e5",
+  "date": "Oct 2020",
+  "level": "B",
+  "q": "What is the conclusion that can be drawn using all of the following statements?\n- If it is not a school day, then it is not Monday.\n- It is not raining.\n- It is Tuesday only if it is raining.\n- If it is not Tuesday, then it is Monday.",
+  "a": "\\text{It is a school day.}"
+ },
+ {
+  "id": "m2e5-2020-10-C",
+  "event": "m2e5",
+  "date": "Oct 2020",
+  "level": "C",
+  "q": "The four statements refer to a store owner and four employees. One statement is true, and three statements are false.\n- Alyse is the store owner.\n- Charlie and Evan are both employees.\n- Bob is the store owner.\n- Alyse, David, or Evan is the store owner.\n\nWho is the store owner?",
+  "a": "\\text{Evan}"
+ },
+ {
+  "id": "m2e5-2019-10-A",
+  "event": "m2e5",
+  "date": "Oct 2019",
+  "level": "A",
+  "q": "What conclusion can be drawn using all of the following statements? $$\\sim b\\to c,\\quad d\\to a,\\quad a\\to\\sim c,\\quad \\sim b$$",
+  "a": "\\sim d"
+ },
+ {
+  "id": "m2e5-2019-10-B",
+  "event": "m2e5",
+  "date": "Oct 2019",
+  "level": "B",
+  "q": "Which of these statements is(are) logically equivalent to $\\sim(q\\vee\\sim p)\\to r$? (List the letters.)\na. $(\\sim q\\wedge p)\\to r$\nb. $(\\sim q\\vee p)\\to r$\nc. $(q\\vee\\sim p)\\vee r$\nd. $(q\\wedge\\sim p)\\to\\sim r$",
+  "a": "a, c"
+ },
+ {
+  "id": "m2e5-2019-10-C",
+  "event": "m2e5",
+  "date": "Oct 2019",
+  "level": "C",
+  "q": "Iris, Jacob, Karen and Lori work at a small store as the cashier, the manager, the pharmacist, and the security guard (though not necessarily in that order). Each person has exactly one job.\n- If Lori is not the pharmacist, then Jacob is not the pharmacist.\n- If Karen is not the cashier, then Iris is the manager.\n- Iris is the security guard.\n\nWhat is Jacob's job? (On the paper: give each person's job.)",
+  "a": "\\text{manager}",
+  "note": "Official answer: Iris is the security guard, Jacob is the manager, Karen is the cashier, Lori is the pharmacist."
+ },
+ {
+  "id": "m2e5-2018-10-A",
+  "event": "m2e5",
+  "date": "Oct 2018",
+  "level": "A",
+  "q": "If $p\\to q$ is false, which of the following statements is/are true? (List the letters.)\n(a) $p\\vee q$\n(b) $p\\wedge q$\n(c) $\\sim q\\to\\sim p$\n(d) $p\\leftrightarrow q$",
+  "a": "a"
+ },
+ {
+  "id": "m2e5-2018-10-B",
+  "event": "m2e5",
+  "date": "Oct 2018",
+  "level": "B",
+  "q": "What can be concluded from the following four statements?\n- Hannah will not go to brunch.\n- If scones are on sale, Hannah will buy scones.\n- Hannah will go to brunch if she is not trying to save money.\n- Either Hannah will not buy scones or she is not trying to save money.",
+  "a": "\\text{Scones are not on sale.}"
+ },
+ {
+  "id": "m2e5-2018-10-C",
+  "event": "m2e5",
+  "date": "Oct 2018",
+  "level": "C",
+  "q": "What disjunction can be deduced using all of the following premises?\n- $\\sim a$ implies $\\sim e$\n- $\\sim d$ only if $\\sim c$\n- the disjunction of $c$ and $f$\n- $\\sim b$ is a sufficient condition for $e$\n- $\\sim d$ is a necessary condition for $a$",
+  "a": "b\\vee f"
+ },
+ {
+  "id": "m2e5-2017-10-A",
+  "event": "m2e5",
+  "date": "Oct 2017",
+  "level": "A",
+  "q": "Consider the statement: \"If $p$, then $q$.\" Which of the following is/are correct? (List the letters.)\na. The converse is \"If $q$, then $p$.\"\nb. The inverse is \"If $\\sim q$, then $\\sim p$.\"\nc. The contrapositive is \"If $\\sim q$, then $\\sim p$.\"\nd. The inverse is \"If $\\sim p$, then $\\sim q$.\"\ne. The contrapositive is \"If $\\sim p$, then $\\sim q$.\"",
+  "a": "a, c, d"
+ },
+ {
+  "id": "m2e5-2017-10-B",
+  "event": "m2e5",
+  "date": "Oct 2017",
+  "level": "B",
+  "q": "What conclusion can be made using all of the following statements?\n- If Yuzo does not have baseball practice, then today is Sunday.\n- Yuzo does not watch TV only if he studies.\n- Today is Saturday.\n- If Yuzo has baseball practice, then he did not watch TV.\n- If Yuzo did not earn an A, then he did not study.",
+  "a": "\\text{Yuzo earned an A.}"
+ },
+ {
+  "id": "m2e5-2017-10-C",
+  "event": "m2e5",
+  "date": "Oct 2017",
+  "level": "C",
+  "q": "Which two statements are negations of each other? (List the letters.)\na. $\\sim((p\\wedge q)\\to r)$\nb. $(p\\wedge r)\\to q$\nc. $\\sim(r\\to(p\\vee q))$\nd. $p\\vee q\\vee(\\sim r)$",
+  "a": "c, d"
+ },
+ {
+  "id": "m2e5-2016-10-A",
+  "event": "m2e5",
+  "date": "Oct 2016",
+  "level": "A",
+  "q": "Write the converse of the contrapositive of the statement $r\\to p$.",
+  "a": "\\sim r\\to\\sim p"
+ },
+ {
+  "id": "m2e5-2016-10-B",
+  "event": "m2e5",
+  "date": "Oct 2016",
+  "level": "B",
+  "q": "Which of the following statements is/are equivalent to \"If it is raining and pouring, the old man is snoring\"? (List the letters.)\na. The old man isn't snoring implies it is not raining or not pouring.\nb. If the old man is snoring, it is not raining or not pouring.\nc. If it is raining, then it is pouring and the old man is snoring.\nd. The old man is snoring, or it is not raining or not pouring.\ne. Raining and pouring is necessary for the old man to be snoring.",
+  "a": "a, d"
+ },
+ {
+  "id": "m2e5-2016-10-C",
+  "event": "m2e5",
+  "date": "Oct 2016",
+  "level": "C",
+  "q": "Kody wants to grow a white flower. He asks the red plants for help.\n- Red plant 1: The correct way to grow a white flower is watering and fertilizing.\n- Red plant 2: The correct way to grow a white flower is either watering and tending, or fertilizing and tending.\n- Red plant 3: Don't fertilize.\n\nIf red plants never tell the truth, which action(s) must Kody take to grow a white flower: watering, tending, fertilizing?",
+  "a": "\\text{fertilizing}"
+ },
+ {
+  "id": "m2e5-2015-10-A",
+  "event": "m2e5",
+  "date": "Oct 2015",
+  "level": "A",
+  "q": "What conclusion can be made using all of the following statements?\n- If Betty does not talk to Art, then Art did not sit next to Betty.\n- Art apologizes to Betty or Art is not sorry.\n- Art sits next to Betty if and only if Art apologizes to Betty.\n- Art is sorry.",
+  "a": "\\text{Betty talks to Art.}"
+ },
+ {
+  "id": "m2e5-2015-10-B",
+  "event": "m2e5",
+  "date": "Oct 2015",
+  "level": "B",
+  "q": "Given: $x$ represents a true statement, $y$ represents a false statement, $z$ represents a true statement. Which statement(s) is/are true? (List the letters.)\nA. $x\\vee y$\nB. $x\\wedge y$\nC. $\\sim x\\to\\sim z$\nD. $\\sim(x\\to y)\\to z$\nE. $(z\\wedge y)\\vee\\sim x$",
+  "a": "A, C, D"
+ },
+ {
+  "id": "m2e5-2015-10-C",
+  "event": "m2e5",
+  "date": "Oct 2015",
+  "level": "C",
+  "q": "After a local Post Office burglary, five suspects were being interviewed. The police know each of them told the truth in one of the statements and lied in the other. Who committed the crime?\n- Alan: It was Eric. It wasn't Brian.\n- Brian: It wasn't Charles. It was Alan.\n- Charles: It was Brian. It wasn't Eric.\n- Derek: It was Charles. It wasn't Alan.\n- Eric: It was Derek. It was Alan.",
+  "a": "\\text{Derek}"
+ },
+ {
+  "id": "m2e5-2014-10-A",
+  "event": "m2e5",
+  "date": "Oct 2014",
+  "level": "A",
+  "q": "If $q\\to p$ is false and if $p\\to q$ is true, what is the truth value of $(p\\to q)\\wedge(q\\leftrightarrow p)$?",
+  "a": "\\text{false}"
+ },
+ {
+  "id": "m2e5-2014-10-B",
+  "event": "m2e5",
+  "date": "Oct 2014",
+  "level": "B",
+  "q": "Exactly one of the following statements is false. Which one is it?\na. $\\sim(q\\to p)$ is false.\nb. $p\\leftrightarrow q$ is false.\nc. $q\\to p$ is true.\nd. $\\sim q\\to\\sim p$ is true.\ne. $p\\to q$ is true.",
+  "a": "b"
+ },
+ {
+  "id": "m2e5-2014-10-C",
+  "event": "m2e5",
+  "date": "Oct 2014",
+  "level": "C",
+  "q": "Amy, Bobby, and Candace are teachers at Kukui High School (KHS). One teaches English, one teaches Computer Science, and one teaches Calculus. The Computer Science teacher has taught at KHS the longest of the three. Amy has five years of seniority over the Calculus teacher. Candace, who does not teach English, has taught for ten years. The teacher who has taught the greatest number of years has taught twice as long as the teacher who has taught the fewest number of years. The three teachers have more than $40$ years of teaching experience altogether. How many years has Bobby taught? (On the paper: each teacher's subject and years.)",
+  "a": "20",
+  "note": "Official answer: Amy, English, 15; Bobby, Computer Science, 20; Candace, Calculus, 10."
+ },
+ {
+  "id": "m2e5-2013-10-A",
+  "event": "m2e5",
+  "date": "Oct 2013",
+  "level": "A",
+  "q": "Which of these is the negation of $p\\wedge q$?\nA. $\\sim p\\wedge q$\nB. $\\sim p\\wedge\\sim q$\nC. $\\sim p\\vee q$\nD. $\\sim p\\vee\\sim q$\nE. $p\\to q$",
+  "a": "D"
+ },
+ {
+  "id": "m2e5-2013-10-B",
+  "event": "m2e5",
+  "date": "Oct 2013",
+  "level": "B",
+  "q": "It is Friday or Chloe is not hungry. If Priscilla likes brunch, then it is not Friday. Chloe is hungry. If Chloe can cook, then Priscilla likes brunch. What conclusion can be reached using all four statements?",
+  "a": "\\text{Chloe cannot cook.}"
+ },
+ {
+  "id": "m2e5-2013-10-C",
+  "event": "m2e5",
+  "date": "Oct 2013",
+  "level": "C",
+  "q": "Brenda and four of her friends (Caroline, Dorothy, Evelyn, Frieda), who attended the same ceramics class, recently completed their masterpieces. Each made a different type of decorative piece; one made a statue that looked just like her pet poodle. From the clues that follow, determine the piece each made, and the order of completion.\n1. The fruit dish was completed after the ashtray but before Frieda's piece.\n2. Caroline, who did not make the planter, was the first to finish.\n3. Dorothy finished her piece before both the ashtray, which was not Evelyn's project, and the candlesticks were completed.\n\nWhat did Evelyn make?",
+  "a": "\\text{fruit dish}",
+  "note": "Official answer: Brenda 3 ashtray; Caroline 1 pet poodle; Dorothy 2 planter; Evelyn 4 fruit dish; Frieda 5 candlesticks."
+ },
+ {
+  "id": "m2e5-2012-10-A",
+  "event": "m2e5",
+  "date": "Oct 2012",
+  "level": "A",
+  "q": "What conclusion can be made using all of the following statements?\n- Edward will not call Bella if Bella doesn't believe him.\n- Either Edward is in love or his heart is playing tricks on him.\n- Edward will call Bella if and only if he is in love.\n- Edward's heart isn't playing tricks on him.",
+  "a": "\\text{Bella believes Edward.}",
+  "alt": [
+   "\\text{Bella believes him.}"
+  ]
+ },
+ {
+  "id": "m2e5-2012-10-B",
+  "event": "m2e5",
+  "date": "Oct 2012",
+  "level": "B",
+  "q": "Two or more of the following statements are logically equivalent to each other. List the letters corresponding to those statements.\na. The converse of the inverse of $p\\to\\sim q$\nb. The inverse of the contrapositive of $q\\to p$\nc. The contrapositive of the inverse of $p\\to q$\nd. The inverse of the converse of $q\\to\\sim p$\ne. The contrapositive of the inverse of $\\sim p\\to q$",
+  "a": "a, d, e"
+ },
+ {
+  "id": "m2e5-2012-10-C",
+  "event": "m2e5",
+  "date": "Oct 2012",
+  "level": "C",
+  "q": "Alice, Bob, and Carl are the first names of the teachers of Geometry, Health, and Italian at a school. Each teaches only one class, and their last names are Dobson, Ellis, and Foster. Use the clues to figure out the full name of the Geometry teacher.\n- The Geometry teacher's first and last names aren't Alice or Ellis.\n- Dobson's first name isn't Carl, and neither Dobson nor Carl teaches Health.\n- The Geometry teacher's last name isn't Foster.\n- Neither Bob nor Foster teaches Italian.",
+  "a": "\\text{Bob Dobson}",
+  "note": "Official answer: Geometry: Bob Dobson; Health: Alice Foster; Italian: Carl Ellis."
+ }
+]

@@ -1,0 +1,266 @@
+# Meet 2, Event 5: GEOMETRY — Logic
+# Symbolic answers: type ~ (or \sim) for "not" and -> (or \to) for "implies".
+# Sentence answers are compared word-for-word (case and spacing ignored); use "I was right" if your wording differs.
+
+@ Oct 2025
+A: Write the contrapositive of the converse of $\sim p\to q$.
+= p\to\sim q
+B: What conclusion can be drawn using all of the following statements?
+  - Abby loves spicy food or James loves salami.
+  - If Bev loves running then James does not love salami.
+  - Abby loves spicy food only if Carol loves doing homework.
+  - Carol does not love doing homework.
+= \text{Bev does not love running.}
+C: Which of the following arguments is/are valid? (List the letters.)
+  a. $q\to p$; $p$; $\therefore q$
+  b. $r\to s$; $r$; $\therefore s$
+  c. $b\leftrightarrow a$; $a$; $\therefore b$
+  d. $c\vee d$; $c$; $\therefore d$
+  e. $\sim(m\wedge\sim n)$; $\sim n$; $\therefore\sim m$
+  f. $p\wedge q$; $p\vee q$; $\therefore q\to p$
+= b, c, e, f
+
+@ Oct 2024
+A: Let $p$ represent the statement "It is raining" and $q$ represent the statement "I will take my umbrella." Using $p$ and $q$, translate the statement "If it is not raining, then I will not take my umbrella" into symbolic form.
+= \sim p\to\sim q
+B: Which of the following statement(s) is (are) a tautology? List every letter.
+  a. $(\sim q\wedge p)\wedge p$
+  b. $(\sim q\wedge p)\wedge(p\wedge\sim p)$
+  c. $(\sim q\wedge p)\vee(p\vee\sim p)$
+  d. $(p\wedge q)\wedge(\sim(p\vee q))$
+= c
+C: For each row of the truth table $(p,q)=(T,T),(T,F),(F,T),(F,F)$, decide whether the implication $(p\vee q)\to(\sim q\to p)$ is true or false. (Answer in row order.)
+= \text{true, true, true, true}
+~ T, T, T, T
+
+@ Oct 2023
+A: What is the contrapositive of the inverse of $q\to\sim p$?
+= \sim p\to q
+B: What conclusion can be drawn using all of the following statements?
+  - If Reece does not laugh with Alan, then Alan does not love Reece.
+  - Alan lives or Alan does not live.
+  - Alan loves Reece if and only if Alan lives.
+  - Alan lives.
+= \text{Reece laughs with Alan.}
+C: What conclusion can be drawn using all of the following statements?
+  - It is raining or Lily is not outside.
+  - If Steven likes taking selfies, then it is not raining.
+  - Lily is outside.
+  - If Lily's camera works, then Steven likes taking selfies.
+= \text{Lily's camera does not work.}
+
+@ Oct 2022
+A: What conclusion can be drawn using all of the following statements? $$\sim s\to\sim r,\quad q\to\sim p,\quad \sim q\to r,\quad s\to\sim t$$
+= p\to\sim t
+B: What conclusion can be drawn using all of the following statements?
+  - Emitt plays guitar only if he sings.
+  - Emitt comes home late.
+  - If Emitt sings, then he will win first place at the talent show.
+  - Emitt will play the guitar or he will play the piano.
+  - If Emitt plays the piano, then he came home on time.
+= \text{Emitt wins first place at the talent show.}
+C: Given the following statements are true: $(\sim p\to q)\vee(r\to\sim s)$ and $r\wedge\sim(\sim s\vee q)$. Which of the following statements is(are) also true? (List the letters.)
+  a. $p\to\sim(q\wedge r\wedge s)$
+  b. $(\sim r\vee s)\to\sim(p\vee\sim q)$
+  c. $(s\to\sim p)\wedge(\sim q\to r)$
+  d. $(p\to\sim r)\vee(\sim s\to q)$
+= a, d
+
+@ Oct 2021
+A: Write the inverse of the contrapositive of the statement $\sim p\to q$.
+= q\to\sim p
+B: Assume that all cats like sandwiches. Which of the following must be true? (List the letters.)
+  (a) If Kenneth is a cat, then Kenneth likes sandwiches.
+  (b) If Kenneth likes sandwiches, then Kenneth is a cat.
+  (c) If Kenneth does not like sandwiches, then Kenneth is not a cat.
+  (d) If Kenneth likes sandwiches and Leilani does not, then only Kenneth might be a cat.
+  (e) If Kenneth is not a cat, then Kenneth does not like sandwiches.
+  (f) If Kenneth isn't not a cat, then Kenneth doesn't like sandwiches.
+= a, c, d
+C: If $q\to r$ is true but $r\to q$ is false, which of the following must be true? (List the letters.)
+  (a) $\sim q\to\sim r$
+  (b) $\sim r\to\sim q$
+  (c) If $q\to j$, then $r\to\sim j$
+  (d) If $k\to q$, then $k\to r$
+  (e) If $j\to q$, then $r\to\sim j$
+= b, d, e
+
+@ Oct 2020
+A: Which of the following is(are) true? (List the letters.)
+  a. $q\to\sim p$ is the converse of the inverse of $p\to\sim q$
+  b. $\sim p\to\sim q$ is the inverse of the contrapositive of $q\to p$
+  c. $\sim q\to\sim p$ is the contrapositive of the inverse of $p\to q$
+  d. $p\to\sim q$ is the inverse of the converse of $q\to\sim p$
+  e. $q\to\sim p$ is the contrapositive of the inverse of $\sim p\to q$
+= a, d, e
+B: What is the conclusion that can be drawn using all of the following statements?
+  - If it is not a school day, then it is not Monday.
+  - It is not raining.
+  - It is Tuesday only if it is raining.
+  - If it is not Tuesday, then it is Monday.
+= \text{It is a school day.}
+C: The four statements refer to a store owner and four employees. One statement is true, and three statements are false.
+  - Alyse is the store owner.
+  - Charlie and Evan are both employees.
+  - Bob is the store owner.
+  - Alyse, David, or Evan is the store owner.
+
+  Who is the store owner?
+= \text{Evan}
+
+@ Oct 2019
+A: What conclusion can be drawn using all of the following statements? $$\sim b\to c,\quad d\to a,\quad a\to\sim c,\quad \sim b$$
+= \sim d
+B: Which of these statements is(are) logically equivalent to $\sim(q\vee\sim p)\to r$? (List the letters.)
+  a. $(\sim q\wedge p)\to r$
+  b. $(\sim q\vee p)\to r$
+  c. $(q\vee\sim p)\vee r$
+  d. $(q\wedge\sim p)\to\sim r$
+= a, c
+C: Iris, Jacob, Karen and Lori work at a small store as the cashier, the manager, the pharmacist, and the security guard (though not necessarily in that order). Each person has exactly one job.
+  - If Lori is not the pharmacist, then Jacob is not the pharmacist.
+  - If Karen is not the cashier, then Iris is the manager.
+  - Iris is the security guard.
+
+  What is Jacob's job? (On the paper: give each person's job.)
+= \text{manager}
+! Official answer: Iris is the security guard, Jacob is the manager, Karen is the cashier, Lori is the pharmacist.
+
+@ Oct 2018
+A: If $p\to q$ is false, which of the following statements is/are true? (List the letters.)
+  (a) $p\vee q$
+  (b) $p\wedge q$
+  (c) $\sim q\to\sim p$
+  (d) $p\leftrightarrow q$
+= a
+B: What can be concluded from the following four statements?
+  - Hannah will not go to brunch.
+  - If scones are on sale, Hannah will buy scones.
+  - Hannah will go to brunch if she is not trying to save money.
+  - Either Hannah will not buy scones or she is not trying to save money.
+= \text{Scones are not on sale.}
+C: What disjunction can be deduced using all of the following premises?
+  - $\sim a$ implies $\sim e$
+  - $\sim d$ only if $\sim c$
+  - the disjunction of $c$ and $f$
+  - $\sim b$ is a sufficient condition for $e$
+  - $\sim d$ is a necessary condition for $a$
+= b\vee f
+
+@ Oct 2017
+A: Consider the statement: "If $p$, then $q$." Which of the following is/are correct? (List the letters.)
+  a. The converse is "If $q$, then $p$."
+  b. The inverse is "If $\sim q$, then $\sim p$."
+  c. The contrapositive is "If $\sim q$, then $\sim p$."
+  d. The inverse is "If $\sim p$, then $\sim q$."
+  e. The contrapositive is "If $\sim p$, then $\sim q$."
+= a, c, d
+B: What conclusion can be made using all of the following statements?
+  - If Yuzo does not have baseball practice, then today is Sunday.
+  - Yuzo does not watch TV only if he studies.
+  - Today is Saturday.
+  - If Yuzo has baseball practice, then he did not watch TV.
+  - If Yuzo did not earn an A, then he did not study.
+= \text{Yuzo earned an A.}
+C: Which two statements are negations of each other? (List the letters.)
+  a. $\sim((p\wedge q)\to r)$
+  b. $(p\wedge r)\to q$
+  c. $\sim(r\to(p\vee q))$
+  d. $p\vee q\vee(\sim r)$
+= c, d
+
+@ Oct 2016
+A: Write the converse of the contrapositive of the statement $r\to p$.
+= \sim r\to\sim p
+B: Which of the following statements is/are equivalent to "If it is raining and pouring, the old man is snoring"? (List the letters.)
+  a. The old man isn't snoring implies it is not raining or not pouring.
+  b. If the old man is snoring, it is not raining or not pouring.
+  c. If it is raining, then it is pouring and the old man is snoring.
+  d. The old man is snoring, or it is not raining or not pouring.
+  e. Raining and pouring is necessary for the old man to be snoring.
+= a, d
+C: Kody wants to grow a white flower. He asks the red plants for help.
+  - Red plant 1: The correct way to grow a white flower is watering and fertilizing.
+  - Red plant 2: The correct way to grow a white flower is either watering and tending, or fertilizing and tending.
+  - Red plant 3: Don't fertilize.
+
+  If red plants never tell the truth, which action(s) must Kody take to grow a white flower: watering, tending, fertilizing?
+= \text{fertilizing}
+
+@ Oct 2015
+A: What conclusion can be made using all of the following statements?
+  - If Betty does not talk to Art, then Art did not sit next to Betty.
+  - Art apologizes to Betty or Art is not sorry.
+  - Art sits next to Betty if and only if Art apologizes to Betty.
+  - Art is sorry.
+= \text{Betty talks to Art.}
+B: Given: $x$ represents a true statement, $y$ represents a false statement, $z$ represents a true statement. Which statement(s) is/are true? (List the letters.)
+  A. $x\vee y$
+  B. $x\wedge y$
+  C. $\sim x\to\sim z$
+  D. $\sim(x\to y)\to z$
+  E. $(z\wedge y)\vee\sim x$
+= A, C, D
+C: After a local Post Office burglary, five suspects were being interviewed. The police know each of them told the truth in one of the statements and lied in the other. Who committed the crime?
+  - Alan: It was Eric. It wasn't Brian.
+  - Brian: It wasn't Charles. It was Alan.
+  - Charles: It was Brian. It wasn't Eric.
+  - Derek: It was Charles. It wasn't Alan.
+  - Eric: It was Derek. It was Alan.
+= \text{Derek}
+
+@ Oct 2014
+A: If $q\to p$ is false and if $p\to q$ is true, what is the truth value of $(p\to q)\wedge(q\leftrightarrow p)$?
+= \text{false}
+B: Exactly one of the following statements is false. Which one is it?
+  a. $\sim(q\to p)$ is false.
+  b. $p\leftrightarrow q$ is false.
+  c. $q\to p$ is true.
+  d. $\sim q\to\sim p$ is true.
+  e. $p\to q$ is true.
+= b
+C: Amy, Bobby, and Candace are teachers at Kukui High School (KHS). One teaches English, one teaches Computer Science, and one teaches Calculus. The Computer Science teacher has taught at KHS the longest of the three. Amy has five years of seniority over the Calculus teacher. Candace, who does not teach English, has taught for ten years. The teacher who has taught the greatest number of years has taught twice as long as the teacher who has taught the fewest number of years. The three teachers have more than $40$ years of teaching experience altogether. How many years has Bobby taught? (On the paper: each teacher's subject and years.)
+= 20
+! Official answer: Amy, English, 15; Bobby, Computer Science, 20; Candace, Calculus, 10.
+
+@ Oct 2013
+A: Which of these is the negation of $p\wedge q$?
+  A. $\sim p\wedge q$
+  B. $\sim p\wedge\sim q$
+  C. $\sim p\vee q$
+  D. $\sim p\vee\sim q$
+  E. $p\to q$
+= D
+B: It is Friday or Chloe is not hungry. If Priscilla likes brunch, then it is not Friday. Chloe is hungry. If Chloe can cook, then Priscilla likes brunch. What conclusion can be reached using all four statements?
+= \text{Chloe cannot cook.}
+C: Brenda and four of her friends (Caroline, Dorothy, Evelyn, Frieda), who attended the same ceramics class, recently completed their masterpieces. Each made a different type of decorative piece; one made a statue that looked just like her pet poodle. From the clues that follow, determine the piece each made, and the order of completion.
+  1. The fruit dish was completed after the ashtray but before Frieda's piece.
+  2. Caroline, who did not make the planter, was the first to finish.
+  3. Dorothy finished her piece before both the ashtray, which was not Evelyn's project, and the candlesticks were completed.
+
+  What did Evelyn make?
+= \text{fruit dish}
+! Official answer: Brenda 3 ashtray; Caroline 1 pet poodle; Dorothy 2 planter; Evelyn 4 fruit dish; Frieda 5 candlesticks.
+
+@ Oct 2012
+A: What conclusion can be made using all of the following statements?
+  - Edward will not call Bella if Bella doesn't believe him.
+  - Either Edward is in love or his heart is playing tricks on him.
+  - Edward will call Bella if and only if he is in love.
+  - Edward's heart isn't playing tricks on him.
+= \text{Bella believes Edward.}
+~ \text{Bella believes him.}
+B: Two or more of the following statements are logically equivalent to each other. List the letters corresponding to those statements.
+  a. The converse of the inverse of $p\to\sim q$
+  b. The inverse of the contrapositive of $q\to p$
+  c. The contrapositive of the inverse of $p\to q$
+  d. The inverse of the converse of $q\to\sim p$
+  e. The contrapositive of the inverse of $\sim p\to q$
+= a, d, e
+C: Alice, Bob, and Carl are the first names of the teachers of Geometry, Health, and Italian at a school. Each teaches only one class, and their last names are Dobson, Ellis, and Foster. Use the clues to figure out the full name of the Geometry teacher.
+  - The Geometry teacher's first and last names aren't Alice or Ellis.
+  - Dobson's first name isn't Carl, and neither Dobson nor Carl teaches Health.
+  - The Geometry teacher's last name isn't Foster.
+  - Neither Bob nor Foster teaches Italian.
+= \text{Bob Dobson}
+! Official answer: Geometry: Bob Dobson; Health: Alice Foster; Italian: Carl Ellis.

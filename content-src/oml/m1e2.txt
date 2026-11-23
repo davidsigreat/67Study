@@ -1,0 +1,142 @@
+# Meet 1, Event 2: GEOMETRY — Angles in a Plane
+# All answers are angle measures in degrees unless stated.
+
+@ Sep 2025
+A: Two lines intersect to form four angles. One angle measures $(3x+10)^\circ$ and an adjacent angle measures $(5x-30)^\circ$. Find $x$.
+= 25
+B: The measure of the supplement of $\angle A$ is $9^\circ$ more than double the measure of $\angle A$. Find the measure of the complement of $\angle A$.
+= 33
+C: Given: $\triangle ABC$ with $m\angle B=90^\circ$, $D$ is on $\overline{AC}$, $AB=BD=DC$. Find $m\angle BDC$.
+= 120
+
+@ Sep 2024
+A: Given: quadrilateral $ABEF$ with $\overline{BE}\parallel\overline{AF}$ and $\overline{CF}\perp\overline{AD}$, $m\angle GAH=10^\circ$ and $m\angle BCH=140^\circ$. Find $m\angle GAF$.
+= 40
+& /oml/fig/m1e2-2024-09-A.png
+B: Given: Isosceles triangle $ADG$ with $\overline{AD}\cong\overline{GD}$, $\overrightarrow{AE}$ bisects $\angle CEF$, $\overleftrightarrow{CE}\parallel\overleftrightarrow{BF}$, $m\angle CEA=30^\circ$ and $m\angle CAE=10^\circ$. Find $m\angle EAG$.
+= 70
+& /oml/fig/m1e2-2024-09-B.png
+C: Given $\triangle ABC$, with $m\angle A=56^\circ$. The bisectors of the exterior angles at $B$ and $C$ meet at point $P$. Find $m\angle BPC$.
+= 62
+
+@ Sep 2023
+A: Given: $\overleftrightarrow{DJ}\parallel\overleftrightarrow{AC}$ and $\overleftrightarrow{BE}\parallel\overleftrightarrow{GI}$, $m\angle FBI=2m\angle DBE$, $m\angle DBE=2m\angle DBA$, $m\angle EBF=3m\angle ABD$. Find $m\angle GHJ$.
+= 126
+& /oml/fig/m1e2-2023-09-A.png
+B: Given: $\overleftrightarrow{HI}\parallel\overleftrightarrow{DE}$, $m\angle HBA=118^\circ$ and $m\angle ACI=96^\circ$, $\overleftrightarrow{AJ}$ bisects $\angle DAE$. Find $m\angle JGE$.
+= 101
+& /oml/fig/m1e2-2023-09-B.png
+C: Given: $\triangle ABC$ with $AB=AC$, $D$ is on $\overline{AC}$ and $E$ is on $\overline{AB}$, $AE=ED=DB=BC$. Find $m\angle ABC$.
+= \frac{540}{7}
+& /oml/fig/m1e2-2023-09-C.png
+
+@ Sep 2022
+A: $\overrightarrow{BD}$ bisects $\angle ABC$. If $m\angle ABD=(3x+14)^\circ$ and $m\angle CBD=(7x-2)^\circ$, find $m\angle ABC$.
+= 52
+B: Given: $\overleftrightarrow{BD}\parallel\overleftrightarrow{AS}$, $m\angle STA=40^\circ$, $m\angle TSU=12^\circ$, $m\angle SAT=45^\circ$. Find $m\angle UCB$.
+= 83
+& /oml/fig/m1e2-2022-09-B.png
+C: Given: $\overleftrightarrow{WE}$, $\overleftrightarrow{XF}$, and $\overleftrightarrow{YD}$ intersect at $Z$; $\overline{DE}\parallel\overline{XY}$; $\overleftrightarrow{YX}\perp\overleftrightarrow{XF}$ and $\overleftrightarrow{XW}\perp\overleftrightarrow{WE}$; $\overrightarrow{EF}$ bisects $\angle DFZ$; $m\angle WXZ=50^\circ$ and $m\angle ZFE=123^\circ$. Find $m\angle FDE$.
+= 24
+& /oml/fig/m1e2-2022-09-C.png
+
+@ Sep 2021
+A: Given: $\angle ABD$ is the supplement of $\angle EDB$, $\overline{BC}$ bisects $\angle ABD$ and $\overline{DC}$ bisects $\angle EDB$. Find $m\angle CBD+m\angle CDB$.
+= 90
+& /oml/fig/m1e2-2021-09-A.png
+B: Given: $\overleftrightarrow{AB}\parallel\overleftrightarrow{CE}$ and $D$ is on $\overleftrightarrow{CE}$, $\overleftrightarrow{AC}\parallel\overleftrightarrow{BD}$, $\overleftrightarrow{AD}\parallel\overleftrightarrow{BE}$, $m\angle ABD=72^\circ$, $\overleftrightarrow{AD}$ bisects $\angle CAB$. Find $m\angle BED$.
+= 54
+& /oml/fig/m1e2-2021-09-B.png
+C: Given: $\triangle BAD$ with $E$ on $\overline{AB}$ and $U$ on $\overline{AD}$, $m\angle BAD=62^\circ$, $m\angle BID=87^\circ$, $\overline{BI}$ bisects $\angle ABU$, $\overline{DI}$ bisects $\angle EDU$. Find $m\angle BED+m\angle BUD$.
+= 174
+& /oml/fig/m1e2-2021-09-C.png
+
+@ Sep 2020
+A: $\triangle BCD$ is an equilateral triangle. $D$ is a point on $\overline{AC}$. $m\angle A=25^\circ$. Find $m\angle ABD$.
+= 35
+& /oml/fig/m1e2-2020-09-A.png
+B: Find $x+y$ so that $m\parallel n$.
+= 70
+& /oml/fig/m1e2-2020-09-B.png
+C: Given: $\triangle ABC$ with exterior angles $\angle ACM$ and $\angle CAN$, $m\angle B=k$ and $m\angle ACM=2m\angle CAN$, the bisector of $\angle ACM$ intersects the bisector of $\angle CAN$ at $P$. Find $m\angle CPA$ in terms of $k$.
+= 90-\frac{k}{2}
+& /oml/fig/m1e2-2020-09-C.png
+
+@ Sep 2019
+A: $C$ is on $\overleftrightarrow{BE}$ so that $\overline{CD}\perp\overline{CA}$, $\angle BCA$ is the supplement of the complement of $26^\circ$. Find $m\angle ECD$.
+= 26
+& /oml/fig/m1e2-2019-09-A.png
+B: Given: $\overline{BH}\parallel\overline{JC}$, $\overline{AD}\perp\overline{DC}$, and $\overline{CF}\perp\overline{FH}$. Points $D$, $F$, and $H$ are collinear. $m\angle FCJ=110^\circ$ and $m\angle HAD=120^\circ$. Find $m\angle AHF$.
+= 20
+& /oml/fig/m1e2-2019-09-B.png
+C: Given: $\triangle PQR$ with $Z$ on $\overline{PR}$ such that $m\angle PZQ=m\angle PQZ$, $m\angle PQR-m\angle PRQ=42^\circ$. Find $m\angle RQZ$.
+= 21
+
+@ Sep 2018
+A: In the diagram, $B$, $C$, and $D$ are collinear, $B$, $P$, and $Q$ are collinear, $m\angle BAC=70^\circ$, $m\angle ACP=40^\circ$, $m\angle PCD=80^\circ$, $\overrightarrow{BQ}$ bisects $\angle ABC$. Find $m\angle CPQ$.
+= 125
+& /oml/fig/m1e2-2018-09-A.png
+B: Given $\triangle ABC$, $D$ is on $\overline{AC}$ and $E$ is on $\overline{AB}$. $\overline{AB}\cong\overline{AC}$ and $\overline{AE}\cong\overline{DE}\cong\overline{BD}\cong\overline{BC}$. Find $m\angle A$.
+= \frac{180}{7}
+& /oml/fig/m1e2-2018-09-B.png
+C: Given $\triangle XYZ$ with obtuse angle $\angle Y$. $A$ and $B$ are points on $\overline{XZ}$ with $A$ between $X$ and $B$. $\overline{AY}$ and $\overline{BY}$ are angle trisectors of $\angle Y$. $m\angle X=41^\circ$, and $m\angle YAB+m\angle YBZ=4+6m\angle Z$. Find $m\angle Y$.
+= 108
+
+@ Sep 2017
+A: Given $\triangle ABC$ with $D$ on $\overline{BC}$, $AB=BD=AC$, and $m\angle CAD=42^\circ$. Find $m\angle ABD$.
+= 32
+B: Given $\triangle ABC$ with $M$ on $\overline{AC}$ and $N$ on $\overline{BC}$, $\angle ABC\cong\angle ACB$, $\overline{AN}\cong\overline{AM}$, and $m\angle BAN=46^\circ$. Find $m\angle MNC$.
+= 23
+& /oml/fig/m1e2-2017-09-B.png
+C: Given $\triangle ABC$ with $m\angle A<m\angle B<m\angle C$. The measures of the exterior angles of $\triangle ABC$, in no particular order, are given by $(x+4)^\circ$, $(x+21)^\circ$ and $(2x-45)^\circ$. Let $D$ and $E$ be points inside $\triangle ABC$ such that $BD+DE=BE$, $\overrightarrow{BD}$ bisects $\angle CBA$, and $\overrightarrow{CD}$ and $\overrightarrow{CE}$ trisect $\angle BCA$. Find $m\angle BEC$.
+= 94
+
+@ Sep 2016
+A: If the measure of $\angle P$ is increased by $18^\circ$, the result is equal to the measure of the complement of $\angle P$. Find the measure of $\angle P$.
+= 36
+B: Given: $\overline{AC}\perp\overline{BC}$, $\overline{AD}\perp\overline{DE}$, $\overline{BE}\perp\overline{DE}$, $\angle ACD\cong\angle BCE$. $D$, $C$, and $E$ are collinear and $F$, $A$, and $B$ are collinear. If $m\angle ABC-m\angle BAC=14^\circ$, what is $m\angle FAD$?
+= 97
+& /oml/fig/m1e2-2016-09-B.png
+C: Given: $\overline{MN}$ bisects $\angle ANF$, $\overline{HT}$ bisects $\angle AHF$, $m\angle ANF=58^\circ$, $m\angle HFN=48^\circ$. Find $m\angle HTM$.
+= 156
+& /oml/fig/m1e2-2016-09-C.png
+
+@ Sep 2015
+A: Point $D$ is in the interior of $\angle ABC$. If $m\angle ABC=8x+7$, $m\angle ABD=5x-12$, and $m\angle DBC=4x+10$, find the measure of $\angle DBC$.
+= 46
+B: Given: $\overline{BA}\parallel\overline{RS}$, $m\angle TBR=3x+56$, $m\angle TRS=5x+7$, $m\angle BRT=x$. Find $m\angle SRC$.
+= 95
+& /oml/fig/m1e2-2015-09-B.png
+C: Given: $\overline{FA}$ bisects $\angle MFG$, $\overline{IH}\parallel\overline{JM}\parallel\overline{KL}$, $m\angle FAL=x^2-5x$, $m\angle JFG=2x+2$. Find $m\angle HCF$.
+= 152
+& /oml/fig/m1e2-2015-09-C.png
+
+@ Sep 2014
+A: In $\triangle ACE$, $\overline{BD}\parallel\overline{AE}$ and $\angle A\cong\angle BEA$. If $m\angle ABE=8x$ and $m\angle DBE=3x+6$, what is $x$?
+= 12
+& /oml/fig/m1e2-2014-09-A.png
+B: In $\triangle ABC$, if $m\angle A=63^\circ$ and $\angle FDA\cong\angle B$, find $m\angle CEG$.
+= 117
+& /oml/fig/m1e2-2014-09-B.png
+C: In the figure, $m\angle B=m\angle D=m\angle E$ and $m\angle C=2m\angle B$. $m\angle A=35^\circ$. Find $m\angle C$.
+= 58
+& /oml/fig/m1e2-2014-09-C.png
+
+@ Sep 2013
+A: The complement of the supplement of an angle is tripled. The result is six less than the measure of the original angle. Find the measure of the original angle.
+= 132
+B: Given: $\overline{AB}$ bisects $\angle DAE$, and $\overline{BC}$ is parallel to $\overline{ED}$. If $m\angle CAE=60^\circ$, find the difference between $m\angle B$ and $m\angle E$.
+= 30
+& /oml/fig/m1e2-2013-09-B.png
+C: Given: Obtuse $\triangle XYZ$ with $m\angle X=8a+3$, $m\angle Y=24a+2$, and $m\angle Z=3a$. $W$ is a point on $\overline{XZ}$ so that $\overline{WY}\perp\overline{XZ}$. $\overline{YZ}$ is extended to a point $V$ so that $\overline{XV}\perp\overline{VZ}$. $T$ is a point on $\overline{XZ}$ so that $\overline{TV}\perp\overline{XY}$. Find $m\angle VTZ$.
+= 133
+
+@ Sep 2012
+A: Lines $m$ and $n$ are parallel. If $m\angle 3=66^\circ$, and $m\angle 8=(2x+4)^\circ$, what is the numerical value of $x$?
+= 55
+& /oml/fig/m1e2-2012-09-A.png
+B: Given: $\triangle ABC$ with $m\angle A=85^\circ$, $m\angle C=53^\circ$, $D$ is on $\overline{BC}$, $E$ is on $\overline{AC}$, $\overline{AD}\perp\overline{BC}$, and $\overline{BE}$ bisects $\angle B$. Find $m\angle BEC$.
+= 106
+C: In the diagram, $\triangle BCD\cong\triangle ACE$. $m\angle BDC=19a+3b$, $m\angle CDE=23a-6b$, $m\angle EAC=24b-10a$, $m\angle CED=11a+3b$, $\overline{AC}\perp\overline{EC}$, and $\overline{BC}\perp\overline{DC}$. Find the measure of $\angle CAB$. (Figure is not drawn to scale.)
+= 60
+& /oml/fig/m1e2-2012-09-C.png

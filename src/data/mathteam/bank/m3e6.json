@@ -1,0 +1,369 @@
+[
+ {
+  "id": "m3e6-2025-11-A",
+  "event": "m3e6",
+  "date": "Nov 2025",
+  "level": "A",
+  "q": "Let $f(x)=3x+4$ and $g(x)=-2x^2+5$. Find $g(f(2))$.",
+  "a": "-195"
+ },
+ {
+  "id": "m3e6-2025-11-B",
+  "event": "m3e6",
+  "date": "Nov 2025",
+  "level": "B",
+  "q": "Given $f(x)=\\sqrt{3x-2}$. Find $f^{-1}(x)$. (On the paper, also give the domain of $f^{-1}$: $x\\ge 0$.)",
+  "a": "\\frac{1}{3}x^2+\\frac{2}{3}",
+  "note": "Official answer: f⁻¹(x) = (1/3)x² + 2/3; domain: x ≥ 0."
+ },
+ {
+  "id": "m3e6-2025-11-C",
+  "event": "m3e6",
+  "date": "Nov 2025",
+  "level": "C",
+  "q": "Given: $f(x)=x^2+4x-1$, $-3\\le x\\le 0$; $g(x)=2x-7$, $1\\le x\\le 4$; $h(x)=-x^2-2x+3$, $-2\\le x\\le 0$. Find the range of $k(x)=f(g(h(x)))$.",
+  "a": "-4\\le y\\le -1"
+ },
+ {
+  "id": "m3e6-2024-11-A",
+  "event": "m3e6",
+  "date": "Nov 2024",
+  "level": "A",
+  "q": "Given $f=\\{(1,1),(2,3),(3,4),(4,5)\\}$ and $g(x)=x^2+1$, find $f(g(1))$.",
+  "a": "3"
+ },
+ {
+  "id": "m3e6-2024-11-B",
+  "event": "m3e6",
+  "date": "Nov 2024",
+  "level": "B",
+  "q": "Given $f(x)=|x|-1$ and $g(x)=x^2-16$. Find the domain of $\\dfrac{f}{g}$.",
+  "a": "x\\ne\\pm 4"
+ },
+ {
+  "id": "m3e6-2024-11-C",
+  "event": "m3e6",
+  "date": "Nov 2024",
+  "level": "C",
+  "q": "If $f(x)=x^2+5$ for $x>0$, and $g(x)=\\sqrt{1-x}$, find the value of $g^{-1}\\left(f^{-1}(9)\\right)$.",
+  "a": "-3"
+ },
+ {
+  "id": "m3e6-2023-11-A",
+  "event": "m3e6",
+  "date": "Nov 2023",
+  "level": "A",
+  "q": "$f$ and $g$ are non-zero functions and are defined for all real numbers. In addition, $f$ is an even function and $g$ is an odd function. Which of the following statements is/are true? (List the letters.)\nA. $(f\\circ g)(x)$ is odd.\nB. $(f+g)(x)$ is even.\nC. $\\left(\\dfrac{g}{f}\\right)(x)$ is odd.\nD. $(f\\circ f)(x)$ is even.\nE. $(g\\cdot g)(x)$ is even.",
+  "a": "C, D, E"
+ },
+ {
+  "id": "m3e6-2023-11-B",
+  "event": "m3e6",
+  "date": "Nov 2023",
+  "level": "B",
+  "q": "Given: $f$ is a linear function, $f^{-1}(1)=-1$ and $f^{-1}(-1)=2$. Find $f(4)$.",
+  "a": "-\\frac{7}{3}"
+ },
+ {
+  "id": "m3e6-2023-11-C",
+  "event": "m3e6",
+  "date": "Nov 2023",
+  "level": "C",
+  "q": "Given: $f(x)=\\begin{cases}x+4, & x\\le 2\\\\ x-4, & x>2\\end{cases}$ and $g(x)=\\sqrt{\\dfrac{1}{f(2x-1)}}$. Find the domain of $g$.",
+  "a": "-\\frac{3}{2}<x\\le\\frac{3}{2} \\text{ or } x>\\frac{5}{2}"
+ },
+ {
+  "id": "m3e6-2022-11-A",
+  "event": "m3e6",
+  "date": "Nov 2022",
+  "level": "A",
+  "q": "If $f(x)=2g(x)$ and $g(x)=\\dfrac{1}{2}x^2+2$, find $g(f(4))$.",
+  "a": "202"
+ },
+ {
+  "id": "m3e6-2022-11-B",
+  "event": "m3e6",
+  "date": "Nov 2022",
+  "level": "B",
+  "q": "If $m(x)=2x^2-7$ and $p(x)=\\sqrt{3x+5}$, find the domain of $p\\circ m$.",
+  "a": "x\\le -\\frac{2\\sqrt{6}}{3} \\text{ or } x\\ge\\frac{2\\sqrt{6}}{3}"
+ },
+ {
+  "id": "m3e6-2022-11-C",
+  "event": "m3e6",
+  "date": "Nov 2022",
+  "level": "C",
+  "q": "$f$ and $g$ are linear functions such that $f(2)=g(-3)=3$ and $f(8)=g(1)=7$. If $h(x)=f(g(x))$, find $h^{-1}(x)$.",
+  "a": "\\frac{3}{2}x-\\frac{17}{2}"
+ },
+ {
+  "id": "m3e6-2021-11-A",
+  "event": "m3e6",
+  "date": "Nov 2021",
+  "level": "A",
+  "q": "Given: $f=\\{(-2,3),(0,7),(1,6),(3,-2),(4,-9)\\}$ and $g=\\{(1,-2),(2,-1),(4,1),(6,3),(8,5)\\}$. Find $(g\\circ f)\\circ\\left(g^{-1}\\circ f^{-1}\\right)(3)$.",
+  "a": "3"
+ },
+ {
+  "id": "m3e6-2021-11-B",
+  "event": "m3e6",
+  "date": "Nov 2021",
+  "level": "B",
+  "q": "If $f(5x+9)=3x-2$, find $f(2a+3)$.",
+  "a": "\\frac{6a-28}{5}"
+ },
+ {
+  "id": "m3e6-2021-11-C",
+  "event": "m3e6",
+  "date": "Nov 2021",
+  "level": "C",
+  "q": "If $f(x+2)=3f(2-x)+5$, find $f(7)$.",
+  "a": "-\\frac{5}{2}"
+ },
+ {
+  "id": "m3e6-2020-11-A",
+  "event": "m3e6",
+  "date": "Nov 2020",
+  "level": "A",
+  "q": "Let $f(x)=2x+1$ and $g(x)=\\sqrt{x+1}$. Find $f(g(8))$.",
+  "a": "7"
+ },
+ {
+  "id": "m3e6-2020-11-B",
+  "event": "m3e6",
+  "date": "Nov 2020",
+  "level": "B",
+  "q": "If $g(3x+2)=12x-7$ for all $x$, find $g\\left(x^2+4x\\right)$ in terms of $x$.",
+  "a": "4x^2+16x-15"
+ },
+ {
+  "id": "m3e6-2020-11-C",
+  "event": "m3e6",
+  "date": "Nov 2020",
+  "level": "C",
+  "q": "Given the functions $f(x)=2x-1$, $-1<x<4$; $g(x)=x^2-5x$, $-2<x<1$; $h(x)=\\sqrt{x-2}$, $2<x<16$. Find the range of the function $f(g(h(x)))$.",
+  "a": "-3<y<-1"
+ },
+ {
+  "id": "m3e6-2019-11-A",
+  "event": "m3e6",
+  "date": "Nov 2019",
+  "level": "A",
+  "q": "If $f(x)=2x^2-3x-1$ and $g(x)=-x+5$, find $(f\\circ g)(-1)$.",
+  "a": "53"
+ },
+ {
+  "id": "m3e6-2019-11-B",
+  "event": "m3e6",
+  "date": "Nov 2019",
+  "level": "B",
+  "q": "Find the domain of $f(x)=\\dfrac{\\sqrt{4x^2-9}}{x-3}$.",
+  "a": "x\\le -\\frac{3}{2} \\text{ or } \\frac{3}{2}\\le x<3 \\text{ or } x>3"
+ },
+ {
+  "id": "m3e6-2019-11-C",
+  "event": "m3e6",
+  "date": "Nov 2019",
+  "level": "C",
+  "q": "Write the equation of the graph obtained when $y=\\dfrac{2x+3}{5x+7}$ is first translated $1$ unit left, then stretched horizontally by a factor of $4$, and finally reflected about the line $y=x$. Write your answer in the form $y=\\dfrac{p(x)}{q(x)}$, where $p$ and $q$ are polynomials.",
+  "a": "\\frac{20-48x}{5x-2}"
+ },
+ {
+  "id": "m3e6-2018-11-A",
+  "event": "m3e6",
+  "date": "Nov 2018",
+  "level": "A",
+  "q": "If $f=\\{(0,1),(1,2),(2,3),(3,4),(4,5),(5,6)\\}$ and $g=\\{(0,2),(1,3),(2,4),(3,5),(4,6),(5,7),(6,8)\\}$, find the domain of $f(g(x))$.",
+  "a": "\\{0, 1, 2, 3\\}"
+ },
+ {
+  "id": "m3e6-2018-11-B",
+  "event": "m3e6",
+  "date": "Nov 2018",
+  "level": "B",
+  "q": "If $g(3x-1)=9x+1$, find $g(5x+2)$ in terms of $x$.",
+  "a": "15x+10"
+ },
+ {
+  "id": "m3e6-2018-11-C",
+  "event": "m3e6",
+  "date": "Nov 2018",
+  "level": "C",
+  "q": "$g$ and $h$ are linear functions such that $g(0)=h(3)=10$ and $g(-2)=h(5)=7$. If $f(x)=g(h(x))$, find $f^{-1}(x)$.",
+  "a": "-\\frac{4}{9}x+\\frac{127}{9}"
+ },
+ {
+  "id": "m3e6-2017-11-A",
+  "event": "m3e6",
+  "date": "Nov 2017",
+  "level": "A",
+  "q": "If $f=\\{(1,0),(-5,3),(2,18)\\}$ and $g=\\{(-1,18),(18,5),(3,2),(2,3)\\}$ find $\\left(g^{-1}\\circ f\\circ g\\right)(3)$.",
+  "a": "-1"
+ },
+ {
+  "id": "m3e6-2017-11-B",
+  "event": "m3e6",
+  "date": "Nov 2017",
+  "level": "B",
+  "q": "Find the domain of $f(x)=\\dfrac{2}{\\sqrt{3-|x|}}$.",
+  "a": "-3<x<3"
+ },
+ {
+  "id": "m3e6-2017-11-C",
+  "event": "m3e6",
+  "date": "Nov 2017",
+  "level": "C",
+  "q": "Given $f(x)=5x+2$ and $g(x)=2x-3$ find $c$ such that $g^{-1}(c)\\cdot f^{-1}(c)=f^{-1}\\left(g^{-1}(c)\\right)$.",
+  "a": "\\sqrt{5}, -\\sqrt{5}"
+ },
+ {
+  "id": "m3e6-2016-11-A",
+  "event": "m3e6",
+  "date": "Nov 2016",
+  "level": "A",
+  "q": "If $f$ is a linear function, and $f^{-1}(2)=3$ and $f^{-1}(4)=1$, find $f(8)$.",
+  "a": "-3"
+ },
+ {
+  "id": "m3e6-2016-11-B",
+  "event": "m3e6",
+  "date": "Nov 2016",
+  "level": "B",
+  "q": "Given that $f(x)=\\sqrt{\\dfrac{2-x}{x^2-16}}$, find the domain of $f$.",
+  "a": "x<-4 \\text{ or } 2\\le x<4"
+ },
+ {
+  "id": "m3e6-2016-11-C",
+  "event": "m3e6",
+  "date": "Nov 2016",
+  "level": "C",
+  "q": "If $h(x)=x^2-2$ for $x\\ge 0$, and $g(x)=\\sqrt{x-3}$, find the domain of $\\left(g^{-1}\\circ h^{-1}\\right)$.",
+  "a": "x\\ge -2"
+ },
+ {
+  "id": "m3e6-2015-11-A",
+  "event": "m3e6",
+  "date": "Nov 2015",
+  "level": "A",
+  "q": "If $f(x)=5x^2-2x+1$ and $g^{-1}(x)=x-1$, find $f(g(2))$.",
+  "a": "40"
+ },
+ {
+  "id": "m3e6-2015-11-B",
+  "event": "m3e6",
+  "date": "Nov 2015",
+  "level": "B",
+  "q": "Find the domain of $f(x)=\\dfrac{\\sqrt{x^2-1}}{x+3}$.",
+  "a": "x<-3 \\text{ or } -3<x\\le -1 \\text{ or } x\\ge 1"
+ },
+ {
+  "id": "m3e6-2015-11-C",
+  "event": "m3e6",
+  "date": "Nov 2015",
+  "level": "C",
+  "q": "$f$ and $g$ are linear functions such that $f(3)=g(1)=5$ and $f(-1)=g(2)=6$. If $h(x)=f(g(x))$, find $h^{-1}(x)$.",
+  "a": "-4x+19"
+ },
+ {
+  "id": "m3e6-2014-11-A",
+  "event": "m3e6",
+  "date": "Nov 2014",
+  "level": "A",
+  "q": "$f(x)=2x-1$ and $g(x)=(x-1)^2$. Find $(f\\circ g)(a)$.",
+  "a": "2a^2-4a+1"
+ },
+ {
+  "id": "m3e6-2014-11-B",
+  "event": "m3e6",
+  "date": "Nov 2014",
+  "level": "B",
+  "q": "Given: $f(x)=2x-1$, $f(g(x))=2x-3$, $g(h(x))=3x^2$. Find the value of $h(g(f(-1)))$.",
+  "a": "49"
+ },
+ {
+  "id": "m3e6-2014-11-C",
+  "event": "m3e6",
+  "date": "Nov 2014",
+  "level": "C",
+  "q": "Given $f(x)$ such that $f(2-x)+(2-x)f(x)=4$. Find $f(3)$.",
+  "a": "-2"
+ },
+ {
+  "id": "m3e6-2013-11-A",
+  "event": "m3e6",
+  "date": "Nov 2013",
+  "level": "A",
+  "q": "Given $f(x)=2x+3$ and $g(x)=-x^2+5$, find $(f\\circ g)(1)$.",
+  "a": "11"
+ },
+ {
+  "id": "m3e6-2013-11-B",
+  "event": "m3e6",
+  "date": "Nov 2013",
+  "level": "B",
+  "q": "If $g(2x+1)=x$ for all $x$, find $g(7x-2)$.",
+  "a": "\\frac{7x-3}{2}"
+ },
+ {
+  "id": "m3e6-2013-11-C",
+  "event": "m3e6",
+  "date": "Nov 2013",
+  "level": "C",
+  "q": "Let $f(x)=x^2-11$, $g(x+2)+7=3g(x)+g(5)$, and $h(x)=\\sqrt{x+2}-1$. Find $(g\\circ h\\circ f)(-5)$.",
+  "a": "\\frac{7}{3}"
+ },
+ {
+  "id": "m3e6-2012-11-A",
+  "event": "m3e6",
+  "date": "Nov 2012",
+  "level": "A",
+  "q": "If $h(x)=(f\\circ g)(x)=8x+11$, and $g(x)=2x+3$, determine the linear function $f(x)$.",
+  "a": "4x-1"
+ },
+ {
+  "id": "m3e6-2012-11-B",
+  "event": "m3e6",
+  "date": "Nov 2012",
+  "level": "B",
+  "q": "$f(x)=\\dfrac{ax+b}{x^2+c}$ where $a$, $b$, and $c$ are real constants. Find the values of $a$, $b$, and $c$ so that $f$ is odd, $f(2)=-2$ and $f(6)=\\dfrac{10}{9}$.",
+  "a": "a=5, b=0, c=-9",
+  "alt": [
+   "5, 0, -9"
+  ]
+ },
+ {
+  "id": "m3e6-2012-11-C",
+  "event": "m3e6",
+  "date": "Nov 2012",
+  "level": "C",
+  "q": "Given $f(x)$ such that $f(1-x)+(1-x)f(x)=5$, find $f(5)$.",
+  "a": "-\\frac{20}{21}"
+ },
+ {
+  "id": "m3e6-2011-11-A",
+  "event": "m3e6",
+  "date": "Nov 2011",
+  "level": "A",
+  "q": "Let $f(x)=\\dfrac{2x-3}{x-4}$. Evaluate $f\\left(\\dfrac{1}{3}\\right)-f\\left(\\dfrac{5}{3}\\right)$.",
+  "a": "\\frac{60}{77}"
+ },
+ {
+  "id": "m3e6-2011-11-B",
+  "event": "m3e6",
+  "date": "Nov 2011",
+  "level": "B",
+  "q": "$f=\\{(0,4),(1,-5),(2,-2),(3,1),(4,2),(5,-3)\\}$ and $g=\\{(-3,2),(-2,0),(-1,4),(1,-1),(2,5),(3,-2)\\}$. Find $\\left(g\\circ f^{-1}\\right)\\circ(f\\circ g)$.",
+  "a": "\\{(-3, 5)\\}",
+  "alt": [
+   "(-3, 5)"
+  ]
+ },
+ {
+  "id": "m3e6-2011-11-C",
+  "event": "m3e6",
+  "date": "Nov 2011",
+  "level": "C",
+  "q": "Consider the functions $f(x)=-x^2+2x$, $-3\\le x\\le 6$; $g(x)=3x-5$, $0\\le x\\le 5$; $h(x)=2x^2+4x+3$, $-2\\le x\\le 1$. Find the range of the function $k(x)=f(g(h(x)))$.",
+  "a": "-24\\le y\\le 1"
+ }
+]

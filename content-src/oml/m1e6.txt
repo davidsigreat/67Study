@@ -1,0 +1,120 @@
+# Meet 1, Event 6: ALGEBRA II — Fractional Expressions & Equations
+# 2012–2016 papers are old Meet 1 Event 6 "Simplifying Fractional Expressions". (The old Event 1
+# papers in the same PDF duplicate Meet 1 Event 1 and are not repeated here.)
+
+@ Sep 2025
+A: Simplify: $$\dfrac{25-x^2}{x+2}\div\dfrac{3x^2+15x}{6+3x}$$
+= \frac{5-x}{x}
+B: Simplify: $$\dfrac{\dfrac{4x^2-12x}{3x^2+13x-10}}{\dfrac{2x}{3x-2}}-\dfrac{6}{3x+15}$$
+= \frac{2x-8}{x+5}
+C: Solve for $x$: $$\dfrac{2x}{x+1}-\dfrac{3x+1}{x-2}=\dfrac{7x^2+x-2}{x^2-x-2}$$
+= -\frac{9}{16}\pm\frac{\sqrt{113}}{16}
+
+@ Sep 2024
+A: If $a=\dfrac{1}{3}$, $b=\dfrac{1}{4}$, and $c=\dfrac{1}{5}$, find the value of $\dfrac{ab}{c}+\dfrac{ac}{b}+\dfrac{bc}{a}$.
+= \frac{5}{6}
+B: Given $b$ is a non-zero constant, solve for $a$: $$\dfrac{b-4}{2a-b}=\dfrac{b+2}{a+b}$$
+= \frac{2b^2-2b}{b+8}
+C: Simplify: $$\dfrac{2}{x-2}+\dfrac{3x+5}{x^2+2x+4}-\dfrac{4x^2+x-6}{x^3-8}$$
+= \frac{1}{x-2}
+
+@ Sep 2023
+A: Simplify: $$\left(1+2x^{-1}\right)\left(2+7x^{-1}+6x^{-2}\right)^{-1}$$
+= \frac{x}{2x+3}
+B: Three pipes can be used to fill a swimming pool. The largest pipe alone takes one-third the time that the smallest pipe takes and half the time the other pipe takes. If all three pipes are open, it takes $3$ hours to fill the pool. If only the largest pipe is opened, how long (in hours) would it take to fill the pool?
+= 5\frac{1}{2}
+~ \frac{11}{2} ;; 5.5
+C: Simplify: $$\dfrac{4x-11}{x^2-x-2}-\dfrac{2x+7}{x^2+3x+2}$$
+= \frac{2x-8}{x^2-4}
+
+@ Sep 2022
+A: Simplify: $$\dfrac{\dfrac{1}{6}}{\dfrac{a}{36}-\dfrac{1}{a}}$$
+= \frac{6a}{a^2-36}
+B: Solve for $x$: $$\dfrac{x^2-6x+9}{x^2-x-6}\cdot\dfrac{x^2+2x}{x^2+2x-15}=2$$
+= -10
+C: Simplify: $$\dfrac{\dfrac{x^4-26x^2+25}{x-5}}{\dfrac{x^2}{x-3}-\dfrac{x^2}{x^2+3x}-\dfrac{3x^2+12x-9}{x^2-9}}$$
+= x^2+6x+5
+
+@ Sep 2021
+A: Solve for $x$: $$\dfrac{x^2-64}{x^2-4}=\dfrac{2x+16}{x-2}$$
+= -12, -8
+B: Simplify: $$\dfrac{9}{2-x}-\dfrac{8x^2+16x+32}{8-x^3}$$
+= \frac{1}{2-x}
+C: When the larger of two numbers is divided by the smaller number, the quotient is $2$ with remainder $8$. When the sum of the two numbers is divided by the positive difference of the two numbers, the quotient is $2$ with remainder $16$. Find the sum of the two numbers.
+= 80
+
+@ Sep 2020
+A: Solve for $x$: $$\dfrac{2x-1}{x-4}+\dfrac{4}{2x-1}=\dfrac{1}{(x-4)(2x-1)}$$
+= -2, 2
+B: Pipe A can drain a $1250$ gallon tank by itself in $15$ hours, while Pipe B can drain the same tank by itself in $10$ hours. If Pipe A is opened at 7 am and then Pipe B is opened at noon, at what time will the tank be completely empty?
+= 4\text{ p.m.}
+~ 4pm ;; 4:00\text{ p.m.} ;; 16:00
+C: Given the equation $$\dfrac{8}{x^3-64}=\dfrac{A}{x-4}+\dfrac{Bx+C}{x^2+4x+16},$$ where $A$, $B$, and $C$ are real numbers. Find the value of $A+B-3C$.
+= 4
+
+@ Sep 2019
+A: Solve: $$\dfrac{p+5}{p^2+p}=\dfrac{1}{p^2+p}-\dfrac{p-6}{p+1}$$
+= 1, 4
+B: Simplify: $$\dfrac{\dfrac{r^2+3r}{r^2+2r+1}}{\dfrac{3r}{3r+3}}+\dfrac{9r+6}{3r+3}$$
+= \frac{4r+5}{r+1}
+C: Each valve A, B, and C, when open, releases water into a tank at its own constant rate. With all three valves open the tank fills in $1$ hour. With only valves A and C open it takes $1.5$ hours. With only valves B and C open it takes $2$ hours. How long will it take to fill the tank with only valves A and B open? (Answer in minutes.)
+= 72
+! Official answer: 1 hour 12 minutes.
+
+@ Sep 2018
+A: Solve for $x$: $$2-\dfrac{3x+2}{2x}=\dfrac{2x-1}{4x-3}$$
+= \frac{2}{3}
+B: Simplify: $$\dfrac{x^{3a-2}+x^{3a-1}}{x^{a+5}+x^{a+4}}\div x^3$$
+= x^{2a-9}
+C: Alan and Billy can each paint a doghouse (of identical size) alone. Billy can complete the job in two fewer hours than Alan. When Alan's job completion time is added to Billy's completion time, the result is seven times the positive difference of their completion times. How long (in hours) would it take Alan and Billy to paint the doghouse if they work together?
+= 3\frac{3}{7}
+~ \frac{24}{7}
+
+@ Sep 2017
+A: Simplify: $$\dfrac{x^7+4x^6+4x^5}{x^4(x+2)^5}$$
+= \frac{x}{(x+2)^3}
+B: Lance can paint a fence by himself in $12\frac{1}{2}$ hours. If Lance gets his two buddies Bryan and David to help him they can paint the fence in $4$ hours. If Bryan works at the same pace as Lance, how long (in hours) would it take David to paint the fence by himself?
+= \frac{100}{9}
+C: Simplify: $$\dfrac{a-b+c}{b^2-a^2+c^2-2bc}-\dfrac{a+b+c}{a^2-b^2-c^2-2bc}-\dfrac{2b}{a^2-b^2+c^2-2ac}$$
+= -\frac{2}{a-b-c}
+
+@ Sep 2016
+A: Simplify: $$\dfrac{4x^2+4x+4}{1-x^3}+\dfrac{3}{x-1}$$
+= \frac{1}{1-x}
+B: Simplify: $$\dfrac{a-b}{ab+ac+bc+c^2}+\dfrac{a-c}{ab+ac+b^2+bc}+\dfrac{b-c}{a^2+ab+ac+bc}$$
+= \frac{2(a-c)}{(a+b)(b+c)}
+C: Simplify: $$\dfrac{\dfrac{1}{x^4-5x^2+4}-\dfrac{1}{x^2+3x+2}}{\dfrac{1}{x^2-3x+2}}$$
+= \frac{-x^2+3x-1}{(x+2)(x+1)}
+
+@ Sep 2015
+A: Simplify: $$\dfrac{x}{x^2-2x-3}\cdot\dfrac{2x-6}{x^2-4x+3}\div\dfrac{4x^2}{x^2-1}$$
+= \frac{1}{2x^2-6x}
+B: Simplify: $$\dfrac{\dfrac{1}{5}-\dfrac{1}{x^2-4}}{\dfrac{1}{x-2}-\dfrac{1}{x+2}}$$
+= \frac{x^2-9}{20}
+C: Simplify: $$\dfrac{10b^2-ab}{a\left(a^2-4b^2\right)}-\dfrac{1}{a-2b}+\dfrac{2}{a}$$
+= \frac{a-b}{a^2+2ab}
+
+@ Sep 2014
+A: Simplify: $$\dfrac{x^3-y^3}{x-y}\div\dfrac{x^2+xy+y^2}{3x-3y}$$
+= 3x-3y
+~ 3(x-y)
+B: Simplify: $$\left[\dfrac{x^{4n+2}-4x^{3n+2}}{x^{6n+3}-4x^{5n+3}}\right]^{-2}$$
+= x^{4n+2}
+C: If $x=\dfrac{1}{m-n}$, express $\dfrac{1}{\left(x+\dfrac{1}{n}\right)\left(x-\dfrac{1}{m}\right)}$ in terms of $m$ and $n$.
+= (m-n)^2
+
+@ Sep 2013
+A: Simplify: $$\dfrac{6x^2-7x-3}{2x-3}\div\dfrac{3x+1}{x-5}-\dfrac{x^3-8}{x^2-3x+2}$$
+= \frac{-8x+1}{x-1}
+B: Simplify: $$\dfrac{x+1}{3x^2+6x+12}+\dfrac{x+2}{x^3-8}$$
+= \frac{1}{3(x-2)}
+C: Simplify: $$\dfrac{\dfrac{x^3-1}{x^4-1}-\dfrac{x-1}{x^2-1}}{\dfrac{(x+1)^3}{(x+1)^4}+\dfrac{x+1}{(x+1)^2}}$$
+= \frac{x}{2(x^2+1)}
+
+@ Sep 2012
+A: Simplify: $$\dfrac{2r}{r^2-s^2}-\dfrac{4rs}{(r+s)^2(r-s)}-\dfrac{r-s}{(r+s)^2}$$
+= \frac{1}{r+s}
+B: Simplify: $$\dfrac{x^3-8}{x^3-2x^2-9x+18}-\dfrac{4x^2+4x-8}{x^2+5x+6}$$
+= \frac{-3x^2+18x-8}{(x+3)(x-3)}
+C: Simplify: $$\dfrac{\dfrac{x+y}{x^3+y^3}}{1-\dfrac{x}{x+\dfrac{y^2}{x-y}}}$$
+= \frac{1}{y^2}

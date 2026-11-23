@@ -1,0 +1,160 @@
+# Meet 1, Event 1: ALGEBRA II — Quadratic Equations & Functions
+# Since 2017–18 this combines old Meet 1 Event 1 (quadratic equations, September papers)
+# and old Meet 4 Event 6 (The Quadratic Function, January papers).
+
+@ Sep 2025
+A: Find the sum of the roots of the quadratic equation $3x^2+8x-2=0$.
+= -\frac{8}{3}
+B: Solve for $x$: $$(5x-1)^2=18+3(5x-1)$$
+= -\frac{2}{5}, \frac{7}{5}
+C: A quadratic function $f(x)$ has two zeros $r_1$ and $r_2$ so that $r_1+r_2=10$, $r_1r_2=4$, and $f(0)=2$. Find $f(x)$ and write your answer in the form $f(x)=ax^2+bx+c$.
+= \frac{1}{2}x^2-5x+2
+
+@ Sep 2024
+A: Find the discriminant of the quadratic equation $(x+2)^2=16$.
+= 64
+B: If the zeros of $f(x)=4x^2-5x-7$ are $r$ and $s$, find the value of $r^2+s^2$.
+= \frac{81}{16}
+C: A magical rectangle always maintains a length to width ratio of $a:b$ where $\dfrac{a}{b}=\dfrac{a+b}{a}$. When $b=3$, what is the value of $a$?
+= \frac{3+3\sqrt{5}}{2}
+
+@ Sep 2023
+A: Solve for $x$: $$6(3x+5)^2-7(3x+5)=5$$
+= -\frac{11}{6}, -\frac{10}{9}
+B: The graph of a quadratic function $f$ has its vertex at $(3,-5)$ and $y$-intercept of $-7$. Find $c$ such that $f(c)=-13$.
+= -3, 9
+C: Given a quadratic function $f$ such that the sum of its zeros is $2$ and the product of its zeros is $-8$. In addition, the point $(0,16)$ is on the graph of $f$. Write the quadratic function in the form $f(x)=ax^2+bx+c$.
+= -2x^2+4x+16
+
+@ Sep 2022
+A: If $16x^2-40x+c=0$ has exactly one root, find $c$.
+= 25
+B: Find $a$ so that the range of $f(x)=ax^2+20x-42$ is $\{y: y\le 8\}$.
+= -2
+C: If $f(x)=4x^2-44x+c$ has zeros with a difference of $12$, find the value of $c$.
+= -23
+
+@ Sep 2021
+A: Solve for $x$: $$(4x+3)^2+7(4x+3)+12=0$$
+= -\frac{3}{2}, -\frac{7}{4}
+B: The graph of $g(x)=\dfrac{1}{12}x^2$ is the result of translating the graph of $f$ $5$ units left and $4$ units up. Find the zeros of $f$.
+= 5+4\sqrt{3}, 5-4\sqrt{3}
+C: The Chip Company (TC²) currently fulfills orders for $180$ computer chips each day. TC² pays \$0.10 for each chip and sells each chip for \$3. TC² is planning to raise the selling price of each chip with the knowledge that each \$0.10 increase in selling price per chip will result in $4$ fewer chips ordered per day. What selling price (in dollars) should TC² set in order to maximize its daily profit?
+= 3.80
+
+@ Sep 2020
+A: Solve for $x$: $$(x-1)^2-4(x-1)=-4$$
+= 3
+B: Let $n$ be a rational number. The product of $n$ and $\dfrac{19}{20}$ less than three times $n$ equals $\dfrac{1}{8}$. Find all possible values of $n$.
+= -\frac{1}{10}, \frac{5}{12}
+C: Let $f(x)=(x-1)^2-4$ and $g(x)=ax^2+bx+c$. The vertex of $g(x)$ is at $(-2,f(-2))$. $f(x)$ and $g(x)$ share a positive zero. Find the value of $a$.
+= -\frac{1}{5}
+
+@ Sep 2019
+A: Determine $k$ so that $f(x)=4x^2-kx+k$ has exactly one real zero.
+= 0, 16
+B: A quadratic function $f(x)$ has zeroes $p$ and $q$. If $p+q=-5$, $pq=-10$, and $f(1)=2$, find $f(x)$. Write your answer in the form $f(x)=ax^2+bx+c$.
+= -\frac{1}{2}x^2-\frac{5}{2}x+5
+C: At a certain vineyard, when $700$ grape vines are planted per acre, each vine produces $10$ pounds of grapes. For each additional vine that is planted per acre, each vine's grape production decreases by $1\%$. How many vines should be planted per acre in order to maximize grape production?
+= 400
+
+@ Sep 2018
+A: Solve for $x$: $$(x+5)^2-4(x+5)-12=0$$
+= 1, -7
+B: The graph of the quadratic function $h(x)=x^2-6x+2$ crosses the $x$-axis at $(d,0)$ and $(e,0)$ and has its vertex at $(f,g)$. Find $\dfrac{(d+e)\cdot g}{f}$.
+= -14
+C: There are two positive numbers such that the sum of three times the first number and the second number is $32$. Find the numbers if their product is a maximum.
+= \frac{16}{3}, 16
+
+@ Sep 2017
+A: Solve for $x$: $$x^2+3x=-\dfrac{1}{2}(7x+15)$$
+= -\frac{3}{2}, -5
+B: Let $f$ be a quadratic function with range $\{y: y\le 15\}$ and zeros $6\pm 2\sqrt{5}$. Find the values of $c$ such that $f(c)=6$.
+= 6\pm 2\sqrt{3}
+C: Find the value(s) of $k$ so that the line $y=kx-2$ and the parabola $y=3x^2+4x+k$ intersect in a single point.
+= 10\pm 6\sqrt{3}
+
+@ Jan 2017
+A: Find the range of $f(x)=-3x^2-4x+10$.
+= y\le\frac{34}{3}
+~ \{y:y\le\frac{34}{3}\}
+B: $(1,2)$ and $(2,4)$ are points on the graph of $f(x)=ax^2+bx+c$. Find all possible values of $f(-1)$ if each of the given points in turn is the vertex of the parabola.
+= -14, 10
+C: Harry owns a $70$-room hotel which is filled to capacity when the room charge is \$75 per night. A consultant advises Harry that for every \$5 increase in room charge, two fewer rooms will be filled each night. Determine Harry's maximum nightly revenue and the corresponding room charge (answer: revenue, room charge).
+= 6250, 125
+! Official answer: maximum nightly revenue $6250; room charge $125.
+
+@ Sep 2016
+A: Solve for $x$: $$\dfrac{x+1}{x+2}-\dfrac{2}{x+1}=\dfrac{6}{(x+2)(x+1)}$$
+= \pm 3
+B: The quadratic function $f(x)=x^2+4x+c$ has two zeros that differ by $6\sqrt{5}$. Find the value of $c$.
+= -41
+C: James and Amy work together cleaning their living room. Then James worked alone for $2$ hours cleaning the bathroom, and after that, Amy worked alone for $5$ hours to finish cleaning the house. Later James realized that since Amy works twice as fast as he does, she could have cleaned the whole house by herself in the same total time. For how many hours did James and Amy work together cleaning the living room?
+= 2
+
+@ Jan 2016
+A: Find the coordinates of the vertex of the graph of $f(x)=-3x^2+6x-2$.
+= (1, 1)
+B: Determine $k$ so that the graph of $f(x)=2x^2-5x+k$ will intersect the $x$-axis exactly once.
+= \frac{25}{8}
+C: $f$ is a quadratic function. The sum of its zeros is $6$, the product of its zeros is $8$, and the maximum value of $f$ is $5$. Find $f$ and write your answer in the form $f(x)=ax^2+bx+c$.
+= -5x^2+30x-40
+
+@ Sep 2015
+A: Solve for $x$: $$\dfrac{5}{x+5}-\dfrac{7}{x-5}=\dfrac{8}{x^2-25}$$
+= -34
+B: Solve for $x$: $$\left(\dfrac{2x+1}{x-2}\right)^2+6=5\left(\dfrac{2x+1}{x-2}\right)$$
+= 7
+C: Oscar, Matt and Leo are hired to paint two signs. In $8$ hours Oscar can paint one sign, while Matt can paint $2$ signs and Leo can paint $1\frac{1}{2}$ signs. They all start together, but Leo does not like the job and quits after $3$ hours. Matt works half an hour longer than Leo, and then Matt quits. After Matt quits, Oscar continues working alone. How much longer (in hours) will he work by himself to finish the two signs?
+= 1
+
+@ Jan 2015
+A: The graph of $f(x)=-2x^2+kx-3$ contains $\left(\dfrac{1}{2},-\dfrac{13}{2}\right)$. Find $k$.
+= -6
+B: Find the $x$- and $y$-intercept(s) of the parabola $y=\dfrac{1}{4}(x-3)^2-1$. (Answer: the $x$-intercepts, then the $y$-intercept.)
+= 1, 5, \frac{5}{4}
+! Official answer: x-intercepts 1, 5 (or (1, 0), (5, 0)); y-intercept 5/4 (or (0, 5/4)).
+C: Let $f(x)=2x^2+3x+c$. If $r$ and $s$ are the zeros of the function, and $\dfrac{1}{r}+\dfrac{1}{s}=5$, find $c$.
+= -\frac{3}{5}
+
+@ Sep 2014
+A: If $r_1$ and $r_2$ are the roots of $2x^2-3x-7=0$, find $\dfrac{1}{r_1}+\dfrac{1}{r_2}$.
+= -\frac{3}{7}
+B: Solve: $$\dfrac{4x-7}{4x^2-9}=\dfrac{x+1}{2x+3}-\dfrac{2x^2-3x+1}{4x^2-9}$$
+= \text{no solution}
+~ \varnothing ;; \emptyset
+C: Three brothers, Huey, Louie, and Dewey work together for an hour, and paint $70\%$ of their house. Huey works twice as fast as Louie, who works twice as fast as Dewey. How long will it take Huey and Dewey to paint the remaining portion of the house? State the time in minutes.
+= 36
+
+@ Jan 2014
+A: Find the value(s) of $k$ so that the graph of $y=\dfrac{1}{2}x^2-kx+2$ is tangent to the $x$-axis.
+= \pm 2
+B: If $r_1$ and $r_2$ are zeros of $g(x)=3x^2+4x-5$, write a quadratic function whose zeros are $\dfrac{1}{r_1}$ and $\dfrac{1}{r_2}$. Write your answer in the form $f(x)=ax^2+bx+c$, where $a$, $b$, and $c$ are relatively prime integers, and $a>0$.
+= 5x^2-4x-3
+C: Kimo wants to plant a rectangular vegetable garden and enclose it with $80$ feet of chicken wire. He wants the area of the garden to be at most $200$ square feet. If $x$ represents the shorter dimension of his garden in feet, what are the possible values for $x$?
+= 0<x\le 20-10\sqrt{2}
+
+@ Sep 2013
+A: Solve for $x$: $$\dfrac{x+1}{x+2}=\dfrac{x+3}{2x+4}$$
+= 1
+B: $x^2-5x+k=0$ has $2$ integral solutions. If $|k|<7$, what are the possible values for $k$?
+= -6, 0, 4, 6
+C: Amy, Bobby, and Candace are teaming up to paint a wall. If all three work together, it would take $80$ minutes. If Amy and Candace work together, it would take $2$ hours. If only Bobby and Candace work together, it would take $144$ minutes. Suppose Amy and Bobby work together for $1$ hour, then leave. If Candace arrives and must finish painting the wall by herself, how much longer (in minutes) will it take her to finish painting the wall?
+= 150
+
+@ Jan 2013
+A: Find the vertex of the graph of the function $f(x)=8x-x^2+3$.
+= (4, 19)
+B: Find the quadratic function whose graph has vertex $(-1,-3)$ and contains the point $(1,5)$. Write your answer in the form $y=Ax^2+Bx+C$.
+= y=2x^2+4x-1
+~ 2x^2+4x-1
+C: Find the value(s) of $k$ such that the graphs of the quadratic functions $f(x)=(x+3)^2+k$ and $g(x)=-(x+k)^2+3$ are tangent to one another.
+= 1, 3
+
+@ Sep 2012
+A: The numerator of a fraction is $4$ less than the denominator. If the numerator is increased by $20$ and the denominator is decreased by $8$, the resulting fraction has value $9$. Find the reciprocal of the original fraction.
+= \frac{11}{7}
+B: Let $r$ and $s$ represent the two distinct real roots of a quadratic equation. If $r+s<0$, $r-s=-3$, and $r\cdot s=40$, determine the quadratic equation in the form $Ax^2+Bx+C=0$ where the non-zero values of $A$, $B$, and $C$ are relatively prime integers.
+= x^2+13x+40=0
+C: If $$\dfrac{4x^2+15x-1}{(x+1)(x-2)(x+3)}=\dfrac{A}{x+1}+\dfrac{B}{x-2}-\dfrac{C}{x+3},$$ find $A+B+C$ if $A$, $B$, and $C$ are integers.
+= 6

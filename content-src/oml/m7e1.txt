@@ -1,0 +1,107 @@
+# Meet 7, Event 1: ALGEBRA II — Probability
+# (Apr 2018 and Apr 2019 papers are identical to Meet 6 Event 1 and live there.)
+
+@ Apr 2026
+A: A weighted four-sided die has faces numbered $1$, $2$, $3$, and $4$. The die is twice as likely to land on $4$ as on $2$, and twice as likely to land on $2$ as on $1$. Landing on $3$ is equally likely as landing on $1$. If the die is rolled once, what is the probability it lands on $3$?
+= \frac{1}{8}
+B: A bag contains $4$ red marbles, $6$ blue marbles, and $2$ green marbles. If three marbles are randomly drawn from the bag without replacement, what is the probability that at least one of the drawn marbles is green?
+= \frac{5}{11}
+C: Nick has $7$ pairs of socks with animal patterns: $2$ pairs are green, $2$ pairs are white, and $3$ pairs are blue. Each color group has one snake pair and one zebra pair. The last blue pair has monkeys. Nick pulls two socks at random. If both socks are the same color, what is the probability that they also have matching animal patterns?
+= \frac{7}{27}
+
+@ Apr 2025
+A: There is a $65\%$ chance of rain on Monday, and there is a $30\%$ chance of rain on Tuesday. What is the probability that it will not rain on Monday and it will rain on Tuesday?
+= 0.105
+B: A 6-sided die is weighted such that there is a $0.2$ probability to show a $1$, while there is a $0.16$ probability of showing any of the other faces. If the die is rolled $5$ times, what is the probability that the sum of the $5$ rolls is greater than $5$?
+= \frac{3124}{3125}
+~ 0.99968
+C: Lance rolls two fair 6-sided dice, one red and one green. He rolls both of them to create a 2-digit number. The number shown on the red die is the tens digit, and the number shown on the green die gives the units digit. If the resulting 2-digit number is prime, Lance wins \$10; otherwise he loses \$8. Before rolling the dice Lance has \$100. How much money (in dollars) should he expect to have after rolling the two dice once?
+= 92
+~ 96
+! Official answer: 92 or 96 (both accepted).
+
+@ Apr 2024
+A: Thirty-six balls are numbered $1$ to $36$ and placed in a bowl. Five balls are drawn without replacement. What is the probability that all five balls are even-numbered?
+= \frac{1}{44}
+B: Given square $ABCD$. Point $X$ is randomly placed in the interior of the square. What is the probability that $\angle AXB$ is obtuse?
+= \frac{\pi}{8}
+C: Three standard dice are rolled. If $3$ sixes are obtained, you win $k$ dollars. If exactly $2$ sixes are obtained, you win \$648. If exactly one six is obtained, you win \$216. If no sixes are obtained, you lose \$216. Find the value of $k$ so that this game is fair.
+= 1080
+
+@ Apr 2023
+A: In a group of $20$ kittens, $6$ have stripes, and $10$ are female. If $\frac15$ of the kittens are male with stripes, what is the probability that a randomly chosen kitten is female without stripes?
+= \frac{2}{5}
+B: Fred and Barney play a game with a standard 52-card deck (no jokers). Fred takes a card randomly from the deck. If Fred takes a face card (a jack, queen, or king) or a card with a prime number on it, he wins the game and receives $12$ points. If Fred does not win the game, then Barney receives $X$ points. Find the value of $X$ for which the game is fair.
+= 14
+C: Two balls are drawn at random, without replacement, from a box that contains $4$ white balls and $3$ black balls. If the two balls drawn are of different colors, then a fair coin is tossed three times. If the two balls are of the same color, then the coin is tossed two times. What is the probability that the coin shows heads exactly two times?
+= \frac{9}{28}
+
+@ Apr 2022
+A: A six-sided die is weighted so that any particular odd-numbered face is three times as likely to be observed as any particular even-numbered face. In one roll of the die, what is the probability that the die shows at most $4$?
+= \frac{2}{3}
+B: One coin is drawn at random from a bag containing $5$ quarters, $4$ dimes, $3$ nickels, and $2$ pennies. What is the expected value of the draw in cents?
+= 13
+C: A target is drawn on a magnetic dry erase board. It is comprised of three concentric circles with diameters $1$ inch, $5$ inches, and $9$ inches. The region between the two smaller circles is shaded. Pip is blindfolded and throws a $1.5$ inch diameter circular disk-shaped magnet at the board. If the magnet adheres to the target on the flat side such that no portion of the magnet is outside the target, what is the probability that the magnet does not overlap the shaded region?
+= \frac{56}{225}
+& /oml/fig/m7e1-2022-04-C.png
+
+@ Apr 2021
+A: A card is randomly drawn from a standard deck and a standard six-sided die is rolled. What is the probability that the card is red or the number rolled is divisible by three?
+= \frac{2}{3}
+B: A cooler contains $7$ cans of juice, $10$ bottles of water, $5$ cartons of milk, and $2$ cans of energy drink. If each drink is equally likely to be chosen, what is the probability that when randomly selecting five drinks, at least one of them is an energy drink?
+= \frac{35}{92}
+C: A certain diagnostic test for a medical condition has an $8\%$ false positive rate and a $6\%$ false negative rate. The probability of having the condition is $5\%$. If a person tests positive, what is the probability that the person has the condition?
+= \frac{47}{123}
+
+@ Apr 2017
+A: Regions $1$, $2$, $3$, and $4$ are congruent, as shown. If the spinner is spun two times, what is the probability that the sum of the two outcomes will be a prime number?
+= \frac{9}{16}
+& /oml/fig/m7e1-2017-04-A.png
+B: Arven is a contestant on the hit game show *What's Behind the Door?* The floorplan of the game consists of $15$ rooms and $20$ doors, as shown. He starts in the Green Room. He can only move forward. His prize for the game depends on his final room: \$1600 in Room A, \$2400 in Room B, \$800 in Room C, \$32 in Room D, and nothing in Room E. Arven does not know which prize is in which room. If he randomly chooses between the two forward-leading doors in each room, how much money (in dollars) can he expect to win?
+= 1008
+& /oml/fig/m7e1-2017-04-B.png
+C: Aang and Sokka are the finalists in a tournament in which the first person to win a total of three games is declared the champion. Aang has a slight edge and has a $66\frac23\%$ probability of winning any particular game. If Sokka wins the first game, find the probability that Sokka will be crowned the champion.
+= \frac{11}{27}
+
+@ Apr 2016
+A: Two cards are selected from a standard deck of $52$ cards. What is the probability that both cards will be a king?
+= \frac{1}{221}
+B: Four students from a group of $8$ juniors and $12$ seniors will be chosen at random to receive free AP calculus books. What is the probability that exactly $2$ seniors will receive books?
+= \frac{616}{1615}
+C: A lottery has one \$1,000 prize, five \$100 prizes, and twenty \$10 prizes. What is the expected gain/loss (in dollars) from buying one of the $2{,}000$ tickets for \$1? (A loss is negative.)
+= -0.15
+! Official answer: loss, $0.15.
+
+@ Apr 2015
+A: In basketball, Kayla has an average of $0.6$ of "making a basket" from the free throw line. What is the probability that she has her first miss on her fifth shot from the free throw line?
+= \frac{162}{3125}
+B: Three dice are rolled. What is the probability that at least one of the dice shows a $2$ or a $5$?
+= \frac{19}{27}
+C: There are $40$ poker chips in a Sponge Bob box. $30$ of the chips are blue and $10$ of them are red. Skyler pulls out one chip, notes the color, and puts the chip back into the box. He does this a total of $8$ times. What is the probability that $6$ of the chips that Skyler pulled out of the box were blue?
+= \frac{5103}{16384}
+
+@ Apr 2014
+A: A coin is weighted so that the probability of tossing a head is $0.6$. If James tosses the coin five times, what is the probability of obtaining exactly four heads?
+= \frac{162}{625}
+~ 0.2592
+B: Points $P$ and $Q$ lie on circle $R$. The length of $\overline{PR}$ is $5$ cm and the length of $\widehat{PQ}$ is $2\pi$ cm. If a point is randomly placed on the circle, what is the probability that the point will not be on $\widehat{PQ}$?
+= \frac{4}{5}
+C: Jar A contains $1$ red, $2$ white, and $3$ green balls. Jar B contains $4$ red and $5$ white balls. A die is rolled. If a "1" or "6" shows, a ball is randomly selected from Jar A. Otherwise, a ball is selected from Jar B. Sarah rolls a die and then draws a ball. If Sarah draws a white ball, what is the probability it came from Jar A?
+= \frac{3}{13}
+
+@ Apr 2013
+A: Given a \$1 bill, a \$5 bill, a \$10 bill, and a \$20 bill, what is the probability that the sum of money using one or more of these bills is a prime number?
+= \frac{1}{5}
+B: Suppose a 6-sided die is "loaded" so that any particular even numbered face is twice as likely to be observed as any particular odd numbered face. If you roll the die, what is the probability that the number shown is at most $3$?
+= \frac{4}{9}
+C: In a survey, $145$ teenagers were asked if they regularly use Facebook, Tumblr, and Instagram: $68$ use Facebook, $55$ use Tumblr, $44$ use Instagram, $5$ use all three, $31$ use only Facebook, $26$ use only Tumblr, $13$ use only Instagram. If a teenager is picked at random, what is the probability that the teenager does not use Facebook, Tumblr, or Instagram?
+= \frac{1}{5}
+
+@ Apr 2012
+A: Given $12$ different desserts at a buffet, Rachel tried $4$ of them and Kate tried $3$. What is the probability that Kate did not try any of the ones Rachel tried?
+= \frac{14}{55}
+B: At a carnival, a spinner has $12$ equal sections numbered $1$ through $12$. If the spinner lands on a factor of $18$, you win \$18. Otherwise you lose \$15. What is the expected value (in dollars) of this game? (A loss is negative.)
+= -1.25
+! Official answer: loss, $1.25.
+C: Of $300$ college students in a recent study, $125$ studied abroad, $150$ applied to graduate school, and $30$ did both. Suppose one of these $300$ college students is randomly selected. If the college student did not apply to graduate school, what is the probability that he or she also did not study abroad?
+= \frac{11}{30}

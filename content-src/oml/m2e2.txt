@@ -1,0 +1,140 @@
+# Meet 2, Event 2: GEOMETRY — Similar Triangles
+
+@ Oct 2025
+A: $\triangle ABC\sim\triangle DEF$ and the ratio of their corresponding sides is $7:8$. If $AB=x-5$, $BC=x+2$, $AC=x+9$, and the perimeter of $\triangle DEF$ is $72$, find $AC$.
+= 28
+B: Given: $\triangle ABC$, point $D$ is on $\overline{AC}$, $\angle BAC\cong\angle DBC$, $BC=6$, $AD=5$. Find $CD$.
+= 4
+& /oml/fig/m2e2-2025-10-B.png
+C: In $\triangle ABC$, $AB=AC$, $AB=4$, $m\angle BAC=36^\circ$, point $D$ lies on $\overline{AC}$ so that $\overline{BD}$ bisects $\angle ABC$. Find $CD$.
+= 6-2\sqrt{5}
+
+@ Oct 2024
+A: Given: $\triangle ABC\sim\triangle ADE$, $BE=7$, $AE=2$, and $DC=3$. Find $AD$.
+= 3
+& /oml/fig/m2e2-2024-10-A.png
+B: Given: $\overline{CB}\perp\overline{NB}$, $\overline{CN}\perp\overline{BE}$, $\overline{AI}\parallel\overline{CN}$, $CE=16$, $NC=41$, $BT=3(ET)$. Find $BT$.
+= 15
+& /oml/fig/m2e2-2024-10-B.png
+C: Given $\triangle ABC$. Let $D$ be the reflection of $B$ over $\overline{AC}$ and let $E$ be the intersection of $\overrightarrow{AD}$ and $\overrightarrow{BC}$. If $DA=20$, $DC=10$, and $DE=22$, find $CE$.
+= 21
+& /oml/fig/m2e2-2024-10-C.png
+
+@ Oct 2023
+A: Given: $\triangle CUA\sim\triangle EUT$, $AU=8$, $TU=3$, and $EC=\dfrac{22}{3}$. Find $CU$.
+= \frac{16}{3}
+& /oml/fig/m2e2-2023-10-A.png
+B: Given: $\triangle SMT$, $G$ is on $\overline{ST}$ so that $\overline{MG}$ bisects $\angle SMT$, $MS=30$, $MT=20$, $GS=24$, and $GT=5x-18$. Find $x$.
+= \frac{34}{5}
+C: Given: $\triangle LMN\sim\triangle YXZ$, $LM=52$, $NM=68$, and $NL=72$. The perimeter of $\triangle YXZ$ is $144$. Find $YX$.
+= 39
+
+@ Oct 2022
+A: Given: $\overline{AE}$ and $\overline{BD}$ intersect at $C$, $\angle A\cong\angle B$, $AC=12$, $BC=7$, $CD=x+9$, $CE=x-2$. Find $x$.
+= \frac{87}{5}
+& /oml/fig/m2e2-2022-10-A.png
+B: Given: $\triangle ADB$, $C$ is on $\overline{AD}$ so that $\triangle ABC\sim\triangle ADB$, $AB=12$, $BC=6$, and $AC=8$. Find the perimeter of $\triangle BCD$.
+= 25
+C: Given: $\overline{IM}$ and $\overline{AU}$ intersect at $S$; $D$ and $E$ are on $\overline{IM}$, $Q$ and $G$ are on $\overline{AU}$; $\overline{UI}\parallel\overline{MA}$, $\overline{QD}\parallel\overline{EG}$; $SE=SQ+2=SD+4=SG-3$; $ID=GA+7=EM-8=QU+10$. Find $IM$.
+= 60
+& /oml/fig/m2e2-2022-10-C.png
+
+@ Oct 2021
+A: Alice and Ben are standing in the middle of a soccer field. Alice is $6$ feet tall and casts a shadow of length $2.4$ feet. Ben's shadow is $2$ feet long. What is Ben's height in feet?
+= 5
+B: Given: $\triangle ABC$ with $AB=12$ and $BC=16$, $D$ is on $\overline{AC}$ and $\overline{BD}$ bisects $\angle ABC$, $AD=6$. Find $AC$.
+= 14
+C: Given: $\triangle AJD\cong\triangle DIE\cong\triangle EHF\cong\triangle FGB$; $\overline{AB}\perp\overline{BC}$, $\overline{AB}\perp\overline{JD}$, $\overline{AB}\perp\overline{IE}$, $\overline{AB}\perp\overline{HF}$; $J$ lies on $\overline{AC}$ and $G$ lies on $\overline{BC}$. If $JD:AD:AJ=3:4:5$ find the ratio $\dfrac{\text{perimeter of } JDBC}{\text{perimeter of } \triangle ABC}$.
+= \frac{7}{8}
+& /oml/fig/m2e2-2021-10-C.png
+
+@ Oct 2020
+A: Given: $\angle BAE\cong\angle BDE$, $AB=(CD)^2=16$, $DE=3$. Find $AC$.
+= \frac{64}{3}
+& /oml/fig/m2e2-2020-10-A.png
+B: Given: $\overline{BD}\parallel\overline{AC}$, $\overline{AB}\perp\overline{BD}$, $AB=DE=5$, $AC=2$ and $BC=\sqrt{29}$, $E$ is the midpoint of $\overline{BD}$, $\overline{AE}$ and $\overline{BC}$ intersect at $F$. Find $FB$.
+= \frac{5}{7}\sqrt{29}
+& /oml/fig/m2e2-2020-10-B.png
+C: Given: $\overline{BC}\parallel\overline{AF}$, $\overline{AD}\parallel\overline{BG}$, $\overline{AF}$ and $\overline{BG}$ intersect at $E$, $FG=FE=DG=\dfrac{1}{2}FC$, $BE=8$. Find $AD$.
+= 8
+& /oml/fig/m2e2-2020-10-C.png
+
+@ Oct 2019
+A: In $\triangle ACD$, $B$ is on $\overline{AC}$ and $E$ is on $\overline{AD}$ so that $\overline{BE}\parallel\overline{CD}$ and $\dfrac{AE}{ED}=4$. If $EB=10$, find $DC$.
+= \frac{25}{2}
+& /oml/fig/m2e2-2019-10-A.png
+B: In $\triangle MAT$, $\overline{MA}\perp\overline{AT}$, $H$ is on $\overline{MT}$ such that $\overline{AH}\perp\overline{MT}$. $MA=5$, $AT=12$, and $MT=13$. Find $AH$.
+= \frac{60}{13}
+C: Given: $\triangle ABC$ has perimeter $40$ inches, $AC=15$ inches and $BC=9$ inches. $D$ is on $\overline{AB}$ such that $\overline{CD}$ bisects $\angle ACB$. $E$ is on $\overline{AC}$ and $F$ is on $\overline{CD}$ such that $CE=BD+1$ and $\angle FEC\cong\angle B$. Find $EF$ (in inches).
+= \frac{14}{3}
+
+@ Oct 2018
+A: In right $\triangle ABC$, $AC=5$, $BC=12$, $AB=13$, and $\angle BCA$ is a right angle. The bisector of $\angle C$ meets $\overline{AB}$ at $D$. $E$ lies on $\overline{BC}$ so that $\overline{DE}$ is perpendicular to $\overline{BC}$. Find $DE$.
+= \frac{60}{17}
+& /oml/fig/m2e2-2018-10-A.png
+B: In $\triangle ABC$, $AB=AC$, $m\angle A=36^\circ$, and $D$ lies on $\overline{AC}$ so that $\overline{BD}$ bisects $\angle B$. If $CD=6$, find $BC$.
+= 3+3\sqrt{5}
+C: Given: Right $\triangle CSP$ with right angle at $S$, $CS=4$, $SP=3$, and $CP=5$. $A$ is on $\overline{CS}$, $R$ and $E$ are on $\overline{CP}$, $\overline{AR}\perp\overline{CP}$, $\overline{SE}\perp\overline{CP}$, and $\overline{AE}\perp\overline{CS}$. Find $AR$.
+= \frac{192}{125}
+& /oml/fig/m2e2-2018-10-C.png
+
+@ Oct 2017
+A: Given: $\overline{AB}\parallel\overline{CD}$, $\overline{AC}$ and $\overline{BD}$ intersect at $F$, $AF=4x-7$, $BF=x+8$, $DF=x-4$ and $CF=x+1$. Find $x$.
+= 10
+& /oml/fig/m2e2-2017-10-A.png
+B: Given: $\overline{ZE}\parallel\overline{OI}\parallel\overline{MB}$, $\overline{MB}\perp\overline{EB}$, $\overline{ZB}$ and $\overline{EM}$ intersect at $O$, $ZE=7.5$ and $MB=15$. Find $OI$.
+= 5
+& /oml/fig/m2e2-2017-10-B.png
+C: Given: $\overline{AB}\perp\overline{CD}$, $\overline{CD}\perp\overline{DF}$, $\overline{DA}\perp\overline{BF}$, $\overline{AE}$ bisects $\angle BAD$, $EG=3$ and $GF=24$. Find $BE$.
+= 9
+& /oml/fig/m2e2-2017-10-C.png
+
+@ Oct 2016
+A: In $\triangle ACD$, $\overline{BE}\parallel\overline{CD}$, $AB=5$, $BE=6$, and $CD=10$. Find $BC$.
+= \frac{10}{3}
+& /oml/fig/m2e2-2016-10-A.png
+B: Given: $\triangle CAN\sim\triangle FAM$, $CN=12$, $AC=25$, $AF=40$, and $N$ is the midpoint of $\overline{AF}$. Find $CM$.
+= 7
+& /oml/fig/m2e2-2016-10-B.png
+C: Given: $\triangle DEC\sim\triangle GFC$ and $\overline{AB}\parallel\overline{FG}$. $CF=x$, $CG=x+1$, $DE=2x-2$, $EG=14$, $BD=3.5$, and $FG=2$. Find $AB$.
+= 11
+& /oml/fig/m2e2-2016-10-C.png
+
+@ Oct 2015
+A: Given: $\overline{CO}\perp\overline{OL}$ and $\overline{TO}\perp\overline{CL}$, $CT=10$ and $TO=15$. Find $LO$.
+= \frac{15}{2}\sqrt{13}
+& /oml/fig/m2e2-2015-10-A.png
+B: $\triangle PQR$ is a right triangle with right angle at $Q$. $PQ=3$ and $QR=4$. Points $S$, $T$, and $U$ are on sides $\overline{PQ}$, $\overline{PR}$, and $\overline{QR}$, respectively, such that $QSTU$ is a square. Find the length of $\overline{ST}$.
+= \frac{12}{7}
+C: Given $\triangle PAB$ with $C$ on $\overline{BP}$, $AB=8$, $BC=7$, and $AC=6$. If $\triangle PAB\sim\triangle PCA$, find the length of $\overline{PC}$.
+= 9
+& /oml/fig/m2e2-2015-10-C.png
+
+@ Oct 2014
+A: $\overline{AE}$ and $\overline{BD}$ intersect at $C$. $\angle A\cong\angle E$. If $AB=5$, $DE=3$, and $BD=10$, find $BC$.
+= \frac{25}{4}
+& /oml/fig/m2e2-2014-10-A.png
+B: $\triangle ABC\sim\triangle ADE$. $BE=4$, $AE=2$, and $DC=11$. Find $AD$.
+= 1
+& /oml/fig/m2e2-2014-10-B.png
+C: In triangle $ABC$, $D$ lies on $\overline{AC}$ such that $CD=20$ and $AC=56$. $E$ lies on $\overline{AB}$ such that $\overline{CE}$ bisects $\angle ACB$ and $BE=40$. $F$ lies on $\overline{BC}$ such that $BF=66$ and $CF=14$. Find the perimeter of quadrilateral $ABFD$.
+= 187
+
+@ Oct 2013
+A: Given: $\triangle ACE$, $\overline{BD}$ is parallel to $\overline{CE}$, $\dfrac{BD}{CE}=\dfrac{2}{3}$, $AC=8$. Find $AB$.
+= \frac{16}{3}
+& /oml/fig/m2e2-2013-10-A.png
+B: Two vertical poles are $20$ m and $30$ m tall. They are $100$ m apart. A wire is run from the top of each pole to the bottom of the other pole. How high above the ground (in m) do the two wires intersect?
+= 12
+C: In $\triangle ABC$, $AB=60$, $AC=48$, and $BC=54$. $P$ is a point on $\overline{AC}$ such that $CP=12$. $\overline{CQ}$ is drawn parallel to $\overline{BA}$ and meets $\overline{BP}$ extended at $Q$. $\overline{AQ}$ extended meets the extension of $\overline{BC}$ at $R$. Determine $CR$.
+= 27
+
+@ Oct 2012
+A: A man is $6$ feet $3$ inches tall and casts a $10$ foot shadow. His daughter who is standing next to him casts a $4$ foot shadow. How tall is the daughter (in inches)?
+= 30
+B: Use properties of similar triangles to find the value of $y$.
+= 4\sqrt{2}
+& /oml/fig/m2e2-2012-10-B.png
+C: Given: $AD=DE=EF=FG=GH=HB$, $AB=12$, $\overline{DI}\parallel\overline{EJ}\parallel\overline{FK}\parallel\overline{GL}\parallel\overline{HM}\parallel\overline{BC}$, $BC=40x-12$, $DI=x$. Find $GL$.
+= \frac{24}{17}
+& /oml/fig/m2e2-2012-10-C.png

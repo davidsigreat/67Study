@@ -14,6 +14,7 @@
 // Ctrl+C and run it again later. It waits between requests to be polite.
 //
 // For each test it saves:
+//   (uses the wiki's MediaWiki API: api.php?action=parse)
 //   problems.wiki   raw wikitext of "<Year> AMC 10A Problems" (text + LaTeX)
 //   problems.html   rendered page (used only to find diagram images)
 //   answers.wiki    raw wikitext of "<Year> AMC 10A Answer Key"
@@ -25,10 +26,11 @@ import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const outRoot = join(root, 'content-src/amc');
-const WIKI = 'https://artofproblemsolving.com/wiki/index.php';
+const API = 'https://artofproblemsolving.com/wiki/api.php';
 const PAGE_DELAY_MS = 1500;
 const IMG_DELAY_MS = 300;
-const HEADERS = { 'User-Agent': 'Mozilla/5.0 (personal study app; AMC practice importer)' };
+// Honest identification, as the MediaWiki API etiquette asks.
+const HEADERS = { 'User-Agent': '67Study-AMC-importer/1.0 (personal study app; one request every ~1.5 s)' };
 
 // ── CLI ──────────────────────────────────────────────────────────────────────
 const args = process.argv.slice(2);
@@ -103,17 +105,39 @@ async function get(url, { binary = false } = {}) {
   throw new Error(`Gave up on ${url}`);
 }
 
-const pageUrl = (title, action) => `${WIKI}?title=${encodeURIComponent(title.replace(/ /g, '_'))}&action=${action}`;
-
-/** MediaWiki "raw" returns the redirect stub for redirected pages — follow it. */
-async function getRaw(title) {
-  let text = await get(pageUrl(title, 'raw'));
-  const m = text?.match(/^#REDIRECT\s*\[\[([^\]]+)\]\]/i);
-  if (m) {
-    await sleep(PAGE_DELAY_MS);
-    text = await get(pageUrl(m[1], 'raw'));
+/**
+ * MediaWiki API: one call returns the page's wikitext and rendered HTML,
+ * following redirects. Returns null if the page doesn't exist.
+ */
+async function getPage(title, { html = false } = {}) {
+  const params = new URLSearchParams({
+    action: 'parse',
+    page: title,
+    prop: html ? 'wikitext|text' : 'wikitext',
+    redirects: '1',
+    format: 'json',
+    formatversion: '2',
+    maxlag: '5',
+  });
+  const body = await get(`${API}?${params}`);
+  if (!body) return null;
+  let json;
+  try {
+    json = JSON.parse(body);
+  } catch {
+    console.error(`\nUnexpected (non-JSON) reply for "${title}". AoPS may be blocking the API. First 200 chars:\n${body.slice(0, 200)}`);
+    process.exit(1);
   }
-  return text;
+  if (json.error) {
+    if (json.error.code === 'missingtitle') return null;
+    if (json.error.code === 'maxlag') {
+      console.warn('   wiki is busy (maxlag), waiting 30s…');
+      await sleep(30000);
+      return getPage(title, { html });
+    }
+    throw new Error(`API error for "${title}": ${json.error.code} ${json.error.info ?? ''}`);
+  }
+  return { wikitext: json.parse?.wikitext ?? '', html: json.parse?.text ?? '' };
 }
 
 /** Diagram images in rendered HTML, in page order: [asy] pictures + uploaded files. */
@@ -145,7 +169,8 @@ for (const [i, t] of tests.entries()) {
     continue;
   }
 
-  const problems = await getRaw(`${t.title} Problems`);
+  const page = await getPage(`${t.title} Problems`, { html: true });
+  const problems = page?.wikitext;
   if (!problems) {
     console.log(`${tag}: not on the wiki, skipped`);
     missing++;
@@ -153,10 +178,9 @@ for (const [i, t] of tests.entries()) {
     continue;
   }
   await sleep(PAGE_DELAY_MS);
-  const answers = await getRaw(`${t.title} Answer Key`);
+  const answers = (await getPage(`${t.title} Answer Key`))?.wikitext;
   await sleep(PAGE_DELAY_MS);
-  const html = (await get(pageUrl(`${t.title} Problems`, 'render'))) ?? '';
-  await sleep(PAGE_DELAY_MS);
+  const html = page.html;
 
   mkdirSync(join(dir, 'img'), { recursive: true });
   writeFileSync(join(dir, 'problems.wiki'), problems);

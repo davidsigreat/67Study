@@ -169,6 +169,9 @@ Custom `blockquote` override:
 - Maps to `.callout .callout-<type>` CSS classes
 - Types: `tip`, `hint`, `important`, `warning`, `caution`, `danger`, `example`, `note`, `info`, `quote`, `summary`, `abstract`
 
+### Math in plain text (`src/components/MathText.tsx`, `src/lib/mathSplit.ts`)
+`<MathText text=… />` renders `$…$` / `\(…\)` inline and `$$…$$` / `\[…\]` display math with KaTeX inside plain strings; `\$` is a literal dollar and dollar amounts like "$5 and $10" stay text (Pandoc rules). Used by chat bubbles (+ live preview in `MessageInput`), `QuizSession` choices and `PracticeQuestionsPage` text, and search snippets/headings. `splitMath()` gives pieces with source offsets; the search index uses it to keep formulas intact and `SearchPage` uses it so snippets never cut a formula in half. Markdown content still goes through `MarkdownRenderer` (rehype-katex).
+
 ### Chat feature (`src/pages/ChatPage.tsx`)
 Rooms: `global` + one room per subject slug.
 - `ChatWindow` — real-time listener on `rooms/{room}/messages`, last 50 messages

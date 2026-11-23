@@ -1,5 +1,5 @@
 {
-  "_comment": "Hand-checked fixes applied by scripts/import-amc-trivial.mjs, keyed by problem id. Fields (all optional): q (statement Markdown), choices (LaTeX, no $; up to 6), a (letter, or 3-digit AIME answer), note (shown in italics under the problem).",
+  "_comment": "Hand-checked fixes applied by scripts/import-amc-trivial.mjs, keyed by problem id. Fields (all optional): q (statement Markdown), choices (LaTeX, no $; up to 6), a (letter, or 3-digit AIME answer), note (shown in italics under the problem), _source (where the fix came from; not shown).",
   "2025-amc12a-25": {
     "choices": ["7", "9", "11", "12", "13", "8"],
     "a": "F",
@@ -9,6 +9,33 @@
     "q": "A circle with a circumscribed and an inscribed square centered at the origin $O$ of a rectangular coordinate system with positive $x$ and $y$ axes $OX$ and $OY$ is shown in each figure I to IV below.\n\n![figure](/amc/fig/1973-ahsme/11-1.png)\n\nThe inequalities\n\n$$\n|x|+|y|\\leq\\sqrt{2(x^{2}+y^{2})}\\leq 2\\,\\text{Max}(|x|, |y|)\n$$\n\nare represented geometrically\\* by the figure numbered\n\n\\* An inequality of the form $f(x, y) \\leq g(x, y)$, for all $x$ and $y$, is represented geometrically by a figure showing the containment $\\{\\text{the set of points }(x, y)\\text{ such that }g(x, y) \\leq a\\} \\subset \\{\\text{the set of points }(x, y)\\text{ such that }f(x, y) \\leq a\\}$ for a typical real number $a$.",
     "choices": ["\\text{I}", "\\text{II}", "\\text{III}", "\\text{IV}", "\\text{none of these}"],
     "a": "B"
+  },
+  "2002-amc10b-20": {
+    "_source": "choices reconstructed (missing from the archive); answer (B) 1 from the archive",
+    "choices": ["0", "1", "4", "7", "8"],
+    "a": "B"
+  },
+  "2003-amc8-01": {
+    "_source": "choices reconstructed (missing from the archive); answer (E) 26 from the archive",
+    "choices": ["6", "8", "12", "18", "26"],
+    "a": "E"
+  },
+  "1998-ajhsme-20": {
+    "_source": "choices reconstructed (missing from the archive); answer (D) 24 from the archive's solution",
+    "choices": ["9", "16", "18", "24", "36"],
+    "a": "D"
+  },
+  "1951-ahsme-35": {
+    "_source": "choices reconstructed (archive had only choice A); answer (A) from the archive",
+    "q": "If $a^{x}= c^{q}= b$ and $c^{y}= a^{z}= d$, then",
+    "choices": ["xy = qz", "\\frac{x}{y} = \\frac{q}{z}", "x + y = q + z", "x - y = q - z", "x^{y} = q^{z}"],
+    "a": "A"
+  },
+  "1950-ahsme-12": {
+    "_source": "statement and choices reconstructed (the AoPS wiki page itself is garbled); answer (C) from the archive",
+    "q": "As the number of sides of a polygon increases from $3$ to $n$, the sum of the exterior angles formed by extending each side in succession:",
+    "choices": ["\\text{Increases}", "\\text{Decreases}", "\\text{Remains constant}", "\\text{Cannot be predicted}", "\\text{Becomes } (n-3) \\text{ straight angles}"],
+    "a": "C"
   },
   "1953-ahsme-26": {
     "choices": ["5\\sqrt{6}\\text{ inches}", "10\\text{ inches}", "4\\sqrt{3}\\text{ inches}", "7.5\\text{ inches}", "\\text{none of these}"],

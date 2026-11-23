@@ -2,6 +2,7 @@ import { useState, useRef, KeyboardEvent } from 'react';
 import { addDoc, collection, Timestamp } from 'firebase/firestore';
 import { db } from '../../firebase';
 import { useAuth } from '../../context/AuthContext';
+import MathText, { hasMath } from '../MathText';
 
 interface Props {
   room: string;
@@ -46,7 +47,16 @@ export default function MessageInput({ room }: Props) {
     el.style.height = `${Math.min(el.scrollHeight, 96)}px`;
   }
 
+  const showPreview = hasMath(text);
+
   return (
+    <div className="message-input-wrap">
+    {showPreview && (
+      <div className="message-math-preview" aria-live="polite">
+        <span className="message-math-preview-label">Preview</span>
+        <MathText text={text} />
+      </div>
+    )}
     <div className="message-input-row">
       <textarea
         ref={textareaRef}
@@ -55,7 +65,7 @@ export default function MessageInput({ room }: Props) {
         onChange={(e) => setText(e.target.value)}
         onKeyDown={handleKeyDown}
         onInput={handleInput}
-        placeholder="Message… (Enter to send, Shift+Enter for newline)"
+        placeholder="Message… (Enter to send, Shift+Enter for newline, $x^2$ for math)"
         rows={1}
         disabled={sending}
       />
@@ -69,6 +79,7 @@ export default function MessageInput({ room }: Props) {
           <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
         </svg>
       </button>
+    </div>
     </div>
   );
 }

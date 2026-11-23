@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import MathText from '../MathText';
 import type { ReactNode } from 'react';
 
 export interface QuizQuestion {
@@ -80,7 +81,7 @@ export default function QuizSession({ questions, onExit, hasNextGroup, onNextGro
           }
           return (
             <button key={i} className={cls} onClick={() => choose(i)} disabled={selected !== null}>
-              {choice}
+              <MathText text={choice} />
             </button>
           );
         })}

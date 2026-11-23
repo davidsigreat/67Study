@@ -1,6 +1,7 @@
 import { SUBJECTS, getUnit } from '../data/subjects';
 import { extractHeadings, stripFrontmatter, type Heading } from './markdownUtils';
 import { stripContestTags } from './contestTags';
+import { splitMath } from './mathSplit';
 
 export interface SearchDoc {
   subjectSlug: string;
@@ -19,15 +20,23 @@ const markdownModules = import.meta.glob('../content/**/*.md', {
   eager: true,
 }) as Record<string, string>;
 
-function stripMarkdown(markdown: string): string {
-  return markdown
-    .replace(/```[\s\S]*?```/g, ' ')
-    .replace(/`[^`]*`/g, ' ')
+function stripProse(text: string): string {
+  return text
     .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
     .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
     .replace(/^#{1,6}\s+/gm, '')
     .replace(/^>\s?/gm, '')
-    .replace(/[*_~]/g, '')
+    .replace(/\[!\w+\]/g, '')
+    .replace(/<!--[\s\S]*?-->/g, '')
+    .replace(/[*_~]/g, '');
+}
+
+function stripMarkdown(markdown: string): string {
+  const text = markdown.replace(/```[\s\S]*?```/g, ' ').replace(/`[^`]*`/g, ' ');
+  // Formulas are kept verbatim (so snippets can render them with KaTeX); only prose is stripped.
+  return splitMath(text)
+    .map((p) => (p.kind === 'math' ? text.slice(p.start, p.end).replace(/\s+/g, ' ') : stripProse(text.slice(p.start, p.end))))
+    .join('')
     .replace(/\s+/g, ' ')
     .trim();
 }

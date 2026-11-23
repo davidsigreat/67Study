@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
+import MathText from '../components/MathText';
+import { splitMath } from '../lib/mathSplit';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { SUBJECTS } from '../data/subjects';
 import { SEARCH_INDEX, type SearchDoc } from '../lib/searchIndex';
@@ -15,9 +17,23 @@ interface Result {
 
 const SNIPPET_RADIUS = 60;
 
+/** Formula spans in a body, found exactly the way MathText will render them. */
+function mathSpans(body: string): [number, number][] {
+  return splitMath(body).filter((p) => p.kind === 'math').map((p) => [p.start, p.end]);
+}
+
 function buildSnippet(body: string, index: number, queryLen: number): string {
-  const start = Math.max(0, index - SNIPPET_RADIUS);
-  const end = Math.min(body.length, index + queryLen + SNIPPET_RADIUS);
+  let start = Math.max(0, index - SNIPPET_RADIUS);
+  let end = Math.min(body.length, index + queryLen + SNIPPET_RADIUS);
+  const spans = mathSpans(body);
+  const spanAt = (pos: number) => spans.find(([a, b]) => pos > a && pos < b);
+  // Never cut a formula in half: include it if it's short, otherwise leave it out.
+  // A formula that contains the match itself may be longer.
+  const limit = ([a, b]: [number, number]) => (index >= a && index < b ? 400 : 160);
+  const s = spanAt(start);
+  if (s) start = s[1] - s[0] <= limit(s) ? s[0] : Math.min(s[1], index);
+  const e = spanAt(end);
+  if (e) end = e[1] - e[0] <= limit(e) ? e[1] : Math.max(e[0], index + queryLen);
   const prefix = start > 0 ? '…' : '';
   const suffix = end < body.length ? '…' : '';
   return `${prefix}${body.slice(start, end)}${suffix}`;
@@ -209,10 +225,10 @@ export default function SearchPage() {
               >
                 <span className="search-result-title">
                   Unit {r.doc.unit}: {r.doc.title}
-                  {r.kind === 'heading' && <span className="search-result-heading"> — {r.headingText}</span>}
+                  {r.kind === 'heading' && <span className="search-result-heading"> — <MathText text={r.headingText ?? ''} inline /></span>}
                 </span>
                 {r.kind === 'body' && r.snippet && (
-                  <span className="search-result-snippet">{r.snippet}</span>
+                  <span className="search-result-snippet"><MathText text={r.snippet} inline /></span>
                 )}
               </button>
             ))}

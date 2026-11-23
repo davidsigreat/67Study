@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { getSubject } from '../data/subjects';
 import QuizSession, { type QuizQuestion } from '../components/wordlab/QuizSession';
 import { shuffle } from '../components/wordlab/utils';
+import MathText from '../components/MathText';
 
 interface BankQuestion {
   id: string;
@@ -81,12 +82,12 @@ export default function PracticeQuestionsPage() {
             <span className="wordlab-card-badge">{q.skill}</span>
             <span className="wordlab-card-badge wordlab-card-badge--level">{q.difficulty}</span>
           </div>
-          <p>{q.question}</p>
+          <p><MathText text={q.question} /></p>
         </div>
       ),
       choices: LETTERS.map((l) => `${l}. ${q.choices[l]}`),
       correctIndex: LETTERS.indexOf(q.correct),
-      explanation: q.rationale,
+      explanation: <MathText text={q.rationale} />,
     }));
 
   const requestedCount = limit === 'All' ? filtered.length : limit === 'Custom' ? customLimit : limit;

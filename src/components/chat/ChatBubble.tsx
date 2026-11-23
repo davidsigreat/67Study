@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { deleteDoc, doc, addDoc, collection, Timestamp } from 'firebase/firestore';
 import { db } from '../../firebase';
 import { useAuth } from '../../context/AuthContext';
+import MathText from '../MathText';
 
 export interface Message {
   id: string;
@@ -80,7 +81,7 @@ export default function ChatBubble({ message, room, isOwn, showAvatar, selectMod
           <span className="bubble-name">{message.displayName}</span>
         )}
         <div className="bubble-row">
-          <div className="bubble-text">{message.text}</div>
+          <div className="bubble-text"><MathText text={message.text} /></div>
           {isAdmin && !selectMode && (
             <button
               className="bubble-delete"

@@ -14,6 +14,7 @@ const SUBJECT_ICONS: Record<string, string> = {
   'ap-physics-c':  '⚡',
   'ap-physics':    '🎢',
   'test-prep': '📝',
+  'math-team': '🧮',
 };
 
 const SUBJECT_TAGLINES: Record<string, string> = {
@@ -26,6 +27,7 @@ const SUBJECT_TAGLINES: Record<string, string> = {
   'ap-physics-c':  'Mechanics, electricity & magnetism',
   'ap-physics':    'Physics 1 + 2, algebra-based',
   'test-prep': 'SAT, ACT, and SSAT prep',
+  'math-team': 'OML toolbox + past-meet practice',
 };
 
 export default function HomePage() {

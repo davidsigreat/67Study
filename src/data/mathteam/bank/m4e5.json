@@ -1,0 +1,344 @@
+[
+ {
+  "id": "m4e5-2026-01-A",
+  "event": "m4e5",
+  "date": "Jan 2026",
+  "level": "A",
+  "q": "Solve for $x$: $$4(2x-3)+5\\le 3(x+2)+7x-9$$",
+  "a": "x\\ge -2"
+ },
+ {
+  "id": "m4e5-2026-01-B",
+  "event": "m4e5",
+  "date": "Jan 2026",
+  "level": "B",
+  "q": "The sum of two integers is at most $397$. One integer is three less than four times the other. What are the largest possible values of the two integers?",
+  "a": "80, 317",
+  "note": "Answer format: ___ and ___"
+ },
+ {
+  "id": "m4e5-2026-01-C",
+  "event": "m4e5",
+  "date": "Jan 2026",
+  "level": "C",
+  "q": "Solve for $x$: $$14x-24<8x+18\\le 12x+50$$",
+  "a": "-8\\le x<7"
+ },
+ {
+  "id": "m4e5-2025-01-A",
+  "event": "m4e5",
+  "date": "Jan 2025",
+  "level": "A",
+  "q": "Solve for $x$: $$\\dfrac{3x+2}{6}-\\dfrac{3-4x}{5}\\ge 4+x$$",
+  "a": "x\\ge\\frac{128}{9}"
+ },
+ {
+  "id": "m4e5-2025-01-B",
+  "event": "m4e5",
+  "date": "Jan 2025",
+  "level": "B",
+  "q": "Solve for $x$: $$(5-3x\\ge -4 \\text{ or } 2x+4>-3x) \\text{ and } 7x-8<10-2x$$",
+  "a": "x<2"
+ },
+ {
+  "id": "m4e5-2025-01-C",
+  "event": "m4e5",
+  "date": "Jan 2025",
+  "level": "C",
+  "q": "Given: $a<b<0<c<d$. Solve for $x$ in terms of $a$, $b$, $c$, and $d$: $$-\\dfrac{x}{c}<\\dfrac{bx-d}{a}\\le\\dfrac{x}{b}.$$",
+  "a": "\\frac{cd}{a+bc}<x\\le\\frac{bd}{b^2-a}"
+ },
+ {
+  "id": "m4e5-2024-01-A",
+  "event": "m4e5",
+  "date": "Jan 2024",
+  "level": "A",
+  "q": "Solve for $x$: $$x+3(x+7)>5(x-4)$$",
+  "a": "x<41"
+ },
+ {
+  "id": "m4e5-2024-01-B",
+  "event": "m4e5",
+  "date": "Jan 2024",
+  "level": "B",
+  "q": "Solve for $x$: $$4x-3\\le 2x-7 \\text{ or } 2x-7<10x-23$$",
+  "a": "x\\le -2 \\text{ or } x>2"
+ },
+ {
+  "id": "m4e5-2024-01-C",
+  "event": "m4e5",
+  "date": "Jan 2024",
+  "level": "C",
+  "q": "Solve for $x$: $$(7x-4\\le 3 \\text{ or } -5x-3\\ge 7) \\text{ and } 3x-2<5$$",
+  "a": "x\\le 1"
+ },
+ {
+  "id": "m4e5-2023-01-A",
+  "event": "m4e5",
+  "date": "Jan 2023",
+  "level": "A",
+  "q": "Solve for $x$: $$\\dfrac{3-4x}{6}-\\dfrac{2x-3}{8}\\ge 2-x$$",
+  "a": "x\\ge\\frac{27}{2}"
+ },
+ {
+  "id": "m4e5-2023-01-B",
+  "event": "m4e5",
+  "date": "Jan 2023",
+  "level": "B",
+  "q": "A phone plan costs \\$28.80 a month plus \\$0.20 per text message sent. What is the maximum number of text messages Susan can send if her phone bill cannot exceed \\$50?",
+  "a": "106"
+ },
+ {
+  "id": "m4e5-2023-01-C",
+  "event": "m4e5",
+  "date": "Jan 2023",
+  "level": "C",
+  "q": "Solve for $x$: $$2x+5<3x+5\\le 2(4+x) \\text{ and } 3x-1\\ge\\dfrac{5}{3} \\text{ and } 2x-\\dfrac{1}{2}<4-3x$$",
+  "a": "\\frac{8}{9}\\le x<\\frac{9}{10}"
+ },
+ {
+  "id": "m4e5-2022-01-A",
+  "event": "m4e5",
+  "date": "Jan 2022",
+  "level": "A",
+  "q": "Solve for $p$: $$-38+4p\\ge 11(p-12)+10$$",
+  "a": "p\\le 12"
+ },
+ {
+  "id": "m4e5-2022-01-B",
+  "event": "m4e5",
+  "date": "Jan 2022",
+  "level": "B",
+  "q": "Solve for $x$: $$5<4x<3x+2 \\text{ and } 5x\\ge 12-4x$$",
+  "a": "\\frac{4}{3}\\le x<2"
+ },
+ {
+  "id": "m4e5-2022-01-C",
+  "event": "m4e5",
+  "date": "Jan 2022",
+  "level": "C",
+  "q": "Solve for $x$: $$25x-34<16x+11\\le 32x+43 \\text{ or } 5x-20<3x-4\\le 7x$$",
+  "a": "-2\\le x<8"
+ },
+ {
+  "id": "m4e5-2021-01-A",
+  "event": "m4e5",
+  "date": "Jan 2021",
+  "level": "A",
+  "q": "Solve for $x$: $$(x<2 \\text{ or } x>1) \\text{ and } (x>3 \\text{ or } x>4)$$",
+  "a": "x>3"
+ },
+ {
+  "id": "m4e5-2021-01-B",
+  "event": "m4e5",
+  "date": "Jan 2021",
+  "level": "B",
+  "q": "The sum of two integers is at least $312$. One integer is $32$ less than $5$ times the other. Find the minimum value of the smaller integer.",
+  "a": "58"
+ },
+ {
+  "id": "m4e5-2021-01-C",
+  "event": "m4e5",
+  "date": "Jan 2021",
+  "level": "C",
+  "q": "If $k>\\dfrac{1}{2}$, solve for $x$: $$2k^2(x-3)+k(3x+1)>2x-1$$",
+  "a": "x>\\frac{3k+1}{k+2}"
+ },
+ {
+  "id": "m4e5-2020-01-A",
+  "event": "m4e5",
+  "date": "Jan 2020",
+  "level": "A",
+  "q": "Solve for $x$: $$\\dfrac{2}{19}(-3x+4)<2$$",
+  "a": "x>-5"
+ },
+ {
+  "id": "m4e5-2020-01-B",
+  "event": "m4e5",
+  "date": "Jan 2020",
+  "level": "B",
+  "q": "Solve for $y$: $$-1<2y+5<9 \\text{ and } -\\dfrac{2}{3}<1-\\dfrac{1}{3}y\\le\\dfrac{4}{3}$$",
+  "a": "-1\\le y<2"
+ },
+ {
+  "id": "m4e5-2020-01-C",
+  "event": "m4e5",
+  "date": "Jan 2020",
+  "level": "C",
+  "q": "The Math Team needs to raise at least \\$3000 to go on the OML Disneyland trip. They make a \\$2 profit selling steak plates and a \\$5 profit selling chicken katsu plates. The Math Team coach bought only $1000$ paper plates and each steak or chicken katsu plate uses one paper plate. What is the smallest number of chicken katsu plates the Math Team can sell and still make enough money to go on the OML Disneyland trip?",
+  "a": "334"
+ },
+ {
+  "id": "m4e5-2019-01-A",
+  "event": "m4e5",
+  "date": "Jan 2019",
+  "level": "A",
+  "q": "Solve for $x$: $$3x+7\\ge 5x-1 \\text{ or } 7x-3<-3x+5$$",
+  "a": "x\\le 4"
+ },
+ {
+  "id": "m4e5-2019-01-B",
+  "event": "m4e5",
+  "date": "Jan 2019",
+  "level": "B",
+  "q": "Let $x$, $y$, and $z$ be consecutive even integers with $x<y<z$. If the sum of $x$, $y$, and $z$ is at most $2019$, find the largest possible value for $z$.",
+  "a": "674"
+ },
+ {
+  "id": "m4e5-2019-01-C",
+  "event": "m4e5",
+  "date": "Jan 2019",
+  "level": "C",
+  "q": "Find $k$ so that $$\\dfrac{2x+1}{4}<\\dfrac{3x+k}{6}\\le\\dfrac{4x+9}{8}$$ has no solution for $x$.",
+  "a": "k\\le\\frac{3}{2} \\text{ or } k>\\frac{27}{4}"
+ },
+ {
+  "id": "m4e5-2018-01-A",
+  "event": "m4e5",
+  "date": "Jan 2018",
+  "level": "A",
+  "q": "Solve for $x$: $$-2(3x+7)-5x>\\dfrac{13-8x}{3}$$",
+  "a": "x<-\\frac{11}{5}"
+ },
+ {
+  "id": "m4e5-2018-01-B",
+  "event": "m4e5",
+  "date": "Jan 2018",
+  "level": "B",
+  "q": "Each side of square $ABCD$ is $k$ cm long. Side $\\overline{AB}$ is extended $10$ cm through $B$ to form side $\\overline{AE}$ of a rectangle. Side $\\overline{AD}$ is extended $6$ cm through $D$ to form side $\\overline{AG}$ of the same rectangle. If the perimeter of the rectangle is at least twice the perimeter of the square, what is the maximum length of $\\overline{AB}$ (in cm)?",
+  "a": "8"
+ },
+ {
+  "id": "m4e5-2018-01-C",
+  "event": "m4e5",
+  "date": "Jan 2018",
+  "level": "C",
+  "q": "Solve for $x$: $$[2+3x<3 \\text{ or } 3(x-1)<-2(x-2)] \\text{ and } -3<4x-3<7$$",
+  "a": "0<x<\\frac{7}{5}"
+ },
+ {
+  "id": "m4e5-2017-01-A",
+  "event": "m4e5",
+  "date": "Jan 2017",
+  "level": "A",
+  "q": "Solve for $x$: $$2x-3<x+5<3x+7$$",
+  "a": "-1<x<8"
+ },
+ {
+  "id": "m4e5-2017-01-B",
+  "event": "m4e5",
+  "date": "Jan 2017",
+  "level": "B",
+  "q": "Solve for $x$: $$18<9x<6x+10 \\text{ or } -x<5-3x$$",
+  "a": "x<\\frac{10}{3}"
+ },
+ {
+  "id": "m4e5-2017-01-C",
+  "event": "m4e5",
+  "date": "Jan 2017",
+  "level": "C",
+  "q": "Given: $2x-3<3x+32a$. If $5<a\\le 10$ and $x$ is an integer, find the minimum value of $x$.",
+  "a": "-322"
+ },
+ {
+  "id": "m4e5-2016-01-A",
+  "event": "m4e5",
+  "date": "Jan 2016",
+  "level": "A",
+  "q": "Solve for $x$: $$23-5x\\le 6(8-2x)-19$$",
+  "a": "x\\le\\frac{6}{7}"
+ },
+ {
+  "id": "m4e5-2016-01-B",
+  "event": "m4e5",
+  "date": "Jan 2016",
+  "level": "B",
+  "q": "Solve for $x$: $$1>x+1>-3 \\text{ and } 7>2x+3>-1$$",
+  "a": "-2<x<0"
+ },
+ {
+  "id": "m4e5-2016-01-C",
+  "event": "m4e5",
+  "date": "Jan 2016",
+  "level": "C",
+  "q": "Solve for $y$: $$\\dfrac{1}{2}(2-5y)<6-y \\text{ or } y>7-\\dfrac{1}{4}(y+8)$$",
+  "a": "y>-\\frac{10}{3}"
+ },
+ {
+  "id": "m4e5-2015-01-A",
+  "event": "m4e5",
+  "date": "Jan 2015",
+  "level": "A",
+  "q": "Ryan has scores of $80$, $85$, $97$, and $89$ on his last four Algebra tests. In what range should his next test score fall in order for him to average a B? (The range of B is $80$ to $89$, inclusive.)",
+  "a": "49\\le s\\le 94",
+  "alt": [
+   "49\\le x\\le 94"
+  ],
+  "note": "Official answer: 49 ≤ Ryan's score ≤ 94."
+ },
+ {
+  "id": "m4e5-2015-01-B",
+  "event": "m4e5",
+  "date": "Jan 2015",
+  "level": "B",
+  "q": "Solve for $x$: $$-6<\\dfrac{4-3x}{2}<\\dfrac{2}{3}$$",
+  "a": "\\frac{8}{9}<x<\\frac{16}{3}"
+ },
+ {
+  "id": "m4e5-2015-01-C",
+  "event": "m4e5",
+  "date": "Jan 2015",
+  "level": "C",
+  "q": "Solve for $x$: $$-\\dfrac{1}{2}\\le x<3x+2 \\text{ and } 4(x-1)+1\\le 3(x+1)-1+2x$$",
+  "a": "x\\ge -\\frac{1}{2}"
+ },
+ {
+  "id": "m4e5-2014-01-A",
+  "event": "m4e5",
+  "date": "Jan 2014",
+  "level": "A",
+  "q": "$3a+b\\ge 11$ and $5a+3b\\ge 9$. What is the minimum value of $2a+b$?",
+  "a": "5"
+ },
+ {
+  "id": "m4e5-2014-01-B",
+  "event": "m4e5",
+  "date": "Jan 2014",
+  "level": "B",
+  "q": "Find all values of $m$ for which $$\\dfrac{m}{6}(x-4)<\\dfrac{m}{6}x-3$$ has no solution for $x$. Express all such values of $m$ as an inequality.",
+  "a": "m\\le\\frac{9}{2}"
+ },
+ {
+  "id": "m4e5-2014-01-C",
+  "event": "m4e5",
+  "date": "Jan 2014",
+  "level": "C",
+  "q": "Keola is shopping for single use cameras. Daylight cameras cost \\$2.75 and flash cameras cost \\$4.25. He must buy exactly $20$ cameras and wants to spend between \\$65 and \\$75. What is the greatest and the least number of daylight cameras he should buy? (Answer as: greatest, least)",
+  "a": "13, 7",
+  "note": "Official answer: greatest: 13, least: 7."
+ },
+ {
+  "id": "m4e5-2013-01-A",
+  "event": "m4e5",
+  "date": "Jan 2013",
+  "level": "A",
+  "q": "Joe's Pie Bakery needs \\$10 per day to run the ovens. It costs \\$4 to bake each pie. If \\$421 is allotted to spend on production each day, what is the maximum number of pies Joe's Bakery can expect to bake each day?",
+  "a": "102"
+ },
+ {
+  "id": "m4e5-2013-01-B",
+  "event": "m4e5",
+  "date": "Jan 2013",
+  "level": "B",
+  "q": "The sum of two integers is less than $102$. One integer is four less than three times the other. What are the largest possible values of the two integers?",
+  "a": "74, 26"
+ },
+ {
+  "id": "m4e5-2013-01-C",
+  "event": "m4e5",
+  "date": "Jan 2013",
+  "level": "C",
+  "q": "Solve for $x$: $$3+24x\\le 16x+8\\le 32x+20 \\text{ and } 30x+47<18x+49$$",
+  "a": "-\\frac{3}{4}\\le x<\\frac{1}{6}"
+ }
+]

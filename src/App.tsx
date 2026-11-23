@@ -17,6 +17,7 @@ import ProfileDropdown from './components/ProfileDropdown';
 // Lazy: SearchPage eager-globs every unit's markdown into its search index, so it must
 // stay out of the main bundle and only load when the user actually opens /search.
 const SearchPage = lazy(() => import('./pages/SearchPage'));
+const MathTeamPracticePage = lazy(() => import('./pages/MathTeamPracticePage'));
 
 // Subjects that require an account even to view content (currently just test prep,
 // since its vocab/quiz progress is tied to a signed-in user).
@@ -47,6 +48,7 @@ function AppRoutes() {
         <Route path="/admin" element={<AuthGuard><AdminPage /></AuthGuard>} />
         <Route path="/:subject" element={<SubjectGuard><SubjectHubPage /></SubjectGuard>} />
         <Route path="/:subject/vocab" element={<AuthGuard><WordLabPage /></AuthGuard>} />
+        <Route path="/math-team/practice" element={<Suspense fallback={<div className="chat-loading">Loading…</div>}><MathTeamPracticePage /></Suspense>} />
         <Route path="/:subject/practice" element={<AuthGuard><PracticeQuestionsPage /></AuthGuard>} />
         <Route path="/:subject/units/:unitId" element={<SubjectGuard><UnitPage /></SubjectGuard>} />
         <Route

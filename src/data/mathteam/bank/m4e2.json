@@ -1,0 +1,487 @@
+[
+ {
+  "id": "m4e2-2026-01-A",
+  "event": "m4e2",
+  "date": "Jan 2026",
+  "level": "A",
+  "q": "Rectangle $MATH$ has perimeter $24$ feet and $\\overline{MA}$ is twice as long as $\\overline{AT}$. Find the area (in square feet) of the parallelogram formed by connecting the midpoints of consecutive sides of $MATH$.",
+  "a": "16"
+ },
+ {
+  "id": "m4e2-2026-01-B",
+  "event": "m4e2",
+  "date": "Jan 2026",
+  "level": "B",
+  "q": "A rhombus with side length $20$ cm has one diagonal with length $24$ cm. Find the area of the rhombus (in square cm).",
+  "a": "384"
+ },
+ {
+  "id": "m4e2-2026-01-C",
+  "event": "m4e2",
+  "date": "Jan 2026",
+  "level": "C",
+  "q": "The base of an isosceles triangle coincides with a side of a regular octagon. The triangle has height $8$ cm and area $48$ sq cm. Find the area of the octagon (in square cm).",
+  "a": "288+288\\sqrt{2}"
+ },
+ {
+  "id": "m4e2-2025-01-A",
+  "event": "m4e2",
+  "date": "Jan 2025",
+  "level": "A",
+  "q": "An equilateral triangle has apothem of length $10$. Find the area of the triangle.",
+  "a": "300\\sqrt{3}"
+ },
+ {
+  "id": "m4e2-2025-01-B",
+  "event": "m4e2",
+  "date": "Jan 2025",
+  "level": "B",
+  "q": "Given: $ABG$ is an equilateral triangle, $BCFG$ is an isosceles trapezoid, $CDEF$ is a square, $BC:CF:GF=2:3:4$, and $DE=4$. Find the perimeter of $ABCDEFG$.",
+  "a": "28",
+  "fig": "/oml/fig/m4e2-2025-01-B.png"
+ },
+ {
+  "id": "m4e2-2025-01-C",
+  "event": "m4e2",
+  "date": "Jan 2025",
+  "level": "C",
+  "q": "A regular hexagon $ABCDEF$ has sides of length $12$. Triangles $ACE$ and $BDF$ are drawn to create a six-pointed star inscribed in the hexagon. Find the area of the region within the hexagon but outside of the star.",
+  "a": "72\\sqrt{3}"
+ },
+ {
+  "id": "m4e2-2024-01-A",
+  "event": "m4e2",
+  "date": "Jan 2024",
+  "level": "A",
+  "q": "Find the length of the apothem of a regular hexagon with area $12\\sqrt{3}$.",
+  "a": "\\sqrt{6}"
+ },
+ {
+  "id": "m4e2-2024-01-B",
+  "event": "m4e2",
+  "date": "Jan 2024",
+  "level": "B",
+  "q": "Given: Trapezoid $ABCD$ with bases $\\overline{AB}$ and $\\overline{CD}$. $M$ is the midpoint of $\\overline{AD}$ and $N$ is the midpoint of $\\overline{CB}$. Trapezoid $ABCD$ has height $20$, $CD=AB+8$, and $MN=30$. Find the area of trapezoid $ABNM$.",
+  "a": "280",
+  "fig": "/oml/fig/m4e2-2024-01-B.png"
+ },
+ {
+  "id": "m4e2-2024-01-C",
+  "event": "m4e2",
+  "date": "Jan 2024",
+  "level": "C",
+  "q": "Given: Four squares are arranged as shown. Squares $ABCD$, $EFGH$, and $IGJK$ have area $5$, $20$, and $45$, respectively. $D$ and $C$ are on $\\overline{EF}$, $H$ is on $\\overline{IG}$, and $K$ is on $\\overline{LJ}$. $A$, $E$, $I$, and $L$ are collinear. Find the area of square $ALMN$.",
+  "a": "225",
+  "fig": "/oml/fig/m4e2-2024-01-C.png"
+ },
+ {
+  "id": "m4e2-2023-01-A",
+  "event": "m4e2",
+  "date": "Jan 2023",
+  "level": "A",
+  "q": "Given: Trapezoid $ABCD$ with bases $\\overline{AB}$ and $\\overline{CD}$, $AB=7$, $AD=14$, $m\\angle A=120^\\circ$, $m\\angle C=30^\\circ$. Find $CD$.",
+  "a": "35"
+ },
+ {
+  "id": "m4e2-2023-01-B",
+  "event": "m4e2",
+  "date": "Jan 2023",
+  "level": "B",
+  "q": "Given a regular octagon $ABCDEFGH$ with sides of length $k$. Find the area of $\\triangle ABF$ in terms of $k$.",
+  "a": "\\frac{k^2}{2}+\\frac{k^2}{2}\\sqrt{2}"
+ },
+ {
+  "id": "m4e2-2023-01-C",
+  "event": "m4e2",
+  "date": "Jan 2023",
+  "level": "C",
+  "q": "Given: Equilateral $\\triangle CAT$ is in the interior of square $FLAT$. Square $BIRD$ is inscribed in $\\triangle CAT$ such that $I$ is on $\\overline{AC}$ and $R$ is on $\\overline{CT}$. The area of $BIRD$ is $64$. Find the ratio of the area of $FLAT$ to the area of $BIRD$.",
+  "a": "\\frac{7+4\\sqrt{3}}{3}",
+  "fig": "/oml/fig/m4e2-2023-01-C.png"
+ },
+ {
+  "id": "m4e2-2022-01-A",
+  "event": "m4e2",
+  "date": "Jan 2022",
+  "level": "A",
+  "q": "Given: $ABCD$ is a regular quadrilateral and $ABWXYZ$ is a regular hexagon. Find $m\\angle CBW$ (in degrees).",
+  "a": "150",
+  "alt": [
+   "210"
+  ],
+  "note": "Official answer: 150 (or 210).",
+  "fig": "/oml/fig/m4e2-2022-01-A.png"
+ },
+ {
+  "id": "m4e2-2022-01-B",
+  "event": "m4e2",
+  "date": "Jan 2022",
+  "level": "B",
+  "q": "In an isosceles trapezoid, the shorter base has length $8$ and each of the legs has length $\\sqrt{3}$. The measure of an obtuse angle is three times the measure of an acute angle. Find the area of the trapezoid.",
+  "a": "\\frac{3}{2}+4\\sqrt{6}"
+ },
+ {
+  "id": "m4e2-2022-01-C",
+  "event": "m4e2",
+  "date": "Jan 2022",
+  "level": "C",
+  "q": "A regular hexagon $ABCDEF$ has apothem of length $5$. $G$ is the midpoint of $\\overline{AB}$. Find the area of $AGEF$.",
+  "a": "\\frac{50\\sqrt{3}}{3}"
+ },
+ {
+  "id": "m4e2-2021-01-A",
+  "event": "m4e2",
+  "date": "Jan 2021",
+  "level": "A",
+  "q": "Given parallelogram $ABCD$ with $AB=AD=13$, and $AC=24$. Find the area of $ABCD$.",
+  "a": "120"
+ },
+ {
+  "id": "m4e2-2021-01-B",
+  "event": "m4e2",
+  "date": "Jan 2021",
+  "level": "B",
+  "q": "The apothem of regular hexagon $SOPHIE$ is $3-\\sqrt{3}$. Find the perimeter of quadrilateral $PHIS$.",
+  "a": "8"
+ },
+ {
+  "id": "m4e2-2021-01-C",
+  "event": "m4e2",
+  "date": "Jan 2021",
+  "level": "C",
+  "q": "Given regular octagon $ABCDEFGH$. Find the ratio of the area of $BDFH$ to the area of $ABCDEFGH$.",
+  "a": "\\sqrt{2}:2",
+  "alt": [
+   "\\frac{\\sqrt{2}}{2}"
+  ]
+ },
+ {
+  "id": "m4e2-2020-01-A",
+  "event": "m4e2",
+  "date": "Jan 2020",
+  "level": "A",
+  "q": "Given: $ABCD$ is a trapezoid with bases $\\overline{AB}$ and $\\overline{CD}$. Diagonals $\\overline{AC}$ and $\\overline{BD}$ intersect at $E$. $BE=5$, $DE=21$, $CE=8$. Find $AE$.",
+  "a": "\\frac{40}{21}",
+  "fig": "/oml/fig/m4e2-2020-01-A.png"
+ },
+ {
+  "id": "m4e2-2020-01-B",
+  "event": "m4e2",
+  "date": "Jan 2020",
+  "level": "B",
+  "q": "Given: $\\triangle ABC$ with $m\\angle B=30^\\circ$ and $AB=AC=1$. $D$ is on $\\overline{AC}$, $E$ is on $\\overline{AB}$, and $F$ and $G$ are on $\\overline{BC}$. Find the perimeter of square $DEFG$.",
+  "a": "\\frac{24-4\\sqrt{3}}{11}",
+  "fig": "/oml/fig/m4e2-2020-01-B.png"
+ },
+ {
+  "id": "m4e2-2020-01-C",
+  "event": "m4e2",
+  "date": "Jan 2020",
+  "level": "C",
+  "q": "Find the area of the regular octagon inscribed in the square whose perimeter is $16$.",
+  "a": "32\\sqrt{2}-32"
+ },
+ {
+  "id": "m4e2-2019-01-A",
+  "event": "m4e2",
+  "date": "Jan 2019",
+  "level": "A",
+  "q": "A trapezoid has area $18$ and height $7$. Find the sum of its bases.",
+  "a": "\\frac{36}{7}"
+ },
+ {
+  "id": "m4e2-2019-01-B",
+  "event": "m4e2",
+  "date": "Jan 2019",
+  "level": "B",
+  "q": "Rhombus $CAKE$ has perimeter $80$ cm and area $360\\text{ cm}^2$. If $\\overline{CK}$ and $\\overline{AE}$ intersect at $X$, find the distance from $X$ to $\\overline{CA}$ (in cm).",
+  "a": "9"
+ },
+ {
+  "id": "m4e2-2019-01-C",
+  "event": "m4e2",
+  "date": "Jan 2019",
+  "level": "C",
+  "q": "A regular octagon $GOLDFISH$ has perimeter $96$. Regular hexagon $BOWSER$ has vertex $W$ in the interior of $GOLDFISH$, as shown in the figure. Find the area of pentagon $GOWSH$.",
+  "a": "72+72\\sqrt{2}+36\\sqrt{3}+24\\sqrt{6}",
+  "fig": "/oml/fig/m4e2-2019-01-C.png"
+ },
+ {
+  "id": "m4e2-2018-01-A",
+  "event": "m4e2",
+  "date": "Jan 2018",
+  "level": "A",
+  "q": "A regular polygon has area $64$ and apothem $4$. Find the perimeter of this polygon.",
+  "a": "32"
+ },
+ {
+  "id": "m4e2-2018-01-B",
+  "event": "m4e2",
+  "date": "Jan 2018",
+  "level": "B",
+  "q": "In rhombus $ABCD$, $AC=48$ and $BD=20$. Find the length of the altitude from vertex $A$.",
+  "a": "\\frac{240}{13}"
+ },
+ {
+  "id": "m4e2-2018-01-C",
+  "event": "m4e2",
+  "date": "Jan 2018",
+  "level": "C",
+  "q": "$\\overline{AB}$ and $\\overline{CD}$ are the bases of trapezoid $ABCD$. $M$ is the midpoint of $\\overline{AD}$ and $\\overleftrightarrow{BM}$ intersects $\\overleftrightarrow{CD}$ at $E$. $AB=9$, $BC=10$, $CD=21$, and $AD=10$. Find the area of $\\triangle BEC$.",
+  "a": "120"
+ },
+ {
+  "id": "m4e2-2017-02-A",
+  "event": "m4e2",
+  "date": "Feb 2017",
+  "level": "A",
+  "q": "$BCEF$ and $CDE$ are both regular polygons. In $\\triangle ABF$, $\\angle A$ is a right angle, $AB=5$ and $AF=12$. Find the area of polygon $ABCDEF$.",
+  "a": "199+\\frac{169}{4}\\sqrt{3}",
+  "fig": "/oml/fig/m4e2-2017-02-A.png"
+ },
+ {
+  "id": "m4e2-2017-02-B",
+  "event": "m4e2",
+  "date": "Feb 2017",
+  "level": "B",
+  "q": "$MATH$ is an isosceles trapezoid with bases $\\overline{AT}$ and $\\overline{MH}$. Let $S$ be on $\\overline{MH}$ such that $AS$ is the distance between $\\overline{AT}$ and $\\overline{MH}$. $AS=AT$, $ST=12$ and $m\\angle M=60^\\circ$. Find the area of trapezoid $MATH$.",
+  "a": "72+24\\sqrt{3}",
+  "fig": "/oml/fig/m4e2-2017-02-B.png"
+ },
+ {
+  "id": "m4e2-2017-02-C",
+  "event": "m4e2",
+  "date": "Feb 2017",
+  "level": "C",
+  "q": "$ABCD$ is a kite with $m\\angle B=m\\angle D=90^\\circ$. $\\triangle ABD$ is an equilateral triangle with area $4\\sqrt{3}$. Find the area of kite $ABCD$.",
+  "a": "\\frac{16}{3}\\sqrt{3}",
+  "fig": "/oml/fig/m4e2-2017-02-C.png"
+ },
+ {
+  "id": "m4e2-2017-01-A",
+  "event": "m4e2",
+  "date": "Jan 2017",
+  "level": "A",
+  "q": "In trapezoid $TRAP$, the bases $\\overline{TR}$ and $\\overline{PA}$ have length $6$ and $10$, respectively. $m\\angle A=45^\\circ$, $\\angle T$ and $\\angle P$ are right angles. Find the length of $\\overline{TA}$.",
+  "a": "2\\sqrt{29}",
+  "fig": "/oml/fig/m4e2-2017-01-A.png"
+ },
+ {
+  "id": "m4e2-2017-01-B",
+  "event": "m4e2",
+  "date": "Jan 2017",
+  "level": "B",
+  "q": "Rhombus $MATH$ has side length $10$ and area $80$. Find the sum of the lengths of the diagonals.",
+  "a": "12\\sqrt{5}"
+ },
+ {
+  "id": "m4e2-2017-01-C",
+  "event": "m4e2",
+  "date": "Jan 2017",
+  "level": "C",
+  "q": "Kite $WXYZ$ has diagonals that intersect at $V$. $WX=XY$, $YZ>WX$, $m\\angle XYZ=90^\\circ$, and $m\\angle VWX=30^\\circ$. The sum of the lengths of the diagonals is $6\\sqrt{3}$ less than the perimeter of the kite. Find the area of $\\triangle VYZ$.",
+  "a": "\\frac{27}{2}\\sqrt{3}"
+ },
+ {
+  "id": "m4e2-2016-02-A",
+  "event": "m4e2",
+  "date": "Feb 2016",
+  "level": "A",
+  "q": "Given: $ABCD$ is a rectangle, $\\triangle ABE$ and $\\triangle CDF$ are isosceles right triangles, $BC=20$ and $FD=6$. Find the area of the shaded region.",
+  "a": "120\\sqrt{2}-36",
+  "fig": "/oml/fig/m4e2-2016-02-A.png"
+ },
+ {
+  "id": "m4e2-2016-02-B",
+  "event": "m4e2",
+  "date": "Feb 2016",
+  "level": "B",
+  "q": "If the radius of regular hexagon $HEARTS$ is $4\\sqrt{3}$, find the area of $\\triangle HTS$.",
+  "a": "12\\sqrt{3}",
+  "fig": "/oml/fig/m4e2-2016-02-B.png"
+ },
+ {
+  "id": "m4e2-2016-02-C",
+  "event": "m4e2",
+  "date": "Feb 2016",
+  "level": "C",
+  "q": "$ABCD$ is an isosceles trapezoid with area $48+16\\sqrt{3}$. If $m\\angle C=60^\\circ$, $m\\angle BEC=45^\\circ$, and the length of the shorter base equals the height of the trapezoid, find the length of $\\overline{BE}$.",
+  "a": "4\\sqrt{6}",
+  "fig": "/oml/fig/m4e2-2016-02-C.png"
+ },
+ {
+  "id": "m4e2-2016-01-A",
+  "event": "m4e2",
+  "date": "Jan 2016",
+  "level": "A",
+  "q": "Given: $\\overline{AB}\\parallel\\overline{CD}$, $m\\angle D=110^\\circ$, $m\\angle ACB=90^\\circ$, and $m\\angle B=60^\\circ$. Find $m\\angle CAD$ (in degrees).",
+  "a": "40",
+  "fig": "/oml/fig/m4e2-2016-01-A.png"
+ },
+ {
+  "id": "m4e2-2016-01-B",
+  "event": "m4e2",
+  "date": "Jan 2016",
+  "level": "B",
+  "q": "Given: kite $ABCD$, $m\\angle DBC=45^\\circ$, $BC=2$, and $CD=2\\sqrt{2}$. Find the area of kite $ABCD$ (in sq units).",
+  "a": "2+2\\sqrt{3}"
+ },
+ {
+  "id": "m4e2-2016-01-C",
+  "event": "m4e2",
+  "date": "Jan 2016",
+  "level": "C",
+  "q": "Given parallelogram $ABCD$ with diagonals $\\overline{AC}$ and $\\overline{BD}$ intersecting at $E$. If $m\\angle AEB=60^\\circ$, $m\\angle CAB=30^\\circ$, and $AB=18$, find $AD$.",
+  "a": "6\\sqrt{21}",
+  "fig": "/oml/fig/m4e2-2016-01-C.png"
+ },
+ {
+  "id": "m4e2-2015-02-A",
+  "event": "m4e2",
+  "date": "Feb 2015",
+  "level": "A",
+  "q": "Find the apothem of an equilateral triangle that has area $225\\sqrt{3}$.",
+  "a": "5\\sqrt{3}"
+ },
+ {
+  "id": "m4e2-2015-02-B",
+  "event": "m4e2",
+  "date": "Feb 2015",
+  "level": "B",
+  "q": "$AGOR$ and $AOEN$ are rectangles and $G$ is on $\\overline{EN}$. If $EN=20$ cm and $OR=16$ cm, find the area of pentagon $ORANE$ (in square cm).",
+  "a": "288",
+  "fig": "/oml/fig/m4e2-2015-02-B.png"
+ },
+ {
+  "id": "m4e2-2015-02-C",
+  "event": "m4e2",
+  "date": "Feb 2015",
+  "level": "C",
+  "q": "The base angles of an isosceles trapezoid are $60^\\circ$. The area of the trapezoid is $18+6\\sqrt{3}$ square units. The shorter base and the height have the same length. Find the length of a leg of the trapezoid.",
+  "a": "2\\sqrt{6}"
+ },
+ {
+  "id": "m4e2-2015-01-A",
+  "event": "m4e2",
+  "date": "Jan 2015",
+  "level": "A",
+  "q": "In quadrilateral $FATE$, $\\overline{FA}\\perp\\overline{EF}$, $m\\angle A=\\dfrac{9x+105}{3}+7$ and $m\\angle T=170-3x$. Find the measure of $\\angle E$ (in degrees).",
+  "a": "58"
+ },
+ {
+  "id": "m4e2-2015-01-B",
+  "event": "m4e2",
+  "date": "Jan 2015",
+  "level": "B",
+  "q": "Find the area of parallelogram $BASE$ if $AS=16$ inches, $m\\angle ABS=45^\\circ$, and $m\\angle BSA=60^\\circ$.",
+  "a": "192+64\\sqrt{3}"
+ },
+ {
+  "id": "m4e2-2015-01-C",
+  "event": "m4e2",
+  "date": "Jan 2015",
+  "level": "C",
+  "q": "In kite $WXYZ$, $WX=XY$. $S$, $O$, $D$, and $A$ are midpoints of $\\overline{WX}$, $\\overline{XY}$, $\\overline{YZ}$, and $\\overline{ZW}$, respectively. The area of $SODA$ is $2x^2+3x$ units². Find the area of $XODZ$.",
+  "a": "\\frac{3}{2}x^2+\\frac{9}{4}x"
+ },
+ {
+  "id": "m4e2-2014-02-A",
+  "event": "m4e2",
+  "date": "Feb 2014",
+  "level": "A",
+  "q": "A regular octagon has sides of length $2$. A square is formed by connecting the midpoints of every other side of the octagon as shown in the figure. Find the area of the square.",
+  "a": "6+4\\sqrt{2}",
+  "fig": "/oml/fig/m4e2-2014-02-A.png"
+ },
+ {
+  "id": "m4e2-2014-02-B",
+  "event": "m4e2",
+  "date": "Feb 2014",
+  "level": "B",
+  "q": "Six congruent equilateral triangles each with area $6\\sqrt{3}$ share sides as shown. Determine $AB$.",
+  "a": "2\\sqrt{42}",
+  "fig": "/oml/fig/m4e2-2014-02-B.png"
+ },
+ {
+  "id": "m4e2-2014-02-C",
+  "event": "m4e2",
+  "date": "Feb 2014",
+  "level": "C",
+  "q": "Two regular hexagons share a side. $\\overline{BC}$ and $\\overline{GF}$ are drawn. The area of trapezoid $CDEF$ is $6$. Find the area of $ABCDEFGH$.",
+  "a": "28",
+  "fig": "/oml/fig/m4e2-2014-02-C.png"
+ },
+ {
+  "id": "m4e2-2014-01-A",
+  "event": "m4e2",
+  "date": "Jan 2014",
+  "level": "A",
+  "q": "$ABCD$ is a parallelogram with height $7$, $E$ is the midpoint of $\\overline{AD}$, $F$ is the midpoint of $\\overline{BC}$, and $DC=12$. Find the area of the shaded region.",
+  "a": "42",
+  "fig": "/oml/fig/m4e2-2014-01-A.png"
+ },
+ {
+  "id": "m4e2-2014-01-B",
+  "event": "m4e2",
+  "date": "Jan 2014",
+  "level": "B",
+  "q": "John, Kristan, Lindsay, and Gerald live in homes located at points that are the vertices of an isosceles trapezoid. John lives $6$ miles west of Kristan while Lindsay lives $16$ miles east of Gerald. If John lives $13$ miles away from Gerald, how far (in miles) does John live from Lindsay?",
+  "a": "\\sqrt{265}"
+ },
+ {
+  "id": "m4e2-2014-01-C",
+  "event": "m4e2",
+  "date": "Jan 2014",
+  "level": "C",
+  "q": "Rhombus $ABCD$ has diagonals that intersect at point $E$. If $AE=-8x$, $BE=20y-10$, $CE=30y-20$, and $DE=-6x$, find the length of the shorter diagonal.",
+  "a": "60"
+ },
+ {
+  "id": "m4e2-2013-02-A",
+  "event": "m4e2",
+  "date": "Feb 2013",
+  "level": "A",
+  "q": "Find the apothem of an equilateral triangle that has an area of $64\\sqrt{3}$.",
+  "a": "\\frac{8\\sqrt{3}}{3}"
+ },
+ {
+  "id": "m4e2-2013-02-B",
+  "event": "m4e2",
+  "date": "Feb 2013",
+  "level": "B",
+  "q": "A line parallel to the short sides of a $12\\times 25$ rectangle subdivides the rectangle into two similar non-congruent rectangles. Determine the area of the larger of these two rectangles.",
+  "a": "192"
+ },
+ {
+  "id": "m4e2-2013-02-C",
+  "event": "m4e2",
+  "date": "Feb 2013",
+  "level": "C",
+  "q": "A square is formed by joining the midpoints of non-consecutive sides of a regular octagon. Find the area (in cm²) of the region within the octagon but outside the square if a diagonal of the square is $12$ cm.",
+  "a": "288\\sqrt{2}-360"
+ },
+ {
+  "id": "m4e2-2013-01-A",
+  "event": "m4e2",
+  "date": "Jan 2013",
+  "level": "A",
+  "q": "Trapezoid $MATH$ has bases of length $x$ cm and $(x-12)$ cm. Median $\\overline{EO}$ has length $32$ cm. What is the value of $x$ (in cm)?",
+  "a": "38"
+ },
+ {
+  "id": "m4e2-2013-01-B",
+  "event": "m4e2",
+  "date": "Jan 2013",
+  "level": "B",
+  "q": "A kite $MATH$ is inscribed in a circle with a radius of $10$ inches. $AT$ has length $10$ inches. If $MA>AT$, find the area of $MATH$ (in square inches).",
+  "a": "100\\sqrt{3}"
+ },
+ {
+  "id": "m4e2-2013-01-C",
+  "event": "m4e2",
+  "date": "Jan 2013",
+  "level": "C",
+  "q": "An equilateral triangle $ABC$ is inscribed in a circle of radius $4$. This circle is inscribed in a square $WXYZ$ where $C$ is the midpoint of $\\overline{WZ}$. Find the area of quadrilateral $AXYB$.",
+  "a": "8+4\\sqrt{3}"
+ }
+]

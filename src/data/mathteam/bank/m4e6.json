@@ -1,0 +1,339 @@
+[
+ {
+  "id": "m4e6-2026-01-A",
+  "event": "m4e6",
+  "date": "Jan 2026",
+  "level": "A",
+  "q": "Simplify $$\\dfrac{1}{3-\\dfrac{5}{i}}.$$ Express your answer in the form $a+bi$.",
+  "a": "\\frac{3}{34}-\\frac{5}{34}i"
+ },
+ {
+  "id": "m4e6-2026-01-B",
+  "event": "m4e6",
+  "date": "Jan 2026",
+  "level": "B",
+  "q": "Find the reciprocal of the conjugate of $\\dfrac{3}{2}+\\dfrac{3}{8}i$. Express your answer in the form $a+bi$.",
+  "a": "\\frac{32}{51}+\\frac{8}{51}i"
+ },
+ {
+  "id": "m4e6-2026-01-C",
+  "event": "m4e6",
+  "date": "Jan 2026",
+  "level": "C",
+  "q": "Solve for $z$: $$z(1+i)=(\\bar{z}-2)(3-i).$$ Express your answer in the form $a+bi$.",
+  "a": "3-i"
+ },
+ {
+  "id": "m4e6-2025-01-A",
+  "event": "m4e6",
+  "date": "Jan 2025",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{i^2-3i^{29}+4i^{57}}{i^{2025}-9i^{52}+i^{403}}.$$ Express your answer in the form $a+bi$.",
+  "a": "\\frac{1}{9}-\\frac{1}{9}i"
+ },
+ {
+  "id": "m4e6-2025-01-B",
+  "event": "m4e6",
+  "date": "Jan 2025",
+  "level": "B",
+  "q": "Solve for $z$: $$4i+(5-2i)z=3.$$ Express your answer in the form $a+bi$.",
+  "a": "\\frac{23}{29}-\\frac{14}{29}i"
+ },
+ {
+  "id": "m4e6-2025-01-C",
+  "event": "m4e6",
+  "date": "Jan 2025",
+  "level": "C",
+  "q": "Given $z$ is a non-real complex number, solve for $z$: $$z^2-12=6\\bar{z}.$$ Express your answer in the form $a+bi$.",
+  "a": "-3+\\sqrt{15}i, -3-\\sqrt{15}i"
+ },
+ {
+  "id": "m4e6-2024-01-A",
+  "event": "m4e6",
+  "date": "Jan 2024",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{(1+i)(2+i)(3+i)}{4+i}.$$ Express your answer in the form $a+bi$.",
+  "a": "\\frac{10}{17}+\\frac{40}{17}i"
+ },
+ {
+  "id": "m4e6-2024-01-B",
+  "event": "m4e6",
+  "date": "Jan 2024",
+  "level": "B",
+  "q": "Solve for $z$ over the complex numbers: $$z^3+2z^2+z+2=0$$",
+  "a": "-2, \\pm i"
+ },
+ {
+  "id": "m4e6-2024-01-C",
+  "event": "m4e6",
+  "date": "Jan 2024",
+  "level": "C",
+  "q": "Find $k$ if $$5+6i=\\dfrac{39-2i}{3-ki}$$",
+  "a": "4"
+ },
+ {
+  "id": "m4e6-2023-01-A",
+  "event": "m4e6",
+  "date": "Jan 2023",
+  "level": "A",
+  "q": "Express $\\dfrac{5+2i}{3-7i}$ in the form $a+bi$.",
+  "a": "\\frac{1}{58}+\\frac{41}{58}i"
+ },
+ {
+  "id": "m4e6-2023-01-B",
+  "event": "m4e6",
+  "date": "Jan 2023",
+  "level": "B",
+  "q": "If $4z-\\bar{z}+8i=2-37i$, find $z\\cdot\\bar{z}$.",
+  "a": "\\frac{733}{9}"
+ },
+ {
+  "id": "m4e6-2023-01-C",
+  "event": "m4e6",
+  "date": "Jan 2023",
+  "level": "C",
+  "q": "Given $r=2+3i$ and $s=-3+5i$. If $(r-s)^2=2z+zi$, solve for $z$. Express your answer in the form $a+bi$.",
+  "a": "\\frac{22}{5}-\\frac{61}{5}i"
+ },
+ {
+  "id": "m4e6-2022-01-A",
+  "event": "m4e6",
+  "date": "Jan 2022",
+  "level": "A",
+  "q": "Find the absolute value of the complex number $-4-8i$.",
+  "a": "4\\sqrt{5}"
+ },
+ {
+  "id": "m4e6-2022-01-B",
+  "event": "m4e6",
+  "date": "Jan 2022",
+  "level": "B",
+  "q": "If $3z-4zi=1+7i$, find $\\bar{z}$. Write your answer in the form $a+bi$.",
+  "a": "-1-i"
+ },
+ {
+  "id": "m4e6-2022-01-C",
+  "event": "m4e6",
+  "date": "Jan 2022",
+  "level": "C",
+  "q": "Find the square roots of the complex number $9-40i$. Write your answer in the form $a+bi$.",
+  "a": "5-4i, -5+4i"
+ },
+ {
+  "id": "m4e6-2021-01-A",
+  "event": "m4e6",
+  "date": "Jan 2021",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{1}{1-i}+\\dfrac{i}{1+i}.$$ Express your answer in the form $a+bi$.",
+  "a": "1+i"
+ },
+ {
+  "id": "m4e6-2021-01-B",
+  "event": "m4e6",
+  "date": "Jan 2021",
+  "level": "B",
+  "q": "Solve for $z$: $$z(4+i)-8+9i=2\\bar{z}.$$ Express your answer in the form $a+bi$.",
+  "a": "3-2i"
+ },
+ {
+  "id": "m4e6-2021-01-C",
+  "event": "m4e6",
+  "date": "Jan 2021",
+  "level": "C",
+  "q": "The absolute value of the square root of the conjugate of $32-24i$ can be written in simplest form as $a\\sqrt{b}$. Find $a-b$.",
+  "a": "-8"
+ },
+ {
+  "id": "m4e6-2020-01-A",
+  "event": "m4e6",
+  "date": "Jan 2020",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{1}{2-\\dfrac{3}{i}}.$$ Write your answer in the form $a+bi$.",
+  "a": "\\frac{2}{13}-\\frac{3}{13}i"
+ },
+ {
+  "id": "m4e6-2020-01-B",
+  "event": "m4e6",
+  "date": "Jan 2020",
+  "level": "B",
+  "q": "Find the reciprocal of the conjugate of $\\dfrac{5}{4}+\\dfrac{3}{2}i$. Write your answer in the form $a+bi$.",
+  "a": "\\frac{20}{61}+\\frac{24}{61}i"
+ },
+ {
+  "id": "m4e6-2020-01-C",
+  "event": "m4e6",
+  "date": "Jan 2020",
+  "level": "C",
+  "q": "Simplify: $$\\left[\\dfrac{1}{1+i}+\\dfrac{1}{(1+i)^2}+\\dfrac{1}{(1+i)^3}+\\dfrac{1}{(1+i)^4}\\right]^2$$",
+  "a": "-\\frac{25}{16}"
+ },
+ {
+  "id": "m4e6-2019-02-A",
+  "event": "m4e6",
+  "date": "Feb 2019",
+  "level": "A",
+  "q": "If $(14-2i)(7+ci)=122+154i$, find $c$.",
+  "a": "12"
+ },
+ {
+  "id": "m4e6-2019-02-B",
+  "event": "m4e6",
+  "date": "Feb 2019",
+  "level": "B",
+  "q": "If $3z-2+4\\bar{z}=19-2i$, find $\\bar{z}$. Write your answer in the form $a+bi$.",
+  "a": "3-2i"
+ },
+ {
+  "id": "m4e6-2019-02-C",
+  "event": "m4e6",
+  "date": "Feb 2019",
+  "level": "C",
+  "q": "Find $$\\dfrac{\\left(1+\\dfrac{1}{i}\\right)\\left(2-\\dfrac{2}{i}\\right)\\left(3+\\dfrac{3}{i}\\right)\\left(4-\\dfrac{4}{i}\\right)\\cdots\\left(10-\\dfrac{10}{i}\\right)}{2^{10}}$$",
+  "a": "113400",
+  "note": "Official answer: 113,400"
+ },
+ {
+  "id": "m4e6-2018-02-A",
+  "event": "m4e6",
+  "date": "Feb 2018",
+  "level": "A",
+  "q": "Simplify $\\dfrac{-3i}{2-3i}$. Express your answer in the form $a+bi$.",
+  "a": "\\frac{9}{13}-\\frac{6}{13}i"
+ },
+ {
+  "id": "m4e6-2018-02-B",
+  "event": "m4e6",
+  "date": "Feb 2018",
+  "level": "B",
+  "q": "Simplify $$\\left(\\dfrac{1}{2}-\\dfrac{1}{2}i\\right)^5.$$ Express your answer in the form $a+bi$.",
+  "a": "-\\frac{1}{8}+\\frac{1}{8}i"
+ },
+ {
+  "id": "m4e6-2018-02-C",
+  "event": "m4e6",
+  "date": "Feb 2018",
+  "level": "C",
+  "q": "Solve for $z$: $$|8-6i|z+(8-6i)z=(8-6i)^2.$$ Express your answer in the form $a+bi$.",
+  "a": "3-\\frac{13}{3}i"
+ },
+ {
+  "id": "m4e6-2017-02-A",
+  "event": "m4e6",
+  "date": "Feb 2017",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{3}{3-2i}+\\dfrac{3}{2}.$$ Express your answer in $a+bi$ form.",
+  "a": "\\frac{57}{26}+\\frac{6}{13}i"
+ },
+ {
+  "id": "m4e6-2017-02-B",
+  "event": "m4e6",
+  "date": "Feb 2017",
+  "level": "B",
+  "q": "Simplify: $$\\dfrac{4i^{27}+3i^{125}-2i^{28}}{6+2i^{53}-5i^{81}}.$$ Express your answer in $a+bi$ form.",
+  "a": "-\\frac{1}{5}-\\frac{4}{15}i"
+ },
+ {
+  "id": "m4e6-2017-02-C",
+  "event": "m4e6",
+  "date": "Feb 2017",
+  "level": "C",
+  "q": "Given: $z=9+bi$, $b$ is a positive real number, and the imaginary parts of $z^2$ and $z^3$ are equal. Find $b$.",
+  "a": "15"
+ },
+ {
+  "id": "m4e6-2016-02-A",
+  "event": "m4e6",
+  "date": "Feb 2016",
+  "level": "A",
+  "q": "Find the conjugate of $\\dfrac{3-2i}{1+3i}$. Express your answer in the form $a+bi$.",
+  "a": "-\\frac{3}{10}+\\frac{11}{10}i"
+ },
+ {
+  "id": "m4e6-2016-02-B",
+  "event": "m4e6",
+  "date": "Feb 2016",
+  "level": "B",
+  "q": "Simplify $$\\dfrac{5i^{22}-3i^{15}}{7i^{70}+2i^{201}}.$$ Express your answer in the form $a+bi$.",
+  "a": "\\frac{41}{53}-\\frac{11}{53}i"
+ },
+ {
+  "id": "m4e6-2016-02-C",
+  "event": "m4e6",
+  "date": "Feb 2016",
+  "level": "C",
+  "q": "Let $z$ be a complex number with real part $15$. Let $z+n=3z-\\bar{z}n-\\bar{z}+3i$. Solve for $n$ where $n$ is a real number.",
+  "a": "\\frac{15}{16}"
+ },
+ {
+  "id": "m4e6-2015-02-A",
+  "event": "m4e6",
+  "date": "Feb 2015",
+  "level": "A",
+  "q": "Given $z-4zi=3+2i$. Find $\\bar{z}$ in the form $a+bi$.",
+  "a": "-\\frac{5}{17}-\\frac{14}{17}i"
+ },
+ {
+  "id": "m4e6-2015-02-B",
+  "event": "m4e6",
+  "date": "Feb 2015",
+  "level": "B",
+  "q": "Find the square roots of $21-20i$.",
+  "a": "5-2i, -5+2i"
+ },
+ {
+  "id": "m4e6-2015-02-C",
+  "event": "m4e6",
+  "date": "Feb 2015",
+  "level": "C",
+  "q": "Simplify: $$\\dfrac{(1+i)^{2015}}{(1-i)^{2016}}$$",
+  "a": "\\frac{1}{2}-\\frac{1}{2}i"
+ },
+ {
+  "id": "m4e6-2014-02-A",
+  "event": "m4e6",
+  "date": "Feb 2014",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{1}{1+i}+\\dfrac{1}{1-i}$$",
+  "a": "1"
+ },
+ {
+  "id": "m4e6-2014-02-B",
+  "event": "m4e6",
+  "date": "Feb 2014",
+  "level": "B",
+  "q": "A complex number $a+bi$ has absolute value $\\sqrt{65}$. $a$ is $3$ less than $b$. Find all such complex numbers.",
+  "a": "4+7i, -7-4i"
+ },
+ {
+  "id": "m4e6-2014-02-C",
+  "event": "m4e6",
+  "date": "Feb 2014",
+  "level": "C",
+  "q": "Solve for $z$: $$z^2+13=4\\bar{z}$$",
+  "a": "-2+5i, -2-5i"
+ },
+ {
+  "id": "m4e6-2013-02-A",
+  "event": "m4e6",
+  "date": "Feb 2013",
+  "level": "A",
+  "q": "Given $3-4i+zi=6+i$. Find $\\bar{z}$ in the form $a+bi$.",
+  "a": "5+3i"
+ },
+ {
+  "id": "m4e6-2013-02-B",
+  "event": "m4e6",
+  "date": "Feb 2013",
+  "level": "B",
+  "q": "Given $(5+5i)^{40}=r^n$ where $r$ and $n$ are natural numbers. Determine the smallest possible value of the sum $r+n$.",
+  "a": "70"
+ },
+ {
+  "id": "m4e6-2013-02-C",
+  "event": "m4e6",
+  "date": "Feb 2013",
+  "level": "C",
+  "q": "$\\left(\\sqrt{2}+i\\sqrt{3}\\right)^{600}\\left(\\sqrt{2}-i\\sqrt{3}\\right)^{600}$ may be expressed as $A^B$ in many ways, where $A$ and $B$ are positive integers. If $A$ is the largest possible 3-digit integer, determine the ordered pair $(A,B)$.",
+  "a": "(625, 150)"
+ }
+]

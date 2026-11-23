@@ -3,7 +3,7 @@
 //
 // Source format (one file per OML event):
 //
-//   @ Jan 2026                     ← test date as printed on the paper
+//   @ Jan 2026                     ← test date as printed on the paper (optional tag: "@ Sep 2016 b")
 //   A: Problem statement in Markdown with $LaTeX$.
 //      Continuation lines are indented (or simply follow) until the next marker.
 //   = \frac{3}{2}                  ← official answer, LaTeX without $
@@ -45,11 +45,12 @@ for (const file of readdirSync(srcDir).filter((f) => f.endsWith('.txt')).sort())
   lines.forEach((line, n) => {
     if (/^\s*#/.test(line)) return;
     let m;
-    if ((m = line.match(/^@\s*(\w+)\.?\s+(\d{4})\s*$/))) {
+    if ((m = line.match(/^@\s*(\w+)\.?\s+(\d{4})(?:\s+(\w+))?\s*$/))) {
       finish(n);
       const mm = MONTHS[m[1].toLowerCase()];
       if (!mm) fail(n, `unknown month ${m[1]}`);
-      date = { label: `${m[1].slice(0, 3)} ${m[2]}`, key: `${m[2]}-${mm}` };
+      // Optional tag ("@ Sep 2016 b") keeps ids unique when one month has two papers (combined events).
+      date = { label: `${m[1].slice(0, 3)} ${m[2]}`, key: `${m[2]}-${mm}${m[3] ? `-${m[3]}` : ''}` };
     } else if ((m = line.match(/^([ABC]):\s?(.*)$/))) {
       finish(n);
       if (!date) fail(n, 'problem before any @ date');

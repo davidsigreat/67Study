@@ -1,0 +1,343 @@
+[
+ {
+  "id": "m1e4-2025-09-A",
+  "event": "m1e4",
+  "date": "Sep 2025",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{\\sec x-\\cos x}{\\sec x}$$",
+  "a": "\\sin^2 x"
+ },
+ {
+  "id": "m1e4-2025-09-B",
+  "event": "m1e4",
+  "date": "Sep 2025",
+  "level": "B",
+  "q": "Given $0<\\theta<\\dfrac{\\pi}{2}$, and $4\\cos^2\\theta-4\\cos^4\\theta=\\dfrac{1}{2}$, find the value of $\\sin(2\\theta)$.",
+  "a": "\\frac{\\sqrt{2}}{2}"
+ },
+ {
+  "id": "m1e4-2025-09-C",
+  "event": "m1e4",
+  "date": "Sep 2025",
+  "level": "C",
+  "q": "If $\\sin\\alpha=\\dfrac{3}{5}$, $\\cos\\beta=-\\dfrac{12}{13}$, $\\cos\\alpha<0$, and $\\tan\\beta>0$, find $\\tan(\\beta-\\alpha)$.",
+  "a": "\\frac{56}{33}"
+ },
+ {
+  "id": "m1e4-2024-09-A",
+  "event": "m1e4",
+  "date": "Sep 2024",
+  "level": "A",
+  "q": "Let $0<A<\\dfrac{\\pi}{2}$ and $\\dfrac{\\pi}{2}<B<\\pi$. If $\\sin A=\\dfrac{\\sqrt{2}}{2}$ and $\\tan B=-\\dfrac{\\sqrt{3}}{3}$, find the value of $\\sec A+\\cot B$.",
+  "a": "\\sqrt{2}-\\sqrt{3}"
+ },
+ {
+  "id": "m1e4-2024-09-B",
+  "event": "m1e4",
+  "date": "Sep 2024",
+  "level": "B",
+  "q": "Find the value of $\\cos\\dfrac{\\pi}{12}\\cos\\dfrac{5\\pi}{12}$.",
+  "a": "\\frac{1}{4}"
+ },
+ {
+  "id": "m1e4-2024-09-C",
+  "event": "m1e4",
+  "date": "Sep 2024",
+  "level": "C",
+  "q": "If $\\cot\\theta=\\dfrac{7}{24}$ and $\\pi<\\theta<\\dfrac{3\\pi}{2}$, find the value of $\\cos\\left(\\dfrac{3\\theta}{2}\\right)$.",
+  "a": "\\frac{117}{125}"
+ },
+ {
+  "id": "m1e4-2023-09-A",
+  "event": "m1e4",
+  "date": "Sep 2023",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{\\tan\\theta+\\cot\\theta}{(\\sec\\theta)(\\csc\\theta)}$$",
+  "a": "1"
+ },
+ {
+  "id": "m1e4-2023-09-B",
+  "event": "m1e4",
+  "date": "Sep 2023",
+  "level": "B",
+  "q": "Evaluate: $$\\dfrac{1}{\\cos^2(22.5^\\circ)-\\sin^2(22.5^\\circ)}\\div\\dfrac{1-\\tan^2(15^\\circ)}{2\\tan(15^\\circ)}$$",
+  "a": "\\frac{\\sqrt{6}}{3}"
+ },
+ {
+  "id": "m1e4-2023-09-C",
+  "event": "m1e4",
+  "date": "Sep 2023",
+  "level": "C",
+  "q": "Given: $\\tan\\alpha=1$ and $\\sin\\beta=-\\dfrac{3}{5}$, where $\\sin\\alpha<0$ and $\\cos\\beta>0$. Find the value of $\\sin(\\alpha+2\\beta)$.",
+  "a": "\\frac{17\\sqrt{2}}{50}"
+ },
+ {
+  "id": "m1e4-2022-09-A",
+  "event": "m1e4",
+  "date": "Sep 2022",
+  "level": "A",
+  "q": "If $\\cos A=-\\dfrac{12}{13}$, and $0<A<\\pi$, find $\\tan 2A$.",
+  "a": "-\\frac{120}{119}"
+ },
+ {
+  "id": "m1e4-2022-09-B",
+  "event": "m1e4",
+  "date": "Sep 2022",
+  "level": "B",
+  "q": "Find the value of $\\cos\\left(\\dfrac{11\\pi}{12}\\right)$.",
+  "a": "\\frac{-\\sqrt{2}-\\sqrt{6}}{4}",
+  "alt": [
+   "-\\frac{\\sqrt{2+\\sqrt{3}}}{2}"
+  ]
+ },
+ {
+  "id": "m1e4-2022-09-C",
+  "event": "m1e4",
+  "date": "Sep 2022",
+  "level": "C",
+  "q": "Simplify: $$1+\\cos^2\\dfrac{\\pi}{5}-\\cos^2\\dfrac{9\\pi}{5}+2\\sin\\dfrac{9\\pi}{5}\\cos\\dfrac{\\pi}{5}$$ Write your answer in terms of a single trigonometric function of an angle between $0$ and $\\dfrac{\\pi}{2}$.",
+  "a": "1-\\sin\\left(\\frac{2\\pi}{5}\\right)"
+ },
+ {
+  "id": "m1e4-2021-09-A",
+  "event": "m1e4",
+  "date": "Sep 2021",
+  "level": "A",
+  "q": "For $0\\le\\alpha\\le\\dfrac{\\pi}{2}$, if $\\sin\\alpha=\\dfrac{3}{4}$, find $\\cos(2\\alpha)$.",
+  "a": "-\\frac{1}{8}"
+ },
+ {
+  "id": "m1e4-2021-09-B",
+  "event": "m1e4",
+  "date": "Sep 2021",
+  "level": "B",
+  "q": "If $A=\\tan\\left(\\dfrac{\\theta}{2}\\right)$, write $\\dfrac{1-A^2}{1+A^2}$ as a single trigonometric function of $\\theta$.",
+  "a": "\\cos\\theta"
+ },
+ {
+  "id": "m1e4-2021-09-C",
+  "event": "m1e4",
+  "date": "Sep 2021",
+  "level": "C",
+  "q": "Evaluate: $$1-\\dfrac{8}{\\tan^2 7.5^\\circ\\cot^2 7.5^\\circ+\\tan^2 7.5^\\circ+\\cot^2 7.5^\\circ+1}$$",
+  "a": "\\frac{\\sqrt{3}}{2}"
+ },
+ {
+  "id": "m1e4-2020-09-A",
+  "event": "m1e4",
+  "date": "Sep 2020",
+  "level": "A",
+  "q": "Evaluate: $$\\dfrac{2(\\cos 50^\\circ)(\\tan 60^\\circ)}{\\sin 40^\\circ}$$",
+  "a": "2\\sqrt{3}"
+ },
+ {
+  "id": "m1e4-2020-09-B",
+  "event": "m1e4",
+  "date": "Sep 2020",
+  "level": "B",
+  "q": "If $\\cot\\theta=-\\dfrac{4}{5}$ and $\\dfrac{\\pi}{2}<\\theta<\\pi$, find $\\csc 2\\theta$.",
+  "a": "-\\frac{41}{40}"
+ },
+ {
+  "id": "m1e4-2020-09-C",
+  "event": "m1e4",
+  "date": "Sep 2020",
+  "level": "C",
+  "q": "Given: $ABCD$ is a square with $E$ on $\\overline{AB}$ and $F$ on $\\overline{BC}$, $AE=\\dfrac{3}{4}AB$, and $FC=\\dfrac{3}{4}BC$. Find $\\sin(\\angle EDF)$.",
+  "a": "\\frac{7}{25}",
+  "fig": "/oml/fig/m1e4-2020-09-C.png"
+ },
+ {
+  "id": "m1e4-2019-09-A",
+  "event": "m1e4",
+  "date": "Sep 2019",
+  "level": "A",
+  "q": "Evaluate: $$\\cos^4\\left(\\dfrac{\\pi}{12}\\right)-\\sin^4\\left(\\dfrac{\\pi}{12}\\right)$$",
+  "a": "\\frac{\\sqrt{3}}{2}"
+ },
+ {
+  "id": "m1e4-2019-09-B",
+  "event": "m1e4",
+  "date": "Sep 2019",
+  "level": "B",
+  "q": "If $\\tan(A)=1.25$, where $\\dfrac{\\pi}{2}\\le A<\\dfrac{3\\pi}{2}$, find $\\sin(2A)$.",
+  "a": "\\frac{40}{41}"
+ },
+ {
+  "id": "m1e4-2019-09-C",
+  "event": "m1e4",
+  "date": "Sep 2019",
+  "level": "C",
+  "q": "If $\\cos A=\\dfrac{5}{12}$ and $\\sin A<0$, evaluate $$\\cos(A)-\\sin(\\pi-A)+\\tan(-A)+\\cot\\left(\\dfrac{\\pi}{2}-A\\right)+\\csc(A)+\\sec\\left(A+\\dfrac{\\pi}{2}\\right)$$",
+  "a": "\\frac{5+\\sqrt{119}}{12}"
+ },
+ {
+  "id": "m1e4-2018-09-A",
+  "event": "m1e4",
+  "date": "Sep 2018",
+  "level": "A",
+  "q": "Evaluate: $\\sin 15^\\circ\\cos 15^\\circ$",
+  "a": "\\frac{1}{4}"
+ },
+ {
+  "id": "m1e4-2018-09-B",
+  "event": "m1e4",
+  "date": "Sep 2018",
+  "level": "B",
+  "q": "If $\\tan A=\\dfrac{5}{12}$, $\\sec B=-\\dfrac{5}{3}$, $\\pi\\le A\\le\\dfrac{3\\pi}{2}$, and $\\dfrac{\\pi}{2}\\le B\\le\\pi$, find $\\csc(B-A)$.",
+  "a": "-\\frac{65}{63}"
+ },
+ {
+  "id": "m1e4-2018-09-C",
+  "event": "m1e4",
+  "date": "Sep 2018",
+  "level": "C",
+  "q": "If $\\tan x=\\dfrac{3}{4}$, $0<x<\\dfrac{\\pi}{2}$, find $\\cos(3x)$.",
+  "a": "-\\frac{44}{125}"
+ },
+ {
+  "id": "m1e4-2017-09-A",
+  "event": "m1e4",
+  "date": "Sep 2017",
+  "level": "A",
+  "q": "If $\\sin\\theta=-\\dfrac{4}{5}$ and $\\dfrac{3\\pi}{2}<\\theta<2\\pi$, find $\\cos(2\\theta)$.",
+  "a": "-\\frac{7}{25}"
+ },
+ {
+  "id": "m1e4-2017-09-B",
+  "event": "m1e4",
+  "date": "Sep 2017",
+  "level": "B",
+  "q": "If $\\tan A=2$, $\\tan B=5$, and $\\tan C=-\\dfrac{1}{8}$, find $\\tan(A+B+C)$.",
+  "a": "-1"
+ },
+ {
+  "id": "m1e4-2017-09-C",
+  "event": "m1e4",
+  "date": "Sep 2017",
+  "level": "C",
+  "q": "Given right triangle $OAU$ with right angle at $A$. $H$ is on $\\overline{AU}$, $OA=12$, $OH=13$, $UH=4$ and $\\theta=m\\angle HOU$. Find $\\sin\\theta$.",
+  "a": "\\frac{16}{65}",
+  "fig": "/oml/fig/m1e4-2017-09-C.png"
+ },
+ {
+  "id": "m1e4-2016-09-A",
+  "event": "m1e4",
+  "date": "Sep 2016",
+  "level": "A",
+  "q": "Simplify: $$-\\sin^2\\theta\\tan^2\\theta+1+\\tan^2\\theta-\\sin^2\\theta$$",
+  "a": "1"
+ },
+ {
+  "id": "m1e4-2016-09-B",
+  "event": "m1e4",
+  "date": "Sep 2016",
+  "level": "B",
+  "q": "Evaluate: $\\sin(75^\\circ)-\\sin(165^\\circ)$",
+  "a": "\\frac{\\sqrt{2}}{2}"
+ },
+ {
+  "id": "m1e4-2016-09-C",
+  "event": "m1e4",
+  "date": "Sep 2016",
+  "level": "C",
+  "q": "If $\\sin A=\\dfrac{5}{11}$ and $\\cos A<0$, evaluate: $$\\sin A-\\cos(\\pi-A)+\\tan(-A)+\\cot\\left(\\dfrac{\\pi}{2}-A\\right)+\\sec A-\\csc\\left(A+\\dfrac{\\pi}{2}\\right)$$",
+  "a": "\\frac{5-4\\sqrt{6}}{11}"
+ },
+ {
+  "id": "m1e4-2015-09-A",
+  "event": "m1e4",
+  "date": "Sep 2015",
+  "level": "A",
+  "q": "Simplify $\\dfrac{\\sin^2 x}{\\cos^2 x}+(\\sin x)(\\csc x)$ to a one-term expression involving one trigonometric function.",
+  "a": "\\sec^2 x"
+ },
+ {
+  "id": "m1e4-2015-09-B",
+  "event": "m1e4",
+  "date": "Sep 2015",
+  "level": "B",
+  "q": "If $\\sin A=\\dfrac{3}{5}$ with $0<A<\\dfrac{\\pi}{2}$ and $\\cos B=-\\dfrac{5}{13}$ with $\\pi<B<\\dfrac{3\\pi}{2}$, find $\\tan(A+B)$.",
+  "a": "-\\frac{63}{16}"
+ },
+ {
+  "id": "m1e4-2015-09-C",
+  "event": "m1e4",
+  "date": "Sep 2015",
+  "level": "C",
+  "q": "Evaluate: $$\\dfrac{(\\cos 135^\\circ)(\\cos 75^\\circ)}{\\cos 315^\\circ}+\\dfrac{(\\sin 135^\\circ)(\\sin 75^\\circ)}{\\sin 405^\\circ}$$",
+  "a": "\\frac{\\sqrt{2}}{2}"
+ },
+ {
+  "id": "m1e4-2014-09-A",
+  "event": "m1e4",
+  "date": "Sep 2014",
+  "level": "A",
+  "q": "Simplify: $\\sqrt{\\sec^2\\theta-\\cos^2\\theta-\\tan^2\\theta}$, $0<\\theta<\\dfrac{\\pi}{2}$",
+  "a": "\\sin\\theta"
+ },
+ {
+  "id": "m1e4-2014-09-B",
+  "event": "m1e4",
+  "date": "Sep 2014",
+  "level": "B",
+  "q": "If $\\cos(2A)=\\dfrac{2}{3}$, find $\\sin A$.",
+  "a": "\\pm\\frac{\\sqrt{6}}{6}"
+ },
+ {
+  "id": "m1e4-2014-09-C",
+  "event": "m1e4",
+  "date": "Sep 2014",
+  "level": "C",
+  "q": "If $a=\\sin\\left(\\dfrac{1}{2}x\\right)$ and $b=\\cos\\left(\\dfrac{1}{2}x\\right)$, express $$\\dfrac{(1-\\cos 2x)\\sin\\left(\\dfrac{\\pi}{2}-y\\right)\\tan\\left(\\dfrac{\\pi}{2}-x\\right)}{\\cos(x+y)+\\cos(x-y)+\\sin 2x\\sin\\left(\\dfrac{\\pi}{2}-y\\right)\\tan\\left(\\dfrac{\\pi}{2}-x\\right)}$$ in terms of $a$ and $b$.",
+  "a": "\\frac{a}{b}"
+ },
+ {
+  "id": "m1e4-2013-09-A",
+  "event": "m1e4",
+  "date": "Sep 2013",
+  "level": "A",
+  "q": "If $\\cos\\theta=-\\dfrac{5}{13}$ and $\\theta$ is in quadrant III, find $\\tan(2\\theta)$.",
+  "a": "-\\frac{120}{119}"
+ },
+ {
+  "id": "m1e4-2013-09-B",
+  "event": "m1e4",
+  "date": "Sep 2013",
+  "level": "B",
+  "q": "Simplify: $$\\dfrac{\\tan(\\theta+\\pi)\\sin\\left(\\dfrac{\\pi}{2}-\\theta\\right)\\cos(\\pi-\\theta)}{\\cot\\left(\\dfrac{\\pi}{2}-\\theta\\right)\\csc(\\pi-\\theta)}$$ Express your answer in terms of $\\sin\\theta$.",
+  "a": "-\\sin\\theta+\\sin^3\\theta"
+ },
+ {
+  "id": "m1e4-2013-09-C",
+  "event": "m1e4",
+  "date": "Sep 2013",
+  "level": "C",
+  "q": "Simplify: $$\\dfrac{2\\cos^4\\theta+6\\cos^2\\theta-2\\sin^2\\theta\\cos^2\\theta-6\\sin^2\\theta}{2\\cos^4\\theta+5\\cos^2\\theta-3}$$",
+  "a": "2"
+ },
+ {
+  "id": "m1e4-2012-09-A",
+  "event": "m1e4",
+  "date": "Sep 2012",
+  "level": "A",
+  "q": "Simplify: $\\sin^2 15^\\circ+\\sin^2 60^\\circ+\\sin^2 30^\\circ+\\sin^2 75^\\circ$",
+  "a": "2"
+ },
+ {
+  "id": "m1e4-2012-09-B",
+  "event": "m1e4",
+  "date": "Sep 2012",
+  "level": "B",
+  "q": "Find $\\tan(x+y)$ if $\\tan(x)+\\tan(y)=15$, and $\\cot(x)+\\cot(y)=40$.",
+  "a": "24"
+ },
+ {
+  "id": "m1e4-2012-09-C",
+  "event": "m1e4",
+  "date": "Sep 2012",
+  "level": "C",
+  "q": "If $\\tan x+\\cot x=4$, find the value of $\\sin^2 x+\\cos^2 x+\\tan^2 x+\\cot^2 x+\\sec^2 x+\\csc^2 x$.",
+  "a": "31"
+ }
+]

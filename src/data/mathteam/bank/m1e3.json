@@ -1,0 +1,352 @@
+[
+ {
+  "id": "m1e3-2025-09-A",
+  "event": "m1e3",
+  "date": "Sep 2025",
+  "level": "A",
+  "q": "Let $x=-3$ and $y=2$. Evaluate $\\left(x^2-4xy+y^2\\right)-(4x+3y)$.",
+  "a": "43"
+ },
+ {
+  "id": "m1e3-2025-09-B",
+  "event": "m1e3",
+  "date": "Sep 2025",
+  "level": "B",
+  "q": "If $a\\diamond b=\\dfrac{a^2-ab}{b^2}$, find the value of $(1\\diamond 2)\\diamond 0.5$.",
+  "a": "\\frac{3}{4}"
+ },
+ {
+  "id": "m1e3-2025-09-C",
+  "event": "m1e3",
+  "date": "Sep 2025",
+  "level": "C",
+  "q": "Convert the base $16$ number $312$ to base $4$.",
+  "a": "30102"
+ },
+ {
+  "id": "m1e3-2024-09-A",
+  "event": "m1e3",
+  "date": "Sep 2024",
+  "level": "A",
+  "q": "Simplify: $$\\dfrac{3-2\\left(4+2^2-3\\right)}{6-10\\cdot 2}$$",
+  "a": "\\frac{1}{2}"
+ },
+ {
+  "id": "m1e3-2024-09-B",
+  "event": "m1e3",
+  "date": "Sep 2024",
+  "level": "B",
+  "q": "Write $1.2\\overline{34}$ as an improper fraction.",
+  "a": "\\frac{611}{495}"
+ },
+ {
+  "id": "m1e3-2024-09-C",
+  "event": "m1e3",
+  "date": "Sep 2024",
+  "level": "C",
+  "q": "Find the sum of the base $2$ number $111$ and the base $3$ number $111$. Write your answer as a base $4$ number.",
+  "a": "110"
+ },
+ {
+  "id": "m1e3-2023-09-A",
+  "event": "m1e3",
+  "date": "Sep 2023",
+  "level": "A",
+  "q": "If $A\\mathbin{\\#}B\\mathbin{@}C=\\dfrac{A}{B}+C$, find the value of $(3\\mathbin{\\#}1\\mathbin{@}2)\\mathbin{\\#}10\\mathbin{@}8$.",
+  "a": "8.5",
+  "alt": [
+   "\\frac{17}{2}"
+  ]
+ },
+ {
+  "id": "m1e3-2023-09-B",
+  "event": "m1e3",
+  "date": "Sep 2023",
+  "level": "B",
+  "q": "In the decimal representation of $\\dfrac{2}{7}$, what is the $2023^{\\text{rd}}$ digit to the right of the decimal point?",
+  "a": "2"
+ },
+ {
+  "id": "m1e3-2023-09-C",
+  "event": "m1e3",
+  "date": "Sep 2023",
+  "level": "C",
+  "q": "Given the sequence $a_1=-1$, $a_2=3$, and for $n\\ge 3$, $a_n=2a_{n-1}-a_{n-2}$. Find $a_{100}$ in base $8$.",
+  "a": "613"
+ },
+ {
+  "id": "m1e3-2022-09-A",
+  "event": "m1e3",
+  "date": "Sep 2022",
+  "level": "A",
+  "q": "Write $0.9333\\ldots$ in fractional form.",
+  "a": "\\frac{14}{15}"
+ },
+ {
+  "id": "m1e3-2022-09-B",
+  "event": "m1e3",
+  "date": "Sep 2022",
+  "level": "B",
+  "q": "Find the units digit of $3^{158}$.",
+  "a": "9"
+ },
+ {
+  "id": "m1e3-2022-09-C",
+  "event": "m1e3",
+  "date": "Sep 2022",
+  "level": "C",
+  "q": "Write the hexadecimal (base $16$) number $36A$ in base $4$.",
+  "a": "31222"
+ },
+ {
+  "id": "m1e3-2021-09-A",
+  "event": "m1e3",
+  "date": "Sep 2021",
+  "level": "A",
+  "q": "Convert the base $9$ number $2121$ to base $3$.",
+  "a": "2010201"
+ },
+ {
+  "id": "m1e3-2021-09-B",
+  "event": "m1e3",
+  "date": "Sep 2021",
+  "level": "B",
+  "q": "Using the hexagon operation defined in the figure, $\\text{hex}(A,B,C)=\\left(\\dfrac{B}{A}-\\dfrac{B}{C}\\right)^{-2}$, evaluate the nested hexagon shown (inner hexagon $18,12,20$ inside outer hexagon with $150$ and $135$).",
+  "a": "36",
+  "fig": "/oml/fig/m1e3-2021-09-B.png"
+ },
+ {
+  "id": "m1e3-2021-09-C",
+  "event": "m1e3",
+  "date": "Sep 2021",
+  "level": "C",
+  "q": "Find the $103$rd term, $t_{103}$, of the sequence defined by $t_1=3$, $t_2=7$, $t_n=2t_{n-1}-t_{n-2}$.",
+  "a": "411"
+ },
+ {
+  "id": "m1e3-2020-09-A",
+  "event": "m1e3",
+  "date": "Sep 2020",
+  "level": "A",
+  "q": "Write the fractional form of the decimal $0.3888\\ldots$",
+  "a": "\\frac{7}{18}"
+ },
+ {
+  "id": "m1e3-2020-09-B",
+  "event": "m1e3",
+  "date": "Sep 2020",
+  "level": "B",
+  "q": "If $x\\heartsuit y=3x-y^2$, find $4\\heartsuit(7\\heartsuit 4)$.",
+  "a": "-13"
+ },
+ {
+  "id": "m1e3-2020-09-C",
+  "event": "m1e3",
+  "date": "Sep 2020",
+  "level": "C",
+  "q": "Let $P$ = the fifth pentagonal number in base $10$. Let $Q$ = the base $10$ equivalent of the base $16$ rational number $2A.C$. Let $R$ = the base $10$ equivalent of the Roman numeral XIX. Express $P+Q+R$ in base $4$.",
+  "a": "1200.3"
+ },
+ {
+  "id": "m1e3-2019-09-A",
+  "event": "m1e3",
+  "date": "Sep 2019",
+  "level": "A",
+  "q": "Convert the base $2$ number $11001101$ to base $10$.",
+  "a": "205"
+ },
+ {
+  "id": "m1e3-2019-09-B",
+  "event": "m1e3",
+  "date": "Sep 2019",
+  "level": "B",
+  "q": "If $x@y=\\dfrac{5x-2y}{x}$, find the value of $3@(6@2)$.",
+  "a": "\\frac{19}{9}"
+ },
+ {
+  "id": "m1e3-2019-09-C",
+  "event": "m1e3",
+  "date": "Sep 2019",
+  "level": "C",
+  "q": "In a certain sequence $t_1=5$, $t_2=8$, and for $n\\ge 3$, $t_n=t_{n-1}+t_{n-2}$. Express $t_{11}$ as a Roman numeral.",
+  "a": "DCX"
+ },
+ {
+  "id": "m1e3-2018-09-A",
+  "event": "m1e3",
+  "date": "Sep 2018",
+  "level": "A",
+  "q": "Evaluate: $\\text{IV}(\\text{XXXIX}+\\text{XXVI})\\div\\text{V}$. Express your answer in Roman numerals.",
+  "a": "LII"
+ },
+ {
+  "id": "m1e3-2018-09-B",
+  "event": "m1e3",
+  "date": "Sep 2018",
+  "level": "B",
+  "q": "If $x\\circledast y$ is defined to be $\\dfrac{|x-y|}{x+y}$, what is the value of $2\\circledast(5\\circledast(3\\circledast 1))$?",
+  "a": "\\frac{13}{31}"
+ },
+ {
+  "id": "m1e3-2018-09-C",
+  "event": "m1e3",
+  "date": "Sep 2018",
+  "level": "C",
+  "q": "Let $x$ = the base $2$ numeral $1001$, let $y$ = the base $4$ numeral $23001$, let $z$ = the base $16$ numeral $103A$. Find $x+y+z$. Express your answer in base $10$.",
+  "a": "4868"
+ },
+ {
+  "id": "m1e3-2017-09-A",
+  "event": "m1e3",
+  "date": "Sep 2017",
+  "level": "A",
+  "q": "In the decimal representation of $\\dfrac{1}{7}$ what is the $2017$th digit to the right of the decimal point?",
+  "a": "1"
+ },
+ {
+  "id": "m1e3-2017-09-B",
+  "event": "m1e3",
+  "date": "Sep 2017",
+  "level": "B",
+  "q": "If $x\\mathbin{\\#}y=\\dfrac{2x+y}{y}$, find the value of $1\\mathbin{\\#}[5\\mathbin{\\#}(3\\mathbin{\\#}4)]$.",
+  "a": "\\frac{7}{5}"
+ },
+ {
+  "id": "m1e3-2017-09-C",
+  "event": "m1e3",
+  "date": "Sep 2017",
+  "level": "C",
+  "q": "Convert the hexadecimal (base $16$) number $ACE$ to base $5$.",
+  "a": "42031"
+ },
+ {
+  "id": "m1e3-2016-09-A",
+  "event": "m1e3",
+  "date": "Sep 2016",
+  "level": "A",
+  "q": "Find the sum of the two binary numbers $1101101+1011001$. Write your answer in base $10$.",
+  "a": "198"
+ },
+ {
+  "id": "m1e3-2016-09-B",
+  "event": "m1e3",
+  "date": "Sep 2016",
+  "level": "B",
+  "q": "If $x=\\dfrac{1}{3}$ and $y=\\dfrac{1}{4}$ evaluate $$\\left(\\dfrac{\\;\\dfrac{2x+y}{x}\\;}{\\dfrac{1}{y}}\\right)^{-1}$$",
+  "a": "\\frac{16}{11}"
+ },
+ {
+  "id": "m1e3-2016-09-C",
+  "event": "m1e3",
+  "date": "Sep 2016",
+  "level": "C",
+  "q": "A triangle with entries $a$ (top), $c$ (center), $b$ (bottom left), $d$ (bottom right) has value $\\dfrac{a^3-bd+c}{2}$. Find the value of the nested triangle shown.",
+  "a": "310",
+  "fig": "/oml/fig/m1e3-2016-09-C.png"
+ },
+ {
+  "id": "m1e3-2015-09-A",
+  "event": "m1e3",
+  "date": "Sep 2015",
+  "level": "A",
+  "q": "What is the fractional form of the decimal number $1.94949494\\ldots$?",
+  "a": "\\frac{193}{99}",
+  "alt": [
+   "1\\frac{94}{99}"
+  ]
+ },
+ {
+  "id": "m1e3-2015-09-B",
+  "event": "m1e3",
+  "date": "Sep 2015",
+  "level": "B",
+  "q": "$A$, $B$, $C$, and $D$ represent digits and each of the digits in the addition problem $\\;5A+BC=D43\\;$ (two-digit numbers $5A$ and $BC$ summing to the three-digit number $D43$) is different. Find $A+B+C+D$.",
+  "a": "22"
+ },
+ {
+  "id": "m1e3-2015-09-C",
+  "event": "m1e3",
+  "date": "Sep 2015",
+  "level": "C",
+  "q": "Evaluate: $\\text{MDCCXLVIII}-\\text{MXCV}$. Express your answer in Roman numerals.",
+  "a": "DCLIII"
+ },
+ {
+  "id": "m1e3-2014-09-A",
+  "event": "m1e3",
+  "date": "Sep 2014",
+  "level": "A",
+  "q": "Simplify: $\\dfrac{\\text{CXX}}{\\text{X}}+\\dfrac{\\text{CCXV}}{\\text{V}}-\\dfrac{\\text{MM}}{\\text{CD}}$. State your answer in Roman numerals.",
+  "a": "L"
+ },
+ {
+  "id": "m1e3-2014-09-B",
+  "event": "m1e3",
+  "date": "Sep 2014",
+  "level": "B",
+  "q": "If $x@y$ is defined to be $\\dfrac{x^2}{y}$, what is the value of $5@(6@(3@5))$?",
+  "a": "\\frac{5}{4}"
+ },
+ {
+  "id": "m1e3-2014-09-C",
+  "event": "m1e3",
+  "date": "Sep 2014",
+  "level": "C",
+  "q": "Change the base $10$ numeral $99$ to equivalent numerals in base $2$, base $3$, base $4$, and base $5$. What is the total number of zeroes in the four equivalent numerals?",
+  "a": "7"
+ },
+ {
+  "id": "m1e3-2013-09-A",
+  "event": "m1e3",
+  "date": "Sep 2013",
+  "level": "A",
+  "q": "Evaluate: $\\text{III}(\\text{XIX}+\\text{XXVII})\\div\\text{VI}$. Express your answer in Roman numerals.",
+  "a": "XXIII"
+ },
+ {
+  "id": "m1e3-2013-09-B",
+  "event": "m1e3",
+  "date": "Sep 2013",
+  "level": "B",
+  "q": "Rewrite $0.1232323\\ldots$ as a common fraction in lowest terms.",
+  "a": "\\frac{61}{495}"
+ },
+ {
+  "id": "m1e3-2013-09-C",
+  "event": "m1e3",
+  "date": "Sep 2013",
+  "level": "C",
+  "q": "Convert the octal (base $8$) number $725$ to binary (base $2$).",
+  "a": "111010101"
+ },
+ {
+  "id": "m1e3-2012-09-A",
+  "event": "m1e3",
+  "date": "Sep 2012",
+  "level": "A",
+  "q": "If $x=-3$ and $y=4$, evaluate $y^2(x+2y)\\div\\left[x^3(4x-y)\\right]$.",
+  "a": "\\frac{5}{27}"
+ },
+ {
+  "id": "m1e3-2012-09-B",
+  "event": "m1e3",
+  "date": "Sep 2012",
+  "level": "B",
+  "q": "If $x=-3$, evaluate: $$\\dfrac{\\dfrac{1}{x^2}-\\dfrac{1}{x^4}+\\dfrac{1}{x}}{\\dfrac{1}{x^3}+\\dfrac{1}{x^6}-\\dfrac{1}{x^5}}$$",
+  "a": "\\frac{171}{23}",
+  "alt": [
+   "7\\frac{10}{23}"
+  ]
+ },
+ {
+  "id": "m1e3-2012-09-C",
+  "event": "m1e3",
+  "date": "Sep 2012",
+  "level": "C",
+  "q": "Let $x=\\dfrac{1}{3}$, $y=\\dfrac{3}{2}$, evaluate $$\\left[3-\\dfrac{x^2y}{(x-y)^2}\\right]\\cdot\\left[1-\\dfrac{x}{y}\\right]$$",
+  "a": "\\frac{47}{21}",
+  "alt": [
+   "2\\frac{5}{21}"
+  ]
+ }
+]

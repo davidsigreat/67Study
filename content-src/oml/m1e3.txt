@@ -1,0 +1,120 @@
+# Meet 1, Event 3: ALGEBRA I — Numbers
+# (Sep 2012 paper was titled "Evaluation".)
+
+@ Sep 2025
+A: Let $x=-3$ and $y=2$. Evaluate $\left(x^2-4xy+y^2\right)-(4x+3y)$.
+= 43
+B: If $a\diamond b=\dfrac{a^2-ab}{b^2}$, find the value of $(1\diamond 2)\diamond 0.5$.
+= \frac{3}{4}
+C: Convert the base $16$ number $312$ to base $4$.
+= 30102
+
+@ Sep 2024
+A: Simplify: $$\dfrac{3-2\left(4+2^2-3\right)}{6-10\cdot 2}$$
+= \frac{1}{2}
+B: Write $1.2\overline{34}$ as an improper fraction.
+= \frac{611}{495}
+C: Find the sum of the base $2$ number $111$ and the base $3$ number $111$. Write your answer as a base $4$ number.
+= 110
+
+@ Sep 2023
+A: If $A\mathbin{\#}B\mathbin{@}C=\dfrac{A}{B}+C$, find the value of $(3\mathbin{\#}1\mathbin{@}2)\mathbin{\#}10\mathbin{@}8$.
+= 8.5
+~ \frac{17}{2}
+B: In the decimal representation of $\dfrac{2}{7}$, what is the $2023^{\text{rd}}$ digit to the right of the decimal point?
+= 2
+C: Given the sequence $a_1=-1$, $a_2=3$, and for $n\ge 3$, $a_n=2a_{n-1}-a_{n-2}$. Find $a_{100}$ in base $8$.
+= 613
+
+@ Sep 2022
+A: Write $0.9333\ldots$ in fractional form.
+= \frac{14}{15}
+B: Find the units digit of $3^{158}$.
+= 9
+C: Write the hexadecimal (base $16$) number $36A$ in base $4$.
+= 31222
+
+@ Sep 2021
+A: Convert the base $9$ number $2121$ to base $3$.
+= 2010201
+B: Using the hexagon operation defined in the figure, $\text{hex}(A,B,C)=\left(\dfrac{B}{A}-\dfrac{B}{C}\right)^{-2}$, evaluate the nested hexagon shown (inner hexagon $18,12,20$ inside outer hexagon with $150$ and $135$).
+= 36
+& /oml/fig/m1e3-2021-09-B.png
+C: Find the $103$rd term, $t_{103}$, of the sequence defined by $t_1=3$, $t_2=7$, $t_n=2t_{n-1}-t_{n-2}$.
+= 411
+
+@ Sep 2020
+A: Write the fractional form of the decimal $0.3888\ldots$
+= \frac{7}{18}
+B: If $x\heartsuit y=3x-y^2$, find $4\heartsuit(7\heartsuit 4)$.
+= -13
+C: Let $P$ = the fifth pentagonal number in base $10$. Let $Q$ = the base $10$ equivalent of the base $16$ rational number $2A.C$. Let $R$ = the base $10$ equivalent of the Roman numeral XIX. Express $P+Q+R$ in base $4$.
+= 1200.3
+
+@ Sep 2019
+A: Convert the base $2$ number $11001101$ to base $10$.
+= 205
+B: If $x@y=\dfrac{5x-2y}{x}$, find the value of $3@(6@2)$.
+= \frac{19}{9}
+C: In a certain sequence $t_1=5$, $t_2=8$, and for $n\ge 3$, $t_n=t_{n-1}+t_{n-2}$. Express $t_{11}$ as a Roman numeral.
+= DCX
+
+@ Sep 2018
+A: Evaluate: $\text{IV}(\text{XXXIX}+\text{XXVI})\div\text{V}$. Express your answer in Roman numerals.
+= LII
+B: If $x\circledast y$ is defined to be $\dfrac{|x-y|}{x+y}$, what is the value of $2\circledast(5\circledast(3\circledast 1))$?
+= \frac{13}{31}
+C: Let $x$ = the base $2$ numeral $1001$, let $y$ = the base $4$ numeral $23001$, let $z$ = the base $16$ numeral $103A$. Find $x+y+z$. Express your answer in base $10$.
+= 4868
+
+@ Sep 2017
+A: In the decimal representation of $\dfrac{1}{7}$ what is the $2017$th digit to the right of the decimal point?
+= 1
+B: If $x\mathbin{\#}y=\dfrac{2x+y}{y}$, find the value of $1\mathbin{\#}[5\mathbin{\#}(3\mathbin{\#}4)]$.
+= \frac{7}{5}
+C: Convert the hexadecimal (base $16$) number $ACE$ to base $5$.
+= 42031
+
+@ Sep 2016
+A: Find the sum of the two binary numbers $1101101+1011001$. Write your answer in base $10$.
+= 198
+B: If $x=\dfrac{1}{3}$ and $y=\dfrac{1}{4}$ evaluate $$\left(\dfrac{\;\dfrac{2x+y}{x}\;}{\dfrac{1}{y}}\right)^{-1}$$
+= \frac{16}{11}
+C: A triangle with entries $a$ (top), $c$ (center), $b$ (bottom left), $d$ (bottom right) has value $\dfrac{a^3-bd+c}{2}$. Find the value of the nested triangle shown.
+= 310
+& /oml/fig/m1e3-2016-09-C.png
+
+@ Sep 2015
+A: What is the fractional form of the decimal number $1.94949494\ldots$?
+= \frac{193}{99}
+~ 1\frac{94}{99}
+B: $A$, $B$, $C$, and $D$ represent digits and each of the digits in the addition problem $\;5A+BC=D43\;$ (two-digit numbers $5A$ and $BC$ summing to the three-digit number $D43$) is different. Find $A+B+C+D$.
+= 22
+C: Evaluate: $\text{MDCCXLVIII}-\text{MXCV}$. Express your answer in Roman numerals.
+= DCLIII
+
+@ Sep 2014
+A: Simplify: $\dfrac{\text{CXX}}{\text{X}}+\dfrac{\text{CCXV}}{\text{V}}-\dfrac{\text{MM}}{\text{CD}}$. State your answer in Roman numerals.
+= L
+B: If $x@y$ is defined to be $\dfrac{x^2}{y}$, what is the value of $5@(6@(3@5))$?
+= \frac{5}{4}
+C: Change the base $10$ numeral $99$ to equivalent numerals in base $2$, base $3$, base $4$, and base $5$. What is the total number of zeroes in the four equivalent numerals?
+= 7
+
+@ Sep 2013
+A: Evaluate: $\text{III}(\text{XIX}+\text{XXVII})\div\text{VI}$. Express your answer in Roman numerals.
+= XXIII
+B: Rewrite $0.1232323\ldots$ as a common fraction in lowest terms.
+= \frac{61}{495}
+C: Convert the octal (base $8$) number $725$ to binary (base $2$).
+= 111010101
+
+@ Sep 2012
+A: If $x=-3$ and $y=4$, evaluate $y^2(x+2y)\div\left[x^3(4x-y)\right]$.
+= \frac{5}{27}
+B: If $x=-3$, evaluate: $$\dfrac{\dfrac{1}{x^2}-\dfrac{1}{x^4}+\dfrac{1}{x}}{\dfrac{1}{x^3}+\dfrac{1}{x^6}-\dfrac{1}{x^5}}$$
+= \frac{171}{23}
+~ 7\frac{10}{23}
+C: Let $x=\dfrac{1}{3}$, $y=\dfrac{3}{2}$, evaluate $$\left[3-\dfrac{x^2y}{(x-y)^2}\right]\cdot\left[1-\dfrac{x}{y}\right]$$
+= \frac{47}{21}
+~ 2\frac{5}{21}

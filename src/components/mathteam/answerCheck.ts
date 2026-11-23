@@ -43,6 +43,9 @@ export function normalize(raw: string): string {
   s = s.replace(/\\sqrt(\w)/g, '\\sqrt{$1}');
   s = s.replace(/([\^_])(\w)/g, '$1{$2}');
   s = s.replace(/\.$/, '').replace(/\\degree$/, '\\degree');
+  // A whole answer wrapped in set braces is compared as a list: \{1,2,3\} → 1,2,3 and \{x:x<3\} → x<3.
+  const set = s.match(/^\\\{(.*)\\\}$/);
+  if (set && !set[1].includes('\\{')) s = set[1].replace(/^[a-zA-Z](?::|\||\\mid)/, '');
   // Leading "x=" / "f(x)=" style labels — but only when the rest is not itself an equation.
   const label = s.match(/^([a-zA-Z](\([a-zA-Z]\))?|[a-zA-Z]_\w)=(.*)$/);
   if (label && !/[=<>]|\\[lg]eq|\\neq/.test(label[3])) s = label[3];
@@ -348,6 +351,8 @@ function variablesIn(s: string): string[] {
 }
 
 export function evaluate(norm: string, vars: Record<string, C> = {}): C | null {
+  // Mixed numbers: 5\frac{1}{2} means 5 + 1/2, not 5 · 1/2.
+  norm = norm.replace(/(^|[^\d.\\^_{a-zA-Z])(\d+)\\frac\{(\d+)\}\{(\d+)\}/g, '$1($2+\\frac{$3}{$4})');
   try {
     const v = new Parser(tokenize(norm), vars).parse();
     if (!Number.isFinite(v.re) || !Number.isFinite(v.im)) return null;
@@ -368,6 +373,8 @@ const SAMPLES = [0.7368, 1.4142, -0.5813, 2.2361, 0.3183];
 function sameValue(a: string, b: string): boolean {
   // Relations (=, <, ≤ …) and set notation are compared textually only.
   if (/[=<>]|\\(leq|geq|neq|in|cup|cap|emptyset|varnothing)|\\\{/.test(a + b)) return false;
+  // Letter-only words (Roman numerals, labels like "DCX") are compared textually, never as products.
+  if (/^[A-Za-z]{2,}$/.test(a) || /^[A-Za-z]{2,}$/.test(b)) return false;
   const vars = Array.from(new Set([...variablesIn(a), ...variablesIn(b)]));
   if (vars.length > 4) return false;
   const rounds = vars.length === 0 ? 1 : 3;

@@ -1,0 +1,343 @@
+[
+ {
+  "id": "m1e5-2025-09-A",
+  "event": "m1e5",
+  "date": "Sep 2025",
+  "level": "A",
+  "q": "Given: the universal set $U=\\{0,1,2,3,4,5,6,7,8,9,10,11,12\\}$, $A=\\{0,1,2,3,4\\}$, $B=\\{1,3,4,8,12\\}$. Find $A^c\\cap B^c$.",
+  "a": "\\{5, 6, 7, 9, 10, 11\\}"
+ },
+ {
+  "id": "m1e5-2025-09-B",
+  "event": "m1e5",
+  "date": "Sep 2025",
+  "level": "B",
+  "q": "Given: $A=\\{\\text{single-digit positive odd integers}\\}$ and $B=\\{\\text{single-digit prime numbers}\\}$. Find the number of subsets of $A\\cup B$.",
+  "a": "64"
+ },
+ {
+  "id": "m1e5-2025-09-C",
+  "event": "m1e5",
+  "date": "Sep 2025",
+  "level": "C",
+  "q": "Given: the universal set $U$ and sets $A$ and $B$ with $n(U)=40$, $n(A)=3x$, $n(B)=2x-2$, $n(A\\cup B)=28$, $n(A\\cap B)=5$. Find $n(A^c)+n(B^c)-n(A\\cap B)$.",
+  "a": "42"
+ },
+ {
+  "id": "m1e5-2024-09-A",
+  "event": "m1e5",
+  "date": "Sep 2024",
+  "level": "A",
+  "q": "Forty hamburger lovers were surveyed about what they like on their burger. Nine indicated they like bacon but not cheese and $6$ like cheese but not bacon. If $18$ like both bacon and cheese, how many of them like neither bacon nor cheese on their burger?",
+  "a": "7"
+ },
+ {
+  "id": "m1e5-2024-09-B",
+  "event": "m1e5",
+  "date": "Sep 2024",
+  "level": "B",
+  "q": "Given the universal set $U=\\{u,n,i,v,e,r,s,a,l\\}$ with $A=\\{a,e,i,u\\}$, $B=\\{a,i,r\\}$, and $C=\\{r,u,n\\}$. If $D=(A\\cap B)\\cup(B\\cap C)$, find the number of elements in the complement of $D$.",
+  "a": "6"
+ },
+ {
+  "id": "m1e5-2024-09-C",
+  "event": "m1e5",
+  "date": "Sep 2024",
+  "level": "C",
+  "q": "Given: $N=\\{\\text{natural numbers}\\}$, $Z=\\{\\text{integers}\\}$, $A=\\{x: x=2k,\\ k\\in Z\\}$, $B=\\{x: x=2k+1,\\ k\\in Z\\}$ with universal set $Z$. Which of the following are true? List every letter corresponding to a true statement.\na. $N\\subset Z$\nb. $Z\\subset N$\nc. $0\\in A$\nd. $\\varnothing\\subset N$\ne. $5\\subset B$\nf. $A$ and $B$ are disjoint\ng. $(A\\cup B)^c=A^c\\cap B^c$",
+  "a": "a, c, d, f, g"
+ },
+ {
+  "id": "m1e5-2023-09-A",
+  "event": "m1e5",
+  "date": "Sep 2023",
+  "level": "A",
+  "q": "If $A=\\{1,2,4,5,7,9\\}$, $B=\\{0,2,3,5,7,9\\}$, and $C=\\{1,2,3,5,11\\}$, find $((A\\cap B)\\cup C)\\cap((A\\cup B)\\cap C)$.",
+  "a": "\\{1, 2, 3, 5\\}"
+ },
+ {
+  "id": "m1e5-2023-09-B",
+  "event": "m1e5",
+  "date": "Sep 2023",
+  "level": "B",
+  "q": "Suppose that $n(U)=20$, $n(A')=14$, $n(B')=10$, and $n(A\\cup B)=12$. Find $n(A\\cap B)$.",
+  "a": "4"
+ },
+ {
+  "id": "m1e5-2023-09-C",
+  "event": "m1e5",
+  "date": "Sep 2023",
+  "level": "C",
+  "q": "An auto insurance company has $10{,}000$ policyholders. Each policyholder is classified as (i) young or old, (ii) male or female, and (iii) married or single. Of these policyholders, $3000$ are young, $4600$ are male, and $7000$ are married. The policyholders can also be classified as $1320$ young males, $3010$ married males, and $1400$ young married persons. Finally, $600$ of the policyholders are young married males. How many of the company's policyholders are young, female, and single?",
+  "a": "880"
+ },
+ {
+  "id": "m1e5-2022-09-A",
+  "event": "m1e5",
+  "date": "Sep 2022",
+  "level": "A",
+  "q": "Given: $U=\\{\\text{whole numbers less than } 10\\}$, $A=\\{\\text{composite numbers}\\}$, $B=\\{\\text{odd numbers}\\}$. Find $A^C\\cap B^C$.",
+  "a": "\\{0, 2\\}"
+ },
+ {
+  "id": "m1e5-2022-09-B",
+  "event": "m1e5",
+  "date": "Sep 2022",
+  "level": "B",
+  "q": "The Happy Chance Club is a group of $20$ women who like to meet every weekend to play games of skill and chance. They each play at least one of three games: poker, mahjong, or chess. One woman plays only poker, and one woman plays only mahjong. Six women play both poker and mahjong, four women play both mahjong and chess, and nine women play both poker and chess. Two women play all three games. How many women play only chess?",
+  "a": "3"
+ },
+ {
+  "id": "m1e5-2022-09-C",
+  "event": "m1e5",
+  "date": "Sep 2022",
+  "level": "C",
+  "q": "Sets $A$ and $B$ are subsets of a universal set with cardinality $11$. If $A$ has cardinality $2$ and $B$ has cardinality $3$, what is the lowest possible cardinality of $A^C\\cap B^C$?",
+  "a": "6"
+ },
+ {
+  "id": "m1e5-2021-09-A",
+  "event": "m1e5",
+  "date": "Sep 2021",
+  "level": "A",
+  "q": "Let $U=\\{1,2,3,4,5,6,7,8,9,10,11,12\\}$ be the universal set. If $A$ is the set of perfect squares, and $B$ is the set of odd numbers, find $A^C\\cap B$.",
+  "a": "\\{3, 5, 7, 11\\}"
+ },
+ {
+  "id": "m1e5-2021-09-B",
+  "event": "m1e5",
+  "date": "Sep 2021",
+  "level": "B",
+  "q": "Given: $U=X\\cup Y$, $n(X)=3a+5$, $n(Y)=a-7$, $n(X\\cup Y)=48$, $n(X\\cap Y)=6$. Find $n(X)+3n(Y)$.",
+  "a": "68"
+ },
+ {
+  "id": "m1e5-2021-09-C",
+  "event": "m1e5",
+  "date": "Sep 2021",
+  "level": "C",
+  "q": "There is a total of $70$ animals in a pet store, all either kittens or mice, and all either white or grey. There is a total of $33$ male animals, $30$ kittens, and $33$ white animals. There are $4$ male white kittens, $11$ female white kittens, $6$ male white mice, and $6$ female grey mice. How many male grey kittens are there?",
+  "a": "7"
+ },
+ {
+  "id": "m1e5-2020-09-A",
+  "event": "m1e5",
+  "date": "Sep 2020",
+  "level": "A",
+  "q": "If $A=\\{1,3,5,7,9,11,13\\}$ and $B=\\{2,3,5,8,13\\}$ find $n(A\\cup B)$.",
+  "a": "9"
+ },
+ {
+  "id": "m1e5-2020-09-B",
+  "event": "m1e5",
+  "date": "Sep 2020",
+  "level": "B",
+  "q": "Regions $1$, $2$, $3$, $4$, $5$, and $6$ are disjoint subsets of $U$. Which region(s) is/are contained in $\\overline{(D\\cup F)}\\cup\\left(\\overline{C}\\cap\\overline{F}\\right)$?",
+  "a": "1, 3, 6",
+  "fig": "/oml/fig/m1e5-2020-09-B.png"
+ },
+ {
+  "id": "m1e5-2020-09-C",
+  "event": "m1e5",
+  "date": "Sep 2020",
+  "level": "C",
+  "q": "Several years ago $300$ students at Kukui High School were polled. $119$ students participated in a fall sport, $72$ in a winter sport, $156$ in a spring sport, $15$ in a fall and winter sport, $11$ in a fall and spring sport, $27$ in a winter and spring sport, and $1$ student did not participate in any sports. How many students participated in at least $2$ sports?",
+  "a": "43"
+ },
+ {
+  "id": "m1e5-2019-09-A",
+  "event": "m1e5",
+  "date": "Sep 2019",
+  "level": "A",
+  "q": "If $A=\\{1,2,3,4,5\\}$, $B=\\{2,4,6,8,10,12\\}$, and $C=\\{0,1,4,9\\}$, find $(A\\cap C)\\cup(A\\cap B)$.",
+  "a": "\\{1, 2, 4\\}"
+ },
+ {
+  "id": "m1e5-2019-09-B",
+  "event": "m1e5",
+  "date": "Sep 2019",
+  "level": "B",
+  "q": "Let $A=\\{a,b,c,d,e,f\\}$. How many subsets of $A$ have $4$ or fewer elements?",
+  "a": "57"
+ },
+ {
+  "id": "m1e5-2019-09-C",
+  "event": "m1e5",
+  "date": "Sep 2019",
+  "level": "C",
+  "q": "There are three major newspapers in the city of Crobuzon: the *Globe*, the *Herald*, and the *Phoenix*. On a recent day, sales of the newspapers were as follows: $25\\%$ of people didn't read any newspaper; $25\\%$ of people read the *Globe*; $29\\%$ read the *Herald*; $40\\%$ of people read the *Phoenix*; $9\\%$ of people read both the *Globe* and the *Herald*; $3\\%$ of people read all three papers. What percentage of people read the *Phoenix* and also read exactly one of the other two papers?",
+  "a": "7"
+ },
+ {
+  "id": "m1e5-2018-09-A",
+  "event": "m1e5",
+  "date": "Sep 2018",
+  "level": "A",
+  "q": "If $U=\\{1,2,3,4,5,6,7\\}$, $A=\\{6,7\\}$, and $B=\\{3,5,7\\}$, find $\\overline{A}\\cap\\overline{B}$.",
+  "a": "\\{1, 2, 4\\}"
+ },
+ {
+  "id": "m1e5-2018-09-B",
+  "event": "m1e5",
+  "date": "Sep 2018",
+  "level": "B",
+  "q": "Given $U=A\\cup C$, $B\\subset A$, and regions $1$, $2$, $3$, $4$, and $5$ are disjoint subsets of $U$. Which of these $5$ regions is/are contained in the set $(A\\cap C)\\cap\\left(A\\cap B^C\\right)$?",
+  "a": "4",
+  "fig": "/oml/fig/m1e5-2018-09-B.png"
+ },
+ {
+  "id": "m1e5-2018-09-C",
+  "event": "m1e5",
+  "date": "Sep 2018",
+  "level": "C",
+  "q": "$150$ students at Kukui High school were asked if they had attended football, basketball, or volleyball games in the past year. $58$ had attended football, $60$ attended basketball, and $72$ attended volleyball. $28$ attended football and basketball. $35$ attended basketball and volleyball. $11$ attended all three types of events. $27$ did not attend any of these types of events. How many students attended only football games?",
+  "a": "26"
+ },
+ {
+  "id": "m1e5-2017-09-A",
+  "event": "m1e5",
+  "date": "Sep 2017",
+  "level": "A",
+  "q": "If $A=\\{\\text{prime numbers less than } 25\\}$ and $B=\\{\\text{positive odd numbers}\\}$, how many non-empty, proper subsets does $A\\cap B$ have?",
+  "a": "254"
+ },
+ {
+  "id": "m1e5-2017-09-B",
+  "event": "m1e5",
+  "date": "Sep 2017",
+  "level": "B",
+  "q": "Given sets $A$, $B$, and $C$ in universal set $U$ such that $A\\subset B$, $A$ and $C$ are disjoint, $n(A)=n(B\\cap C)+5$, $n(U)=52$, $n(B)=30$, $n(C)=20$, $n\\left(\\overline{B\\cup C}\\right)=10$. Find $n(A)$.",
+  "a": "13"
+ },
+ {
+  "id": "m1e5-2017-09-C",
+  "event": "m1e5",
+  "date": "Sep 2017",
+  "level": "C",
+  "q": "If $U=\\{1,2,3,4,5,6,7,8\\}$ (regions as numbered in the figure), find $\\left(\\overline{A}\\cup B\\right)\\cap\\left[\\left(\\overline{A\\cap C}\\right)\\cap\\left(\\overline{B}\\cup C\\right)\\right]$.",
+  "a": "\\{3, 6, 8\\}",
+  "fig": "/oml/fig/m1e5-2017-09-C.png"
+ },
+ {
+  "id": "m1e5-2016-09-A",
+  "event": "m1e5",
+  "date": "Sep 2016",
+  "level": "A",
+  "q": "Given the diagram, find $P\\cap(Q\\cup R)^c$.",
+  "a": "\\{1, 3, 4\\}",
+  "fig": "/oml/fig/m1e5-2016-09-A.png"
+ },
+ {
+  "id": "m1e5-2016-09-B",
+  "event": "m1e5",
+  "date": "Sep 2016",
+  "level": "B",
+  "q": "Mrs. Martin will give her geometry class $20$ tests this year. Students may use at least one of three tools, a calculator, a compass, or a protractor, on each of the tests. Students may use only a calculator on one of the tests, and may use only a compass on one test. They may use a protractor and compass on $5$ tests, a compass and calculator on $6$ tests, and a protractor and calculator on $8$ tests. They may use all three tools on $3$ tests. On how many tests may students use only a protractor?",
+  "a": "5"
+ },
+ {
+  "id": "m1e5-2016-09-C",
+  "event": "m1e5",
+  "date": "Sep 2016",
+  "level": "C",
+  "q": "A lunch meal consists of one food item, a burger or a hot dog, and a drink, Coke or 7-Up. On a certain day, $84$ people ordered lunch, $37$ were women and the others were men. $11$ men ordered a burger and a Coke. $13$ women ordered a hot dog and a Coke. $7$ women ordered a burger and a 7-Up. $12$ men ordered a hot dog and a 7-Up. $26$ men ordered a 7-Up. $20$ people ordered a burger and a Coke. How many men ordered a hot dog and a Coke?",
+  "a": "10"
+ },
+ {
+  "id": "m1e5-2015-09-A",
+  "event": "m1e5",
+  "date": "Sep 2015",
+  "level": "A",
+  "q": "Let $U=\\{1,2,3,4,5,6\\}$ be the universal set. $A\\cap B=\\{2,3\\}$, $A\\cup B=\\{1,2,3,5\\}$. If $A$ has three elements, list the possible sets that would qualify as $A$.",
+  "a": "\\{1, 2, 3\\}, \\{2, 3, 5\\}"
+ },
+ {
+  "id": "m1e5-2015-09-B",
+  "event": "m1e5",
+  "date": "Sep 2015",
+  "level": "B",
+  "q": "Given $U=\\{0,1,2,3,4,5,6,7,8,9\\}$ is the universal set, $A=\\{\\text{whole numbers less than } 4\\}$, $B=\\{\\text{counting numbers less than } 3\\}$, $C=\\{\\text{positive single digit prime numbers}\\}$. Find $(B\\cap C')\\cup A$.",
+  "a": "\\{0, 1, 2, 3\\}"
+ },
+ {
+  "id": "m1e5-2015-09-C",
+  "event": "m1e5",
+  "date": "Sep 2015",
+  "level": "C",
+  "q": "B-Plus Car Rental rents out three types of cars: sports cars, sedans and luxury cars. One morning, there are many cars in their lot. Out of a total of $10$ black cars, $2$ are sedans. There are $23$ other sedans, and $20$ of them are neither black nor white. There are as many luxury cars that are neither black nor white as there are white luxury cars. Two out of a total of $10$ white cars are sports cars. The number of black sports cars is equal to the number of black luxury cars. How many luxury cars are there in all?",
+  "a": "14"
+ },
+ {
+  "id": "m1e5-2014-09-A",
+  "event": "m1e5",
+  "date": "Sep 2014",
+  "level": "A",
+  "q": "Given: $A=\\{1,2,3\\}$, $B=\\{0,1\\}$. Find the number of subsets of $A\\cup B$.",
+  "a": "16"
+ },
+ {
+  "id": "m1e5-2014-09-B",
+  "event": "m1e5",
+  "date": "Sep 2014",
+  "level": "B",
+  "q": "Given: $U=\\{\\text{whole numbers less than } 50\\}$, $A=\\{\\text{positive multiples of } 2\\}$, $B=\\{\\text{positive multiples of } 3\\}$. Find $n\\left(\\overline{A\\cap B}\\right)$.",
+  "a": "42"
+ },
+ {
+  "id": "m1e5-2014-09-C",
+  "event": "m1e5",
+  "date": "Sep 2014",
+  "level": "C",
+  "q": "In the town of Everland, each of the $90$ students in the freshman class took at least one course from the following: The Physics of Flying, A History of Fairies, and A Star's Tale. If $60$ students took The Physics of Flying, $40$ students took A History of Fairies, $20$ students took A Star's Tale, and $5$ students took all three courses, how many students took exactly two courses?",
+  "a": "20"
+ },
+ {
+  "id": "m1e5-2013-09-A",
+  "event": "m1e5",
+  "date": "Sep 2013",
+  "level": "A",
+  "q": "Malaia and Moriah raise papayas. Last month they harvested a total of fifty papayas. Twenty were big and twenty were ripe, and thirty were big or ripe or both. How many of their papayas were not both big and ripe?",
+  "a": "40"
+ },
+ {
+  "id": "m1e5-2013-09-B",
+  "event": "m1e5",
+  "date": "Sep 2013",
+  "level": "B",
+  "q": "Given: $U=\\{\\text{positive integers from 1 to 40 inclusive}\\}$, $A=\\{\\text{prime numbers}\\}$, $B=\\{\\text{multiples of } 6\\}$. Find $n\\left(\\overline{A\\cup B}\\right)$.",
+  "a": "22"
+ },
+ {
+  "id": "m1e5-2013-09-C",
+  "event": "m1e5",
+  "date": "Sep 2013",
+  "level": "C",
+  "q": "$150$ college-bound OML students were asked about their college plans. They could choose any combination of three options: (A) Bachelor of Science degree in mathematics; (B) Bachelor of Science degree in computer science; and (C) Master of Science degree. $48$ students chose A, $35$ chose B, $36$ chose C. $8$ students chose all three options. $25$ students chose A only, $14$ students chose B only. The number of students who chose both A and C but not B was four times the number of students who chose A and B but not C. How many students chose none of the three options?",
+  "a": "72"
+ },
+ {
+  "id": "m1e5-2012-09-A",
+  "event": "m1e5",
+  "date": "Sep 2012",
+  "level": "A",
+  "q": "Given: $U=\\{-5,-4,-3,\\ldots,5,6,7,8\\}$, $A=\\{\\text{positive integers between } -5 \\text{ and } 5\\text{, not including } -5 \\text{ and } 5\\}$, $B=\\{\\text{whole numbers less than } 7\\}$, $C=\\{\\text{counting numbers less than } 8\\}$. Find $\\overline{B\\cap C}\\cup\\overline{A\\cap B}$.",
+  "a": "\\{-5, -4, -3, -2, -1, 0, 5, 6, 7, 8\\}"
+ },
+ {
+  "id": "m1e5-2012-09-B",
+  "event": "m1e5",
+  "date": "Sep 2012",
+  "level": "B",
+  "q": "Oʻahu High School has $200$ juniors and seniors, all of whom are allowed to choose from three Advanced Placement courses: Calculus, Computer Science, and Statistics. $3$ students are enrolled in all three courses. $7$ students are enrolled in both Calculus and Computer Science. $100$ students are enrolled in Calculus or Computer Science, but not both. $11$ students are enrolled in Statistics alone. What percent of the juniors and seniors is enrolled in none of these three courses?",
+  "a": "41"
+ },
+ {
+  "id": "m1e5-2012-09-C",
+  "event": "m1e5",
+  "date": "Sep 2012",
+  "level": "C",
+  "q": "In the diagram, regions $1$ through $7$ are disjoint subsets of the universal set $A\\cup B\\cup C$. List the regions in $\\left(\\overline{A}\\cap B\\right)\\cup\\left[\\left(\\overline{A\\cap C}\\right)\\cap\\left(\\overline{B}\\cup C\\right)\\right]$.",
+  "a": "1, 2, 3, 6",
+  "fig": "/oml/fig/m1e5-2012-09-C.png"
+ }
+]

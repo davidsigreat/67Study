@@ -75,7 +75,6 @@ function allTests() {
 
 // ── HTTP helpers ─────────────────────────────────────────────────────────────
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-let blockedInARow = 0;
 
 async function get(url, { binary = false } = {}) {
   for (let attempt = 0; attempt < 5; attempt++) {
@@ -95,15 +94,10 @@ async function get(url, { binary = false } = {}) {
       continue;
     }
     if (res.status === 403) {
-      blockedInARow++;
-      if (blockedInARow >= 3) {
-        console.error('\nAoPS is refusing requests (HTTP 403). Wait a while and run the script again — it resumes where it stopped.');
-        process.exit(1);
-      }
-      return null;
+      console.error(`\nAoPS refused the request (HTTP 403): ${url}\nIt blocks automated downloads, so this script can't fetch from it. Nothing more was downloaded.`);
+      process.exit(1);
     }
     if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-    blockedInARow = 0;
     return binary ? Buffer.from(await res.arrayBuffer()) : await res.text();
   }
   throw new Error(`Gave up on ${url}`);

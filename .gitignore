@@ -5,3 +5,15 @@ dist
 .env.local
 .env
 *.pdf
+
+# AMC pages saved from a browser: keep the .html pages and images, drop the
+# scripts/styles/fonts that "Webpage, Complete" also saves.
+content-src/amc-saved/**/*.js
+content-src/amc-saved/**/*.css
+content-src/amc-saved/**/*.download
+content-src/amc-saved/**/*.woff
+content-src/amc-saved/**/*.woff2
+content-src/amc-saved/**/*.ttf
+content-src/amc-saved/**/*.eot
+content-src/amc-saved/**/*.ico
+content-src/amc-saved/*_files/**/*.htm*

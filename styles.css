@@ -3408,3 +3408,31 @@ a:hover { text-decoration: underline; }
 .amc-choice--wrong .amc-choice-letter { background: #e05252; color: #fff; border-color: #e05252; }
 .amc-choice--dim { opacity: 0.55; }
 .amc-keys { font-family: "Outfit", sans-serif; font-size: 0.8rem; color: var(--text-dim); margin-left: auto; align-self: center; }
+
+/* AMC "Add tests" checklist */
+.amc-import {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+  padding: 0.85rem 1.1rem; margin-bottom: 1.25rem; font-family: "Outfit", sans-serif;
+}
+.amc-import summary { cursor: pointer; display: flex; gap: 0.75rem; align-items: baseline; flex-wrap: wrap; }
+.amc-import-title { font-weight: 700; color: var(--text-bright); }
+.amc-import-steps { margin: 0.8rem 0 0.9rem 1.2rem; font-size: 0.9rem; line-height: 1.7; color: var(--text); }
+.amc-import-steps code, .amc-import kbd {
+  font-family: "Fira Code", "Cascadia Code", monospace; font-size: 0.82rem;
+  background: var(--surface2); border: 1px solid var(--border); border-radius: 5px; padding: 0 0.3rem;
+}
+.amc-import-tabs { align-items: center; margin-bottom: 0.7rem; }
+.amc-import-count { margin-left: auto; font-size: 0.85rem; }
+.amc-import-list {
+  list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 0.35rem;
+  max-height: 340px; overflow-y: auto;
+}
+.amc-import-item {
+  display: flex; align-items: center; gap: 0.75rem; font-size: 0.88rem;
+  background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 0.4rem 0.7rem;
+}
+.amc-import-name { flex: 1; color: var(--text-bright); }
+.amc-import-item a { color: var(--accent); text-decoration: none; white-space: nowrap; }
+.amc-import-item a:hover { text-decoration: underline; }
+.amc-import-item--done { border-color: rgba(125, 211, 168, 0.4); }
+.amc-import-item--done .amc-import-name { color: #7dd3a8; }

@@ -63,3 +63,44 @@ export async function loadAmcBank(): Promise<AmcItem[]> {
 export function solutionUrl(p: AmcItem): string {
   return `https://artofproblemsolving.com/wiki/index.php/${encodeURIComponent(`${p.title} Problems/Problem ${p.n}`.replace(/ /g, '_')).replace(/%2F/g, '/')}`;
 }
+
+/** Ids of the tests in the bank (from the JSON file names). */
+export const AMC_TEST_IDS: Set<string> = new Set(
+  Object.keys(modules).map((k) => k.replace(/^.*\/(.+)\.json$/, '$1')),
+);
+
+export interface AmcTestRef {
+  id: string;
+  contest: AmcContest;
+  year: number;
+  /** Wiki title stem, e.g. "2023 AMC 12A", "2021 Fall AMC 10B" */
+  title: string;
+}
+
+/** Every AMC test the AoPS wiki has, for the "Add tests" checklist (newest first). */
+export function allAmcTests(contest: AmcContest, fromYear = 0): AmcTestRef[] {
+  const now = new Date().getFullYear();
+  const out: AmcTestRef[] = [];
+  const add = (year: number, suffix: string, title: string) =>
+    out.push({ id: `${year}-${contest}${suffix}`, contest, year, title });
+  if (contest === 'amc8') {
+    for (let y = 1999; y <= now; y++) if (y !== 2021) add(y, '', `${y} AMC 8`);
+  } else {
+    const label = contest === 'amc10' ? 'AMC 10' : 'AMC 12';
+    add(2000, '', `2000 ${label}`);
+    add(2001, '', `2001 ${label}`);
+    for (let y = 2002; y <= now; y++) {
+      add(y, 'a', `${y} ${label}A`);
+      add(y, 'b', `${y} ${label}B`);
+      if (y === 2021) {
+        add(y, 'fa', `2021 Fall ${label}A`);
+        add(y, 'fb', `2021 Fall ${label}B`);
+      }
+    }
+  }
+  return out.filter((t) => t.year >= fromYear).reverse();
+}
+
+export function wikiUrl(title: string): string {
+  return `https://artofproblemsolving.com/wiki/index.php/${title.replace(/ /g, '_')}`;
+}

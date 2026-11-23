@@ -13,6 +13,7 @@ import {
   type AmcLetter,
 } from '../data/amc/bank';
 import { MathMarkdown, Tex } from '../components/mathteam/MathText';
+import AmcImportList from '../components/mathteam/AmcImportList';
 import { BankSwitch, BookmarkIcon, SearchIcon, readJson, shuffled, toggle } from '../components/mathteam/bankUi';
 
 const SLUG = 'math-team';
@@ -344,12 +345,7 @@ export default function AmcPracticePage() {
         </header>
       )}
 
-      {AMC_TEST_COUNT === 0 && (
-        <div className="qb-empty">
-          <p><strong>No AMC problems imported yet.</strong></p>
-          <p>On your own computer, run <code>npm run amc:fetch</code> (downloads the tests from the AoPS wiki), then commit and push <code>content-src/amc</code>.</p>
-        </div>
-      )}
+      {!queue && <AmcImportList open={AMC_TEST_COUNT === 0} />}
       {AMC_TEST_COUNT > 0 && !bank && <p className="wordlab-count">Loading question bank…</p>}
 
       {bank && !queue && AMC_TEST_COUNT > 0 && (

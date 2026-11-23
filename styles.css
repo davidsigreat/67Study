@@ -3453,3 +3453,11 @@ a:hover { text-decoration: underline; }
   font-family: "Outfit", sans-serif; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em;
   text-transform: uppercase; color: var(--text-dim);
 }
+.amc-solutions {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 0.5rem 1.25rem 1rem;
+}
+.amc-solutions h4 { font-family: "Outfit", sans-serif; color: var(--heading); margin: 1rem 0 0.3rem; font-size: 1rem; }
+.amc-solutions .mt-problem-text { font-size: 0.97rem; }
+.amc-solutions .katex-display { overflow-x: auto; overflow-y: hidden; }
+.amc-credit { font-family: "Outfit", sans-serif; font-size: 0.78rem; color: var(--text-dim); order: 99; }
+.amc-credit a { color: var(--text-dim); text-decoration: underline; }

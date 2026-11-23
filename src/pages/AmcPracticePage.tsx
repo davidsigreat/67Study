@@ -7,6 +7,7 @@ import {
   AMC_LETTERS,
   AMC_TEST_COUNT,
   loadAmcBank,
+  loadSolutions,
   solutionUrl,
   type AmcContest,
   type AmcItem,
@@ -38,6 +39,7 @@ const SITTINGS = [
   { id: 'A', label: 'A' },
   { id: 'B', label: 'B' },
   { id: 'Fall', label: 'Fall ’21' },
+  { id: 'P', label: 'P ’02' },
   { id: '', label: 'Single' },
 ];
 /** Problem-number bands double as difficulty. */
@@ -98,6 +100,8 @@ export default function AmcPracticePage() {
   const [idx, setIdx] = useState(0);
   const [pick, setPick] = useState<AmcLetter | 'skip' | null>(null);
   const [stats, setStats] = useState({ attempted: 0, correct: 0, score: 0, streak: 0 });
+  const [showSol, setShowSol] = useState(false);
+  const [solutions, setSolutions] = useState<Record<string, Record<string, string>>>({});
   const gridScroll = useRef(0);
 
   useEffect(() => { loadAmcBank().then(setBank); }, []);
@@ -218,6 +222,7 @@ export default function AmcPracticePage() {
   // ── Session ───────────────────────────────────────────────────────────────
   const resetSession = () => {
     setPick(null);
+    setShowSol(false);
     setStats({ attempted: 0, correct: 0, score: 0, streak: 0 });
   };
   const openProblem = (list: AmcItem[], p: AmcItem) => {
@@ -260,6 +265,13 @@ export default function AmcPracticePage() {
     setSearchParams(currentId ? { p: currentId } : {}, { replace: true });
   }, [currentId, searchParams, setSearchParams]);
 
+  const toggleSolutions = () => {
+    if (!current) return;
+    const t = current.test;
+    if (!solutions[t]) loadSolutions(t).then((sol) => setSolutions((m) => ({ ...m, [t]: sol })));
+    setShowSol((v) => !v);
+  };
+
   const choose = (letter: AmcLetter) => {
     if (!current || pick) return;
     const correct = letter === current.a;
@@ -283,11 +295,13 @@ export default function AmcPracticePage() {
     if (n % queue.length === 0 && !ordered) setQueue(shuffled(queue));
     setIdx(n);
     setPick(null);
+    setShowSol(false);
   };
   const prev = () => {
     if (!queue || idx === 0) return;
     setIdx(idx - 1);
     setPick(null);
+    setShowSol(false);
   };
 
   // Keyboard: A–E or 1–5 to answer, Enter/→ for next, ← previous.
@@ -486,7 +500,7 @@ export default function AmcPracticePage() {
                     </button>
                     <div className="qb-card-badges">
                       <span className={`qb-level qb-level--${lv.cls}`}>#{p.n} · {lv.label}</span>
-                      <span className="qb-dim">{CONTEST_LABEL[p.contest]}{p.sitting ? ` ${p.sitting}` : ''} · {p.year}</span>
+                      <span className="qb-dim">{CONTEST_LABEL[p.contest]}{p.sitting.length === 1 ? p.sitting : p.sitting ? ` ${p.sitting}` : ''} · {p.year}</span>
                       <span className="qb-card-id">{p.id}</span>
                     </div>
                     <div className="qb-card-foot">
@@ -499,6 +513,10 @@ export default function AmcPracticePage() {
                 );
               })}
             </div>
+
+            <p className="amc-credit">
+              Problems © MAA, from the AoPS wiki via the archive in <a href="https://github.com/vqbc/trivial" target="_blank" rel="noreferrer">vqbc/trivial</a>. Solutions by AoPS wiki contributors.
+            </p>
 
             {filtered.length > shown && (
               <button type="button" className="qb-more" onClick={() => setShown((n) => n + PAGE_SIZE * 2)}>
@@ -569,8 +587,19 @@ export default function AmcPracticePage() {
                 </div>
                 <div className="mt-actions">
                   <button className="wordlab-btn wordlab-btn--accent" onClick={next}>Next problem →</button>
-                  <a className="wordlab-btn wordlab-btn--muted" href={solutionUrl(current)} target="_blank" rel="noreferrer">Solutions on AoPS ↗</a>
+                  <button className="wordlab-btn wordlab-btn--muted" onClick={toggleSolutions}>{showSol ? 'Hide solutions' : 'Show solutions'}</button>
+                  <a className="wordlab-btn wordlab-btn--muted" href={solutionUrl(current)} target="_blank" rel="noreferrer">AoPS page ↗</a>
                 </div>
+              </div>
+            )}
+
+            {pick && showSol && (
+              <div className="amc-solutions">
+                {!solutions[current.test]
+                  ? <p className="qb-dim">Loading solutions…</p>
+                  : solutions[current.test][current.n]
+                    ? <MathMarkdown>{solutions[current.test][current.n]}</MathMarkdown>
+                    : <p className="qb-dim">No solution saved for this problem — see the AoPS page.</p>}
               </div>
             )}
           </div>

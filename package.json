@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "oml:build": "node scripts/build-oml-bank.mjs",
     "amc:fetch": "node scripts/fetch-amc.mjs",
-    "amc:build": "node scripts/build-amc-bank.mjs"
+    "amc:build": "node scripts/build-amc-bank.mjs",
+    "amc:import": "node scripts/import-amc-trivial.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

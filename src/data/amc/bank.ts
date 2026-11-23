@@ -47,7 +47,7 @@ const modules = import.meta.glob<AmcTest>('./bank/*.json', { import: 'default' }
 export const AMC_TEST_COUNT = Object.keys(modules).length;
 
 export function sittingOf(testId: string): string {
-  const m = testId.match(/amc(?:8|10|12)(f?)([ab]?)$/);
+  const m = testId.match(/amc(?:8|10|12)(f?)([abp]?)$/);
   if (!m || !m[2]) return '';
   return `${m[1] ? 'Fall ' : ''}${m[2].toUpperCase()}`;
 }
@@ -57,6 +57,14 @@ export async function loadAmcBank(): Promise<AmcItem[]> {
   return tests.flatMap((t) =>
     t.problems.map((p) => ({ ...p, contest: t.contest, year: t.year, sitting: sittingOf(t.id), title: t.title })),
   );
+}
+
+const solutionModules = import.meta.glob<Record<string, string>>('./solutions/*.json', { import: 'default' });
+
+/** Solutions (Markdown) for one test, keyed by problem number; loaded on demand. */
+export async function loadSolutions(testId: string): Promise<Record<string, string>> {
+  const load = solutionModules[`./solutions/${testId}.json`];
+  return load ? load() : {};
 }
 
 /** AoPS wiki solution page for a problem. */

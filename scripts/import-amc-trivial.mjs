@@ -6,23 +6,26 @@
 // touches the AoPS site itself.
 //
 //   git clone --depth 1 https://github.com/vqbc/trivial ../trivial
-//   node scripts/import-amc-trivial.mjs ../trivial/public/data/aops --only amc12 --from 2002
+//   node scripts/import-amc-trivial.mjs ../trivial/public/data/aops                 # everything
+//   node scripts/import-amc-trivial.mjs ../trivial/public/data/aops --only aime --from 2000
+//   (contests: amc8, amc10, amc12, ahsme, aime)
 //
 // Writes (commit them; they are generated — never hand-edit):
 //   src/data/amc/bank/<testId>.json       problems + choices + answers
 //   src/data/amc/solutions/<testId>.json  { "<n>": "<solutions markdown>" }
 //   public/amc/fig/<testId>/…png          figures used by problems/solutions
-import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, copyFileSync, rmSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from 'node:fs';
 import { join, dirname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parse as parseHtml, NodeType } from 'node-html-parser';
 import { splitChoices } from './lib/amc-choices.mjs';
+import sharp from 'sharp';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
 const src = args.find((a) => !a.startsWith('--') && args[args.indexOf(a) - 1] !== '--only' && args[args.indexOf(a) - 1] !== '--from');
 const argVal = (n) => { const i = args.indexOf(n); return i >= 0 ? args[i + 1] : undefined; };
-const only = (argVal('--only') ?? 'amc8,amc10,amc12').split(',');
+const only = (argVal('--only') ?? 'amc8,amc10,amc12,ahsme,aime').split(',');
 const fromYear = Number(argVal('--from') ?? 0);
 if (!src || !existsSync(join(src, 'index.json'))) {
   console.error('Usage: node scripts/import-amc-trivial.mjs <trivial>/public/data/aops [--only amc12] [--from 2002]');
@@ -36,10 +39,19 @@ for (const d of [bankDir, solDir, figRoot]) mkdirSync(d, { recursive: true });
 
 /** "2021 Fall AMC 12A" → { id: "2021-amc12fa", contest, year } */
 function testInfo(title) {
-  const m = title.match(/^(\d{4}) (Fall )?AMC (8|10|12)([ABP])?$/);
-  if (!m) return null;
-  const [, year, fall, num, ab] = m;
-  return { id: `${year}-amc${num}${fall ? 'f' : ''}${(ab ?? '').toLowerCase()}`, contest: `amc${num}`, year: Number(year), title };
+  let m = title.match(/^(\d{4}) (Fall )?AMC (8|10|12)([ABP])?$/);
+  if (m) {
+    const [, year, fall, num, ab] = m;
+    return { id: `${year}-amc${num}${fall ? 'f' : ''}${(ab ?? '').toLowerCase()}`, contest: `amc${num}`, year: Number(year), title };
+  }
+  // "1985 AHSME" → 1985-ahsme; "2023 AIME I" → 2023-aimei; "1983 AIME" → 1983-aime
+  m = title.match(/^(\d{4}) (AHSME|AIME)(?: (I{1,2}))?$/);
+  if (m) {
+    const [, year, kind, roman] = m;
+    const contest = kind.toLowerCase();
+    return { id: `${year}-${contest}${(roman ?? '').toLowerCase()}`, contest, year: Number(year), title };
+  }
+  return null;
 }
 
 // ── HTML → Markdown (math as $…$ / $$…$$) ────────────────────────────────────
@@ -51,10 +63,13 @@ const escapeProse = (t) => t.replace(/([\\*_`$])/g, '\\$1').replace(/^(\s*)([#>+
 function fixTex(t) {
   return t
     // A dollar sign inside math: `\$` would end the $…$ span in Markdown, so use \char36.
-    .replace(/\\textdollar(?![a-zA-Z])\s*|\\\$\s*/g, '\\char36 ')
+    .replace(/\\(?:textdollar|mathdollar)(?![a-zA-Z])\s*|\\\$\s*/g, '\\char36 ')
     .replace(/\\overarc\b/g, '\\overset{\\frown}')
-    .replace(/\\begin\{tabular\}(?:\[[a-z]\])?/g, '\\begin{array}')
+    .replace(/\\begin\{(?:tabular|array)\}(?:\[[a-z]\])?/g, '\\begin{array}')
     .replace(/\\end\{tabular\}/g, '\\end{array}')
+    // KaTeX arrays don't support @{…} column spacing or \vspace
+    .replace(/@\{\\hspace\{[^}]*\}\}/g, '')
+    .replace(/\\vspace\{[^}]*\}/g, '')
     .trim();
 }
 
@@ -122,6 +137,7 @@ const loadTest = (title) => {
 
 const index = JSON.parse(readFileSync(join(src, 'index.json'), 'utf8'));
 const issues = [];
+const figJobs = []; // [source, target] — optimized after parsing
 let tests = 0, total = 0, figs = 0;
 
 for (const title of Object.keys(index)) {
@@ -153,12 +169,26 @@ for (const title of Object.keys(index)) {
       if (!existsSync(file)) { issues.push(`${title} #${n}: figure ${rel} missing`); return ''; }
       mkdirSync(figDir, { recursive: true });
       const name = `${n}-${++k}${basename(file).match(/\.\w+$/)?.[0] ?? '.png'}`;
-      copyFileSync(file, join(figDir, name));
+      figJobs.push([file, join(figDir, name)]);
       figs++;
       return `\n\n![figure](/amc/fig/${info.id}/${name})\n\n`;
     };
 
     const body = tidy(htmlToMd(parseHtml(p.problem ?? ''), img));
+    const id = `${info.id}-${String(n).padStart(2, '0')}`;
+    if (info.contest === 'aime') {
+      // AIME: integer answer 000–999, no choices.
+      // "080 or 081 (both were accepted)" → a: "080", alt: ["081"]
+      const nums = String(p.answer ?? '').match(/^\d{1,3}(?:\s+or\s+\d{1,3})*/)?.[0].split(/\s+or\s+/);
+      if (!nums) {
+        issues.push(`${title} #${n}: skipped (answer "${p.answer}")`);
+        continue;
+      }
+      const [a, ...alt] = nums.map((x) => x.padStart(3, '0'));
+      problems.push({ id, test: info.id, n, q: body, choices: [], a, ...(alt.length ? { alt } : {}) });
+      if (p.solutions) solutions[n] = tidy(htmlToMd(parseHtml(p.solutions), img));
+      continue;
+    }
     if (!/^[A-E]$/.test(p.answer ?? '')) {
       issues.push(`${title} #${n}: skipped (answer "${p.answer}")`);
       continue;
@@ -166,10 +196,14 @@ for (const title of Object.keys(index)) {
     let split = splitChoices(body);
     if (!split) {
       // e.g. choices drawn in a figure: keep the whole statement, letter-only buttons.
-      issues.push(`${title} #${n}: choices not found — using letter-only buttons`);
-      split = { q: body, choices: ['A', 'B', 'C', 'D', 'E'].map((l) => `\\text{(${l})}`) };
+      const pictures = /!\[figure\]/.test(body);
+      issues.push(`${title} #${n}: choices not found — using letter-only buttons${pictures ? '' : ' (no choices in the archive)'}`);
+      const note = pictures
+        ? ''
+        : '\n\n*The answer choices for this problem are missing from the source archive — open the AoPS page to see them.*';
+      split = { q: body + note, choices: ['A', 'B', 'C', 'D', 'E'].map((l) => `\\text{(${l})}`) };
     }
-    problems.push({ id: `${info.id}-${String(n).padStart(2, '0')}`, test: info.id, n, q: split.q, choices: split.choices, a: p.answer });
+    problems.push({ id, test: info.id, n, q: split.q, choices: split.choices, a: p.answer });
     if (p.solutions) solutions[n] = tidy(htmlToMd(parseHtml(p.solutions), img));
   }
 
@@ -179,6 +213,30 @@ for (const title of Object.keys(index)) {
   tests++;
   total += problems.length;
 }
+
+// Figures: shrink anything wider than the page needs, and recompress.
+const MAX_WIDTH = 1100;
+let before = 0, after = 0;
+for (let i = 0; i < figJobs.length; i += 16) {
+  await Promise.all(figJobs.slice(i, i + 16).map(async ([from, to]) => {
+    const orig = readFileSync(from);
+    before += orig.length;
+    let out = orig;
+    try {
+      const img = sharp(orig);
+      const { width = 0 } = await img.metadata();
+      const optimized = await (width > MAX_WIDTH ? img.resize({ width: MAX_WIDTH }) : img)
+        .png({ palette: true, quality: 95, compressionLevel: 9, effort: 8 })
+        .toBuffer();
+      if (optimized.length < orig.length) out = optimized;
+    } catch {
+      // not a PNG sharp can read: keep it as-is
+    }
+    writeFileSync(to, out);
+    after += out.length;
+  }));
+}
+console.log(`Figures: ${(before / 1e6).toFixed(1)} MB → ${(after / 1e6).toFixed(1)} MB`);
 
 console.log(`Imported ${total} problems from ${tests} tests (${figs} figures) → src/data/amc/`);
 if (issues.length) {

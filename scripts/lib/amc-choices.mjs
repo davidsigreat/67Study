@@ -5,7 +5,7 @@
 
 // Choice markers, in the forms the AoPS wiki uses:
 //   \textbf{(A) }  \mathrm{(A) \ }  (A)  (\mathrm {A})  (\textbf{A})  \textbf{A}
-const MARK = /\(\s*\\(?:mathrm|textbf|text|mathbf|textrm|bf|rm)\s*\{?\s*([A-E])\s*\}?\s*\)|(?:\\(?:textbf|mathrm|text|mathbf|textrm|bf|rm)\s*\{\s*)?\(\s*([A-Ea-e])\s*\)(?:\s*\\?\s*\})?|\\(?:textbf|mathbf)\s*\{\s*([A-E])\s*\}/g;
+const MARK = /\(\s*\\(?:mathrm|textbf|text|mathbf|textrm|bf|rm)\s*\{?\s*([A-E])\s*\}?\s*\)|(?:\\(?:textbf|mathrm|text|mathbf|textrm|bf|rm)\s*\{\s*)?\(\s*([A-Ea-e])\s*\)(?:\s*\\?\s*\})?|\\(?:textbf|mathbf)\s*\{\s*([A-E])\.?\s*\}/g;
 const letterOf = (m) => (m[1] ?? m[2] ?? m[3]).toUpperCase();
 
 function balanceBraces(s) {
@@ -34,7 +34,7 @@ function cleanChoice(s, hadMath) {
     .replace(/\\mbox\{\s*\}/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
-  c = balanceBraces(c).trim();
+  c = balanceBraces(c).trim().replace(/\\$/, '').trim(); // drop a dangling "\" (from "\ " spacing)
   c = c.replace(/^\}+|\{+$/g, '').trim();
   if (!hadMath && c && !/^\\text/.test(c)) c = `\\text{${c}}`;
   return c;

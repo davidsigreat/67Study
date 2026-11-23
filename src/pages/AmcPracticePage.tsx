@@ -12,6 +12,8 @@ import {
   type AmcContest,
   type AmcItem,
   type AmcLetter,
+  isCorrect,
+  isNumeric,
 } from '../data/amc/bank';
 import { MathMarkdown, Tex } from '../components/mathteam/MathText';
 import AmcImportList from '../components/mathteam/AmcImportList';
@@ -21,7 +23,7 @@ const SLUG = 'math-team';
 const PAGE_SIZE = 24;
 
 // ── Per-user history (localStorage) ─────────────────────────────────────────
-interface Attempt { tries: number; solved: boolean; last: number; pick?: AmcLetter }
+interface Attempt { tries: number; solved: boolean; last: number; pick?: string }
 type History = Record<string, Attempt>;
 const historyKey = (uid?: string) => `amc-history:${uid ?? 'guest'}`;
 const savedKey = (uid?: string) => `amc-saved:${uid ?? 'guest'}`;
@@ -34,27 +36,43 @@ const YEAR_BANDS: { label: string; from: number; to: number }[] = [
   { label: 'Mid', from: 2013, to: 2019 },
   { label: 'Earlier', from: 2006, to: 2012 },
   { label: 'Classic', from: 1999, to: 2005 },
+  { label: '1980s–90s', from: 1980, to: 1998 },
+  { label: 'Vintage', from: 1950, to: 1979 },
 ];
 const SITTINGS = [
   { id: 'A', label: 'A' },
   { id: 'B', label: 'B' },
   { id: 'Fall', label: 'Fall ’21' },
   { id: 'P', label: 'P ’02' },
+  { id: 'I', label: 'AIME I' },
+  { id: 'II', label: 'AIME II' },
   { id: '', label: 'Single' },
 ];
-/** Problem-number bands double as difficulty. */
+/** Difficulty = position in the test, in fifths (tests have 15–50 problems). */
 const BANDS = [
-  { id: 1, label: '1–5', from: 1, to: 5 },
-  { id: 2, label: '6–10', from: 6, to: 10 },
-  { id: 3, label: '11–15', from: 11, to: 15 },
-  { id: 4, label: '16–20', from: 16, to: 20 },
-  { id: 5, label: '21–25', from: 21, to: 25 },
+  { id: 1, label: 'Easiest', hint: 'AMC #1–5 · AIME #1–3' },
+  { id: 2, label: 'Easier', hint: 'AMC #6–10 · AIME #4–6' },
+  { id: 3, label: 'Medium', hint: 'AMC #11–15 · AIME #7–9' },
+  { id: 4, label: 'Harder', hint: 'AMC #16–20 · AIME #10–12' },
+  { id: 5, label: 'Hardest', hint: 'AMC #21–25 · AIME #13–15' },
 ];
-const bandOf = (n: number) => Math.min(5, Math.ceil(n / 5));
+const bandOf = (p: AmcItem) => Math.min(5, Math.max(1, Math.ceil((p.n / p.total) * 5)));
 const sittingGroup = (s: string) => (s.startsWith('Fall') ? 'Fall' : s);
-const levelOf = (p: AmcItem): { cls: 'A' | 'B' | 'C'; label: string } =>
-  p.n <= 10 ? { cls: 'A', label: 'Easier' } : p.n <= 20 ? { cls: 'B', label: 'Medium' } : { cls: 'C', label: 'Hardest' };
-const CONTEST_LABEL: Record<AmcContest, string> = { amc8: 'AMC 8', amc10: 'AMC 10', amc12: 'AMC 12' };
+const levelOf = (p: AmcItem): { cls: 'A' | 'B' | 'C'; label: string } => {
+  const b = bandOf(p);
+  return b <= 2 ? { cls: 'A', label: 'Easier' } : b <= 4 ? { cls: 'B', label: 'Medium' } : { cls: 'C', label: 'Hardest' };
+};
+const CONTEST_LABEL: Record<AmcContest, string> = { amc8: 'AMC 8', amc10: 'AMC 10', amc12: 'AMC 12', aime: 'AIME', ahsme: 'AHSME' };
+/** Points per correct answer / per blank. AMC 8 and AIME: 1 / 0. AMC 10/12: 6 / 1.5. AHSME (1974–99 rules): 5 / 2. */
+const SCORING: Record<AmcContest, { right: number; blank: number }> = {
+  amc8: { right: 1, blank: 0 },
+  amc10: { right: 6, blank: 1.5 },
+  amc12: { right: 6, blank: 1.5 },
+  ahsme: { right: 5, blank: 2 },
+  aime: { right: 1, blank: 0 },
+};
+/** How an answer reads in messages: "(C)" or "073". */
+const fmt = (p: AmcItem, a: string) => (isNumeric(p.contest) ? a : `(${a})`);
 
 /** Newest test first, then problem number. */
 function compareItems(a: AmcItem, b: AmcItem): number {
@@ -98,7 +116,8 @@ export default function AmcPracticePage() {
   const [queue, setQueue] = useState<AmcItem[] | null>(null);
   const [ordered, setOrdered] = useState(false);
   const [idx, setIdx] = useState(0);
-  const [pick, setPick] = useState<AmcLetter | 'skip' | null>(null);
+  const [pick, setPick] = useState<string | null>(null);
+  const [numInput, setNumInput] = useState('');
   const [stats, setStats] = useState({ attempted: 0, correct: 0, score: 0, streak: 0 });
   const [showSol, setShowSol] = useState(false);
   const [solutions, setSolutions] = useState<Record<string, Record<string, string>>>({});
@@ -110,7 +129,7 @@ export default function AmcPracticePage() {
     setSaved(new Set(readJson<string[]>(savedKey(uid), [])));
   }, [uid]);
 
-  const saveAttempt = useCallback((id: string, letter: AmcLetter, correct: boolean) => {
+  const saveAttempt = useCallback((id: string, letter: string, correct: boolean) => {
     setHistory((h) => {
       const prev = h[id] ?? { tries: 0, solved: false, last: 0 };
       const next = { ...h, [id]: { tries: prev.tries + 1, solved: prev.solved || correct, last: Date.now(), pick: letter } };
@@ -146,7 +165,7 @@ export default function AmcPracticePage() {
     if (except !== 'year' && years.size && !years.has(p.year)) return false;
     if (except !== 'sitting' && sittings.size && !sittings.has(sittingGroup(p.sitting))) return false;
     if (except !== 'test' && tests.size && !tests.has(p.test)) return false;
-    if (except !== 'band' && bands.size && !bands.has(bandOf(p.n))) return false;
+    if (except !== 'band' && bands.size && !bands.has(bandOf(p))) return false;
     if (except !== 'status' && status !== 'all') {
       if (status === 'saved') { if (!saved.has(p.id)) return false; }
       else if (status === 'attempted') { if (!history[p.id]) return false; }
@@ -174,7 +193,7 @@ export default function AmcPracticePage() {
       if (matches(p, 'year')) inc(c.year, p.year);
       if (matches(p, 'sitting')) inc(c.sitting, sittingGroup(p.sitting));
       if (matches(p, 'test')) inc(c.test, p.test);
-      if (matches(p, 'band')) inc(c.band, bandOf(p.n));
+      if (matches(p, 'band')) inc(c.band, bandOf(p));
       if (matches(p, 'status')) {
         c.status.all++;
         c.status[statusOf(p)]++;
@@ -223,6 +242,7 @@ export default function AmcPracticePage() {
   const resetSession = () => {
     setPick(null);
     setShowSol(false);
+    setNumInput('');
     setStats({ attempted: 0, correct: 0, score: 0, streak: 0 });
   };
   const openProblem = (list: AmcItem[], p: AmcItem) => {
@@ -272,14 +292,15 @@ export default function AmcPracticePage() {
     setShowSol((v) => !v);
   };
 
-  const choose = (letter: AmcLetter) => {
+  const choose = (letter: string) => {
     if (!current || pick) return;
-    const correct = letter === current.a;
+    if (!letter.trim()) return;
+    const correct = isCorrect(current, letter);
     setPick(letter);
     setStats((s) => ({
       attempted: s.attempted + 1,
       correct: s.correct + (correct ? 1 : 0),
-      score: s.score + (correct ? 6 : 0),
+      score: s.score + (correct ? SCORING[current.contest].right : 0),
       streak: correct ? s.streak + 1 : 0,
     }));
     saveAttempt(current.id, letter, correct);
@@ -287,7 +308,7 @@ export default function AmcPracticePage() {
   const skip = () => {
     if (!current || pick) return;
     setPick('skip');
-    setStats((s) => ({ ...s, attempted: s.attempted + 1, score: s.score + 1.5, streak: 0 }));
+    setStats((s) => ({ ...s, attempted: s.attempted + 1, score: s.score + SCORING[current.contest].blank, streak: 0 }));
   };
   const next = () => {
     if (!queue) return;
@@ -296,12 +317,14 @@ export default function AmcPracticePage() {
     setIdx(n);
     setPick(null);
     setShowSol(false);
+    setNumInput('');
   };
   const prev = () => {
     if (!queue || idx === 0) return;
     setIdx(idx - 1);
     setPick(null);
     setShowSol(false);
+    setNumInput('');
   };
 
   // Keyboard: A–E or 1–5 to answer, Enter/→ for next, ← previous.
@@ -310,7 +333,9 @@ export default function AmcPracticePage() {
     const onKey = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
       const k = e.key.toUpperCase();
-      const letter = (AMC_LETTERS as string[]).includes(k) ? (k as AmcLetter) : /^[1-5]$/.test(k) ? AMC_LETTERS[Number(k) - 1] : null;
+      const letter = isNumeric(current.contest)
+        ? null
+        : (AMC_LETTERS as string[]).includes(k) ? (k as AmcLetter) : /^[1-5]$/.test(k) ? AMC_LETTERS[Number(k) - 1] : null;
       if (letter && !pick) { e.preventDefault(); choose(letter); }
       else if ((e.key === 'Enter' || e.key === 'ArrowRight') && pick) { e.preventDefault(); next(); }
       else if (e.key === 'ArrowLeft' && ordered) prev();
@@ -343,8 +368,8 @@ export default function AmcPracticePage() {
       {!queue && (
         <header className="qb-header">
           <div>
-            <p className="qb-tagline">25 questions, five choices, no calculator</p>
-            <h1 className="qb-title">AMC Question Bank</h1>
+            <p className="qb-tagline">AMC 8 · 10 · 12, AIME and AHSME, with solutions</p>
+            <h1 className="qb-title">Contest Question Bank</h1>
           </div>
           <div className="qb-header-right">
             <BankSwitch current="amc" />
@@ -383,10 +408,10 @@ export default function AmcPracticePage() {
             </div>
 
             <div className="qb-group">
-              <h3 className="qb-group-label">Problem number</h3>
+              <h3 className="qb-group-label">Difficulty <span className="qb-dim">(position in test)</span></h3>
               {BANDS.map((b) => (
-                <button key={b.id} type="button" className={`qb-row${bands.has(b.id) ? ' qb-row--active' : ''}`} onClick={() => setBands((s) => toggle(s, b.id))}>
-                  <span>#{b.label} <span className="qb-dim">{b.id <= 2 ? 'easier' : b.id <= 4 ? 'medium' : 'hardest'}</span></span>
+                <button key={b.id} type="button" title={b.hint} className={`qb-row${bands.has(b.id) ? ' qb-row--active' : ''}`} onClick={() => setBands((s) => toggle(s, b.id))}>
+                  <span>{b.label} <span className="qb-dim">{b.hint.split(' · ')[0]}</span></span>
                   <span className="qb-count">{facetCounts.band[b.id] ?? 0}</span>
                 </button>
               ))}
@@ -408,7 +433,7 @@ export default function AmcPracticePage() {
               })}
               <p className="qb-sublabel">Exact year</p>
               <div className="qb-chip-grid">
-                {allYears.map((y) => (
+                {allYears.filter((y) => facetCounts.year[y] || years.has(y)).map((y) => (
                   <button key={y} type="button" title={`${facetCounts.year[y] ?? 0} problems`} className={`qb-chip${years.has(y) ? ' qb-chip--active' : ''}`} onClick={() => { setYears((s) => toggle(s, y)); setTests(new Set()); }}>
                     {`’${String(y).slice(2)}`}
                   </button>
@@ -538,7 +563,7 @@ export default function AmcPracticePage() {
                 ? <span className="mt-stat">{(idx % queue.length) + 1} of {queue.length} in list</span>
                 : <span className="mt-stat">#{idx + 1} of {queue.length}</span>}
               <span className="mt-stat">{stats.correct}/{stats.attempted} correct</span>
-              <span className="mt-stat" title="AMC 10/12 scoring: 6 per correct, 1.5 per skip">{stats.score} pts</span>
+              <span className="mt-stat" title="AMC 10/12: 6 per correct, 1.5 per skip · AMC 8: 1 per correct">{stats.score} pts</span>
               <span className="mt-stat">🔥 {stats.streak}</span>
             </div>
 
@@ -553,6 +578,25 @@ export default function AmcPracticePage() {
               <MathMarkdown>{current.q}</MathMarkdown>
             </div>
 
+            {isNumeric(current.contest) ? (
+              <form
+                className={`aime-answer${pick ? (isCorrect(current, pick) ? ' aime-answer--right' : ' aime-answer--wrong') : ''}`}
+                onSubmit={(e) => { e.preventDefault(); choose(numInput); }}
+              >
+                <label htmlFor="aime-input">Your answer <span className="qb-dim">(integer 000–999)</span></label>
+                <input
+                  id="aime-input"
+                  inputMode="numeric"
+                  autoComplete="off"
+                  maxLength={3}
+                  value={pick && pick !== 'skip' ? pick : numInput}
+                  disabled={!!pick}
+                  onChange={(e) => setNumInput(e.target.value.replace(/\D/g, '').slice(0, 3))}
+                  autoFocus
+                />
+                {!pick && <button type="submit" className="wordlab-btn wordlab-btn--accent" disabled={!numInput}>Check</button>}
+              </form>
+            ) : (
             <div className="amc-choices" role="group" aria-label="Answer choices">
               {current.choices.map((c, i) => {
                 const letter = AMC_LETTERS[i];
@@ -570,20 +614,28 @@ export default function AmcPracticePage() {
                 );
               })}
             </div>
+            )}
 
             {!pick && (
               <div className="mt-actions">
-                <button className="wordlab-btn wordlab-btn--muted" onClick={skip}>Skip (+1.5)</button>
+                <button className="wordlab-btn wordlab-btn--muted" onClick={skip}>
+                  {SCORING[current.contest].blank ? `Skip (+${SCORING[current.contest].blank})` : 'Skip'}
+                </button>
                 {ordered && idx > 0 && <button className="wordlab-btn wordlab-btn--muted" onClick={prev}>← Previous</button>}
                 <button className="wordlab-btn wordlab-btn--muted" onClick={next}>{ordered ? 'Next →' : 'Pass'}</button>
-                <span className="amc-keys">Keys: A–E or 1–5</span>
+                {!isNumeric(current.contest) && <span className="amc-keys">Keys: A–E or 1–5</span>}
               </div>
             )}
 
             {pick && (
-              <div className={`mt-result ${pick === current.a ? 'mt-result--right' : 'mt-result--wrong'}`}>
+              <div className={`mt-result ${isCorrect(current, pick) ? 'mt-result--right' : 'mt-result--wrong'}`}>
                 <div className="mt-result-title">
-                  {pick === current.a ? '✓ Correct' : pick === 'skip' ? `Skipped — the answer is (${current.a})` : `✗ You picked (${pick}) — the answer is (${current.a})`}
+                  {isCorrect(current, pick)
+                    ? '✓ Correct'
+                    : pick === 'skip'
+                      ? `Skipped — the answer is ${fmt(current, current.a)}`
+                      : `✗ You answered ${fmt(current, pick)} — the answer is ${fmt(current, current.a)}`}
+                  {current.alt?.length ? ` (also accepted: ${current.alt.join(', ')})` : ''}
                 </div>
                 <div className="mt-actions">
                   <button className="wordlab-btn wordlab-btn--accent" onClick={next}>Next problem →</button>

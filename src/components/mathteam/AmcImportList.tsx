@@ -19,7 +19,7 @@ export default function AmcImportList({ open = false }: { open?: boolean }) {
         <li>Save both into <code>content-src\amc-saved\</code> with the default names, then commit and push.</li>
       </ol>
       <div className="qb-status-tabs amc-import-tabs">
-        {AMC_CONTESTS.map((c) => (
+        {AMC_CONTESTS.filter((c) => c.id.startsWith('amc')).map((c) => (
           <button key={c.id} type="button" className={`qb-tab${contest === c.id ? ' qb-tab--active' : ''}`} onClick={() => setContest(c.id)}>
             {c.label}
           </button>

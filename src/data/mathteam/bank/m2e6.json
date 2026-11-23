@@ -1,0 +1,347 @@
+[
+ {
+  "id": "m2e6-2025-10-A",
+  "event": "m2e6",
+  "date": "Oct 2025",
+  "level": "A",
+  "q": "The inequality $-3<x<11$ can be written as $|x+C|<D$. Find $C$ and $D$.",
+  "a": "C=-4, D=7",
+  "alt": [
+   "-4, 7"
+  ]
+ },
+ {
+  "id": "m2e6-2025-10-B",
+  "event": "m2e6",
+  "date": "Oct 2025",
+  "level": "B",
+  "q": "Solve for $x$: $$\\dfrac{x+7}{x-1}\\ge 3x$$",
+  "a": "x\\le -1 \\text{ or } 1<x\\le\\frac{7}{3}"
+ },
+ {
+  "id": "m2e6-2025-10-C",
+  "event": "m2e6",
+  "date": "Oct 2025",
+  "level": "C",
+  "q": "Solve for $x$: $$x^2-|2x|+1>0$$",
+  "a": "x<-1 \\text{ or } -1<x<1 \\text{ or } x>1"
+ },
+ {
+  "id": "m2e6-2024-10-A",
+  "event": "m2e6",
+  "date": "Oct 2024",
+  "level": "A",
+  "q": "Solve for $x$: $$-5|3x-4|<-30$$",
+  "a": "x<-\\frac{2}{3} \\text{ or } x>\\frac{10}{3}"
+ },
+ {
+  "id": "m2e6-2024-10-B",
+  "event": "m2e6",
+  "date": "Oct 2024",
+  "level": "B",
+  "q": "Solve for $x$: $$\\dfrac{3x-5}{1-4x}>\\dfrac{x}{x-2}$$",
+  "a": "\\frac{1}{4}<x<2"
+ },
+ {
+  "id": "m2e6-2024-10-C",
+  "event": "m2e6",
+  "date": "Oct 2024",
+  "level": "C",
+  "q": "Solve for $x$: $$\\left|x^2-4\\right|-|3x-6|<0$$",
+  "a": "-5<x<1"
+ },
+ {
+  "id": "m2e6-2023-10-A",
+  "event": "m2e6",
+  "date": "Oct 2023",
+  "level": "A",
+  "q": "Solve for $x$: $$5\\le|3x-1|\\le 9$$",
+  "a": "-\\frac{8}{3}\\le x\\le -\\frac{4}{3} \\text{ or } 2\\le x\\le\\frac{10}{3}"
+ },
+ {
+  "id": "m2e6-2023-10-B",
+  "event": "m2e6",
+  "date": "Oct 2023",
+  "level": "B",
+  "q": "Solve for $x$: $$\\left|4-x^2\\right|<1$$",
+  "a": "-\\sqrt{5}<x<-\\sqrt{3} \\text{ or } \\sqrt{3}<x<\\sqrt{5}"
+ },
+ {
+  "id": "m2e6-2023-10-C",
+  "event": "m2e6",
+  "date": "Oct 2023",
+  "level": "C",
+  "q": "Solve for $x$: $$|4x-2|<x+3\\le 4$$",
+  "a": "-\\frac{1}{5}<x\\le 1"
+ },
+ {
+  "id": "m2e6-2022-10-A",
+  "event": "m2e6",
+  "date": "Oct 2022",
+  "level": "A",
+  "q": "Solve for $x$: $$|x-4|+3x=10$$",
+  "a": "3"
+ },
+ {
+  "id": "m2e6-2022-10-B",
+  "event": "m2e6",
+  "date": "Oct 2022",
+  "level": "B",
+  "q": "Solve for $x$: $$\\dfrac{x+1}{x-2}>\\dfrac{1}{x}$$",
+  "a": "x<0 \\text{ or } x>2"
+ },
+ {
+  "id": "m2e6-2022-10-C",
+  "event": "m2e6",
+  "date": "Oct 2022",
+  "level": "C",
+  "q": "Solve for $x$: $$\\left|x^2+5x-24\\right|+36<9|x+8|+4|x-3|$$",
+  "a": "-12<x<-6 \\text{ or } -4<x<12"
+ },
+ {
+  "id": "m2e6-2021-10-A",
+  "event": "m2e6",
+  "date": "Oct 2021",
+  "level": "A",
+  "q": "The inequality $-3\\le x\\le 7$ can be written as $|x+c|\\le d$. Find $c-d$.",
+  "a": "-7"
+ },
+ {
+  "id": "m2e6-2021-10-B",
+  "event": "m2e6",
+  "date": "Oct 2021",
+  "level": "B",
+  "q": "Solve for $x$: $$\\left|\\dfrac{1}{x+1}\\right|<3$$",
+  "a": "x<-\\frac{4}{3} \\text{ or } x>-\\frac{2}{3}"
+ },
+ {
+  "id": "m2e6-2021-10-C",
+  "event": "m2e6",
+  "date": "Oct 2021",
+  "level": "C",
+  "q": "Solve for $x$: $$\\dfrac{|x-4|}{9}\\le\\dfrac{1}{x+4}$$",
+  "a": "-4<x\\le -\\sqrt{7} \\text{ or } \\sqrt{7}\\le x\\le 5"
+ },
+ {
+  "id": "m2e6-2020-10-A",
+  "event": "m2e6",
+  "date": "Oct 2020",
+  "level": "A",
+  "q": "Solve for $x$: $$2x^2+9x\\le 5$$",
+  "a": "-5\\le x\\le\\frac{1}{2}"
+ },
+ {
+  "id": "m2e6-2020-10-B",
+  "event": "m2e6",
+  "date": "Oct 2020",
+  "level": "B",
+  "q": "Solve for $x$: $$\\dfrac{4x-1}{x+3}\\ge 1$$",
+  "a": "x<-3 \\text{ or } x\\ge\\frac{4}{3}"
+ },
+ {
+  "id": "m2e6-2020-10-C",
+  "event": "m2e6",
+  "date": "Oct 2020",
+  "level": "C",
+  "q": "Solve for $x$: $$\\left|x^2-5x+6\\right|>|3x-9|$$",
+  "a": "x<-1 \\text{ or } x>5"
+ },
+ {
+  "id": "m2e6-2019-10-A",
+  "event": "m2e6",
+  "date": "Oct 2019",
+  "level": "A",
+  "q": "Solve for $x$: $$|3x+1|-5\\le 0$$",
+  "a": "-2\\le x\\le\\frac{4}{3}"
+ },
+ {
+  "id": "m2e6-2019-10-B",
+  "event": "m2e6",
+  "date": "Oct 2019",
+  "level": "B",
+  "q": "Solve for $x$: $$\\dfrac{3x-1}{x+3}\\le\\dfrac{5x+2}{x+3}$$",
+  "a": "x<-3 \\text{ or } x\\ge -\\frac{3}{2}"
+ },
+ {
+  "id": "m2e6-2019-10-C",
+  "event": "m2e6",
+  "date": "Oct 2019",
+  "level": "C",
+  "q": "Solve for $x$: $$|2x-1|<|x+5|\\le 8$$",
+  "a": "-\\frac{4}{3}<x\\le 3"
+ },
+ {
+  "id": "m2e6-2018-10-A",
+  "event": "m2e6",
+  "date": "Oct 2018",
+  "level": "A",
+  "q": "Solve for $x$: $$3<6|x+1|$$",
+  "a": "x<-\\frac{3}{2} \\text{ or } x>-\\frac{1}{2}"
+ },
+ {
+  "id": "m2e6-2018-10-B",
+  "event": "m2e6",
+  "date": "Oct 2018",
+  "level": "B",
+  "q": "Solve for $x$: $$5x+2<|4x-3|<7$$",
+  "a": "-1<x<\\frac{1}{9}"
+ },
+ {
+  "id": "m2e6-2018-10-C",
+  "event": "m2e6",
+  "date": "Oct 2018",
+  "level": "C",
+  "q": "Solve for $x$: $$\\left|x^2-3x-4\\right|<\\left|x^2-4x-11\\right|$$",
+  "a": "x<-7 \\text{ or } -\\frac{3}{2}<x<5"
+ },
+ {
+  "id": "m2e6-2017-10-A",
+  "event": "m2e6",
+  "date": "Oct 2017",
+  "level": "A",
+  "q": "Solve for $x$: $$\\left|4x^2+25\\right|=|20x|$$",
+  "a": "-\\frac{5}{2}, \\frac{5}{2}"
+ },
+ {
+  "id": "m2e6-2017-10-B",
+  "event": "m2e6",
+  "date": "Oct 2017",
+  "level": "B",
+  "q": "Solve for $x$: $$|x-2|\\ge|5-x|$$",
+  "a": "x\\ge\\frac{7}{2}"
+ },
+ {
+  "id": "m2e6-2017-10-C",
+  "event": "m2e6",
+  "date": "Oct 2017",
+  "level": "C",
+  "q": "Solve for $x$: $$1<\\dfrac{2}{3-x}\\le x$$",
+  "a": "1<x\\le 2"
+ },
+ {
+  "id": "m2e6-2016-10-A",
+  "event": "m2e6",
+  "date": "Oct 2016",
+  "level": "A",
+  "q": "Solve for $x$: $$x^2-9x>-18$$",
+  "a": "x<3 \\text{ or } x>6"
+ },
+ {
+  "id": "m2e6-2016-10-B",
+  "event": "m2e6",
+  "date": "Oct 2016",
+  "level": "B",
+  "q": "Solve for $x$: $$\\left|x^2-6x-24\\right|<4x$$",
+  "a": "6<x<12"
+ },
+ {
+  "id": "m2e6-2016-10-C",
+  "event": "m2e6",
+  "date": "Oct 2016",
+  "level": "C",
+  "q": "Solve for $x$: $$\\dfrac{14}{x-1}-3(x-1)>19$$",
+  "a": "x<-6 \\text{ or } 1<x<\\frac{5}{3}"
+ },
+ {
+  "id": "m2e6-2015-10-A",
+  "event": "m2e6",
+  "date": "Oct 2015",
+  "level": "A",
+  "q": "Solve for $x$: $$|-3x+5|<20$$",
+  "a": "-5<x<\\frac{25}{3}"
+ },
+ {
+  "id": "m2e6-2015-10-B",
+  "event": "m2e6",
+  "date": "Oct 2015",
+  "level": "B",
+  "q": "Solve for $x$: $$\\dfrac{x+1}{x+2}<\\dfrac{1}{x}$$",
+  "a": "-2<x<-\\sqrt{2} \\text{ or } 0<x<\\sqrt{2}"
+ },
+ {
+  "id": "m2e6-2015-10-C",
+  "event": "m2e6",
+  "date": "Oct 2015",
+  "level": "C",
+  "q": "Solve for $x$: $$\\left|x^2+3x+2\\right|>|2x+4|$$",
+  "a": "x<-3 \\text{ or } x>1"
+ },
+ {
+  "id": "m2e6-2014-10-A",
+  "event": "m2e6",
+  "date": "Oct 2014",
+  "level": "A",
+  "q": "Solve for $x$: $$\\big||x-4|-3\\big|=2$$",
+  "a": "-1, 3, 5, 9"
+ },
+ {
+  "id": "m2e6-2014-10-B",
+  "event": "m2e6",
+  "date": "Oct 2014",
+  "level": "B",
+  "q": "Solve for $x$: $$\\dfrac{x-5}{x^2-x-6}\\ge 0$$",
+  "a": "-2<x<3 \\text{ or } x\\ge 5"
+ },
+ {
+  "id": "m2e6-2014-10-C",
+  "event": "m2e6",
+  "date": "Oct 2014",
+  "level": "C",
+  "q": "Solve for $x$: $$\\dfrac{|x-1|}{3}\\le\\dfrac{1}{x+1}$$",
+  "a": "-1<x\\le 2"
+ },
+ {
+  "id": "m2e6-2013-10-A",
+  "event": "m2e6",
+  "date": "Oct 2013",
+  "level": "A",
+  "q": "Solve for $x$: $$x^2+5x+6<0$$",
+  "a": "-3<x<-2"
+ },
+ {
+  "id": "m2e6-2013-10-B",
+  "event": "m2e6",
+  "date": "Oct 2013",
+  "level": "B",
+  "q": "Solve for $x$: $$\\dfrac{x-8}{x}+x-3\\le 0$$",
+  "a": "x\\le -2 \\text{ or } 0<x\\le 4"
+ },
+ {
+  "id": "m2e6-2013-10-C",
+  "event": "m2e6",
+  "date": "Oct 2013",
+  "level": "C",
+  "q": "Solve for $x$: $$\\left|x^2+6x+16\\right|<8$$",
+  "a": "-4<x<-2"
+ },
+ {
+  "id": "m2e6-2012-10-A",
+  "event": "m2e6",
+  "date": "Oct 2012",
+  "level": "A",
+  "q": "If $|x+1|\\le 3$ is equivalent to $a\\le\\dfrac{1}{x+5}\\le b$, find values for $a$ and $b$.",
+  "a": "a=\\frac{1}{7}, b=1",
+  "alt": [
+   "\\frac{1}{7}, 1"
+  ]
+ },
+ {
+  "id": "m2e6-2012-10-B",
+  "event": "m2e6",
+  "date": "Oct 2012",
+  "level": "B",
+  "q": "The compound inequality $-11<x<-7$ or $7<x<11$ can be written as $\\left|x^2-W\\right|-M<0$ where $W$ and $M$ are real numbers and $W>M$. Find the values of $M$ and $W$.",
+  "a": "M=36, W=85",
+  "alt": [
+   "36, 85"
+  ]
+ },
+ {
+  "id": "m2e6-2012-10-C",
+  "event": "m2e6",
+  "date": "Oct 2012",
+  "level": "C",
+  "q": "Solve for $x$: $$\\left|x^2-4x+2\\right|>1$$",
+  "a": "x<2-\\sqrt{3} \\text{ or } 1<x<3 \\text{ or } x>2+\\sqrt{3}"
+ }
+]

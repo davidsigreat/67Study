@@ -19,7 +19,11 @@ export function normalize(raw: string): string {
   s = s.replace(/\\(left|right|big|Big|bigg|Bigg)(?![a-zA-Z])/g, '');
   s = s.replace(/\\[dt]frac/g, '\\frac');
   s = s.replace(/\\(,|;|:|!|quad|qquad)|\\ /g, ' ');
-  s = s.replace(/~/g, ' ');
+  // Logic: ~p, \neg p, \lnot p → \sim p; arrows and connectives to one spelling.
+  s = s.replace(/~|¬|\\neg(?![a-zA-Z])|\\lnot(?![a-zA-Z])/g, '\\sim ');
+  s = s.replace(/->|→|\\rightarrow(?![a-zA-Z])|\\implies(?![a-zA-Z])/g, '\\to ');
+  s = s.replace(/<->|↔|\\leftrightarrow(?![a-zA-Z])|\\iff(?![a-zA-Z])/g, '\\leftrightarrow ');
+  s = s.replace(/\\land(?![a-zA-Z])|∧/g, '\\wedge ').replace(/\\lor(?![a-zA-Z])|∨/g, '\\vee ');
   s = s.replace(/\\le(?![a-zA-Z])/g, '\\leq').replace(/\\ge(?![a-zA-Z])/g, '\\geq');
   s = s.replace(/≤/g, '\\leq').replace(/≥/g, '\\geq').replace(/≠/g, '\\neq').replace(/±/g, '\\pm');
   s = s.replace(/π/g, '\\pi').replace(/√/g, '\\sqrt').replace(/∞/g, '\\infty');
@@ -33,6 +37,13 @@ export function normalize(raw: string): string {
   s = s.replace(/\s+(or|and)\s+/gi, ',');
   // r cis θ — "cis", "\operatorname{cis}", "\text{cis}" all become the \cis command.
   s = s.replace(/\\?cis(?![a-zA-Z])/g, '\\cis ');
+  // Percent change: "25\% decrease" ≡ "-25", "40% increase" ≡ "40".
+  s = s.replace(/\\?%/g, '');
+  if (/^[^,]*\b(de|in)creas(e|ed)\b[^,]*$/i.test(s)) {
+    const neg = /decreas/i.test(s);
+    const num = s.replace(/\b(de|in)creas(e|ed)\b|\b(of|by)\b|,/gi, '').trim();
+    s = neg ? `-(${num})` : num;
+  }
   // Collapse whitespace, but keep one space where a command is followed by a letter (\pi x).
   s = s.replace(/(\\[a-zA-Z]+)\s+(?=[a-zA-Z])/g, '$1\u0001');
   s = s.replace(/\s+/g, '').replace(/\u0001/g, ' ');

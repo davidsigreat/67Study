@@ -62,13 +62,14 @@ const levelOf = (p: AmcItem): { cls: 'A' | 'B' | 'C'; label: string } => {
   const b = bandOf(p);
   return b <= 2 ? { cls: 'A', label: 'Easier' } : b <= 4 ? { cls: 'B', label: 'Medium' } : { cls: 'C', label: 'Hardest' };
 };
-const CONTEST_LABEL: Record<AmcContest, string> = { amc8: 'AMC 8', amc10: 'AMC 10', amc12: 'AMC 12', aime: 'AIME', ahsme: 'AHSME' };
-/** Points per correct answer / per blank. AMC 8 and AIME: 1 / 0. AMC 10/12: 6 / 1.5. AHSME (1974–99 rules): 5 / 2. */
+const CONTEST_LABEL: Record<AmcContest, string> = { amc8: 'AMC 8', amc10: 'AMC 10', amc12: 'AMC 12', aime: 'AIME', ahsme: 'AHSME', ajhsme: 'AJHSME' };
+/** Points per correct answer / per blank. AMC 8, AJHSME and AIME: 1 / 0. AMC 10/12: 6 / 1.5. AHSME (1974–99 rules): 5 / 2. */
 const SCORING: Record<AmcContest, { right: number; blank: number }> = {
   amc8: { right: 1, blank: 0 },
   amc10: { right: 6, blank: 1.5 },
   amc12: { right: 6, blank: 1.5 },
   ahsme: { right: 5, blank: 2 },
+  ajhsme: { right: 1, blank: 0 },
   aime: { right: 1, blank: 0 },
 };
 /** How an answer reads in messages: "(C)" or "073". */
@@ -335,7 +336,12 @@ export default function AmcPracticePage() {
       const k = e.key.toUpperCase();
       const letter = isNumeric(current.contest)
         ? null
-        : (AMC_LETTERS as string[]).includes(k) ? (k as AmcLetter) : /^[1-5]$/.test(k) ? AMC_LETTERS[Number(k) - 1] : null;
+        : (() => {
+            const letters = AMC_LETTERS.slice(0, current.choices.length);
+            if ((letters as string[]).includes(k)) return k as AmcLetter;
+            const d = Number(k);
+            return Number.isInteger(d) && d >= 1 && d <= letters.length ? letters[d - 1] : null;
+          })();
       if (letter && !pick) { e.preventDefault(); choose(letter); }
       else if ((e.key === 'Enter' || e.key === 'ArrowRight') && pick) { e.preventDefault(); next(); }
       else if (e.key === 'ArrowLeft' && ordered) prev();
@@ -368,7 +374,7 @@ export default function AmcPracticePage() {
       {!queue && (
         <header className="qb-header">
           <div>
-            <p className="qb-tagline">AMC 8 · 10 · 12, AIME and AHSME, with solutions</p>
+            <p className="qb-tagline">AMC 8 · 10 · 12, AIME, AHSME and AJHSME, with solutions</p>
             <h1 className="qb-title">Contest Question Bank</h1>
           </div>
           <div className="qb-header-right">

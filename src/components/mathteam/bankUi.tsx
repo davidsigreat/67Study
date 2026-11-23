@@ -46,7 +46,7 @@ export function BankSwitch({ current }: { current: 'oml' | 'amc' }) {
   return (
     <nav className="qb-bank-switch" aria-label="Question bank">
       <Link to="/math-team/practice" className={`qb-bank-link${current === 'oml' ? ' qb-bank-link--active' : ''}`}>◆ OML</Link>
-      <Link to="/math-team/amc" className={`qb-bank-link${current === 'amc' ? ' qb-bank-link--active' : ''}`}>✦ AMC · AIME · AHSME</Link>
+      <Link to="/math-team/amc" className={`qb-bank-link${current === 'amc' ? ' qb-bank-link--active' : ''}`}>✦ AMC · AIME · more</Link>
     </nav>
   );
 }

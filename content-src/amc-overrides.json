@@ -1,0 +1,17 @@
+{
+  "_comment": "Hand-checked fixes applied by scripts/import-amc-trivial.mjs, keyed by problem id. Fields (all optional): q (statement Markdown), choices (LaTeX, no $; up to 6), a (letter, or 3-digit AIME answer), note (shown in italics under the problem).",
+  "2025-amc12a-25": {
+    "choices": ["7", "9", "11", "12", "13", "8"],
+    "a": "F",
+    "note": "None of the five official choices was correct; the AoPS wiki lists the true answer, 8, as choice (F)."
+  },
+  "1973-ahsme-11": {
+    "q": "A circle with a circumscribed and an inscribed square centered at the origin $O$ of a rectangular coordinate system with positive $x$ and $y$ axes $OX$ and $OY$ is shown in each figure I to IV below.\n\n![figure](/amc/fig/1973-ahsme/11-1.png)\n\nThe inequalities\n\n$$\n|x|+|y|\\leq\\sqrt{2(x^{2}+y^{2})}\\leq 2\\,\\text{Max}(|x|, |y|)\n$$\n\nare represented geometrically\\* by the figure numbered\n\n\\* An inequality of the form $f(x, y) \\leq g(x, y)$, for all $x$ and $y$, is represented geometrically by a figure showing the containment $\\{\\text{the set of points }(x, y)\\text{ such that }g(x, y) \\leq a\\} \\subset \\{\\text{the set of points }(x, y)\\text{ such that }f(x, y) \\leq a\\}$ for a typical real number $a$.",
+    "choices": ["\\text{I}", "\\text{II}", "\\text{III}", "\\text{IV}", "\\text{none of these}"],
+    "a": "B"
+  },
+  "1953-ahsme-26": {
+    "choices": ["5\\sqrt{6}\\text{ inches}", "10\\text{ inches}", "4\\sqrt{3}\\text{ inches}", "7.5\\text{ inches}", "\\text{none of these}"],
+    "a": "A"
+  }
+}

@@ -25,7 +25,13 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
 const src = args.find((a) => !a.startsWith('--') && args[args.indexOf(a) - 1] !== '--only' && args[args.indexOf(a) - 1] !== '--from');
 const argVal = (n) => { const i = args.indexOf(n); return i >= 0 ? args[i + 1] : undefined; };
-const only = (argVal('--only') ?? 'amc8,amc10,amc12,ahsme,aime').split(',');
+const only = (argVal('--only') ?? 'amc8,amc10,amc12,ahsme,ajhsme,aime').split(',');
+
+// Hand-checked fixes for problems the archive gets wrong (missing/mislabeled
+// choices, disputed answers). Keyed by problem id; any of q / choices / a / note.
+const overridesFile = join(root, 'content-src/amc-overrides.json');
+const overrides = existsSync(overridesFile) ? JSON.parse(readFileSync(overridesFile, 'utf8')) : {};
+delete overrides._comment;
 const fromYear = Number(argVal('--from') ?? 0);
 if (!src || !existsSync(join(src, 'index.json'))) {
   console.error('Usage: node scripts/import-amc-trivial.mjs <trivial>/public/data/aops [--only amc12] [--from 2002]');
@@ -44,8 +50,8 @@ function testInfo(title) {
     const [, year, fall, num, ab] = m;
     return { id: `${year}-amc${num}${fall ? 'f' : ''}${(ab ?? '').toLowerCase()}`, contest: `amc${num}`, year: Number(year), title };
   }
-  // "1985 AHSME" → 1985-ahsme; "2023 AIME I" → 2023-aimei; "1983 AIME" → 1983-aime
-  m = title.match(/^(\d{4}) (AHSME|AIME)(?: (I{1,2}))?$/);
+  // "1985 AHSME" → 1985-ahsme; "1990 AJHSME" → 1990-ajhsme; "2023 AIME I" → 2023-aimei; "1983 AIME" → 1983-aime
+  m = title.match(/^(\d{4}) (AHSME|AJHSME|AIME)(?: (I{1,2}))?$/);
   if (m) {
     const [, year, kind, roman] = m;
     const contest = kind.toLowerCase();
@@ -138,6 +144,7 @@ const loadTest = (title) => {
 const index = JSON.parse(readFileSync(join(src, 'index.json'), 'utf8'));
 const issues = [];
 const figJobs = []; // [source, target] — optimized after parsing
+const usedOverrides = new Set();
 let tests = 0, total = 0, figs = 0;
 
 for (const title of Object.keys(index)) {
@@ -176,6 +183,14 @@ for (const title of Object.keys(index)) {
 
     const body = tidy(htmlToMd(parseHtml(p.problem ?? ''), img));
     const id = `${info.id}-${String(n).padStart(2, '0')}`;
+    const ov = overrides[id];
+    if (ov) {
+      const q = ov.q ?? splitChoices(body)?.q ?? body;
+      problems.push({ id, test: info.id, n, q: ov.note ? `${q}\n\n*${ov.note}*` : q, choices: ov.choices ?? [], a: ov.a ?? p.answer });
+      if (p.solutions) solutions[n] = tidy(htmlToMd(parseHtml(p.solutions), img));
+      usedOverrides.add(id);
+      continue;
+    }
     if (info.contest === 'aime') {
       // AIME: integer answer 000–999, no choices.
       // "080 or 081 (both were accepted)" → a: "080", alt: ["081"]
@@ -237,6 +252,8 @@ for (let i = 0; i < figJobs.length; i += 16) {
   }));
 }
 console.log(`Figures: ${(before / 1e6).toFixed(1)} MB → ${(after / 1e6).toFixed(1)} MB`);
+
+for (const id of Object.keys(overrides)) if (!usedOverrides.has(id)) issues.push(`override ${id} not used (problem not imported?)`);
 
 console.log(`Imported ${total} problems from ${tests} tests (${figs} figures) → src/data/amc/`);
 if (issues.length) {
